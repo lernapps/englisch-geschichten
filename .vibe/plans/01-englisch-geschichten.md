@@ -33,6 +33,7 @@ Kinder der Stufe 5-6 lesen kurze Geschichten, füllen die story map (who, where,
 - Auftrag fest durch Issue lernapps/apps#479 (Ersteller:in bringt die Didaktik, keine eigenen Texte); dieser Lauf baut nur Stufe 5-6, vier Kapitel, Kapitel 5 später als Inkrement.
 - Hauptfigur Sophie statt „Lena“, kein „Josh“ (Konventionen, Abschnitt 7).
 - Neuer Ort (im Plan-Checkpoint gemeldet): die **Geschichtenecke** im Klassenzimmer mit dem Wandbild „Geschichtenberg“ (Berg mit vier Stationen) und der Karte „story map“ daneben. Zeit: die „Geschichtenwoche“ im Januar, am Freitag liest die Klasse einander vor.
+- `scope` in `src/app.yaml` und auf jeder Seite: ja, weil die App offene Aufgaben (`open-task`) hat; der Tutor beurteilt freie Texte nach dem `scope`.
 - Verbindungswörter (`verbindungswoerter-erzaehlen`) stehen als erste Seite von Kapitel 2, weil `bildergeschichte` sie braucht (prerequisites-in-order); Kapitel 1 nennt nur die Stationen des Berges. (guess)
 
 ## Notes
@@ -230,13 +231,14 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Musterseite was-passiert/figuren-ort-handlung: Szene Geschichtenecke, Map-Figur und Berg-Figur, Einstieg, neu, mindestens vier Übungen, Diktat, Nachsprechen, offene Aufgabe mit points; dazu app.yaml, chapter.yaml, Wörter- und Hörsatz-Skripte; Szenen-Generator im Scratchpad
+- [x] Musterseite was-passiert/figuren-ort-handlung: Szene Geschichtenecke, Map-Figur und Berg-Figur, Einstieg, neu, mindestens vier Übungen, Diktat, Nachsprechen, offene Aufgabe mit points; dazu app.yaml, chapter.yaml, Wörter- und Hörsatz-Skripte; Szenen-Generator im Scratchpad
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
+      Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Die übrigen Seiten dürfen folgen, sobald die Auflagen auf der Musterseite umgesetzt sind (erledigt, Commit e1119dc).
 - [ ] Kapitel was-passiert: Wiederholungsseite das-brauchst-du (simple-past) und die Seiten zusammenfassung und nacherzaehlen mit Szenen, Figuren, Audio und Rückblick am Kapitelende
 - [ ] Kapitel bilder-erzaehlen: Wiederholungsseite das-brauchst-du (there-is-are, present-progressive, praepositionen-ort) und die Seiten verbindungswoerter-erzaehlen, bild-beschreiben (Raster) und bildergeschichte (Bildfolge) mit Audio
 - [ ] Kapitel selbst-erzaehlen: die Seiten geschichte-erzaehlen, geschichte-fortsetzen und tagebucheintrag mit Berg-Planung, Audio und Rückblick
