@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Es ist Montag in der **Geschichtenwoche**. Mr Hill hat in der Geschichtenecke zwei Bilder aufgehängt: einen **Geschichtenberg** und eine **story map** mit vier Feldern. Sophie fragt: „A mountain?“ Mr Hill nickt. Zuerst lesen die Kinder eine ganz kurze Geschichte."
+        text: "Es ist Montag in der **Geschichtenwoche**. Mr Hill hat in der Geschichtenecke zwei Bilder aufgehängt: einen **Geschichtenberg** (englisch: story mountain) und eine **story map** mit vier Feldern. Sophie fragt: „A mountain?“ Mr Hill nickt. Zuerst lesen die Kinder eine ganz kurze Geschichte."
       - type: single-choice
         id: figuren-start
         text: "Sophie und Amir lesen: „Sophie and Amir sat in the library. It rained. Sophie found an old map.“ Wer kommt in dieser kleinen Geschichte vor?"
@@ -29,14 +29,14 @@ blocks:
           - text: nur Sophie
             correct: false
             info: Auch Amir sitzt in der Bibliothek. Er kommt vor.
-        explanation: Figuren sind die Personen der Geschichte.
+        explanation: Figuren sind die Personen oder Tiere der Geschichte.
         links:
           - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
             url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
       - type: text
         text: "**Das kannst du danach:** Du findest in einer Geschichte heraus, wer vorkommt, wo und wann sie spielt und was passiert. Du schreibst es in die story map und hängst die Ereignisse an den Berg."
       - type: text
-        text: Diese Wörter sind neu auf dem Poster.
+        text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
       - type: table
         caption: Klassenzimmer-Poster · Neue Wörter
         header: [Ausdruck, Bedeutung]
@@ -47,6 +47,8 @@ blocks:
           - [climax, Höhepunkt]
           - [ending, Ende]
           - [pond, Teich]
+          - [stick, Stock]
+          - [suddenly, plötzlich]
           - [shed, Schuppen]
           - [shelf, Regal]
   - type: section
@@ -54,7 +56,7 @@ blocks:
     title: Die story map und der Geschichtenberg
     blocks:
       - type: text
-        text: "Mr Hill liest eine Geschichte vor. Lies sie auch: „On Saturday morning Peter and his dog Max went to the park. Peter had a red hat. Suddenly the wind took the hat and it fell into the pond. A girl with a long stick helped Peter. She got the hat and Peter said thank you.“"
+        text: "Mr Hill liest eine Geschichte vor. Lies sie auch: „On Saturday morning Peter and his dog Max went to the park. Peter had a red hat. Suddenly the wind took the hat and it fell into the pond. A girl with a long stick helped Peter. She got the hat out of the pond and Peter said thank you.“"
       - type: figure
         image: images/geschichtenmap-figuren-ort-handlung.svg
         alt: "Eine Tafel mit vier Feldern. Who: Peter, his dog Max. Where: in the park. When: Saturday morning. What: the wind takes Peter's hat."
@@ -74,13 +76,13 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Die Map sagt, wer, wo, wann und was. Der Berg sagt, in welcher Reihenfolge.** Climax ist der spannendste Moment. In die Map schreibst du kurze Einträge im simple present, zum Beispiel „Peter's hat falls into the pond.“ Das gilt auch, wenn die Geschichte in der Vergangenheit erzählt ist.
+              **Die Map sagt, wer, wo, wann und was. Der Berg sagt, in welcher Reihenfolge.** Climax ist der spannendste Moment. In die Map schreibst du kurze Einträge im simple present, zum Beispiel „The wind takes the hat.“ Das gilt auch, wenn die Geschichte in der Vergangenheit erzählt wird.
   - type: section
     id: uebung
-    title: Füll die Map und hänge die Ereignisse an den Berg
+    title: Fülle die story map und hänge die Ereignisse an den Berg
     blocks:
       - type: text
-        text: "Jetzt liest du eine neue Geschichte: „On Friday afternoon Ellie and Amir cleaned the old shed behind the school. Under a box Ellie found a small key. ‚What does it open?‘ asked Amir. They tried the door of the shed, but the key was too small. Then Ellie saw a little blue box on a shelf. The key opened the box! Inside they found old photos of the school.“"
+        text: "Jetzt liest du eine neue Geschichte: „On Friday afternoon Ellie and Amir cleaned the old shed behind the school. Under a box Ellie found a small key. ‚What does it open?‘ asked Amir. They tried the door of the shed, but the key did not open it. Then Ellie saw a little blue box on a shelf. The key opened the box! Inside the box they found old photos of the school.“"
       - type: matching
         id: figuren-zuordnen
         text: Welche Frage gehört zu welchem Feld der story map?
@@ -93,7 +95,7 @@ blocks:
             right: when
           - left: Was passiert?
             right: what
-        explanation: Jedes Feld der Map beantwortet eine Frage.
+        explanation: Jedes Feld beantwortet eine Frage.
         links:
           - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
             url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
@@ -103,10 +105,10 @@ blocks:
         options:
           - text: Ellie
             correct: true
-            info: Ellie ist eine Figur. Sie findet den Schlüssel.
+            info: Ellie ist eine Figur.
           - text: Amir
             correct: true
-            info: Amir ist eine Figur. Er fragt, was der Schlüssel öffnet.
+            info: Amir ist eine Figur.
           - text: the old shed
             correct: false
             info: Der Schuppen ist der Ort der Geschichte. Er gehört in das Feld where.
@@ -116,24 +118,24 @@ blocks:
           - text: Friday afternoon
             correct: false
             info: Das ist die Zeit der Geschichte. Sie gehört in das Feld when.
-        explanation: Figuren sind Personen, keine Orte, Zeiten oder Dinge.
+        explanation: Figuren sind Personen oder Tiere, keine Orte, Zeiten oder Dinge.
         links:
           - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
             url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
       - type: single-choice
         id: figuren-where
-        text: Wo spielt die Geschichte? Das ist der Eintrag für das Feld where.
+        text: Wo spielt die Geschichte? Wähle den richtigen Eintrag für das Feld where.
         options:
           - text: in the old shed behind the school
             correct: true
-            info: Die Kinder bleiben die ganze Geschichte im Schuppen.
+            info: Die Geschichte spielt im und am alten Schuppen hinter der Schule.
           - text: on a shelf
             correct: false
             info: Das Regal ist nur der Platz der Kiste, nicht der Ort der Geschichte.
           - text: on Friday afternoon
             correct: false
             info: Das sagt, wann die Geschichte spielt, nicht wo. Es gehört in das Feld when.
-        explanation: Der Ort ist der Platz der ganzen Geschichte.
+        explanation: Der Ort ist der Platz, an dem die ganze Geschichte spielt.
         links:
           - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
             url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
@@ -156,17 +158,17 @@ blocks:
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Ellie · find · key
-            target: (Ellie finds a key.|Ellie finds a small key.|Ellie finds a key under a box.|Ellie finds a small key under a box.)
+            target: (Ellie finds a key.|Ellie finds a small key.|Ellie finds the key.|Ellie finds a key under a box.|Ellie finds a small key under a box.|Ellie finds a key under the box.|Ellie finds a small key under the box.)
             mistakes:
               - answer: Ellie find a key.
                 message: Bei he, she und it braucht das Verb ein -s.
               - answer: Ellie found a key.
                 message: In der Map steht, was passiert, im simple present.
           - cue: Ellie and Amir · look at · photos
-            target: (Ellie and Amir look at old photos.|Ellie and Amir look at photos.|Ellie and Amir look at the photos.)
+            target: (Ellie and Amir look at old photos.|Ellie and Amir look at photos.|Ellie and Amir look at the photos.|Ellie and Amir look at the old photos.|Ellie and Amir look at some photos.|Ellie and Amir look at old photos of the school.|Ellie and Amir look at photos of the school.)
             mistakes:
               - answer: Ellie and Amir looks at photos.
-                message: Bei zwei Figuren hat das Verb kein -s.
+                message: Ellie and Amir sind zusammen they. Bei they hat das Verb kein -s.
               - answer: Ellie and Amir looked at photos.
                 message: In der Map steht, was passiert, im simple present.
       - type: language-task
@@ -195,10 +197,10 @@ blocks:
             text: Where does the story happen?
           - audio: what-happens-at-the-end.mp3
             text: What happens at the end?
-        hint: Hör die Frage zuerst. Sprich dann langsam nach. Bei einer Frage geht die Stimme am Ende hoch.
+        hint: Hör dir die Frage zuerst an. Sprich sie dann langsam nach.
       - type: open-task
         id: figuren-schreiben
-        task: "Denke an eine Geschichte, die du kennst: ein Märchen, ein Film oder ein Buch. Schreibe die vier Einträge der story map, jeden in einer kurzen Zeile."
+        task: "Denke an eine Geschichte, die du kennst, zum Beispiel ein Märchen, einen Film oder ein Buch. Schreibe die vier Einträge der story map auf Englisch, jeden in einer kurzen Zeile."
         points:
           - text: Es gibt vier Zeilen mit who, where, when und what.
             source: /was-passiert/figuren-ort-handlung/#neu
@@ -208,7 +210,7 @@ blocks:
             kind: form
         solution: |
           who: a boy and his dog. where: in a big forest. when: in summer. what: they look for a lost cat and find it.
-        hint: Die App bewertet deinen Text nicht. Prüfe ihn selbst an den Punkten.
+        hint: Die App bewertet deinen Text nicht. Prüfe ihn selbst anhand der Punkte.
   - type: section
     id: weiter
     title: Wie es weitergeht
