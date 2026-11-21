@@ -33,7 +33,7 @@ Alle elf sind Lücken der Karte, Band 5-6. Eine Seite je Baustein, Ordnung nach 
    - `dialog-schreiben` → `spielen-und-reimen/dialog-schreiben`: „Ich kann einen kurzen Dialog oder eine Spielszene schreiben.“
    - `gedichte-reime` → `spielen-und-reimen/gedichte-reime`: „Ich kann Reime, Lieder und kurze Gedichte vortragen und Reimwörter finden.“
 
-Die „Ich kann“-Sätze stehen wie in der Karte in `src/<kapitel>/<seite>.yaml` (nicht umformulieren). Übungs-IDs: Präfix = Seite (`figuren-…`), Diktat `<seite>-hoeren`, Nachsprechen `<seite>-nachsprechen`, offene Aufgabe `<seite>-schreiben`.
+Die „Ich kann“-Sätze oben sind die der Karte (nicht umformulieren); eine Seite trägt nur ihre Karten-Id in `competencies:` und sagt im Abschnitt „Das kannst du danach“ in Kinderworten, was man danach kann. Übungs-IDs: Präfix = Seite (`figuren-…`), Diktat `<seite>-hoeren`, Nachsprechen `<seite>-nachsprechen`, offene Aufgabe `<seite>-schreiben`.
 
 ## Content structure
 
@@ -41,7 +41,7 @@ Die „Ich kann“-Sätze stehen wie in der Karte in `src/<kapitel>/<seite>.yaml
 - Jede Seite (außer den Wiederholungsseiten) hat dieselben Abschnitts-IDs in dieser Reihenfolge: `einstieg` (Szene als Bild, erste leichte Aufgabe, „Das kannst du danach“, höchstens eine kurze Wörtertabelle „Klassenzimmer-Poster · Neue Wörter“), `neu` (Berg- oder Map-Figur, Merke-Kasten), `uebung` (mindestens vier Übungen, leicht → schwer, mindestens zwei mit eigener Fehlermeldung je typischem Fehler), `anwenden` (`speaking-task` und `open-task` mit `points` und `solution`), `weiter` (nächster Schritt der Geschichtenwoche; am Kapitelende ein Rückblick). Titel sagen, was der Abschnitt tut. Die Wiederholungsseiten haben nur Text und eine Tabelle, keine Übung.
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung in den ersten vier Blöcken. Jede Seite bringt einen neuen Schritt (`explainer-one-step`).
 - Szene (Wo, Wer, Wann): Wo: die **Geschichtenecke** im Klassenzimmer der Millbrook School mit dem Wandbild „Geschichtenberg“ (Berg mit vier Fähnchen) und der „story map“ daneben (neuer Ort, nur für diesen Explainer und seine Inkremente). Wer: Mr Hill, Sophie, Ellie, Peter und Amir. Wann: Mr Hills **Geschichtenwoche im Januar**: Kapitel 1 Montag, Kapitel 2 Dienstag und Mittwoch, Kapitel 3 Donnerstag, Kapitel 4 Freitag (Vorlesen und Spielszene). Kein Schulfest und kein Lagerraum (#475), keine Ausstellung „Our Millbrook“ im Flur (#476), keine Satzstreifen-Wand (#481), kein Zeitstrahl (#472).
-- Figuren und Orte wie in #470 (nicht ändern): Sophie (blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers, 11 bis 12), Ellie Parker (11, roter Pferdeschwanz, rote Jacke), Peter Parker (9, kurze braune Haare, gelbe Jacke, Ellies Bruder), Amir (11, schwarze Locken, Brille, blaue Jacke), Mr Hill (Englischlehrer, graue Haare, braune Jacke), Mrs Parker. Millbrook School, Schultag ab 8:45. Geburtstage: Peter 5. Mai, Ellie 10. Juli, Amir 12. Oktober, Sophie 14. Oktober. Tabellen heißen „Klassenzimmer-Poster · …“ und „Schulkalender · …“. Keine neue Figur.
+- Figuren und Orte wie in #470 (nicht ändern): Sophie (blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers, 11 bis 12), Ellie Parker (11, roter Pferdeschwanz, rote Jacke), Peter Parker (9, kurze braune Haare, gelbe Jacke, Ellies Bruder), Amir (11, schwarze Locken, Brille, blaue Jacke), Mr Hill (Englischlehrer, graue Haare, braune Jacke), Mrs Parker. Millbrook School, Schultag ab 8:45. Geburtstage: Peter 5. Mai, Ellie 10. Juli, Amir 12. Oktober, Sophie 14. Oktober. Tabellen heißen „Klassenzimmer-Poster · …“ und „Schulkalender · …“; der Tabellenkopf der Wörter ist [Wort, Bedeutung] („Ausdruck“ nur für feste Ausdrücke). Keine neue Figur.
 - Die Beispielgeschichten (Text) und die Übungsgeschichten sind je Seite verschieden, alle eigene Texte (keine übernommenen); sie sind höchstens etwa 80 Wörter lang und im simple past erzählt.
 - Anrede „du“.
 
@@ -55,7 +55,7 @@ Die „Ich kann“-Sätze stehen wie in der Karte in `src/<kapitel>/<seite>.yaml
 
 ## Exercise patterns
 
-Aufbau leicht → schwer: wählen/zuordnen → ordnen → Lücke → schreiben mit Cue → Diktat und Nachsprechen → freie Aufgabe. Je Übung `mistakes` mit eigener Meldung und `hint`; gleichwertige Antworten mit `(a|b)`.
+Aufbau leicht → schwer: wählen/zuordnen → ordnen → Lücke → schreiben mit Cue → Diktat und Nachsprechen → freie Aufgabe. Je Übung `mistakes` mit eigener Meldung, `hint` nur dort, wo er einen Weg zeigt, ohne die Lösung zu nennen; gleichwertige Antworten mit `(a|b)`.
 
 - Map füllen (`matching` Frage ↔ Feld; `language-task` choice), Station finden (`single-choice` mit `info` je Option), Details zuordnen (`multiple-choice`), Berg ordnen (`ordering`).
 - Zusammenfassung: Wichtiges von Nebensachen trennen (`multiple-choice`), beste Zusammenfassung wählen (`single-choice`), kürzen (`language-task` write mit Cue).
@@ -72,14 +72,15 @@ Aufbau leicht → schwer: wählen/zuordnen → ordnen → Lücke → schreiben m
 
 ## Figures
 
-- Gebaut: siehe unten „Gebaut“; Familie `src/images/geschichtenberg-<seite>.svg` (Berg mit vier Fähnchen, neutrale Farbe #34495e, Gipfel = climax; Schilder für Wegweiser) und `src/images/geschichtenmap-<seite>.svg` (vier Felder who #2c6fd8, where #138d75, when #d35400, what #c0392b; diese Farben bedeuten nur diese Felder). Szenen `src/images/szene-<seite>.svg` mit den Figuren als `<g id>` aus `millbrook-klassenzimmer.svg` von hello-millbrook, gleich gelassen. Bildfolgen (Kapitel 2): eigene Strichzeichnungen ohne Text.
+- Familie `src/images/geschichtenberg-<seite>.svg` (Berg mit vier Fähnchen, neutrale Farbe #34495e, Gipfel = climax; Schilder für Wegweiser) und `src/images/geschichtenmap-<seite>.svg` (vier Felder who #2c6fd8, where #138d75, when #d35400, what #c0392b; diese Farben bedeuten nur diese Felder). Szenen `src/images/szene-<seite>.svg` mit den Figuren als `<g id>` aus `millbrook-klassenzimmer.svg` von hello-millbrook, gleich gelassen. Bildfolgen (Kapitel 2): eigene Strichzeichnungen ohne Text.
 - Eigene Zeichnung, `CC-BY-4.0`, Hintergrund #f4efe2, Schrift mindestens 16 im 480er viewBox, Beschriftung innerhalb des `viewBox`; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. `alt` sagt, was die Figur zeigt, nie die Lösung; in Aufgaben zeigt die Figur nur die Legende. Bildunterschrift nennt, wer wer ist.
 - Berg und Map in einer Figur zeigen nie dieselben Ereignisse oder Wörter wie die erste Aufgabe darunter.
+- Gebaut (Stand Musterseite): `szene-figuren-ort-handlung`, `geschichtenmap-figuren-ort-handlung` (Beispiel „red hat“), `geschichtenberg-figuren-ort-handlung` (gleiche Geschichte); die Fähnchenzahlen der Szene haben Schriftgröße 16. Neue Seiten bekommen `szene-<seite>`, `geschichtenmap-<seite>` und `geschichtenberg-<seite>`, wo sie sie brauchen.
 - Skizzen in `.vibe/sketches/`; ein kleines Skript im Scratchpad (nicht im Repository) erzeugt die Zeichnungen: die SVG-Dateien sind die Quelle.
 
 ## Sources
 
-Karte `https://lernapps.net/apps/map/englisch.json` und die Baustein-Seiten `https://lernapps.net/apps/map/englisch/c/<id>/`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2). Der story mountain und die story map sind Unterrichtsbilder aus dem Auftrag (Issue #479); es wird keine Quelle zitiert und kein Satz übernommen. Nicht geprüft: Wikipedia „Narrative structure“ und „Freytag's pyramid“ (die Abfrage lieferte keinen Text), kein Klexikon-Artikel gelesen. Alle Geschichten, Dialoge und Reime sind eigene Texte (CC BY 4.0), alle Zeichnungen eigen. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines. Wörter außerhalb des Grundwortschatzes (auf der Seite erklärt): wird nach dem Bau der Seiten ergänzt.
+Karte `https://lernapps.net/apps/map/englisch.json` und die Baustein-Seiten `https://lernapps.net/apps/map/englisch/c/<id>/`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2). Der story mountain und die story map sind Unterrichtsbilder aus dem Auftrag (Issue #479); es wird keine Quelle zitiert und kein Satz übernommen. Nicht geprüft: Wikipedia „Narrative structure“ und „Freytag's pyramid“ (die Abfrage lieferte keinen Text), kein Klexikon-Artikel gelesen. Alle Geschichten, Dialoge und Reime sind eigene Texte (CC BY 4.0), alle Zeichnungen eigen. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines. Wörter außerhalb des Grundwortschatzes, auf der Seite erklärt (Datei `.agents/skills/app-content/scripts/woerter-erklaert.json`, die das Prüfskript liest): build-up, climax, pond; dazu erklärt die Tabelle der Musterseite character, shed und shelf. Prüfskript: `python3 -I .agents/skills/app-content/scripts/pruefen.py` (Hörsätze gegen den Text derselben Seite, Wörter gegen die Liste der Karte; die Wortmeldungen zu deutschen Wörtern in englischen Feldern sind Rauschen).
 
 ## Adding a chapter or round
 
@@ -108,3 +109,15 @@ Aus den Vorgängern (#470 bis #481) übernommen:
 - Die `competencies:` jeder Seite sind Karten-Ids (nicht Seitentitel); Wiederholungsseiten haben keine.
 - Bekannte Eigenheiten der Vorlage: `ordering` zeigt Auswahlfelder statt Karten, `accepted` einer Sprach-Aufgabe wirkt nicht, im Modus `choice` zeigt die App `mistakes` nicht, `punctuation: hint` meldet bei richtiger Antwort „Achte auf die Satzzeichen“ (darum `punctuation: ok`).
 - Offene Aufgaben: immer `points` und Musterlösung mit dem Hinweis, dass die App den Text nicht bewertet.
+
+Aus der Musterseite (Lerner-Check, Sprachprüfung, Prüfung der Orchestrator-Session):
+- Jedes Feld der Map (who, where, when, what) wird geübt, nicht nur als Distraktor oder in einer Zuordnung, die den Text darüber wiederholt.
+- Übungsgeschichten haben eindeutige Orte und Dinge (nicht zwei Kisten, keine Tür ohne Ort); die richtige Option ist nicht die längste.
+- Ein Cue verlangt keinen Satz, den eine Ordnungsaufgabe darüber schon zeigt; Map-Einträge (what) sind klare Handlungen im simple present, mit eigener Meldung für fehlendes -s, falsche Zeit und fehlenden Artikel.
+- Eine Ordnungsaufgabe zum Berg erklärt alle vier Stationen; eine Einzelauswahl danach fängt typische Verwechslungen (climax und ending) mit je einer Meldung ab.
+- Wörtertabelle: nur Wörter außerhalb von A1/A2 oder weniger einfache, Kopf [Wort, Bedeutung]; Wörter wie beginning, ending, suddenly und stick gelten als bekannt.
+- `lernapps check` zählt Texte, Optionen, Infos und Meldungen zusammen (höchstens 350 Wörter): Meldungen knapp halten.
+- Ein Doppelpunkt in einem Hinweis, einer Meldung oder einer `explanation` lässt das YAML scheitern: vermeiden oder in Anführungszeichen setzen.
+- Offene Aufgaben haben eine Musterlösung in der Form der Aufgabe (vier Zeilen who/where/when/what) mit anderen Figuren als die Beispielgeschichte der Seite.
+- Ein Intonationshinweis nur, wenn er stimmt (Fragen mit who, where, what fallen am Ende); im Zweifel streichen.
+- Poster, Tafel und Bilder an der Wand heißen in Text und Bildunterschrift gleich (Geschichtenberg, story map, Klassenzimmer-Poster für die Wörter).

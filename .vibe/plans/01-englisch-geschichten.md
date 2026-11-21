@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 1 }
+failedChecks: { checks-pass: 4 }
 ---
 
 # Plan: englisch-geschichten, first version
@@ -62,6 +62,11 @@ Kinder der Stufe 5-6 lesen kurze Geschichten, füllen die story map (who, where,
 - Umfang: drin: alle elf Bausteine der Stufe 5-6, deutsche Erklärtexte, englische Geschichten von höchstens etwa 80 Wörtern (simple past), Diktat und Nachsprechen mit `bf_emma`, freies Schreiben als `open-task`. Draußen: Sicht der Figur und Stimmung (Kapitel 5), Kurzgeschichten- und Gedichtanalyse (#483), Berichte (#486), Zeitformen selbst (#472). Die App bewertet nicht, wie jemand spricht, und keine freien Texte.
 - Quellen: Fakten zu story mountain / story map nur als Idee aus dem Unterricht (keine Sätze übernommen); alle Geschichten, Dialoge und Reime sind eigene Texte (CC BY 4.0). Der Reim-Teil nennt zusätzlich nur Fakten (Reim = gleicher Klang am Ende), keine fremden Gedichte. Alle Zeichnungen eigen, Figuren aus `millbrook-klassenzimmer.svg` (#470).
 - Geprüft: Karte (`englisch.json`, gelesen, Bausteine und `requires` oben), Grundwortschatz-Seite (erreichbar, Wortliste prüfe ich per Skript im Code), Muster der Vorgänger-Repositories (`englisch-zeiten`, `englisch-saetze-verbinden`, `englisch-adjektive-adverbien`, `hello-millbrook`). Nicht geprüft: Wikipedia „Narrative structure“ und „Freytag's pyramid“ (die Abfrage lieferte keinen Text), kein Klexikon-Artikel; der story mountain wird deshalb nur als Unterrichtsbild aus dem Auftrag benutzt, ohne Quellenzitat.
+- Geprüft und behoben an der Musterseite `figuren-ort-handlung` (Lerner-Check durch einen Sub-Agenten als Kind Klasse 5, Sprachprüfung Englisch/Deutsch durch einen Sub-Agenten, Prüfung durch die Orchestrator-Session):
+  - Lerner-Check, Funde: Bildunterschrift der Szene erklärte nicht, was an der Wand hängt (ergänzt); Map zeigte nicht alle Figuren (a girl ergänzt); Schreibaufgabe wiederholte die Lösung der Ordnungsaufgabe darüber (neue Geschichte und Cues); Merke und Map-Eintrag nicht gleich (angeglichen); Lösung der offenen Aufgabe nannte Wörter, die niemand kannte (einfacher). Von der Vorlage, nicht geändert: generische Meldung „Deine Fassung kann trotzdem richtig sein“, Hinweise zu Groß-/Kleinschreibung bei `punctuation: ok`, `ordering` ohne Hinweis auf die falsche Stelle, KI-Tutor-Leiste oben.
+  - Sprachprüfung, Funde: Figuren als „Personen“ (jetzt Personen oder Tiere), „Inside“ mehrdeutig, Ort und Dinge der Übungsgeschichte unklar, „story mountain“ fehlte, Zielantworten zu eng, falscher Intonationshinweis, Kasus („einen Film“), „erzählt wird“, Wörter stick und suddenly (nach Prüfung gegen die Wortliste A1/A2: bekannt, nicht in die Tabelle).
+  - Prüfung der Orchestrator-Session, Funde: Notes, Inhaltsführer (Platzhalter, Wortliste), `when` nicht geübt, Zuordnung wiederholte den Text, Textmenge, Wörtertabelle zu lang, Schreibaufgabe prüft nur die Zeitform, Ordnungsaufgabe ohne Erklärung der Stationen, zwei Kisten, längste Option richtig, Musterlösung wie Beispielgeschichte, Fähnchenzahlen zu klein. Alle behoben (eigene Aufgabe zu `when`, Einzelauswahl zu climax/ending, Tabelle auf sechs Wörter, Schriftgröße 16).
+  - Skripte: `.agents/skills/app-content/scripts/pruefen.py` (Hörsätze gegen den Text derselben Seite, Wörter gegen die Liste), `woerter-erklaert.json`.
 - Wörter: Grundwortschatz A1/A2 (https://lernapps.net/apps/map/englisch/grundwortschatz/); Ausnahmen stehen auf der Seite erklärt und im Inhaltsführer.
 
 ## Explore

@@ -25,11 +25,11 @@ blocks:
             info: Beide sitzen in der Bibliothek. Sie sind die Figuren.
           - text: Sophie, Amir und die Bibliothek
             correct: false
-            info: Die Bibliothek ist der Ort, an dem die Geschichte spielt. Sie ist keine Figur.
+            info: Die Bibliothek ist ein Ort, keine Figur.
           - text: nur Sophie
             correct: false
-            info: Auch Amir sitzt in der Bibliothek. Er kommt vor.
-        explanation: Figuren sind die Personen oder Tiere der Geschichte.
+            info: Auch Amir kommt vor.
+        explanation: Figuren sind Personen oder Tiere.
         links:
           - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
             url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
@@ -39,16 +39,12 @@ blocks:
         text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
       - type: table
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Ausdruck, Bedeutung]
+        header: [Wort, Bedeutung]
         rows:
           - [character, Figur]
-          - [beginning, Anfang]
-          - [build-up, Aufbau (es wird spannend)]
+          - [build-up, Aufbau]
           - [climax, Höhepunkt]
-          - [ending, Ende]
           - [pond, Teich]
-          - [stick, Stock]
-          - [suddenly, plötzlich]
           - [shed, Schuppen]
           - [shelf, Regal]
   - type: section
@@ -82,26 +78,10 @@ blocks:
     title: Fülle die story map und hänge die Ereignisse an den Berg
     blocks:
       - type: text
-        text: "Jetzt liest du eine neue Geschichte: „On Friday afternoon Ellie and Amir cleaned the old shed behind the school. Under a box Ellie found a small key. ‚What does it open?‘ asked Amir. They tried the door of the shed, but the key did not open it. Then Ellie saw a little blue box on a shelf. The key opened the box! Inside the box they found old photos of the school.“"
-      - type: matching
-        id: figuren-zuordnen
-        text: Welche Frage gehört zu welchem Feld der story map?
-        pairs:
-          - left: Wer kommt vor?
-            right: who
-          - left: Wo spielt die Geschichte?
-            right: where
-          - left: Wann spielt sie?
-            right: when
-          - left: Was passiert?
-            right: what
-        explanation: Jedes Feld beantwortet eine Frage.
-        links:
-          - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
-            url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
+        text: "Jetzt liest du eine neue Geschichte: „On Friday afternoon Ellie and Amir cleaned the old shed behind the school. In a corner Ellie found a small key. ‚What does it open?‘ asked Amir. They tried the key in an old cupboard, but it did not open. Then Ellie saw a little blue box on a shelf. The key opened the box! Inside the box they found old photos of the school.“"
       - type: multiple-choice
         id: figuren-who
-        text: Welche Einträge gehören in das Feld who? Wähle alle richtigen.
+        text: Welche Einträge gehören zu who? Wähle alle richtigen.
         options:
           - text: Ellie
             correct: true
@@ -111,31 +91,48 @@ blocks:
             info: Amir ist eine Figur.
           - text: the old shed
             correct: false
-            info: Der Schuppen ist der Ort der Geschichte. Er gehört in das Feld where.
+            info: Der Schuppen ist der Ort, Feld where.
           - text: a small key
             correct: false
-            info: Ein Schlüssel ist ein Ding, keine Figur. Er gehört zur Handlung.
+            info: Ein Schlüssel ist ein Ding, keine Figur.
           - text: Friday afternoon
             correct: false
-            info: Das ist die Zeit der Geschichte. Sie gehört in das Feld when.
-        explanation: Figuren sind Personen oder Tiere, keine Orte, Zeiten oder Dinge.
+            info: Das ist die Zeit, Feld when.
+        explanation: Figuren sind Personen oder Tiere.
         links:
           - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
             url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
       - type: single-choice
         id: figuren-where
-        text: Wo spielt die Geschichte? Wähle den richtigen Eintrag für das Feld where.
+        text: Wo spielt die Geschichte? Wähle den Eintrag für where.
         options:
-          - text: in the old shed behind the school
+          - text: in the old shed
             correct: true
-            info: Die Geschichte spielt im und am alten Schuppen hinter der Schule.
-          - text: on a shelf
+            info: Hier spielt die ganze Geschichte.
+          - text: on the shelf
             correct: false
-            info: Das Regal ist nur der Platz der Kiste, nicht der Ort der Geschichte.
+            info: Das Regal ist nur der Platz der Kiste.
           - text: on Friday afternoon
             correct: false
-            info: Das sagt, wann die Geschichte spielt, nicht wo. Es gehört in das Feld when.
-        explanation: Der Ort ist der Platz, an dem die ganze Geschichte spielt.
+            info: Das sagt, wann, nicht wo.
+        explanation: Der Ort ist der Platz der ganzen Geschichte.
+        links:
+          - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
+            url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
+      - type: single-choice
+        id: figuren-when
+        text: Wann spielt die Geschichte? Wähle den Eintrag für when.
+        options:
+          - text: on Friday afternoon
+            correct: true
+            info: Ein Tag und eine Tageszeit.
+          - text: in the old shed
+            correct: false
+            info: Das sagt, wo, nicht wann.
+          - text: a small key
+            correct: false
+            info: Ein Schlüssel ist ein Ding, keine Zeit.
+        explanation: Die Zeit ist ein Tag oder eine Tageszeit.
         links:
           - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
             url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
@@ -147,30 +144,51 @@ blocks:
           - Ellie finds a small key
           - The key opens a blue box
           - They look at old photos
-        explanation: "Am Gipfel (climax) ist es am spannendsten: Der Schlüssel öffnet die Kiste."
+        explanation: "Putzen, Schlüssel finden, Kiste öffnen, Fotos ansehen."
+        links:
+          - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
+            url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
+      - type: single-choice
+        id: figuren-ende
+        text: Die Fotos hängen am Fähnchen ending, nicht am Gipfel. Warum?
+        options:
+          - text: Am Gipfel ist es spannend, am Ende nicht mehr
+            correct: true
+            info: Dort entscheidet sich etwas.
+          - text: Der Gipfel ist das letzte Ereignis
+            correct: false
+            info: Nach dem Gipfel kommt noch das Ende.
+          - text: Das Ende ist am wichtigsten
+            correct: false
+            info: Am höchsten hängt der climax.
+        explanation: Der climax ist der spannendste Moment.
         links:
           - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
             url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
       - type: language-task
         id: figuren-map-schreiben
         languages: { source: de, target: en }
-        task: Schreibe die Einträge für das Feld what. Benutze die Wörter und das simple present.
+        task: "Lies: „Peter made a big cake in the kitchen. Then he ate it all.“ Schreibe zwei Einträge für what im simple present."
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - cue: Amir · ask · question
-            target: (Amir asks a question.|Amir asks Ellie a question.)
+          - cue: Peter · make · cake
+            target: (Peter makes a cake.|Peter makes a big cake.|Peter makes the cake.|Peter makes a cake in the kitchen.|Peter makes a big cake in the kitchen.)
             mistakes:
-              - answer: Amir ask a question.
-                message: Bei he, she und it braucht das Verb ein -s.
-              - answer: Amir asked a question.
-                message: In der Map steht, was passiert, im simple present.
-          - cue: Ellie · see · blue box
-            target: (Ellie sees a blue box.|Ellie sees a little blue box.|Ellie sees a blue box on a shelf.|Ellie sees a little blue box on a shelf.)
+              - answer: Peter make a cake.
+                message: Bei he, she und it braucht das Verb -s.
+              - answer: Peter made a cake.
+                message: Die Map nutzt das simple present.
+              - answer: Peter makes cake.
+                message: Vor cake fehlt a.
+          - cue: Peter · eat · cake
+            target: (Peter eats the cake.|Peter eats a cake.|Peter eats the big cake.|Peter eats it.|Peter eats the cake all.)
             mistakes:
-              - answer: Ellie see a blue box.
-                message: Bei he, she und it braucht das Verb ein -s.
-              - answer: Ellie saw a blue box.
-                message: In der Map steht, was passiert, im simple present.
+              - answer: Peter eat the cake.
+                message: Bei he, she und it braucht das Verb -s.
+              - answer: Peter ate the cake.
+                message: Die Map nutzt das simple present.
+              - answer: Peter eats cake.
+                message: Vor cake fehlt the.
       - type: language-task
         id: figuren-hoeren
         languages: { source: de, target: en }
@@ -197,20 +215,23 @@ blocks:
             text: Where does the story happen?
           - audio: what-happens-at-the-end.mp3
             text: What happens at the end?
-        hint: Hör dir die Frage zuerst an. Sprich sie dann langsam nach.
+        hint: Hör zu. Sprich dann langsam nach.
       - type: open-task
         id: figuren-schreiben
         task: "Denke an eine Geschichte, die du kennst, zum Beispiel ein Märchen, einen Film oder ein Buch. Schreibe vier kurze Zeilen auf Englisch, die mit who:, where:, when: und what: beginnen."
         points:
-          - text: Es gibt vier Zeilen mit who, where, when und what.
+          - text: Es sind vier Zeilen.
             source: /was-passiert/figuren-ort-handlung/#neu
-          - text: Bei who stehen die Figuren, bei where der Ort der ganzen Geschichte und bei when die Zeit.
+          - text: Who, where und when stimmen mit der Geschichte.
             source: /was-passiert/figuren-ort-handlung/#neu
           - text: Bei what steht kurz, was passiert, im simple present.
             kind: form
         solution: |
-          who: a boy and a dog. where: in a forest. when: in summer. what: they look for a cat.
-        hint: Die App bewertet deinen Text nicht. Prüfe ihn selbst anhand der Punkte.
+          who: a girl and a bird
+          where: in a garden
+          when: on Sunday morning
+          what: they sing a song
+        hint: Die App bewertet nicht. Prüfe anhand der Punkte.
   - type: section
     id: weiter
     title: Wie es weitergeht
