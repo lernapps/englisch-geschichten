@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-figuren-ort-handlung.svg
         alt: "In der Geschichtenecke des Klassenzimmers hängen an der Wand zwei Tafeln. Links ein Berg mit vier kleinen Fähnchen, rechts vier leere Felder mit den Wörtern who, where, when und what. Sophie fragt in einer Sprechblase: „A mountain?“ Vor der Wand stehen Sophie, Peter, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der Wand hängt ein Berg mit vier Fähnchen und eine Tafel mit vier leeren Feldern."
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der Wand hängen links der Geschichtenberg mit vier Fähnchen und rechts die story map mit vier noch leeren Feldern."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -59,7 +59,7 @@ blocks:
         text: "Mr Hill liest eine Geschichte vor. Lies sie auch: „On Saturday morning Peter and his dog Max went to the park. Peter had a red hat. Suddenly the wind took the hat and it fell into the pond. A girl with a long stick helped Peter. She got the hat out of the pond and Peter said thank you.“"
       - type: figure
         image: images/geschichtenmap-figuren-ort-handlung.svg
-        alt: "Eine Tafel mit vier Feldern. Who: Peter, his dog Max. Where: in the park. When: Saturday morning. What: the wind takes Peter's hat."
+        alt: "Eine Tafel mit vier Feldern. Who: Peter, his dog Max, a girl. Where: in the park. When: Saturday morning. What: the wind takes Peter's hat."
         caption: "Die story map zur Geschichte vom roten Hut. Jedes Feld hat eine eigene Farbe: who blau, where grün, when orange, what rot."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -76,7 +76,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Die Map sagt, wer, wo, wann und was. Der Berg sagt, in welcher Reihenfolge.** Climax ist der spannendste Moment. In die Map schreibst du kurze Einträge im simple present, zum Beispiel „The wind takes the hat.“ Das gilt auch, wenn die Geschichte in der Vergangenheit erzählt wird.
+              **Die Map sagt, wer, wo, wann und was. Der Berg sagt, in welcher Reihenfolge.** Climax ist der spannendste Moment. In die Map schreibst du kurze Einträge im simple present, zum Beispiel „The wind takes Peter's hat.“ Das gilt auch, wenn die Geschichte in der Vergangenheit erzählt wird. Bei he, she und it hat das Verb ein -s.
   - type: section
     id: uebung
     title: Fülle die story map und hänge die Ereignisse an den Berg
@@ -147,7 +147,7 @@ blocks:
           - Ellie finds a small key
           - The key opens a blue box
           - They look at old photos
-        explanation: Der Schlüssel öffnet die Kiste am Gipfel.
+        explanation: "Am Gipfel (climax) ist es am spannendsten: Der Schlüssel öffnet die Kiste."
         links:
           - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
             url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
@@ -157,19 +157,19 @@ blocks:
         task: Schreibe die Einträge für das Feld what. Benutze die Wörter und das simple present.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - cue: Ellie · find · key
-            target: (Ellie finds a key.|Ellie finds a small key.|Ellie finds the key.|Ellie finds a key under a box.|Ellie finds a small key under a box.|Ellie finds a key under the box.|Ellie finds a small key under the box.)
+          - cue: Amir · ask · question
+            target: (Amir asks a question.|Amir asks Ellie a question.)
             mistakes:
-              - answer: Ellie find a key.
+              - answer: Amir ask a question.
                 message: Bei he, she und it braucht das Verb ein -s.
-              - answer: Ellie found a key.
+              - answer: Amir asked a question.
                 message: In der Map steht, was passiert, im simple present.
-          - cue: Ellie and Amir · look at · photos
-            target: (Ellie and Amir look at old photos.|Ellie and Amir look at photos.|Ellie and Amir look at the photos.|Ellie and Amir look at the old photos.|Ellie and Amir look at some photos.|Ellie and Amir look at old photos of the school.|Ellie and Amir look at photos of the school.)
+          - cue: Ellie · see · blue box
+            target: (Ellie sees a blue box.|Ellie sees a little blue box.|Ellie sees a blue box on a shelf.|Ellie sees a little blue box on a shelf.)
             mistakes:
-              - answer: Ellie and Amir looks at photos.
-                message: Ellie and Amir sind zusammen they. Bei they hat das Verb kein -s.
-              - answer: Ellie and Amir looked at photos.
+              - answer: Ellie see a blue box.
+                message: Bei he, she und it braucht das Verb ein -s.
+              - answer: Ellie saw a blue box.
                 message: In der Map steht, was passiert, im simple present.
       - type: language-task
         id: figuren-hoeren
@@ -200,7 +200,7 @@ blocks:
         hint: Hör dir die Frage zuerst an. Sprich sie dann langsam nach.
       - type: open-task
         id: figuren-schreiben
-        task: "Denke an eine Geschichte, die du kennst, zum Beispiel ein Märchen, einen Film oder ein Buch. Schreibe die vier Einträge der story map auf Englisch, jeden in einer kurzen Zeile."
+        task: "Denke an eine Geschichte, die du kennst, zum Beispiel ein Märchen, einen Film oder ein Buch. Schreibe vier kurze Zeilen auf Englisch, die mit who:, where:, when: und what: beginnen."
         points:
           - text: Es gibt vier Zeilen mit who, where, when und what.
             source: /was-passiert/figuren-ort-handlung/#neu
@@ -209,7 +209,7 @@ blocks:
           - text: Bei what steht kurz, was passiert, im simple present.
             kind: form
         solution: |
-          who: a boy and his dog. where: in a big forest. when: in summer. what: they look for a lost cat and find it.
+          who: a boy and a dog. where: in a forest. when: in summer. what: they look for a cat.
         hint: Die App bewertet deinen Text nicht. Prüfe ihn selbst anhand der Punkte.
   - type: section
     id: weiter

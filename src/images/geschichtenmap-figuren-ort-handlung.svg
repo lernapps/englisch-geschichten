@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 222" role="img">
-  <title>Die story map zur Geschichte vom roten Hut: who Peter und sein Hund Max, where im Park, when am Samstagmorgen, what der Wind nimmt Peters Hut</title>
+  <title>Die story map zur Geschichte vom roten Hut: who Peter, sein Hund Max und ein Mädchen, where im Park, when am Samstagmorgen, what der Wind nimmt Peters Hut</title>
   <rect width="480" height="222" fill="#f4efe2"/>
   <rect x="10" y="10" width="224" height="96" rx="6" fill="#fff" stroke="#2c6fd8" stroke-width="3"/>
   <rect x="10" y="10" width="224" height="28" rx="6" fill="#2c6fd8"/>
   <text x="122" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#fff">who</text>
-  <text x="122" y="64" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#222">Peter</text>
-  <text x="122" y="86" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#222">his dog Max</text>
+  <text x="122" y="64" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#222">Peter, his dog Max</text>
+  <text x="122" y="86" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#222">a girl</text>
   <rect x="246" y="10" width="224" height="96" rx="6" fill="#fff" stroke="#138d75" stroke-width="3"/>
   <rect x="246" y="10" width="224" height="28" rx="6" fill="#138d75"/>
   <text x="358" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#fff">where</text>
