@@ -113,6 +113,20 @@ Hörsätze bleiben natürlich: kein Name und kein Wort wird nur wegen des Klangs
 
 Dazu die Reimverse von `gedichte-reime` (Reim geht vor dem Klang des letzten Wortes): „I like to see the flowers after the showers.“, „Read a little letter and you will feel better.“, „My brother and my mother help each other.“, „Let us sing together in the lovely weather.“, „The monkey is funny and it likes honey.“, „The rain is falling, and the birds are calling.“ Alle 66 Sätze: `.agents/skills/app-content/scripts/audio-texte.json`.
 
+### Fehllaut-Schnitt (`valley_cut` in `regen_audio.py`)
+
+`regen_audio.py` erkennt einen Fehllaut nach dem letzten Wort (Senke bis 15 % der Spitze, danach ein kurzer, leiser Ausschlag) und schneidet ihn ab (Rand 40 ms, höchstens 100 ms, Regel: `orchestrierung/audio/README-schnitt.md` in `lernapps/start`, Branch `claude/exciting-shannon-vi3k3t`); `--no-dip-cut` schaltet ihn aus, `DRY=1` zeigt die Schnitte (die Zieldateien werden dabei trotzdem neu geschrieben: danach `git checkout -- src/audio`). Alle 66 Hörsätze sind mit dieser Regel neu erzeugt. Geschnitten wurden 10 Dateien (Satz, entfernte ms); die Ersteller:in hört sie gezielt, besonders die mit zweisilbigem Ende (Risiko, dass eine Silbe angeschnitten wird):
+- „What a lovely surprise!“ (85 ms, zweisilbig)
+- „I like to see the flowers after the showers.“ (85 ms, zweisilbig, **Reimvers**: ein abgeschnittener Reim ist ein Fehler)
+- „There are two cows in the background.“ (25 ms, zweisilbig)
+- „What can you see in the foreground?“ (25 ms, zweisilbig)
+- „Then what happens?“ (65 ms, zweisilbig)
+- „What happens at the end?“ (25 ms)
+- „Sophie left out the small things.“ (85 ms)
+- „How did the story end?“ (25 ms)
+- „Suddenly the bus stopped.“ (25 ms)
+- „What happens after that?“ (75 ms)
+
 ## Adding a chapter or round
 
 1. Baustein auf der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen.
