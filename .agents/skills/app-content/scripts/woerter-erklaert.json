@@ -1,4 +1,5 @@
 [
+  "background",
   "build-up",
   "carry",
   "character",
@@ -6,6 +7,7 @@
   "coco",
   "detail",
   "diary",
+  "foreground",
   "fox",
   "glove",
   "goldfish",
@@ -18,10 +20,12 @@
   "rhyme",
   "rhymes",
   "rhythm",
+  "sandcastle",
   "scene",
   "script",
   "shed",
   "shelf",
+  "shop",
   "smoky",
   "summary",
   "verse"
