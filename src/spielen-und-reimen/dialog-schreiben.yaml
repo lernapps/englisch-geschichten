@@ -1,0 +1,226 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Eine Spielszene schreiben: Sprecher und Zeilen"
+description: "Am Freitag spielen die Kinder Szenen aus dem Geschichtenberg. Du lernst, einen kurzen Dialog in Skriptform zu schreiben."
+competencies: [dialog-schreiben]
+scope: "Die Seite zeigt, wie aus einer Station des Geschichtenbergs eine kurze Spielszene wird. Eine Szene braucht wie die story map Figuren (who), einen Ort (where) und eine Handlung (what). Gelernt wird die Skriptform: der Sprecher steht vor dem Doppelpunkt, danach folgt ein kurzer Satz, es gibt keinen Erzähltext und keine Anführungszeichen, eine Regieanweisung steht in Klammern. Nicht hier, weil es eine eigene Seite ist: Reime und Gedichte vortragen. Nicht hier: Theaterstücke untersuchen und längere Szenen. Die App bewertet den freien Dialog nicht."
+blocks:
+  - type: section
+    id: einstieg
+    title: Am Freitag spielen wir
+    blocks:
+      - type: figure
+        image: images/szene-dialog-schreiben.svg
+        alt: "In der Geschichtenecke hängen an der Wand links ein Berg mit vier Fähnchen und rechts eine Tafel mit den vier Feldern who, where, when und what. Mr Hill steht rechts und sagt in einer Sprechblase: „Today we act!“ Davor stehen Sophie, Peter, Ellie und Amir."
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der Wand hängen der Geschichtenberg und die story map."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Es ist Freitag in der Geschichtenwoche. Mr Hill sagt: „Today we act!“ Jede Gruppe macht aus einer Station des Geschichtenbergs eine kurze **Spielszene**. Dafür schreiben die Kinder einen **Dialog**: Figuren sprechen miteinander. Sophie hat für ihre Szene „The lost bag“ schon eine Zeile geschrieben."
+      - type: single-choice
+        id: dialog-start
+        text: Welche Zeile ist für ein Spiel gut aufgeschrieben? Man kann sie sofort sprechen.
+        options:
+          - text: "Sophie: Where is my bag?"
+            correct: true
+            info: Vorne steht der Sprecher, danach nur, was Sophie sagt.
+          - text: Sophie asked where her bag was
+            correct: false
+            info: Das erzählt nur. Beim Spielen fehlt, was Sophie sagt.
+          - text: "‘Where is my bag?’ asked Sophie"
+            correct: false
+            info: Das ist eine Zeile aus einer Geschichte, nicht aus einem Skript.
+        explanation: Im Skript steht vor dem Doppelpunkt, wer spricht.
+        links:
+          - title: Lernlandkarte Englisch · Dialog schreiben
+            url: https://lernapps.net/apps/map/englisch/c/dialog-schreiben/
+      - type: text
+        text: "**Das kannst du danach:** Du schreibst einen kurzen Dialog in Skriptform: erst der Name, dann ein Doppelpunkt, dann ein kurzer Satz. Du sagst, wer spielt, wo die Szene ist und was passiert."
+      - type: text
+        text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [script, "Text für ein Spiel mit allen Zeilen der Figuren"]
+          - [scene, "Szene, ein kurzes Stück zum Spielen"]
+          - [line, "Zeile, hier der Satz einer Figur"]
+          - [stage direction, "Regieanweisung, sie sagt, was eine Figur tut"]
+          - [fox, Fuchs]
+  - type: section
+    id: neu
+    title: So sieht ein Skript aus
+    blocks:
+      - type: text
+        text: "Mr Hill zeigt eine Station des Geschichtenbergs, den climax: Ellie sieht im Garten einen Fuchs. Daraus wird diese Szene. Sie hat Figuren, einen Ort und eine Handlung, genau wie die story map."
+      - type: figure
+        image: images/skript-dialog-schreiben.svg
+        alt: "Oben ein Blatt mit der Überschrift script und fünf Zeilen: vier Sprecherzeilen mit Name und Doppelpunkt und eine Zeile in Klammern. Darunter steht in Rot das Feld what. Unten eine kleine Bühne mit Vorhängen, einem Baum, Ellie, Peter und einem Fuchs. Auf der Bühne ein grünes Feld where und ein blaues Feld who."
+        caption: "Das Skript für die Szene und darunter die Bühne. Das blaue Feld sagt, wer spielt (who), das grüne, wo es spielt (where), das rote, was passiert (what)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Ein Skript besteht aus Sprecherzeilen.**
+
+              - Vor dem Doppelpunkt steht, wer spricht.
+              - Danach steht nur, was die Figur sagt: ein kurzer Satz, ohne Anführungszeichen und ohne Erzähltext wie „she said“.
+              - Was eine Figur tut, steht in Klammern in einer eigenen Zeile. Das ist die Regieanweisung, zum Beispiel (Peter looks at the tree.) Regieanweisungen stehen im simple present.
+  - type: section
+    id: uebung
+    title: Sprecher finden, Zeilen ordnen, Skript schreiben
+    blocks:
+      - type: matching
+        id: dialog-sprecher
+        text: "In der Bibliothek sprechen Mr Hill, Ellie und Peter. Wer sagt welche Zeile? Achte darauf, wen die Zeile anspricht."
+        pairs:
+          - left: "Peter, look at this picture. It is funny!"
+            right: Ellie
+          - left: "Class, please open your books."
+            right: Mr Hill
+          - left: "Wow, what a funny dog! Can I see it, Ellie?"
+            right: Peter
+        explanation: Die Anrede zeigt, wer spricht.
+        links:
+          - title: Lernlandkarte Englisch · Dialog schreiben
+            url: https://lernapps.net/apps/map/englisch/c/dialog-schreiben/
+      - type: ordering
+        id: dialog-ordnen
+        text: "Sophie frühstückt bei den Parkers. Bringe die Zeilen des Dialogs in die richtige Reihenfolge."
+        items:
+          - "(Sophie comes into the kitchen.)"
+          - "Sophie: Good morning, Mrs Parker."
+          - "Mrs Parker: Would you like some toast?"
+          - "Sophie: Yes, please."
+        explanation: "Sophie kommt herein, grüßt, dann folgen Frage und Antwort."
+        links:
+          - title: Lernlandkarte Englisch · Dialog schreiben
+            url: https://lernapps.net/apps/map/englisch/c/dialog-schreiben/
+      - type: multiple-choice
+        id: dialog-fehler
+        text: "Mr Hill sammelt Zeilen für die Szene „At the market“. Welche Zeilen sind falsch aufgeschrieben? Wähle alle. Satzzeichen am Ende zählen hier nicht."
+        options:
+          - text: "Ellie: Two apples, please"
+            correct: false
+            info: Das ist richtig. Sprecher, Doppelpunkt, kurzer Satz.
+          - text: Can I help you?
+            correct: true
+            info: Der Sprecher fehlt. Man weiß nicht, wer das sagt.
+          - text: "Amir: Here you are, he said"
+            correct: true
+            info: Das he said ist Erzähltext. Er gehört nicht in die Zeile.
+          - text: "‘Two apples, please,’ said Ellie"
+            correct: true
+            info: Das ist Erzähltext. Im Skript steht erst der Sprecher.
+          - text: "Amir: They are one pound each"
+            correct: false
+            info: Das ist richtig. Der Sprecher steht vor dem Doppelpunkt.
+        explanation: "Vorne steht der Sprecher mit Doppelpunkt, dann nur der Satz."
+        links:
+          - title: Lernlandkarte Englisch · Dialog schreiben
+            url: https://lernapps.net/apps/map/englisch/c/dialog-schreiben/
+      - type: language-task
+        id: dialog-luecken
+        languages: { source: de, target: en }
+        mode: gap
+        task: "Lies den deutschen Satz und ergänze in der Zeile die fehlenden Wörter."
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Ellie bittet Amir um seinen Bleistift.
+            target: "Ellie: Can I [have|use] your [pencil], Amir?"
+          - source: Mrs Parker sagt, dass das Abendessen fertig ist.
+            target: "Mrs Parker: Dinner is [ready]."
+          - source: Peter fragt, ob alle zusammen Fußball spielen.
+            target: "Peter: Can we [play] football?"
+        hint: "Denke an Wörter, die zur Szene passen."
+      - type: language-task
+        id: dialog-skript
+        languages: { source: de, target: en }
+        task: "Schreibe jede Zeile in Skriptform. Die dritte Zeile ist eine Regieanweisung, sie steht in Klammern."
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: Amir asks where the ball is.
+            target: "Amir: (Where is|Where's) the ball?"
+            mistakes:
+              - answer: "Where is the ball?"
+                message: Vor dem Doppelpunkt fehlt der Sprecher.
+              - answer: "Amir asks where the ball is."
+                message: Das ist Erzähltext. Schreibe, was Amir sagt.
+              - answer: "Amir: Where the ball is?"
+                message: In einer Frage steht is vor the ball.
+              - answer: "Amir: Where is ball?"
+                message: Vor ball fehlt the.
+          - cue: Peter says he is hungry.
+            target: "Peter: (I am|I'm) (very |)hungry."
+            mistakes:
+              - answer: "I am hungry."
+                message: Vor dem Doppelpunkt fehlt der Sprecher.
+              - answer: "Peter: He is hungry."
+                message: Peter spricht selbst, darum sagt er I.
+              - answer: "Peter says he is hungry."
+                message: Das ist Erzähltext. Schreibe, was Peter sagt.
+          - cue: Sophie · open · window
+            target: "(Sophie opens the window.)"
+            mistakes:
+              - answer: "(Sophie open the window.)"
+                message: Bei she, he und it braucht das Verb -s.
+              - answer: "(Sophie opened the window.)"
+                message: Die Regieanweisung steht im simple present.
+              - answer: "Sophie opens the window."
+                message: Eine Regieanweisung steht in Klammern.
+      - type: language-task
+        id: dialog-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: please-put-your-bags-on-the-table.mp3
+            target: Please put your bags on the table.
+          - audio: look-at-the-pretty-flowers.mp3
+            target: Look at the pretty flowers.
+          - audio: where-did-you-find-the-letter.mp3
+            target: Where did you find the letter?
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und einen Dialog schreiben
+    blocks:
+      - type: speaking-task
+        id: dialog-nachsprechen
+        language: en
+        items:
+          - audio: wait-for-me-i-am-coming.mp3
+            text: Wait for me, I am coming.
+          - audio: what-a-lovely-surprise.mp3
+            text: What a lovely surprise!
+          - audio: do-you-like-my-new-jacket.mp3
+            text: Do you like my new jacket?
+        hint: Hör zu. Sprich dann wie die Figur in der Szene.
+      - type: open-task
+        id: dialog-schreiben
+        task: "Schreibe einen kurzen Dialog in Skriptform, vier bis sechs Zeilen. Die Szene: Sophie und Amir warten an der Bushaltestelle. Der Bus ist spät."
+        points:
+          - text: Es sind vier bis sechs Zeilen.
+            kind: form
+          - text: Jede Sprecherzeile beginnt mit dem Namen und einem Doppelpunkt.
+            source: /spielen-und-reimen/dialog-schreiben/#neu
+          - text: Es gibt keinen Erzähltext und keine Anführungszeichen. Die Sätze sind kurz.
+            source: /spielen-und-reimen/dialog-schreiben/#neu
+          - text: Die Szene hat Figuren, einen Ort und eine Handlung. Hier sind das Sophie, Amir, die Haltestelle und der späte Bus.
+            source: /spielen-und-reimen/dialog-schreiben/#neu
+          - text: Eine Regieanweisung steht in Klammern in einer eigenen Zeile.
+            source: /spielen-und-reimen/dialog-schreiben/#neu
+        solution: |
+          Sophie: Where is the bus?
+          Amir: It is late again.
+          (Amir looks at his watch.)
+          Sophie: Oh no! We are late for school.
+          Amir: Look! Here it comes!
+        hint: Die App bewertet nicht. Prüfe anhand der Punkte.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Am Freitag spielen die Gruppen ihre Szenen vor der Klasse. Danach schließt Mr Hill die Woche mit einem Reim ab. Auf der nächsten Seite sammelst du Reimwörter und sprichst Verse."

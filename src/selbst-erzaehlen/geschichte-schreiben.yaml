@@ -1,0 +1,230 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Eine Geschichte planen und schreiben
+description: "Sophie plant ihre Geschichte erst am Berg und schreibt dann zu jeder Station einen Satz. Du lernst, eine kurze Geschichte mit Anfang, Mitte und Ende zu schreiben."
+competencies: [geschichte-erzaehlen]
+scope: Die Seite zeigt, wie man eine kurze Geschichte erst am Geschichtenberg plant und dann schreibt. Die Planzeilen haben Stichwörter, beginning nennt who, where und when, build-up sagt, was passiert, climax ist der spannendste Moment und ending sagt, wie es ausgeht. Zu jeder Station gehört mindestens ein Satz im simple past. Die Wegweiser suddenly und finally werden nur kurz erklärt. Nicht hier, weil es eigene Seiten sind. Eine Geschichte fortsetzen oder anders enden lassen, ein Tagebuch und ein Dialog. Die Zeitformen selbst und die Sicht einer Figur gehören nicht hierher.
+blocks:
+  - type: section
+    id: einstieg
+    title: Erst planen, dann schreiben
+    blocks:
+      - type: figure
+        image: images/szene-geschichte-schreiben.svg
+        alt: "In der Geschichtenecke hängen an der Wand zwei Tafeln. Links ein Berg mit vier nummerierten Fähnchen, rechts vier leere Felder mit den Wörtern who, where, when und what. Sophie fragt in einer Sprechblase: „Plan first?“ Vor der Wand stehen Sophie, Peter, Ellie und Amir. Rechts steht Mr Hill."
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der Wand hängen links der Geschichtenberg und rechts die story map."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Es ist Donnerstag in der Geschichtenwoche. Heute schreibt jedes Kind eine eigene Geschichte. Mr Hill sagt: „First the plan, then the story.“ Sophie nimmt ein Blatt mit einem leeren Geschichtenberg. Sie hat einen Zettel mit Stichwörtern: „Amir · on a farm · a hot Sunday“. Sie überlegt, wohin er gehört."
+      - type: single-choice
+        id: schreiben-start
+        text: An welches Fähnchen hängt Sophie den Zettel?
+        options:
+          - text: beginning
+            correct: true
+            info: Figur, Ort und Zeit stehen am Anfang.
+          - text: build-up
+            correct: false
+            info: Im build-up passiert etwas, das die Geschichte spannend macht.
+          - text: climax
+            correct: false
+            info: Der climax ist der spannendste Moment, nicht Figur, Ort und Zeit.
+          - text: ending
+            correct: false
+            info: Das Ende sagt, wie die Geschichte ausgeht.
+        explanation: Der Anfang sagt, wer, wo und wann.
+        links:
+          - title: Lernlandkarte Englisch · Eine Geschichte schreiben
+            url: https://lernapps.net/apps/map/englisch/c/geschichte-erzaehlen/
+      - type: text
+        text: "**Das kannst du danach:** Du planst eine kurze Geschichte am Geschichtenberg. Dann schreibst du sie mit Anfang, Mitte und Ende im simple past auf."
+      - type: text
+        text: Dieses Wort ist neu auf dem Klassenzimmer-Poster.
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [kite, Drachen]
+  - type: section
+    id: neu
+    title: Der Geschichtenberg als Plan
+    blocks:
+      - type: text
+        text: "Sophie plant ihre Geschichte am Geschichtenberg. Zu jedem Fähnchen schreibt sie eine **Planzeile** mit Stichwörtern. So sieht ihre Vorlage aus."
+      - type: figure
+        image: images/geschichtenberg-geschichte-schreiben.svg
+        alt: "Ein leerer Berg mit vier nummerierten Fähnchen. Darunter stehen vier Planzeilen zum Ausfüllen: 1 beginning, 2 build-up, 3 climax und 4 ending, jede mit einem kurzen Hinweis."
+        caption: "Die Planvorlage am Geschichtenberg. Jede Zeile bekommt Stichwörter."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Das ist Sophies Plan für eine kurze Geschichte:
+
+          - **1 beginning:** Ellie, her grandpa, on the hill, a sunny Saturday
+          - **2 build-up:** fly a kite
+          - **3 climax:** kite flies away
+          - **4 ending:** a boy finds the kite
+
+          Die Stichwörter sind kurz. Daraus schreibt Sophie je Station einen Satz im simple past: „On a sunny Saturday Ellie and her grandpa were on the hill. They flew a kite. Suddenly the kite flew away. Finally a boy found it.“
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Erst planen, dann schreiben.** Der Anfang (beginning) sagt, wer, wo und wann. Der Aufbau (build-up) sagt, was passiert, bis es spannend wird. Der climax ist der spannendste Moment, das ending sagt, wie es ausgeht. Aus jeder Planzeile wird mindestens ein Satz im simple past. Das Wort suddenly (plötzlich) leitet oft den climax ein, wenn etwas Unerwartetes passiert. Das Wort finally (schließlich) passt zum ending.
+  - type: section
+    id: uebung
+    title: Plane Station für Station und schreibe die Sätze
+    blocks:
+      - type: matching
+        id: schreiben-stationen
+        text: "Sophie liest die Stichwörter einer Geschichte vom Markt. Zu welcher Station gehören sie?"
+        pairs:
+          - left: Ellie, the market, a sunny Friday
+            right: beginning
+          - left: Ellie hears a funny noise
+            right: build-up
+          - left: a dog jumps out of a big box
+            right: climax
+          - left: Ellie takes the dog home
+            right: ending
+        explanation: "Am Anfang stehen who, where und when. Der climax ist der spannendste Moment."
+        links:
+          - title: Lernlandkarte Englisch · Eine Geschichte schreiben
+            url: https://lernapps.net/apps/map/englisch/c/geschichte-erzaehlen/
+      - type: single-choice
+        id: schreiben-plan
+        text: Peter hat diesen Plan gemacht. Was stimmt nicht?
+        material:
+          - type: text
+            text: |
+              - **1 beginning:** Peter, the park, a cold Monday
+              - **2 build-up:** he plays football
+              - **3 climax:** he goes home
+              - **4 ending:** he eats dinner
+        options:
+          - text: Der Ort fehlt
+            correct: false
+            info: Der Ort steht da, the park.
+          - text: Es gibt keinen Höhepunkt
+            correct: true
+            info: Beim climax passiert nichts Spannendes.
+          - text: Das Ende ist offen
+            correct: false
+            info: Das Ende steht da, he eats dinner.
+        explanation: Am Gipfel muss etwas Spannendes passieren.
+        links:
+          - title: Lernlandkarte Englisch · Eine Geschichte schreiben
+            url: https://lernapps.net/apps/map/englisch/c/geschichte-erzaehlen/
+      - type: multiple-choice
+        id: schreiben-anfang
+        text: "Ein Kind schreibt den Anfang: „It was a cold Tuesday. Something happened.“ Was fehlt? Wähle alle richtigen."
+        options:
+          - text: who
+            correct: true
+            info: Es steht keine Figur da.
+          - text: where
+            correct: true
+            info: Es steht kein Ort da.
+          - text: when
+            correct: false
+            info: A cold Tuesday sagt, wann.
+          - text: the climax
+            correct: false
+            info: Der Höhepunkt kommt später, nicht im Anfang.
+        explanation: Der Anfang nennt Figuren, Ort und Zeit.
+        links:
+          - title: Lernlandkarte Englisch · Eine Geschichte schreiben
+            url: https://lernapps.net/apps/map/englisch/c/geschichte-erzaehlen/
+      - type: language-task
+        id: schreiben-saetze
+        languages: { source: de, target: en }
+        task: "Sophie schreibt zu jeder Station einen Satz. Schreibe die vier Sätze im simple past."
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: "beginning: one sunny morning · Ellie · her dog Bella · walk · in the forest"
+            target: (One sunny morning Ellie and her dog Bella walked in the forest.|One sunny morning Ellie and her dog Bella walked through the forest.|One sunny morning Ellie walked her dog Bella in the forest.|One sunny morning Ellie walked her dog Bella through the forest.|One sunny morning Ellie walked in the forest with her dog Bella.|Ellie and her dog Bella walked in the forest one sunny morning.)
+            mistakes:
+              - answer: One sunny morning Ellie and her dog Bella walk in the forest.
+                message: Die Geschichte steht im simple past, also walked.
+              - answer: One sunny morning Ellie and her dog Bella walked in forest.
+                message: Vor forest fehlt the.
+              - answer: Ellie and her dog Bella walked in the forest.
+                message: Der Anfang nennt auch, wann es war. Nimm one sunny morning dazu.
+          - cue: "build-up: they · hear · a noise"
+            target: They heard a (strange |loud |funny |big |)noise( in the forest|).
+            mistakes:
+              - answer: They hear a noise.
+                message: Die Geschichte steht im simple past.
+              - answer: They heared a noise.
+                message: Hear ist unregelmäßig, die Form heißt heard.
+              - answer: They heard noise.
+                message: Vor noise fehlt a.
+          - cue: "climax: suddenly · Bella · run away"
+            target: Suddenly Bella ran away.
+            mistakes:
+              - answer: Suddenly Bella runs away.
+                message: Die Geschichte steht im simple past.
+              - answer: Suddenly Bella runned away.
+                message: Run ist unregelmäßig, die Form heißt ran.
+          - cue: "ending: finally · Ellie · find · Bella · under a tree"
+            target: Finally Ellie found Bella under (a|the) tree.
+            mistakes:
+              - answer: Finally Ellie finds Bella under a tree.
+                message: Die Geschichte steht im simple past.
+              - answer: Finally Ellie finded Bella under a tree.
+                message: Find ist unregelmäßig, die Form heißt found.
+      - type: language-task
+        id: schreiben-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-little-boat-moved-across-the-water.mp3
+            target: The little boat moved across the water.
+          - audio: suddenly-something-moved-in-the-kitchen.mp3
+            target: Suddenly something moved in the kitchen.
+          - audio: in-the-end-everybody-went-home-happy.mp3
+            target: In the end, everybody went home happy.
+  - type: section
+    id: anwenden
+    title: Plane deinen Berg und schreibe deine Geschichte
+    blocks:
+      - type: speaking-task
+        id: schreiben-nachsprechen
+        language: en
+        items:
+          - audio: where-does-your-story-begin.mp3
+            text: Where does your story begin?
+          - audio: what-happens-in-the-middle.mp3
+            text: What happens in the middle?
+          - audio: when-did-your-story-happen.mp3
+            text: When did your story happen?
+        hint: Hör zu. Sprich dann langsam nach.
+      - type: open-task
+        id: schreiben-schreiben
+        task: "Plane deinen eigenen Geschichtenberg. Schreibe vier Planzeilen mit Stichwörtern, von 1 beginning bis 4 ending. Schreibe dann deine Geschichte in vier bis sechs Sätzen im simple past."
+        points:
+          - text: Der Plan hat vier Zeilen mit Stichwörtern, von beginning bis ending.
+            source: /selbst-erzaehlen/geschichte-schreiben/#neu
+          - text: Der Anfang sagt, wer, wo und wann.
+            source: /selbst-erzaehlen/geschichte-schreiben/#neu
+          - text: Beim climax passiert etwas Spannendes.
+            source: /selbst-erzaehlen/geschichte-schreiben/#neu
+          - text: Die Geschichte hat vier bis sechs Sätze im simple past.
+            kind: form
+        solution: |
+          1 beginning: Amir, his friend Peter, by the river, a warm Sunday
+          2 build-up: see a boat
+          3 climax: the boat moves
+          4 ending: Peter stops it
+
+          On a warm Sunday Amir and his friend Peter sat by the river. They saw a small boat. Suddenly the boat started to move. Peter jumped up and ran after it. Finally he stopped the boat and they went home.
+        hint: Die App bewertet nicht. Prüfe anhand der Punkte.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Sophie liest Amir ihre Geschichte vor. Amir fragt: „And then?“ Auf der nächsten Seite lernst du, eine Geschichte fortzusetzen oder anders enden zu lassen."

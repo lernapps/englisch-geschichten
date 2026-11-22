@@ -1,0 +1,228 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Ein Tagebucheintrag über deinen Tag
+description: "Sophie schreibt am Abend ihren Tag in ein Tagebuch. Du lernst, einen Tagebucheintrag mit Anrede, Datum, Ereignissen und einem Gefühl zu schreiben."
+competencies: [tagebucheintrag]
+scope: Die Seite zeigt die Teile eines Tagebucheintrags. Das sind die Anrede Dear diary, das Datum, die Ereignisse des Tages in der Reihenfolge Morgen, Mittag, Höhepunkt und Abend im simple past, ein Gefühl und ein kurzer Schluss. Der Tag ist ein kleiner Berg. Nicht hier, weil es eigene Seiten sind. Eine erfundene Geschichte planen, fortsetzen oder anders enden lassen und ein Dialog. Die Zeitformen selbst und Briefe an andere Personen gehören nicht hierher.
+blocks:
+  - type: section
+    id: einstieg
+    title: Ein Tagebuch für den Abend
+    blocks:
+      - type: figure
+        image: images/szene-tagebucheintrag.svg
+        alt: "In der Geschichtenecke hängen an der Wand zwei Tafeln. Links ein Berg mit vier nummerierten Fähnchen, rechts vier leere Felder mit den Wörtern who, where, when und what. Sophie fragt in einer Sprechblase: „A diary?“ Vor der Wand stehen Sophie, Peter, Ellie und Amir. Rechts steht Mr Hill."
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der Wand hängen der Geschichtenberg und die story map."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie soll am Abend ein Tagebuch schreiben. Ein **diary** ist ein Tagebuch. Mr Hill schreibt drei Sätze an die Tafel. Die Kinder prüfen, welcher in einen Tagebucheintrag über den Tag passt."
+      - type: single-choice
+        id: tagebuch-start
+        text: Welcher Satz von Mr Hill passt in einen Tagebucheintrag?
+        options:
+          - text: Today I made a cake with my mum
+            correct: true
+            info: Der Eintrag erzählt, was schon passiert ist. Darum steht made im simple past.
+          - text: Today I make a cake with my mum
+            correct: false
+            info: Das ist simple present. Der Tag ist am Abend schon vorbei.
+          - text: Today I am making a cake with my mum
+            correct: false
+            info: Das sagt, was jetzt gerade passiert, nicht, was passiert ist.
+        explanation: Ein Tagebucheintrag steht im simple past.
+        links:
+          - title: Lernlandkarte Englisch · Einen Tagebucheintrag schreiben
+            url: https://lernapps.net/apps/map/englisch/c/tagebucheintrag/
+      - type: text
+        text: "**Das kannst du danach:** Du schreibst einen Tagebucheintrag mit Anrede und Datum. Du erzählst, was an deinem Tag passiert ist, und sagst, wie du dich gefühlt hast."
+      - type: text
+        text: Dieses Wort ist neu auf dem Klassenzimmer-Poster.
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [diary, Tagebuch]
+  - type: section
+    id: neu
+    title: So schreibt Sophie ihren Eintrag
+    blocks:
+      - type: text
+        text: "Sophie macht erst einen kleinen Berg über ihren Tag. Die vier Fähnchen heißen morning, lunch, best moment und evening. Sie sind wie beginning, build-up, climax und ending bei einer Geschichte, nur für einen Tag. Der best moment ist der Gipfel. Daraus schreibt sie ihren Eintrag."
+      - type: figure
+        image: images/geschichtenberg-tagebucheintrag.svg
+        alt: "Ein kleiner Berg über einen Tag mit vier nummerierten Fähnchen: 1 morning, 2 lunch, 3 best moment am Gipfel und 4 evening. Darunter stehen vier Stichwörter, je eines zu jedem Fähnchen."
+        caption: "Sophies Berg über ihren Donnerstag. Der Gipfel ist der beste Moment des Tages."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Sophies Eintrag:
+
+          **Dear diary,**
+
+          Thursday, 22 January
+
+          In the morning Ellie, Peter and I walked to school. At lunch Amir and I sat in the library. In the afternoon I read my story to Amir. He listened and I was very proud. In the evening I talked to Mrs Parker about my day.
+
+          Good night,
+
+          Sophie
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Ein Tagebucheintrag hat feste Teile.** Er beginnt mit der Anrede **Dear diary,** und dem Datum. Dann kommen die Ereignisse in der Reihenfolge des Tages im simple past. Ein Satz sagt, wie du dich gefühlt hast, zum Beispiel I was nervous. Am Ende steht ein kurzer Schluss.
+  - type: section
+    id: uebung
+    title: Schreibe deinen Eintrag Teil für Teil
+    blocks:
+      - type: ordering
+        id: tagebuch-tag
+        text: "Peter schreibt in sein Tagebuch über seinen Samstag am See. Ordne die Sätze vom Morgen bis zum Abend."
+        items:
+          - In the morning I went to the lake with my dad.
+          - At lunch we had a picnic on the grass.
+          - In the afternoon I saw a big fish in the water.
+          - In the evening I was tired and went to bed early.
+        explanation: "Morgen, Mittag, Nachmittag mit dem besten Moment, Abend."
+        links:
+          - title: Lernlandkarte Englisch · Einen Tagebucheintrag schreiben
+            url: https://lernapps.net/apps/map/englisch/c/tagebucheintrag/
+      - type: language-task
+        id: tagebuch-anrede
+        languages: { source: de, target: en }
+        mode: choice
+        task: "Wähle die richtigen Wörter für Anrede, Datum und Gefühl."
+        items:
+          - source: "Liebes Tagebuch,"
+            target: "[Dear] diary,"
+            distractors: [[Hello, Lovely]]
+          - source: "Samstag, 10. Januar"
+            target: "[Saturday], 10 [January]"
+            distractors: [[Sunday, Friday], [February, June]]
+          - source: "Ich war müde."
+            target: "I [was] tired."
+            distractors: [[am, were]]
+      - type: language-task
+        id: tagebuch-saetze
+        languages: { source: de, target: en }
+        task: "Schreibe die Sätze für deinen Eintrag im simple past."
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: "in the morning · I · help · my mum"
+            target: In the morning I helped (my mum|my mother|Mum)( a lot|).
+            mistakes:
+              - answer: In the morning I help my mum.
+                message: Der Eintrag steht im simple past, also helped.
+              - answer: In the morning I helped.
+                message: Es fehlt, wem du geholfen hast. Nimm my mum dazu.
+          - cue: "at lunch · we · eat · soup"
+            target: At lunch we (ate|had) (the |some |)soup.
+            mistakes:
+              - answer: At lunch we eat soup.
+                message: Der Eintrag steht im simple past, also ate.
+              - answer: At lunch we eated soup.
+                message: Eat ist unregelmäßig, die Form heißt ate.
+          - cue: "in the afternoon · I · see · a big dog"
+            target: In the afternoon I saw (a big |a |the big |the )dog.
+            mistakes:
+              - answer: In the afternoon I see a big dog.
+                message: Der Eintrag steht im simple past, also saw.
+              - answer: In the afternoon I seed a big dog.
+                message: See ist unregelmäßig, die Form heißt saw.
+              - answer: In the afternoon I saw big dog.
+                message: Vor big dog fehlt a oder the.
+          - cue: "we · be · very hungry"
+            target: We were very hungry.
+            mistakes:
+              - answer: We are very hungry.
+                message: Der Eintrag steht im simple past, also were.
+              - answer: We was very hungry.
+                message: Zu we gehört were, nicht was.
+      - type: multiple-choice
+        id: tagebuch-fehler
+        text: "Amir hat diesen Eintrag geschrieben. Was stimmt nicht? Wähle alle richtigen."
+        material:
+          - type: text
+            text: |
+              **Dear diary,**
+
+              Monday, 12 January
+
+              In the morning I go to school. At lunch I eat pizza. In the afternoon I play with my cat.
+
+              Good night,
+
+              Amir
+        options:
+          - text: Die Verben stehen im simple present
+            correct: true
+            info: Der Eintrag erzählt, was schon passiert ist. Er braucht das simple past.
+          - text: Es steht kein Gefühl im Text
+            correct: true
+            info: Es ist nur eine Aufzählung. Ein Satz zum Gefühl fehlt.
+          - text: Die Anrede fehlt
+            correct: false
+            info: Dear diary, steht am Anfang.
+          - text: Das Datum fehlt
+            correct: false
+            info: Monday, 12 January steht da.
+        explanation: Ein Eintrag steht im simple past und sagt, wie du dich gefühlt hast.
+        links:
+          - title: Lernlandkarte Englisch · Einen Tagebucheintrag schreiben
+            url: https://lernapps.net/apps/map/englisch/c/tagebucheintrag/
+      - type: language-task
+        id: tagebuch-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: after-lunch-we-visited-my-grandma.mp3
+            target: After lunch we visited my grandma.
+          - audio: it-was-a-very-busy-day-today.mp3
+            target: It was a very busy day today.
+          - audio: we-watched-a-film-after-dinner.mp3
+            target: We watched a film after dinner.
+  - type: section
+    id: anwenden
+    title: Schreibe deinen eigenen Eintrag
+    blocks:
+      - type: speaking-task
+        id: tagebuch-nachsprechen
+        language: en
+        items:
+          - audio: how-was-your-day-today.mp3
+            text: How was your day today?
+          - audio: what-did-you-do-in-the-morning.mp3
+            text: What did you do in the morning?
+          - audio: who-did-you-meet-today.mp3
+            text: Who did you meet today?
+        hint: Hör zu. Sprich dann langsam nach.
+      - type: open-task
+        id: tagebuch-schreiben
+        task: "Schreibe deinen eigenen Tagebucheintrag über deinen Tag oder ein Erlebnis. Schreibe die Anrede, das Datum und fünf bis sieben Sätze."
+        points:
+          - text: Der Eintrag beginnt mit „Dear diary,“ und dem Datum.
+            source: /selbst-erzaehlen/tagebucheintrag/#neu
+          - text: Die Ereignisse stehen in der Reihenfolge des Tages im simple past.
+            source: /selbst-erzaehlen/tagebucheintrag/#neu
+          - text: Ein Satz sagt, wie du dich gefühlt hast.
+            source: /selbst-erzaehlen/tagebucheintrag/#neu
+          - text: Am Ende steht ein kurzer Schluss.
+            source: /selbst-erzaehlen/tagebucheintrag/#neu
+        solution: |
+          Dear diary,
+
+          Sunday, 18 January
+
+          In the morning I played football in the park with my friends. At lunch we ate sandwiches on the grass. In the afternoon our team won a match! I was very excited. In the evening I went to bed early because I was tired.
+
+          Good night,
+        hint: Die App bewertet nicht. Prüfe anhand der Punkte.
+  - type: section
+    id: weiter
+    title: Rückblick und Freitag
+    blocks:
+      - type: text
+        text: "Das war dein Donnerstag in der Geschichtenwoche. Du hast eine Geschichte geplant und geschrieben, sie fortgesetzt oder anders enden lassen und einen Tagebucheintrag verfasst. Mr Hill sagt: „Tomorrow is Friday.“ Am Freitag spielen die Kinder eine Szene und sagen einen Reim auf."

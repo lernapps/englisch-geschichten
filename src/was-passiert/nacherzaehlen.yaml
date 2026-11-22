@@ -1,0 +1,204 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Nacherzählen: Station für Station"
+description: "Amir erzählt Ellie eine Geschichte nach. Du lernst, eine Geschichte Station für Station in eigenen Worten nachzuerzählen."
+competencies: [nacherzaehlen]
+scope: Die Seite zeigt, wie man eine Geschichte nacherzählt. Man geht den Geschichtenberg Station für Station ab (beginning, build-up, climax, ending), erzählt im simple past und in eigenen Worten und lässt keine Station aus. Nicht hier, weil es spätere Seiten sind. Das Zusammenfassen in wenigen Sätzen, Verbindungswörter beim Erzählen (first, then, after that, suddenly, finally), Bilder erzählen, eigene Geschichten schreiben und die Bewertung der Aussprache.
+blocks:
+  - type: section
+    id: einstieg
+    title: Amir erzählt eine Geschichte nach
+    blocks:
+      - type: figure
+        image: images/szene-nacherzaehlen.svg
+        alt: "In der Geschichtenecke hängen an der Wand ein Berg mit vier Fähnchen und eine Tafel mit vier leeren Feldern. Amir sagt in einer Sprechblase: „Listen, Ellie!“ Ellie und Sophie stehen neben ihm, Mr Hill steht rechts."
+        caption: "Von links: Amir (Brille), Ellie (roter Pferdeschwanz), Sophie (Zöpfe) und Mr Hill (graue Haare). An der Wand hängen der Geschichtenberg und die story map."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Mr Hill hat Amir eine kurze Geschichte gegeben. Amir erzählt sie jetzt Ellie **nach**, und Sophie hört zu. Er liest nicht vor und schreibt nichts ab. Er erzählt, was passiert ist, in eigenen Worten."
+      - type: single-choice
+        id: nacherzaehlen-start
+        text: "Amir hat gelesen: „A fox found a red glove in the park. He took it home. A girl came and took it back.“ Welche Nacherzählung ist richtig?"
+        options:
+          - text: A fox found a red glove in the park. He took it home. A girl came and took it back
+            correct: false
+            info: Das ist abgeschrieben, nicht in eigenen Worten.
+          - text: A fox took a red glove. Later a girl got it back
+            correct: true
+            info: In eigenen Worten und im simple past.
+          - text: A fox takes a red glove. Later a girl gets it back
+            correct: false
+            info: Das ist simple present, nicht simple past.
+        explanation: Die Zeit ist die der Geschichte, die Worte sind deine.
+        links:
+          - title: Lernlandkarte Englisch · Nacherzählen
+            url: https://lernapps.net/apps/map/englisch/c/nacherzaehlen/
+      - type: text
+        text: "**Das kannst du danach:** Du erzählst eine Geschichte am Geschichtenberg Station für Station nach, im simple past und in eigenen Worten."
+      - type: text
+        text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [retell, nacherzählen]
+          - [glove, Handschuh]
+          - [fox, Fuchs]
+          - [kitten, Kätzchen]
+  - type: section
+    id: neu
+    title: Den Berg Schritt für Schritt abgehen
+    blocks:
+      - type: text
+        text: "Jetzt liest Amir eine andere Geschichte: „Last Sunday Ellie's rabbit Coco ran out of the garden. Ellie and Peter ran after her down the road. Coco hid under a green car. Peter sat down and called her quietly. Coco came out and Peter carried her home.“"
+      - type: figure
+        image: images/geschichtenberg-nacherzaehlen.svg
+        alt: "Ein Berg mit vier Fähnchen: 1 beginning, 2 build-up, 3 climax am Gipfel, 4 ending. Darunter stehen vier Stichwörter: Coco runs out, run after her, hides under car, carries her home."
+        caption: "Der Geschichtenberg zur Geschichte vom Kaninchen Coco. Amir geht ihn von Fähnchen 1 bis Fähnchen 4 ab."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Amir erzählt zu jedem Fähnchen einen Satz in eigenen Worten:
+
+          - **Beginning:** Coco, Ellie's rabbit, ran out of the garden.
+          - **Build-up:** Ellie and Peter ran after her.
+          - **Climax:** Coco hid under a car.
+          - **Ending:** Peter got her and took her home.
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Nacherzählen heißt: Station für Station, im simple past, in eigenen Worten.** Du gehst den Berg von beginning bis ending ab und lässt keine Station aus. Du schreibst nicht jedes Wort der Geschichte ab, aber die Zeit bleibt die der Geschichte. Die Stichwörter am Berg und die Map stehen im simple present, deine Nacherzählung im simple past.
+  - type: section
+    id: uebung
+    title: Erzähle Station für Station nach
+    blocks:
+      - type: ordering
+        id: nacherzaehlen-ordnen
+        text: "Sophie erzählt von einem Ausflug zum Markt. Ordne ihre Sätze von der Station beginning bis zur Station ending."
+        items:
+          - Sophie and Mrs Parker went to the market.
+          - Sophie saw a little black kitten.
+          - The kitten followed them to the bus.
+          - Mrs Parker said yes to the kitten and they took it home.
+        explanation: "Markt, Kätzchen sehen, Kätzchen folgt, nach Hause nehmen."
+        links:
+          - title: Lernlandkarte Englisch · Nacherzählen
+            url: https://lernapps.net/apps/map/englisch/c/nacherzaehlen/
+      - type: single-choice
+        id: nacherzaehlen-fehler
+        text: "Peter erzählt die Geschichte vom Markt nach: „Sophie and Mrs Parker are at the market. A tiny black kitten walks behind them to the bus. Mrs Parker agrees and they take the kitten home.“ Was ist falsch?"
+        options:
+          - text: Peter erzählt im simple present
+            correct: true
+            info: Die Geschichte steht im simple past.
+          - text: Peter lässt eine Station aus
+            correct: false
+            info: Alle vier Stationen sind da.
+          - text: Peter schreibt die Sätze ab
+            correct: false
+            info: Peter sagt es mit anderen Worten.
+        explanation: Beim Nacherzählen bleibt die Zeit der Geschichte.
+        links:
+          - title: Lernlandkarte Englisch · Nacherzählen
+            url: https://lernapps.net/apps/map/englisch/c/nacherzaehlen/
+      - type: single-choice
+        id: nacherzaehlen-station
+        text: "Ellie erzählt dieselbe Geschichte nach: „Sophie and Mrs Parker went to the market. Sophie saw a kitten. Mrs Parker said yes to the kitten and they took it home.“ Was fehlt?"
+        options:
+          - text: Die Station climax fehlt
+            correct: true
+            info: Dass das Kätzchen folgt, ist der spannende Moment.
+          - text: Die Station beginning fehlt
+            correct: false
+            info: Der Markt ist der Anfang.
+          - text: Die Sätze stehen im simple present
+            correct: false
+            info: Alle Verben stehen im simple past.
+        explanation: Zu jedem Fähnchen gehört ein Satz.
+        links:
+          - title: Lernlandkarte Englisch · Nacherzählen
+            url: https://lernapps.net/apps/map/englisch/c/nacherzaehlen/
+      - type: language-task
+        id: nacherzaehlen-schreiben-satz
+        languages: { source: de, target: en }
+        task: "Lies: „On Wednesday Amir took the bus to the library. He put his bag on the seat. At the library he got off, but the bag stayed on the seat. The bus left! In the evening the driver brought the bag to the school.“ Erzähle sie mit je einem Satz pro Station nach."
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: Amir · take · bus · library
+            target: Amir took (the|a) bus to the library( on Wednesday|).
+            mistakes:
+              - answer: Amir take the bus to the library.
+                message: Simple past, die Form heißt took.
+              - answer: Amir taked the bus to the library.
+                message: Take ist unregelmäßig, die Form heißt took.
+          - cue: Amir · put · bag · seat
+            target: Amir put (his|the|a) bag on the seat.
+            mistakes:
+              - answer: Amir puts his bag on the seat.
+                message: Simple past, die Form heißt put.
+              - answer: Amir putted his bag on the seat.
+                message: Put ist unregelmäßig, die Form bleibt put.
+          - cue: bag · stay · seat
+            target: (The|His|Amir's) bag stayed on the seat.
+            mistakes:
+              - answer: The bag stay on the seat.
+                message: Simple past, hänge -ed an.
+          - cue: driver · bring · bag · school
+            target: The driver brought (the|Amir's) bag (back |)to (the |)school( in the evening|).
+            mistakes:
+              - answer: The driver bringed the bag to the school.
+                message: Bring ist unregelmäßig, die Form heißt brought.
+      - type: language-task
+        id: nacherzaehlen-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: ellie-told-the-story-to-peter.mp3
+            target: Ellie told the story to Peter.
+          - audio: sophie-did-not-forget-the-end.mp3
+            target: Sophie did not forget the end.
+          - audio: mr-hill-smiled-at-the-children.mp3
+            target: Mr Hill smiled at the children.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und nacherzählen
+    blocks:
+      - type: speaking-task
+        id: nacherzaehlen-nachsprechen
+        language: en
+        items:
+          - audio: what-happened-then.mp3
+            text: What happened then?
+          - audio: can-you-tell-the-story-again.mp3
+            text: Can you tell the story again?
+          - audio: how-did-the-story-begin.mp3
+            text: How did the story begin?
+        hint: Hör zu. Sprich dann langsam nach.
+      - type: open-task
+        id: nacherzaehlen-schreiben
+        task: "Erzähle eine Geschichte nach, die dir jemand erzählt hat oder die du gelesen hast. Schreibe auf Englisch vier Sätze, einen für jede Station."
+        points:
+          - text: Es sind vier Sätze, einer für jede Station von beginning bis ending.
+            source: /was-passiert/nacherzaehlen/#neu
+          - text: Es fehlt keine Station, und die Reihenfolge stimmt.
+            source: /was-passiert/nacherzaehlen/#neu
+          - text: Die Sätze stehen im simple past und sind in eigenen Worten geschrieben.
+            kind: form
+        solution: |
+          Last summer a boy found a little bird in the garden.
+          The bird could not fly, so he gave it water.
+          A big cat came, but the boy took the bird into the house.
+          After two days the bird flew away.
+        hint: Die App bewertet nicht. Prüfe anhand der Punkte.
+  - type: section
+    id: weiter
+    title: Rückblick und Ausblick
+    blocks:
+      - type: text
+        text: "**Rückblick auf Montag:** An der Wand der Geschichtenecke hängen Berg und story map noch leer, aber du kannst sie jetzt füllen. Die Map sagt, wer, wo, wann und was passiert. Am Berg hängen die Hauptereignisse, so fasst du zusammen. Und Station für Station erzählst du eine Geschichte in eigenen Worten nach, im simple past."
+      - type: text
+        text: "Am **Dienstag** hängt Mr Hill fünf Wegweiser an den Berg und neue Bilder an die Wand. Zuerst wiederholst du kurz, was du zum Beschreiben von Bildern brauchst. Dann lernst du die Wegweiser kennen und erzählst mit Bildern."

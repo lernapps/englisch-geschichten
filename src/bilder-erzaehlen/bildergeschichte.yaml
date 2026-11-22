@@ -1,0 +1,211 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Eine Bildergeschichte erzählen"
+description: "Mr Hill hängt vier Bilder zu einer Geschichte auf. Du lernst, zu jedem Bild Sätze im simple past zu schreiben und sie mit Wegweisern zu verbinden."
+competencies: [bildergeschichte]
+scope: Die Seite zeigt, wie man zu vier Bildern einen zusammenhängenden Text schreibt. Jedes Bild gehört zu einer Station des Geschichtenbergs, das erste zum beginning, das vierte zum ending. Man schreibt mindestens einen Satz je Bild, im simple past und mit den Wegweisern first, then, after that, suddenly und finally. Beschrieben wird im present, erzählt wird im simple past. Nur aufzählen ohne Wegweiser reicht nicht. Nicht hier, weil es spätere Seiten sind. Eine eigene Geschichte ohne Bilder planen und schreiben, eine Geschichte fortsetzen und ein Tagebuch schreiben.
+blocks:
+  - type: section
+    id: einstieg
+    title: Vier Bilder erzählen eine Geschichte
+    blocks:
+      - type: figure
+        image: images/szene-bildergeschichte.svg
+        alt: "In der Geschichtenecke hängen an der Wand der Geschichtenberg und daneben vier noch leere Rahmen mit den Nummern 1 bis 4. Vor der Wand stehen Sophie, Peter, Ellie und Amir, rechts steht Mr Hill. Sophie sagt in einer Sprechblase: „Four pictures!“"
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Neben dem Geschichtenberg hängen vier Rahmen für die Bilder."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Am Mittwoch hängt Mr Hill vier Bilder zu einer Geschichte auf. Das erste Bild passt zum Fähnchen beginning, das letzte zum Fähnchen ending. Amir zeigt auf ein Bild, auf dem Ellie zum Laden (englisch: shop) geht. Er erzählt es als Teil einer Geschichte."
+      - type: single-choice
+        id: folge-start
+        text: Welcher Satz erzählt das Bild als Teil einer Geschichte?
+        options:
+          - text: Ellie walked to the shop
+            correct: true
+            info: Eine Geschichte erzählst du im simple past.
+          - text: Ellie is walking to the shop
+            correct: false
+            info: Das beschreibt das Bild, es erzählt noch nicht.
+          - text: Ellie walks to the shop
+            correct: false
+            info: Das ist das simple present, eine Geschichte steht im simple past.
+        explanation: Beschreiben steht im present, erzählen im simple past.
+        links:
+          - title: Lernlandkarte Englisch · Bildergeschichte
+            url: https://lernapps.net/apps/map/englisch/c/bildergeschichte/
+      - type: text
+        text: "**Das kannst du danach:** Du schreibst zu vier Bildern einen zusammenhängenden Text im simple past und verbindest die Sätze mit Wegweisern."
+  - type: section
+    id: neu
+    title: Ein Satz für jedes Bild
+    blocks:
+      - type: text
+        text: "Mr Hill zeigt diese Bilderfolge. Die Bilder haben keine Wörter, du erzählst sie selbst im [simple past](https://lernapps.net/apps/map/englisch/c/simple-past/), das du von Montag kennst."
+      - type: figure
+        image: images/bildfolge-ball-fenster.svg
+        alt: "Vier Bilder. Bild 1 zeigt zwei Jungen, die im Garten vor einem Haus mit einem Ball spielen. Auf Bild 2 tritt der Junge mit der Brille den Ball fest in Richtung Haus. Auf Bild 3 steckt der Ball im zerbrochenen Fenster und die Jungen reißen die Hände hoch. Auf Bild 4 stehen die Jungen vor der Haustür bei einer Frau mit rotem Dutt und türkiser Strickjacke."
+        caption: Die Bilderfolge vom Ball und vom Fenster. Die Jungen sind Peter (gelbe Jacke) und Amir (Brille), die Frau an der Tür mit dem roten Dutt und der türkisen Strickjacke ist Mrs Parker.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "So erzählt Ellie die Geschichte: „First Peter and Amir played with a ball in the garden. Then Amir kicked the ball very hard. Suddenly the ball hit the window. After that the boys went to the door and Mrs Parker came out. Finally they said sorry.“"
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Schreibe zu jedem Bild mindestens einen Satz, im simple past und mit Wegweisern.** Bild 1 ist das beginning, Bild 4 das ending, dazwischen stehen then, after that und suddenly. Beim Erzählen sagst du nicht, was du gerade siehst (is playing), sondern was passierte (played). Zähle nicht nur auf, sondern verbinde die Sätze mit Wegweisern. Du darfst etwas dazuerfinden, das zur Geschichte passt, zum Beispiel einen Namen.
+  - type: section
+    id: uebung
+    title: Erzähle die Bilder von Amir und der Katze
+    blocks:
+      - type: language-task
+        id: folge-form
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form für die Erzählung.
+        items:
+          - source: Dann nahm Ellie einen Apfel.
+            target: "Then Ellie [took] an apple."
+            distractors: [[take, takes]]
+          - source: Plötzlich lachte Peter.
+            target: "Suddenly Peter [laughed]."
+            distractors: [[laugh, laughs]]
+          - source: Danach liefen sie nach Hause.
+            target: "After that they [ran] home."
+            distractors: [[run, runs]]
+          - source: Zum Schluss sagte Sophie danke.
+            target: "Finally Sophie [said] thank you."
+            distractors: [[say, says]]
+        hint: Eine Geschichte steht im simple past. Einige Verben sind unregelmäßig.
+      - type: single-choice
+        id: folge-fehler
+        text: "Drei Kinder haben zu einer Bilderfolge geschrieben. Ein Junge verliert seinen Schal (englisch: scarf) und findet ihn unter einem Stuhl (englisch: chair) wieder. Welcher Text ist am besten erzählt?"
+        options:
+          - text: First Peter loses his scarf. Then he looks for it. Finally he finds it under a chair.
+            correct: false
+            info: Das steht im simple present, eine Geschichte steht im simple past.
+          - text: Peter lost his scarf. He looked for it. He found it under a chair.
+            correct: false
+            info: Die Zeit stimmt, aber die Sätze stehen nur nebeneinander. Es fehlen Wegweiser.
+          - text: First Peter lost his scarf. Then he looked for it. Finally he found it under a chair.
+            correct: true
+            info: simple past und Wegweiser, so wird es erzählt.
+        explanation: Am besten steht eine Bildergeschichte im simple past und hat Wegweiser.
+        links:
+          - title: Lernlandkarte Englisch · Bildergeschichte
+            url: https://lernapps.net/apps/map/englisch/c/bildergeschichte/
+      - type: figure
+        image: images/bildfolge-amir-katze.svg
+        alt: "Vier Bilder. Bild 1 zeigt einen Jungen mit Rucksack, der im Regen nach Hause geht. Auf Bild 2 bleibt er unter einem Baum stehen und hält die Hand ans Ohr, hinter dem Baum schaut eine kleine Katze hervor. Auf Bild 3 springt die Katze in seine Arme. Auf Bild 4 sitzt der Junge in einem Zimmer, die Katze trinkt aus einer Schale."
+        caption: Die Bilderfolge von Amir und der Katze. Der Junge mit Brille ist Amir.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: ordering
+        id: folge-ordnen
+        text: Ordne zuerst die Beschreibungen den Bildern 1 bis 4 zu. Danach erzählst du dieselben Bilder im simple past.
+        items:
+          - Amir is walking home in the rain.
+          - Amir is standing under a tree.
+          - A little cat is jumping into his arms.
+          - The cat is drinking milk in the house.
+        explanation: Die Sätze folgen den Bildern 1 bis 4.
+        links:
+          - title: Lernlandkarte Englisch · Bildergeschichte
+            url: https://lernapps.net/apps/map/englisch/c/bildergeschichte/
+      - type: language-task
+        id: folge-schreiben
+        languages: { source: de, target: en }
+        task: Erzähle die Bilder im simple past. Schreibe zu jedem Bild einen Satz. Der Hinweis nennt den Wegweiser am Satzanfang und die Wörter, die du brauchst.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: First · Amir · walk · home
+            target: First Amir (walked home|walked home in the rain|walked home from school|walked home with his bag).
+            mistakes:
+              - answer: First Amir walks home.
+                message: Erzählt wird im simple past, also walked.
+              - answer: First Amir is walking home.
+                message: Das beschreibt das Bild, erzählt wird mit walked.
+              - answer: Amir walked home.
+                message: Der Hinweis verlangt den Wegweiser first am Anfang.
+          - cue: Then · Amir · hear · noise
+            target: Then Amir heard (a noise|a sound|something).
+            mistakes:
+              - answer: Then Amir hears a noise.
+                message: Erzählt wird im simple past, also heard.
+              - answer: Then Amir heared a noise.
+                message: Hear ist unregelmäßig, die Form heißt heard.
+          - cue: Suddenly · small cat · jump · out
+            target: Suddenly a (small |little |)cat (jumped out|jumped out from behind the tree|jumped into his arms).
+            mistakes:
+              - answer: Suddenly a small cat jumps out.
+                message: Erzählt wird im simple past, also jumped.
+              - answer: Suddenly small cat jumped out.
+                message: Vor cat fehlt a.
+          - cue: Finally · cat · drink · milk
+            target: Finally the cat drank (some |the |)milk.
+            mistakes:
+              - answer: Finally the cat drinks milk.
+                message: Erzählt wird im simple past, also drank.
+              - answer: Finally the cat drinked milk.
+                message: Drink ist unregelmäßig, die Form heißt drank.
+      - type: language-task
+        id: folge-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: suddenly-the-dog-ran-into-the-kitchen.mp3
+            target: Suddenly the dog ran into the kitchen.
+          - audio: after-that-the-girls-cleaned-the-table.mp3
+            target: After that the girls cleaned the table.
+          - audio: finally-they-all-laughed-with-peter.mp3
+            target: Finally they all laughed with Peter.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und eine Bildergeschichte schreiben
+    blocks:
+      - type: speaking-task
+        id: folge-nachsprechen
+        language: en
+        items:
+          - audio: what-is-in-the-first-picture.mp3
+            text: What is in the first picture?
+          - audio: what-happens-in-the-next-picture.mp3
+            text: What happens in the next picture?
+          - audio: what-is-in-the-last-picture.mp3
+            text: What is in the last picture?
+        hint: Hör zu. Sprich dann langsam nach.
+      - type: open-task
+        id: folge-schreiben-frei
+        task: "Sieh dir die vier Bilder an. Schreibe dazu eine Geschichte im simple past, vier bis fünf Sätze, mit Wegweisern."
+        material:
+          - type: figure
+            image: images/bildfolge-sophie-bus.svg
+            alt: "Vier Bilder. Bild 1 zeigt ein Mädchen mit Rucksack, das zu einer Bushaltestelle rennt, dort steht ein Bus. Auf Bild 2 fährt der Bus weg und das Mädchen winkt. Auf Bild 3 kommt ein rotes Auto, das Mädchen winkt. Auf Bild 4 steht das rote Auto vor einer Schule, zwei Personen sitzen darin."
+            caption: Die Bilderfolge von Sophie und dem Bus. Das Mädchen mit den Zöpfen ist Sophie.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        points:
+          - text: Zu jedem Bild gibt es mindestens einen Satz, in der Reihenfolge 1 bis 4.
+            source: /bilder-erzaehlen/bildergeschichte/#neu
+          - text: Wegweiser verbinden die Sätze, first am Anfang und finally am Schluss.
+            source: /bilder-erzaehlen/verbindungswoerter/#neu
+          - text: Alle Sätze stehen im simple past, nicht im present.
+            kind: form
+          - text: Es ist ein zusammenhängender Text, nicht nur eine Aufzählung.
+            kind: form
+        solution: |
+          First Sophie ran to the bus stop.
+          Then the bus left without her.
+          Suddenly a red car came, and Sophie waved.
+          Finally Sophie got into the car and the car went to the school.
+        hint: Die App bewertet nicht. Prüfe anhand der Punkte.
+  - type: section
+    id: weiter
+    title: Rückblick und Donnerstag
+    blocks:
+      - type: text
+        text: "Rückblick auf Dienstag und Mittwoch: Du hast Sätze mit Wegweisern geordnet, ein Bild mit seinen Plätzen beschrieben und zu vier Bildern eine Geschichte im simple past geschrieben."
+      - type: text
+        text: "Am Donnerstag gibt Mr Hill keine Bilder mehr aus. Du erzählst selbst eine Geschichte mit Anfang, Mitte und Ende."

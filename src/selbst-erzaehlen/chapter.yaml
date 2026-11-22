@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Selbst erzählen
+summary: Am Donnerstag der Geschichtenwoche schreiben die Kinder selbst. Du planst eine Geschichte am Geschichtenberg und schreibst sie auf, setzt sie fort oder gibst ihr ein anderes Ende und schreibst einen Tagebucheintrag.
+pages: [geschichte-schreiben, geschichte-fortsetzen, tagebucheintrag]
+selfAssessment:
+  pages:
+    - exercises:
+        - /selbst-erzaehlen/geschichte-schreiben/#schreiben-stationen
+        - /selbst-erzaehlen/geschichte-schreiben/#schreiben-anfang
+    - exercises:
+        - /selbst-erzaehlen/geschichte-fortsetzen/#fortsetzen-suddenly
+        - /selbst-erzaehlen/geschichte-fortsetzen/#fortsetzen-weg
+    - exercises:
+        - /selbst-erzaehlen/tagebucheintrag/#tagebuch-tag
+        - /selbst-erzaehlen/tagebucheintrag/#tagebuch-anrede

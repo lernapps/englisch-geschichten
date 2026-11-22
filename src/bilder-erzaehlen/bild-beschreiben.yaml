@@ -1,0 +1,208 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Ein Bild beschreiben: wo ist was?"
+description: "In der Geschichtenecke hängt ein Bild der Klasse. Du lernst, mit einem Raster zu sagen, wo etwas im Bild ist und was es tut."
+competencies: [bild-beschreiben]
+scope: Die Seite zeigt, wie man ein Bild beschreibt. Ein Raster aus drei Reihen (background, in the middle, foreground) und drei Spalten (on the left, in the middle, on the right) gibt jedem Platz einen Namen. Zuerst kommt der Platz, dann there is oder there are für das, was da ist, oder is und are mit -ing für das, was gerade passiert. Die Mitte heißt in the middle of the picture. Die Beschreibung steht im present, nicht im simple past. Nicht hier, weil es spätere Seiten sind. Zu mehreren Bildern eine Geschichte im simple past erzählen. Die Wegweiser beim Erzählen.
+blocks:
+  - type: section
+    id: einstieg
+    title: Ein Bild hängt in der Geschichtenecke
+    blocks:
+      - type: figure
+        image: images/szene-bild-beschreiben.svg
+        alt: "In der Geschichtenecke hängt neben dem Geschichtenberg ein Bild mit einem Haus, einem Baum und der Sonne. Vor der Wand stehen Sophie, Peter, Ellie und Amir, rechts steht Mr Hill. Sophie fragt in einer Sprechblase: „Where do I start?“"
+        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Neben dem Geschichtenberg hängt das Bild der Klasse."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Es ist Mittwoch in der Geschichtenwoche. Seit heute früh hängt in der Geschichtenecke ein Bild der Klasse. Mr Hill sagt: „Describe the picture.“ Das ist nicht leicht, denn es gibt viel zu sehen. Mr Hill fragt zuerst nach dem Bild an der Wand: „Where is the tree?“"
+      - type: single-choice
+        id: bild-start
+        text: Welche Antwort sagt, wo der Baum auf dem Bild an der Wand ist?
+        options:
+          - text: The tree is next to it
+            correct: true
+            info: Next to sagt, wo etwas ist.
+          - text: The tree is falling down
+            correct: false
+            info: Das sagt, was gerade passiert, nicht wo.
+          - text: There are two trees
+            correct: false
+            info: Das sagt, wie viele es gibt, nicht wo.
+        explanation: Auf where antwortest du mit einem Ort.
+        links:
+          - title: Lernlandkarte Englisch · Bildbeschreibung
+            url: https://lernapps.net/apps/map/englisch/c/bild-beschreiben/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst, wo in einem Bild etwas ist, und beschreibst, was da ist und was gerade passiert."
+      - type: text
+        text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [foreground, Vordergrund]
+          - [background, Hintergrund]
+          - [sandcastle, Sandburg]
+          - [kite, Drachen]
+          - [umbrella, "Schirm (Sonnenschirm oder Regenschirm)"]
+  - type: section
+    id: neu
+    title: Das Raster zeigt jeden Platz
+    blocks:
+      - type: text
+        text: "Mr Hill legt über das Bild ein Raster mit drei Reihen und drei Spalten. So hat jeder Platz einen Namen."
+      - type: figure
+        image: images/bild-park-raster.svg
+        alt: "Ein Park mit einem Raster aus drei Reihen und drei Spalten. Zu sehen sind ein Baum, ein Haus, ein Bus, ein Hund, ein Mädchen auf einem Fahrrad, zwei Vögel, ein Junge mit einem Ball, ein Mädchen mit einem Buch und zwei Blumen."
+        caption: "Das Bild vom Park mit Raster. Die Reihen heißen background, in the middle und foreground, die Spalten on the left, in the middle und on the right."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "So beschreibt Amir das Bild: „In the background on the left there is a big tree.“ „In the middle of the picture a girl is riding a bike.“ „In the foreground on the left a boy is playing with a ball.“ „In the middle on the right there are two birds.“"
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Sage zuerst, wo etwas ist, und dann, was da ist oder was passiert.** Bei den Reihen steht in (in the foreground, in the middle, in the background). Bei den Spalten steht on, wenn es links oder rechts ist (on the left, on the right), die Mitte heißt in the middle. Das Feld ganz in der Mitte heißt in the middle of the picture. Was da ist, sagst du mit there is oder there are. Was gerade passiert, sagst du mit is oder are und dem Verb mit -ing. At steht bei Orten wie at school. Du beschreibst im present, nicht im simple past.
+  - type: section
+    id: uebung
+    title: Lies das Raster und beschreibe das Strandbild
+    blocks:
+      - type: matching
+        id: bild-raster
+        text: Ordne jeden Gegenstand im Strandbild seinem Platz zu.
+        material:
+          - type: figure
+            image: images/bild-strand-raster.svg
+            alt: "Ein Strand mit einem Raster aus drei Reihen und drei Spalten. Zu sehen sind die Sonne, ein Segelboot, ein schlafender Mann unter einem Sonnenschirm, ein Junge mit einem Drachen, ein Mädchen mit einem Eis und zwei Kinder mit einer Sandburg."
+            caption: Das Strandbild mit Raster.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        pairs:
+          - left: the sun
+            right: in the background on the left
+          - left: the umbrella
+            right: in the middle on the left
+          - left: the kite
+            right: in the middle of the picture
+          - left: the ice cream
+            right: in the middle on the right
+        explanation: Lies erst die Reihe, dann die Spalte.
+        links:
+          - title: Lernlandkarte Englisch · Bildbeschreibung
+            url: https://lernapps.net/apps/map/englisch/c/bild-beschreiben/
+      - type: language-task
+        id: bild-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Schreibe das fehlende Wort oder die fehlenden Wörter. Sieh dir das Strandbild an.
+        material:
+          - type: figure
+            image: images/bild-strand-raster.svg
+            alt: "Ein Strand mit einem Raster aus drei Reihen und drei Spalten. Zu sehen sind die Sonne, ein Segelboot, ein schlafender Mann unter einem Sonnenschirm, ein Junge mit einem Drachen, ein Mädchen mit einem Eis und zwei Kinder mit einer Sandburg."
+            caption: Das Strandbild mit Raster.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        items:
+          - source: Im Hintergrund rechts ist ein Boot.
+            target: "[In] the background [on] the right [there is|there's] a boat."
+          - source: Der Mann schläft unter einem Sonnenschirm.
+            target: A man is [sleeping] [under] an umbrella.
+          - source: Im Vordergrund sind zwei Kinder.
+            target: In the foreground [there are] two children.
+        hint: In steht bei der Reihe, on bei der Spalte.
+      - type: language-task
+        id: bild-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe einen Satz zum Strandbild. Der Hinweis sagt, was du brauchst.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        material:
+          - type: figure
+            image: images/bild-strand-raster.svg
+            alt: "Ein Strand mit einem Raster aus drei Reihen und drei Spalten. Zu sehen sind die Sonne, ein Segelboot, ein schlafender Mann unter einem Sonnenschirm, ein Junge mit einem Drachen, ein Mädchen mit einem Eis und zwei Kinder mit einer Sandburg."
+            caption: Das Strandbild mit Raster.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        items:
+          - cue: foreground · two children · build · sandcastle
+            target: (In the foreground|In the foreground in the middle) two children are building a sandcastle.
+            mistakes:
+              - answer: In the foreground two children building a sandcastle.
+                message: Bei is oder are plus -ing fehlt are.
+              - answer: In the foreground two children are build a sandcastle.
+                message: Nach are steht das Verb mit -ing, also building.
+              - answer: On the foreground two children are building a sandcastle.
+                message: Vor foreground steht in, nicht on.
+              - answer: In the foreground two children are building sandcastle.
+                message: Vor sandcastle fehlt a.
+          - cue: on the right · girl · eat · ice cream
+            target: (In the middle on the right|On the right) a girl is eating (an ice cream|ice cream).
+            mistakes:
+              - answer: In the middle on the right a girl eating an ice cream.
+                message: Bei is oder are plus -ing fehlt is.
+              - answer: In the middle on the right a girl is eat an ice cream.
+                message: Nach is steht das Verb mit -ing, also eating.
+              - answer: In the middle on the right a girl are eating an ice cream.
+                message: Bei einem Mädchen steht is, nicht are.
+          - cue: background · left · there is · sun
+            target: In the background on the left (there is|there's) a (big |bright |yellow |)sun.
+            mistakes:
+              - answer: In the background on the left is the sun.
+                message: Dazu gehört there is, there fehlt.
+              - answer: In the background on the left there are a sun.
+                message: Bei einer Sonne steht there is, nicht there are.
+              - answer: On the background on the left there is a sun.
+                message: Vor background steht in, nicht on.
+      - type: language-task
+        id: bild-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: there-are-two-cows-in-the-background.mp3
+            target: There are two cows in the background.
+          - audio: on-the-right-a-woman-is-walking-slowly.mp3
+            target: On the right a woman is walking slowly.
+          - audio: a-little-cat-is-sleeping-under-the-table.mp3
+            target: A little cat is sleeping under the table.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und ein Bild beschreiben
+    blocks:
+      - type: speaking-task
+        id: bild-nachsprechen
+        language: en
+        items:
+          - audio: what-can-you-see-in-the-foreground.mp3
+            text: What can you see in the foreground?
+          - audio: what-is-in-the-background.mp3
+            text: What is in the background?
+          - audio: what-are-the-children-doing.mp3
+            text: What are the children doing?
+        hint: Hör zu. Sprich dann langsam nach.
+      - type: open-task
+        id: bild-schreiben-frei
+        task: "Stell dir vor, du stehst in der Tür eures Klassenzimmers. Beschreibe in vier Sätzen, was du siehst und wo es ist."
+        points:
+          - text: Mindestens zwei Platzangaben wie in the foreground oder on the left.
+            source: /bilder-erzaehlen/bild-beschreiben/#neu
+          - text: Mit there is oder there are sagst du, was da ist.
+            source: /bilder-erzaehlen/bild-beschreiben/#neu
+          - text: Mit is oder are und -ing sagst du, was jemand gerade tut.
+            source: /bilder-erzaehlen/bild-beschreiben/#neu
+          - text: Es sind vier ganze Sätze im present.
+            kind: form
+        solution: |
+          In the foreground there are two tables.
+          On the left a girl is reading a book.
+          In the middle of the room Mr Hill is talking to a boy.
+          In the background on the right there is a big window.
+        hint: Die App bewertet nicht. Prüfe anhand der Punkte.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Danach hängt Mr Hill vier Bilder nebeneinander auf. Sie erzählen zusammen eine kleine Geschichte. Auf der nächsten Seite schreibst du sie auf."
