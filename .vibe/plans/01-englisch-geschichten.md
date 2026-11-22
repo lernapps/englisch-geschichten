@@ -8,7 +8,7 @@ phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 1
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 7 }
+failedChecks: { checks-pass: 7, plan-file: 1 }
 ---
 
 # Plan: englisch-geschichten, first version
@@ -33,6 +33,7 @@ Kinder der Stufe 5-6 lesen kurze Geschichten, füllen die story map (who, where,
 - Auftrag fest durch Issue lernapps/apps#479 (Ersteller:in bringt die Didaktik, keine eigenen Texte); dieser Lauf baut nur Stufe 5-6, vier Kapitel, Kapitel 5 später als Inkrement.
 - Hauptfigur Sophie statt „Lena“, kein „Josh“ (Konventionen, Abschnitt 7).
 - Neuer Ort (im Plan-Checkpoint gemeldet): die **Geschichtenecke** im Klassenzimmer mit dem Wandbild „Geschichtenberg“ (Berg mit vier Stationen) und der Karte „story map“ daneben. Zeit: die „Geschichtenwoche“ im Januar, am Freitag liest die Klasse einander vor.
+- Aussprache ohne Lesehilfe in deutscher Annäherung (Abweichung von Konventionen §4, (guess)): die App übt Erzählen, nicht neue Wörter; Hörsätze und Nachsprechen zeigen die Aussprache.
 - `scope` in `src/app.yaml` und auf jeder Seite: ja, weil die App offene Aufgaben (`open-task`) hat; der Tutor beurteilt freie Texte nach dem `scope`.
 - Verbindungswörter (`verbindungswoerter-erzaehlen`) stehen als erste Seite von Kapitel 2, weil `bildergeschichte` sie braucht (prerequisites-in-order); Kapitel 1 nennt nur die Stationen des Berges. (guess)
 
@@ -191,18 +192,7 @@ page, which a link. -->
   - `gedichte-reime`: Reimpaare nach Schreibung und Muster zuordnen (`matching`), den Reim in einer Zeile wählen (`single-choice`), Verse ordnen, Verse nachsprechen. Auflage der Orchestrator-Session: Klang und Rhythmus lassen sich ohne Spracherkennung nicht prüfen; „klatschen“ ist eine Anleitung, kein geprüftes Ergebnis; nur ganze Verse als Audio; die Stimme bei cat/hat und light/night vorher anhören.
   - Je Seite ein anderer Satz an Übungsarten (`explainer-page-variety`); je Übung `mistakes` mit eigener Meldung und `hint`; gleichwertige Antworten als `(a|b)`; `punctuation: ok` bei richtigen Antworten, Kommas zählen nicht als Fehler; Auswahl nur mit echten Lernerfehlern; offene Aufgaben haben immer `points` und eine Musterlösung; Diktat und Nachsprechen immer mit neuen Sätzen.
 - **Wörter:** Quelle der Wörter ist der Grundwortschatz Englisch (A1/A2, https://lernapps.net/apps/map/englisch/grundwortschatz/); ein Skript prüft alle englischen Inhaltswörter der Seiten gegen die Liste (Feld `vocabulary` der Karte); Wörter außerhalb (zum Beispiel climax, beginning, build-up, foreground, background, diary, summary) stehen auf der Seite erklärt und im Inhaltsführer.
-- **Hörliste (vorläufig; je Seite drei Diktat- und drei Nachsprechsätze, nur ganze Sätze, Namen am Satzende zweisilbig):**
-  1. figuren-ort-handlung: Diktat „Peter walks to the park with his dog.“ / „The shop is open on Saturday morning.“ / „Ellie finds a key under the tree.“ Nachsprechen „Who is in the story?“ / „The story is in a small town.“ / „Sophie reads a story on Monday.“
-  2. zusammenfassung: Diktat „The story is about a girl and a cat.“ / „A short summary has only the important things.“ / „Mr Hill reads the story to the class.“ Nachsprechen „First I read the story.“ / „Then I find the main idea.“ / „I write only three sentences.“
-  3. nacherzaehlen: Diktat „Amir lost his bag on the bus.“ / „A kind woman found it.“ / „He was happy at the end.“ Nachsprechen „In the beginning Amir was on the bus.“ / „At the end he had his bag.“ / „I tell the story in my own words.“
-  4. verbindungswoerter-erzaehlen: Diktat „First we opened the box.“ / „Then we saw a small mouse.“ / „Finally the mouse ran away.“ Nachsprechen „After that Peter closed the door.“ / „Suddenly the light went out.“ / „Finally everybody laughed.“
-  5. bild-beschreiben: Diktat „There is a tree in the foreground.“ / „A boy is running on the left.“ / „Two birds are sitting on the roof.“ Nachsprechen „In the background there are mountains.“ / „On the right a girl is reading.“ / „In the middle there is a big dog.“
-  6. bildergeschichte: Diktat „First the boy found a ball.“ / „Then he kicked it into the garden.“ / „Finally a dog brought it back.“ Nachsprechen „In picture one a girl is sad.“ / „In picture two her friend comes.“ / „In the last picture they are happy.“
-  7. geschichte-erzaehlen: Diktat „One day a boy found a bottle.“ / „At first he did not open it.“ / „At last he went home with a smile.“ Nachsprechen „My story has a beginning.“ / „The climax is the most exciting part.“ / „The ending says how it ends.“
-  8. geschichte-fortsetzen: Diktat „The next morning the sun was out.“ / „Ellie wanted to look for the key again.“ / „This time she found a map.“ Nachsprechen „What happened next?“ / „I write a second climax.“ / „My new ending is happy.“
-  9. tagebucheintrag: Diktat „Dear diary, today was a good day.“ / „In the morning I played football.“ / „In the evening I was very tired.“ Nachsprechen „Today I went to the park.“ / „After lunch I read a book.“ / „Tomorrow I will write again.“
-  10. dialog-schreiben: Diktat „Hello, Ellie. Where is my bag?“ / „It is on the chair, Peter.“ / „Thank you very much.“ Nachsprechen „Can I help you, Sophie?“ / „Yes, please. I need a pen.“ / „Here you are.“
-  11. gedichte-reime: Diktat und Nachsprechen mit ganzen Versen (eigene Zeilen mit cat/hat/mat und light/night), erst nach dem Anhören der Stimme festgelegt.
+- **Hörliste:** alle 66 Hörsätze (je Seite drei Diktat- und drei Nachsprechsätze, Namen am Satzende zweisilbig) stehen in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz); die frühe Liste dieses Plans wurde beim Bauen ersetzt.
   Vor dem Bau läuft ein Skript über alle Seiten, das jeden Hörsatz gegen Einstieg, Poster, Merke, Bildtext und Übungen derselben Seite prüft (Konventionen 7).
 - **Engagement je Seite** (Eröffnung · Wechsel · Belohnung · Geschichte):
   - Alle Seiten: Eröffnung = eine leichte Aufgabe mit Begründung vor der Erklärung; Wechsel = Szene, Aufgabe, Figur, Merke, Übung (nie mehr als vier Textblöcke); Belohnung = nicht nur „Richtig“: das Fähnchen am Berg oder das Feld der Map füllt sich, am Kapitelende ein Rückblick auf alle Stationen; Wiederholung nur absichtlich (die Map kommt auf jeder Seite wieder, in anderer Aufgabe).

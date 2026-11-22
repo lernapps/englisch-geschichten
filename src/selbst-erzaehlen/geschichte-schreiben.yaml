@@ -143,14 +143,14 @@ blocks:
         task: "Sophie schreibt zu jeder Station einen Satz. Schreibe die vier Sätze im simple past."
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - cue: "beginning: one sunny morning · Sophie · her dog Bella · walk · in the forest"
-            target: (One sunny morning Sophie and her dog Bella walked in the forest.|One sunny morning Sophie and her dog Bella walked through the forest.|One sunny morning Sophie walked her dog Bella in the forest.|One sunny morning Sophie walked her dog Bella through the forest.|One sunny morning Sophie walked in the forest with her dog Bella.|Sophie and her dog Bella walked in the forest one sunny morning.)
+          - cue: "beginning: one sunny morning · Ellie · her dog Bella · walk · in the forest"
+            target: (One sunny morning Ellie and her dog Bella walked in the forest.|One sunny morning Ellie and her dog Bella walked through the forest.|One sunny morning Ellie walked her dog Bella in the forest.|One sunny morning Ellie walked her dog Bella through the forest.|One sunny morning Ellie walked in the forest with her dog Bella.|Ellie and her dog Bella walked in the forest one sunny morning.)
             mistakes:
-              - answer: One sunny morning Sophie and her dog Bella walk in the forest.
+              - answer: One sunny morning Ellie and her dog Bella walk in the forest.
                 message: Die Geschichte steht im simple past, also walked.
-              - answer: One sunny morning Sophie and her dog Bella walked in forest.
+              - answer: One sunny morning Ellie and her dog Bella walked in forest.
                 message: Vor forest fehlt the.
-              - answer: Sophie and her dog Bella walked in the forest.
+              - answer: Ellie and her dog Bella walked in the forest.
                 message: Der Anfang nennt auch, wann es war. Nimm one sunny morning dazu.
           - cue: "build-up: they · hear · a noise"
             target: They heard a (strange |loud |funny |big |)noise( in the forest|).
@@ -168,12 +168,12 @@ blocks:
                 message: Die Geschichte steht im simple past.
               - answer: Suddenly Bella runned away.
                 message: Run ist unregelmäßig, die Form heißt ran.
-          - cue: "ending: finally · Sophie · find · Bella · under a tree"
-            target: Finally Sophie found Bella under (a|the) tree.
+          - cue: "ending: finally · Ellie · find · Bella · under a tree"
+            target: Finally Ellie found Bella under (a|the) tree.
             mistakes:
-              - answer: Finally Sophie finds Bella under a tree.
+              - answer: Finally Ellie finds Bella under a tree.
                 message: Die Geschichte steht im simple past.
-              - answer: Finally Sophie finded Bella under a tree.
+              - answer: Finally Ellie finded Bella under a tree.
                 message: Find ist unregelmäßig, die Form heißt found.
       - type: language-task
         id: schreiben-hoeren
@@ -227,4 +227,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophie liest ihre Geschichte vor. Amir fragt: „And then?“ Auf der nächsten Seite lernst du, eine Geschichte fortzusetzen oder anders enden zu lassen."
+        text: "Sophie liest Amir ihre Geschichte vor. Amir fragt: „And then?“ Auf der nächsten Seite lernst du, eine Geschichte fortzusetzen oder anders enden zu lassen."

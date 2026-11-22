@@ -74,15 +74,15 @@ blocks:
     blocks:
       - type: matching
         id: dialog-sprecher
-        text: "In der Bibliothek ist Peter laut. Mr Hill bittet ihn, leise zu sein. Ellie zeigt Peter ein Bilderbuch, und Peter staunt über einen lustigen Hund auf einem Bild. Wer sagt welche Zeile?"
+        text: "In der Bibliothek sprechen Mr Hill, Ellie und Peter. Wer sagt welche Zeile? Achte darauf, wen die Zeile anspricht."
         pairs:
-          - left: "Look, here is a picture book."
+          - left: "Peter, look at this picture. It is funny!"
             right: Ellie
-          - left: "Shh! Please be quiet, Peter."
+          - left: "Class, please open your books."
             right: Mr Hill
-          - left: "Wow! What a funny dog!"
+          - left: "Wow, what a funny dog! Can I see it, Ellie?"
             right: Peter
-        explanation: Wer zeigt, wer bittet und wer staunt, steht in der Aufgabe.
+        explanation: Die Anrede zeigt, wer spricht.
         links:
           - title: Lernlandkarte Englisch · Dialog schreiben
             url: https://lernapps.net/apps/map/englisch/c/dialog-schreiben/
@@ -125,16 +125,16 @@ blocks:
         id: dialog-luecken
         languages: { source: de, target: en }
         mode: gap
-        task: "Ergänze in jeder Zeile die fehlenden Wörter. Der Hinweis sagt, was gemeint ist."
+        task: "Lies den deutschen Satz und ergänze in der Zeile die fehlenden Wörter."
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Ellie asks Amir for a pencil.
-            target: "Ellie: Can I [have] your [pencil], Amir?"
-          - cue: Mrs Parker says that dinner is ready.
+          - source: Ellie bittet Amir um seinen Bleistift.
+            target: "Ellie: Can I [have|use] your [pencil], Amir?"
+          - source: Mrs Parker sagt, dass das Abendessen fertig ist.
             target: "Mrs Parker: Dinner is [ready]."
-          - cue: Peter wants to play football.
+          - source: Peter fragt, ob alle zusammen Fußball spielen.
             target: "Peter: Can we [play] football?"
-        hint: "Setze die Wörter aus dem Hinweis ein."
+        hint: "Denke an Wörter, die zur Szene passen."
       - type: language-task
         id: dialog-skript
         languages: { source: de, target: en }

@@ -59,17 +59,17 @@ blocks:
     blocks:
       - type: matching
         id: verbindung-berg
-        text: Ordne jedem Wegweiser seinen Platz am Geschichtenberg zu.
+        text: Zu welcher Station am Geschichtenberg gehört jeder Satz?
         pairs:
-          - left: first
-            right: Hier fängt die Geschichte an
-          - left: then
-            right: Hier baut sich etwas auf
-          - left: suddenly
-            right: Hier passiert etwas Unerwartetes
-          - left: finally
-            right: Hier endet die Geschichte
-        explanation: Die Wegweiser folgen dem Weg über den Berg. After that gehört zu then.
+          - left: First we got on the bus.
+            right: beginning
+          - left: Then the bus stopped at a red light.
+            right: build-up
+          - left: Suddenly a dog ran onto the road.
+            right: climax
+          - left: Finally we got to school.
+            right: ending
+        explanation: Der Wegweiser zeigt die Station am Berg.
         links:
           - title: Lernlandkarte Englisch · Verbindungswörter beim Erzählen
             url: https://lernapps.net/apps/map/englisch/c/verbindungswoerter-erzaehlen/

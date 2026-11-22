@@ -20,10 +20,10 @@ blocks:
         id: bild-start
         text: Welche Antwort sagt, wo der Baum auf dem Bild an der Wand ist?
         options:
-          - text: The tree is next to the house
+          - text: The tree is next to it
             correct: true
             info: Next to sagt, wo etwas ist.
-          - text: The tree is falling
+          - text: The tree is falling down
             correct: false
             info: Das sagt, was gerade passiert, nicht wo.
           - text: There are two trees
@@ -45,7 +45,7 @@ blocks:
           - [background, Hintergrund]
           - [sandcastle, Sandburg]
           - [kite, Drachen]
-          - [umbrella, Sonnenschirm]
+          - [umbrella, "Schirm (Sonnenschirm oder Regenschirm)"]
   - type: section
     id: neu
     title: Das Raster zeigt jeden Platz
@@ -138,7 +138,7 @@ blocks:
               - answer: In the foreground two children are building sandcastle.
                 message: Vor sandcastle fehlt a.
           - cue: on the right · girl · eat · ice cream
-            target: In the middle on the right a girl is eating (an ice cream|ice cream).
+            target: (In the middle on the right|On the right) a girl is eating (an ice cream|ice cream).
             mistakes:
               - answer: In the middle on the right a girl eating an ice cream.
                 message: Bei is oder are plus -ing fehlt is.

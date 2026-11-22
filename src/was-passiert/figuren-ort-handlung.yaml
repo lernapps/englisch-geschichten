@@ -152,13 +152,13 @@ blocks:
         id: figuren-ende
         text: Die Fotos hängen am Fähnchen ending, nicht am Gipfel. Warum?
         options:
-          - text: Am Gipfel passiert das Spannendste, danach löst sich alles und die Geschichte endet
+          - text: Am Gipfel ist es am spannendsten, danach endet die Geschichte
             correct: true
             info: Der Gipfel (climax) ist der spannendste Moment, das Ende kommt danach.
-          - text: Der Gipfel ist das letzte Ereignis der Geschichte
+          - text: Der Gipfel ist immer das letzte Ereignis der Geschichte
             correct: false
             info: Nach dem Gipfel kommt noch das Ende (ending).
-          - text: Das Ende ist am wichtigsten, darum hängt es am höchsten
+          - text: Das Ende ist am wichtigsten und hängt darum am höchsten
             correct: false
             info: Am höchsten hängt der climax, der spannendste Moment.
         explanation: Der climax ist der spannendste Moment, danach folgt das Ende.

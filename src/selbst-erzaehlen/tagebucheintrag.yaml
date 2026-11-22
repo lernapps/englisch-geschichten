@@ -62,7 +62,7 @@ blocks:
 
           Thursday, 22 January
 
-          In the morning Ellie, Peter and I walked to school. At lunch Amir and I sat in the library. In the afternoon I read my story to the class. Everybody listened and I was very proud. In the evening I talked to Mrs Parker about my day.
+          In the morning Ellie, Peter and I walked to school. At lunch Amir and I sat in the library. In the afternoon I read my story to Amir. He listened and I was very proud. In the evening I talked to Mrs Parker about my day.
 
           Good night,
 
@@ -182,8 +182,8 @@ blocks:
             target: After lunch we visited my grandma.
           - audio: it-was-a-very-busy-day-today.mp3
             target: It was a very busy day today.
-          - audio: in-the-evening-i-felt-tired-and-happy.mp3
-            target: In the evening I felt tired and happy.
+          - audio: we-watched-a-film-after-dinner.mp3
+            target: We watched a film after dinner.
   - type: section
     id: anwenden
     title: Schreibe deinen eigenen Eintrag

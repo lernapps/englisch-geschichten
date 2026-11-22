@@ -148,7 +148,7 @@ blocks:
       - type: language-task
         id: reime-hoeren
         languages: { source: de, target: en }
-        task: Hör zu und schreibe den ganzen Vers. Achte auf die Reimwörter, in jedem Vers reimen sich zwei Wörter.
+        task: Hör zu und schreibe den ganzen Vers. Achte auf die Reimwörter, in jedem Vers reimen sich mindestens zwei Wörter.
         form: { case: hint, punctuation: ok }
         items:
           - audio: i-like-to-see-the-flowers-after-the-showers.mp3
