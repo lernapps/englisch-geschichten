@@ -121,3 +121,5 @@ Aus der Musterseite (Lerner-Check, Sprachprüfung, Prüfung der Orchestrator-Ses
 - Offene Aufgaben haben eine Musterlösung in der Form der Aufgabe (vier Zeilen who/where/when/what) mit anderen Figuren als die Beispielgeschichte der Seite.
 - Ein Intonationshinweis nur, wenn er stimmt (Fragen mit who, where, what fallen am Ende); im Zweifel streichen.
 - Poster, Tafel und Bilder an der Wand heißen in Text und Bildunterschrift gleich (Geschichtenberg, story map, Klassenzimmer-Poster für die Wörter).
+- Ein Hörsatz endet auf ein zweisilbiges Wort, am besten auf einen zweisilbigen Namen (Sophie, Peter, Amir, Ellie); Sätze, die auf ein kurzes einsilbiges Wort enden, bekommen beim Erzeugen einen Fehllaut am Ende. Bei Reimen zweisilbige Reimwörter am Versende wählen.
+- „Ding“ steht nur für Gegenstände; Menschen und Tiere sind keine Dinge.

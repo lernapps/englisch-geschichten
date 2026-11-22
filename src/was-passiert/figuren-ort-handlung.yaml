@@ -197,8 +197,8 @@ blocks:
         items:
           - audio: sophie-and-peter-read-a-story.mp3
             target: Sophie and Peter read a story.
-          - audio: the-story-happens-in-a-small-town.mp3
-            target: The story happens in a small town.
+          - audio: the-story-happens-in-a-small-village.mp3
+            target: The story happens in a small village.
           - audio: they-find-a-letter-in-the-garden.mp3
             target: They find a letter in the garden.
   - type: section
@@ -213,8 +213,8 @@ blocks:
             text: Who is in the story?
           - audio: where-does-the-story-happen.mp3
             text: Where does the story happen?
-          - audio: what-happens-at-the-end.mp3
-            text: What happens at the end?
+          - audio: what-happens-at-the-end-of-the-story.mp3
+            text: What happens at the end of the story?
         hint: Hör zu. Sprich dann langsam nach.
       - type: open-task
         id: figuren-schreiben
