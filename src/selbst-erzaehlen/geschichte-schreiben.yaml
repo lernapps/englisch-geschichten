@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Es ist Donnerstag in der Geschichtenwoche. Heute schreibt jedes Kind eine eigene Geschichte. Mr Hill sagt: „First the plan, then the story.“ Sophie nimmt ein Blatt mit einem leeren Geschichtenberg. Für die erste Station hat sie einen Zettel mit Stichwörtern: „Tara · on a farm · a hot Sunday“."
+        text: "Es ist Donnerstag in der Geschichtenwoche. Heute schreibt jedes Kind eine eigene Geschichte. Mr Hill sagt: „First the plan, then the story.“ Sophie nimmt ein Blatt mit einem leeren Geschichtenberg. Für die erste Station hat sie einen Zettel mit Stichwörtern: „Amir · on a farm · a hot Sunday“."
       - type: single-choice
         id: schreiben-start
         text: An welches Fähnchen hängt Sophie den Zettel?
@@ -61,12 +61,12 @@ blocks:
         text: |
           Das ist Sophies Plan für eine kurze Geschichte:
 
-          - **1 beginning:** Mia, her grandpa, on the hill, a sunny Saturday
+          - **1 beginning:** Ellie, her grandpa, on the hill, a sunny Saturday
           - **2 build-up:** fly a kite
           - **3 climax:** kite flies away
           - **4 ending:** a boy finds the kite
 
-          Die Stichwörter sind kurz. Daraus schreibt Sophie je Station einen Satz im simple past: „On a sunny Saturday Mia and her grandpa were on the hill. They flew a kite. Suddenly the kite flew away. Finally a boy found it.“
+          Die Stichwörter sind kurz. Daraus schreibt Sophie je Station einen Satz im simple past: „On a sunny Saturday Ellie and her grandpa were on the hill. They flew a kite. Suddenly the kite flew away. Finally a boy found it.“
       - type: note
         title: Merke
         blocks:
@@ -143,12 +143,12 @@ blocks:
         task: "Sophie schreibt zu jeder Station einen Satz. Schreibe die vier Sätze im simple past."
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - cue: "beginning: Lena · her dog Bo · walk · in the forest"
-            target: (Lena and her dog Bo walked in the forest.|Lena and her dog Bo walked through the forest.|Lena walked in the forest with her dog Bo.|Lena walked with her dog Bo in the forest.)
+          - cue: "beginning: Sophie · her dog Amir · walk · in the forest"
+            target: (Sophie and her dog Amir walked in the forest.|Sophie and her dog Amir walked through the forest.|Sophie walked in the forest with her dog Amir.|Sophie walked with her dog Amir in the forest.)
             mistakes:
-              - answer: Lena and her dog Bo walk in the forest.
+              - answer: Sophie and her dog Amir walk in the forest.
                 message: Die Geschichte steht im simple past, also walked.
-              - answer: Lena and her dog Bo walked in forest.
+              - answer: Sophie and her dog Amir walked in forest.
                 message: Vor forest fehlt the.
           - cue: "build-up: they · hear · a noise"
             target: (They heard a noise.|They heard a strange noise.|They heard a noise in the forest.)
@@ -159,19 +159,19 @@ blocks:
                 message: Hear ist unregelmäßig, die Form heißt heard.
               - answer: They heard noise.
                 message: Vor noise fehlt a.
-          - cue: "climax: suddenly · Bo · run away"
-            target: Suddenly Bo ran away.
+          - cue: "climax: suddenly · Amir · run away"
+            target: Suddenly Amir ran away.
             mistakes:
-              - answer: Suddenly Bo runs away.
+              - answer: Suddenly Amir runs away.
                 message: Die Geschichte steht im simple past.
-              - answer: Suddenly Bo runned away.
+              - answer: Suddenly Amir runned away.
                 message: Run ist unregelmäßig, die Form heißt ran.
-          - cue: "ending: finally · Lena · find · Bo · under a tree"
-            target: (Finally Lena found Bo under a tree.|Finally Lena found Bo under the tree.)
+          - cue: "ending: finally · Sophie · find · Amir · under a tree"
+            target: (Finally Sophie found Amir under a tree.|Finally Sophie found Amir under the tree.)
             mistakes:
-              - answer: Finally Lena finds Bo under a tree.
+              - answer: Finally Sophie finds Amir under a tree.
                 message: Die Geschichte steht im simple past.
-              - answer: Finally Lena finded Bo under a tree.
+              - answer: Finally Sophie finded Amir under a tree.
                 message: Find ist unregelmäßig, die Form heißt found.
       - type: language-task
         id: schreiben-hoeren

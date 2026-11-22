@@ -15,18 +15,18 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Peter liest den Anfang einer Geschichte vor: „Ben and his sister played football in the garden. The ball flew over the wall.“ Dann hört er auf. Amir fragt: „And then?“ Die Geschichte soll weitergehen."
+        text: "Peter liest den Anfang einer Geschichte vor: „Amir and his sister played football in the garden. The ball flew over the wall.“ Dann hört er auf. Amir fragt: „And then?“ Die Geschichte soll weitergehen."
       - type: single-choice
         id: fortsetzen-start
         text: Welcher Satz setzt Peters Geschichte fort?
         options:
-          - text: Ben climbed over the wall and got the ball
+          - text: Amir climbed over the wall and got the ball
             correct: true
             info: Gleiche Figur, gleicher Ort, simple past. Das passt.
-          - text: Ben climbs over the wall and gets the ball
+          - text: Amir climbs over the wall and gets the ball
             correct: false
             info: Das steht im simple present, die Geschichte im simple past.
-          - text: Mia and her mum go shopping in London
+          - text: Ellie and her mum go shopping in town
             correct: false
             info: Neue Figuren und ein neuer Ort. Das ist eine andere Geschichte.
         explanation: Eine Fortsetzung bleibt bei den Figuren, beim Ort und im simple past.
@@ -70,10 +70,10 @@ blocks:
     title: Setze die Geschichte fort
     blocks:
       - type: text
-        text: "Kim und Joe haben diese Geschichte geschrieben: „On a hot Sunday Kim and her brother Joe walked along the beach. They found an old bottle with a letter inside. Suddenly a big wave came and took the bottle. Kim jumped into the water and got it back. But the letter was empty.“"
+        text: "Ellie und Peter haben diese Geschichte geschrieben: „On a hot Sunday Ellie and her brother Peter walked along the beach. They found an old bottle with a letter inside. Suddenly a big wave came and took the bottle. Ellie jumped into the water and got it back. But the letter was empty.“"
       - type: single-choice
         id: fortsetzen-weg
-        text: Kim will nach dem leeren Brief ein neues Problem erzählen. Was baut sie an?
+        text: Ellie will nach dem leeren Brief ein neues Problem erzählen. Was baut sie an?
         options:
           - text: einen zweiten Gipfel
             correct: true
@@ -90,11 +90,11 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/geschichte-fortsetzen/
       - type: multiple-choice
         id: fortsetzen-treue
-        text: Joe schreibt die Fortsetzung. Was soll zuerst gleich bleiben? Wähle alle richtigen.
+        text: Peter schreibt die Fortsetzung. Was soll zuerst gleich bleiben? Wähle alle richtigen.
         options:
           - text: die Figuren
             correct: true
-            info: Kim und Joe bleiben dabei, sonst ist es eine andere Geschichte.
+            info: Ellie und Peter bleiben dabei, sonst ist es eine andere Geschichte.
           - text: der Ort
             correct: true
             info: Die Geschichte geht zuerst am selben Ort weiter.
@@ -111,17 +111,17 @@ blocks:
       - type: language-task
         id: fortsetzen-schreiben
         languages: { source: de, target: en }
-        task: "Joe schreibt den zweiten Gipfel. Schreibe die drei Sätze im simple past."
+        task: "Peter schreibt den zweiten Gipfel. Schreibe die drei Sätze im simple past."
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - cue: "next day · Kim and Joe · go back · to the beach"
-            target: "(The next day |Next day |)Kim and Joe went back to the beach."
+          - cue: "next day · Ellie and Peter · go back · to the beach"
+            target: "(The next day |Next day |)Ellie and Peter went back to the beach."
             mistakes:
-              - answer: Kim and Joe go back to the beach.
+              - answer: Ellie and Peter go back to the beach.
                 message: Die Fortsetzung steht im simple past, also went.
-              - answer: Kim and Joe goed back to the beach.
+              - answer: Ellie and Peter goed back to the beach.
                 message: Go ist unregelmäßig, die Form heißt went.
-              - answer: Kim and Joe went back to beach.
+              - answer: Ellie and Peter went back to beach.
                 message: Vor beach fehlt the.
           - cue: "they · find · another bottle"
             target: (They found another bottle.|They found a second bottle.|They found a new bottle.)
