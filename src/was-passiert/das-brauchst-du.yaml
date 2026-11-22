@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: "Geschichten stehen meist im simple past. Hier wiederholst du kurz, wie das geht."
+recap: [englisch/simple-past]
+scope: Die Seite wiederholt das simple past mit regelmäßigen Verben (-ed) und einigen häufigen unregelmäßigen Verben (was, went, had, found, saw, took). Sie sagt, dass Geschichten meist im simple past stehen. Nicht hier, weil es andere Seiten sind. Die Regeln der Zeitformen im Einzelnen, die story map, der Geschichtenberg, Zusammenfassen und Nacherzählen.
+blocks:
+  - type: text
+    text: "Heute ist Montag der Geschichtenwoche. Mr Hill sagt: Geschichten stehen meist im **simple past**. Kannst du das schon? Es geht um den Baustein **Simple past: regelmäßige Verben**. *Ich kann im simple past mit regelmäßigen Verben (-ed) von abgeschlossenen Ereignissen erzählen.*"
+  - type: text
+    text: "Regelmäßige Verben bekommen im simple past die Endung **-ed**, zum Beispiel walk, walked. Endet das Verb auf **e**, kommt nur **d** dazu, zum Beispiel like, liked. Einige häufige Verben sind unregelmäßig. Sie haben eine eigene Form, die du auswendig lernst."
+  - type: table
+    caption: Klassenzimmer-Poster · Wiederholung
+    header: [Grundform, simple past]
+    rows:
+      - [walk, walked]
+      - [help, helped]
+      - [like, liked]
+      - [be, was / were]
+      - [go, went]
+      - [have, had]
+      - [find, found]
+      - [see, saw]
+      - [take, took]
+  - type: text
+    text: "Du brauchst das simple past, weil die Ereignisse einer Geschichte schon vorbei sind. Darum erzählst du sie nach und fasst sie zusammen mit Verben im simple past. Nur die Einträge der story map stehen im simple present, das lernst du auf der nächsten Seite."
+  - type: note
+    title: Nicht sicher?
+    blocks:
+      - type: text
+        text: "Hier kannst du es nachlesen: [Lernlandkarte Englisch · Simple past: regelmäßige Verben](https://lernapps.net/apps/map/englisch/c/simple-past/)"
