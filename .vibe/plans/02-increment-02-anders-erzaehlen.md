@@ -4,11 +4,11 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: {}
+failedChecks: { checks-pass: 1 }
 ---
 
 # Increment: increment-02-anders-erzaehlen
@@ -93,8 +93,9 @@ Jugendliche der Stufe 7-8 erzählen eine Geschichte aus der Sicht einer anderen 
 - [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Ja, Plan bestätigt. Weiter mit der Musterseite perspektive-wechseln.
 
 ### Content method
 
@@ -122,15 +123,15 @@ page, which a link. -->
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [ ] Slice 1 (Musterseite des Lesestücks, ich selbst): Kapitel anders-erzaehlen (chapter.yaml, app.yaml) und Seite perspektive-wechseln: Lesestück von Sophie in Ich-Form, Randglossar, drei Aufgabenstufen, Schreibauftrag aus Ellies Sicht, Map-Figur mit Brille, Szene, Hörsätze; Lerner-Check mit Sub-Agent
 - [ ] Slice 2 (ich selbst, nach der Musterseite): Seite setting-atmosphaere: Lesestück Weg durch den Park im November, Randglossar, drei Aufgabenstufen, Schreibauftrag mit anderer Stimmung, Map-Figur mit Farbe, Szene, Hörsätze

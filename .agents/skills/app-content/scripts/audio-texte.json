@@ -64,5 +64,11 @@
   "src/audio/what-is-in-the-background.mp3": "What is in the background?",
   "src/audio/does-the-story-go-on.mp3": "Does the story go on?",
   "src/audio/who-did-you-meet-today.mp3": "Who did you meet today?",
-  "src/audio/wait-for-me-i-am-coming.mp3": "Wait for me, I am coming."
+  "src/audio/wait-for-me-i-am-coming.mp3": "Wait for me, I am coming.",
+  "src/audio/ellie-looked-at-the-clock-and-waited.mp3": "Ellie looked at the clock and waited.",
+  "src/audio/the-bus-arrived-ten-minutes-late.mp3": "The bus arrived ten minutes late.",
+  "src/audio/everybody-was-quiet-on-the-bus.mp3": "Everybody was quiet on the bus.",
+  "src/audio/who-is-telling-the-story.mp3": "Who is telling the story?",
+  "src/audio/what-does-she-know-about-ellie.mp3": "What does she know about Ellie?",
+  "src/audio/now-i-tell-it-from-the-other-side.mp3": "Now I tell it from the other side."
 }
