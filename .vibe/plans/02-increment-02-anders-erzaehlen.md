@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -135,14 +135,15 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Slice 1 (Musterseite des Lesestücks, ich selbst): Kapitel anders-erzaehlen (chapter.yaml, app.yaml) und Seite perspektive-wechseln: Lesestück von Sophie in Ich-Form, Randglossar, drei Aufgabenstufen, Schreibauftrag aus Ellies Sicht, Map-Figur mit Brille, Szene, Hörsätze; Lerner-Check mit Sub-Agent
 - [x] Slice 2 (ich selbst, nach der Musterseite): Seite setting-atmosphaere: Lesestück Weg durch den Park im November, Randglossar, drei Aufgabenstufen, Schreibauftrag mit anderer Stimmung, Map-Figur mit Farbe, Szene, Hörsätze
-- [ ] Hörlisten und Prüfungen: Audio mit regen_audio.py (neue Fassung mit Schnitt), Hörliste im Inhaltsführer, pruefen.py über alle Seiten, Gesamtcheck der Seiten des Kapitels und Sprachprüfung durch Sub-Agenten
+- [x] Hörlisten und Prüfungen: Audio mit regen_audio.py (neue Fassung mit Schnitt), Hörliste im Inhaltsführer, pruefen.py über alle Seiten, Gesamtcheck der Seiten des Kapitels und Sprachprüfung durch Sub-Agenten
 <!-- tasks: slices (3 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+      Creator: Orchestrator (in der Rolle der Ersteller:in): Die Seite perspektive-wechseln gilt als Muster, die zweite Seite folgt ihr.
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
 
