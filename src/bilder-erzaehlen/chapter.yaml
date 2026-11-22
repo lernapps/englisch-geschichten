@@ -2,3 +2,14 @@
 title: Bilder erzählen
 summary: Am Dienstag und Mittwoch erzählen die Kinder mit Bildern. Du ordnest Sätze mit Wegweisern am Geschichtenberg, beschreibst ein Bild mit seinen Plätzen und schreibst zu vier Bildern eine Geschichte.
 pages: [das-brauchst-du, verbindungswoerter, bild-beschreiben, bildergeschichte]
+selfAssessment:
+  pages:
+    - exercises:
+        - /bilder-erzaehlen/verbindungswoerter/#verbindung-berg
+        - /bilder-erzaehlen/verbindungswoerter/#verbindung-waehlen
+    - exercises:
+        - /bilder-erzaehlen/bild-beschreiben/#bild-raster
+        - /bilder-erzaehlen/bild-beschreiben/#bild-luecke
+    - exercises:
+        - /bilder-erzaehlen/bildergeschichte/#folge-form
+        - /bilder-erzaehlen/bildergeschichte/#folge-fehler

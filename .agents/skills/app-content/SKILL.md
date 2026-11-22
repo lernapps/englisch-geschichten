@@ -88,6 +88,7 @@ Seiten, Übungs-IDs (Präfix = Seite; Diktat `…-hoeren`, Nachsprechen `…-nac
 - `selbst-erzaehlen`: `geschichte-schreiben` (schreiben-start, -stationen, -plan, -anfang, -saetze), `geschichte-fortsetzen` (fortsetzen-start, -weg, -treue, -schreiben, -suddenly), `tagebucheintrag` (tagebuch-start, -tag, -anrede, -saetze, -fehler).
 - `spielen-und-reimen`: `dialog-schreiben` (dialog-start, -sprecher, -ordnen, -fehler, -luecken, -skript), `gedichte-reime` (reime-start, -paare, -zeile, -klang, -verse, -luecke).
 - Audio: alle Hörsätze stehen in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, 66 Einträge: je Seite drei Diktat- und drei Nachsprechsätze, Reimseite mit Versen). Die Reimverse (`gedichte-reime`) sind vor der Veröffentlichung von der Ersteller:in abzuhören.
+- Selbsteinschätzung (`selfAssessment` je `chapter.yaml`): 2 bis 3 Übungen je Seite, die ohne die Seite verständlich sind (Geschichte steht in der Frage oder im `material`): `was-passiert` figuren-start, -ende, -map-schreiben · zusammen-start, -beste, -kuerzen · nacherzaehlen-start, -fehler, -schreiben-satz; `bilder-erzaehlen` verbindung-berg, -waehlen · bild-raster, bild-luecke · folge-form, folge-fehler; `selbst-erzaehlen` schreiben-stationen, -anfang · fortsetzen-suddenly, -weg · tagebuch-tag, -anrede; `spielen-und-reimen` dialog-ordnen, -fehler · reime-paare, -zeile, -klang. Offene Aufgaben, Diktat und Sprechen sind nicht dabei.
 - Zeitformen: Geschichten im simple past; Map-Einträge und Anweisungen im simple present (auf der Musterseite erklärt).
 
 ## Sources
