@@ -173,7 +173,7 @@ Am **Dienstag** hängt Mr Hill fünf Wegweiser an den Berg und neue Bilder an di
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Ellie told the story to Peter.
-2. Audio → Sophie did not forget the ending.
+2. Audio → Sophie did not forget the end.
 3. Audio → Mr Hill smiled at the children.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -184,7 +184,7 @@ Am **Dienstag** hängt Mr Hill fünf Wegweiser an den Berg und neue Bilder an di
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → What happened then, Amir?
+1. Audio → What happened then?
 2. Audio → Can you tell the story again?
 3. Audio → How did the story begin?
 - Tipp der App: Hör zu. Sprich dann langsam nach.

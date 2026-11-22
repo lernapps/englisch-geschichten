@@ -196,7 +196,7 @@ Am Freitag spielen die Gruppen ihre Szenen vor der Klasse. Danach schließt Mr H
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Wait for me, Sophie!
+1. Audio → Wait for me, I am coming.
 2. Audio → What a lovely surprise!
 3. Audio → Do you like my new jacket?
 - Tipp der App: Hör zu. Sprich dann wie die Figur in der Szene.

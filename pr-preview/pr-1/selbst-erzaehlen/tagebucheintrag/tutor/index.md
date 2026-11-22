@@ -190,7 +190,7 @@ Das war dein Donnerstag in der Geschichtenwoche. Du hast eine Geschichte geplant
 - Sätze:
 1. Audio → How was your day today?
 2. Audio → What did you do in the morning?
-3. Audio → Who did you meet, Amir?
+3. Audio → Who did you meet today?
 - Tipp der App: Hör zu. Sprich dann langsam nach.
 - Link: [../?via=tutor#tagebuch-nachsprechen](../?via=tutor#tagebuch-nachsprechen)
 

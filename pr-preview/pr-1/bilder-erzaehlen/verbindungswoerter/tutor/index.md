@@ -154,7 +154,7 @@ Am Mittwoch hängt Mr Hill ein neues Bild in die Geschichtenecke. Auf der nächs
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → First Amir opened the window.
-2. Audio → Suddenly the bus stopped near Sophie.
+2. Audio → Suddenly the bus stopped.
 3. Audio → Finally the children ate their dinner.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -165,9 +165,9 @@ Am Mittwoch hängt Mr Hill ein neues Bild in die Geschichtenecke. Auf der nächs
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → What happens first, Peter?
-2. Audio → What happens after that, Amir?
-3. Audio → Then what happens, Ellie?
+1. Audio → What happens first?
+2. Audio → What happens after that?
+3. Audio → Then what happens?
 - Tipp der App: Hör zu. Sprich dann langsam nach.
 - Link: [../?via=tutor#verbindung-nachsprechen](../?via=tutor#verbindung-nachsprechen)
 

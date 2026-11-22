@@ -198,7 +198,7 @@ Danach gibt Mr Hill jedem Kind einen Zettel. Darauf steht: „Tell the story in 
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Sophie and Peter read a story.
-2. Audio → The story happens in a small village.
+2. Audio → The story happens in a small town.
 3. Audio → They find a letter in the garden.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -211,7 +211,7 @@ Danach gibt Mr Hill jedem Kind einen Zettel. Darauf steht: „Tell the story in 
 - Sätze:
 1. Audio → Who is in the story?
 2. Audio → Where does the story happen?
-3. Audio → What happens at the end of the story?
+3. Audio → What happens at the end?
 - Tipp der App: Hör zu. Sprich dann langsam nach.
 - Link: [../?via=tutor#figuren-nachsprechen](../?via=tutor#figuren-nachsprechen)
 

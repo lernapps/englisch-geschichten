@@ -177,9 +177,9 @@ Am Donnerstag gibt Mr Hill keine Bilder mehr aus. Du erzählst selbst eine Gesch
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → How did the story begin, Sophie?
-2. Audio → What happened next, Amir?
-3. Audio → How did the story end, Ellie?
+1. Audio → What is in the first picture?
+2. Audio → What happens in the next picture?
+3. Audio → What is in the last picture?
 - Tipp der App: Hör zu. Sprich dann langsam nach.
 - Link: [../?via=tutor#folge-nachsprechen](../?via=tutor#folge-nachsprechen)
 

@@ -164,7 +164,7 @@ Mr Hill sammelt die Zettel ein und liest ein paar vor. Die Kinder merken, dass d
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Ellie wrote only the big events.
-2. Audio → Sophie left out the colours.
+2. Audio → Sophie left out the small things.
 3. Audio → Peter did not know the end of the story.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -177,7 +177,7 @@ Mr Hill sammelt die Zettel ein und liest ein paar vor. Die Kinder merken, dass d
 - Sätze:
 1. Audio → Who helped in the story?
 2. Audio → What was the problem?
-3. Audio → How did the story finish?
+3. Audio → How did the story end?
 - Tipp der App: Hör zu. Sprich dann langsam nach.
 - Link: [../?via=tutor#zusammen-nachsprechen](../?via=tutor#zusammen-nachsprechen)
 

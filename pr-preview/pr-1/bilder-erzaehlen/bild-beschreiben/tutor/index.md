@@ -169,8 +169,8 @@ Danach hängt Mr Hill vier Bilder nebeneinander auf. Sie erzählen zusammen eine
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → What can you see in the foreground?
-2. Audio → What is in the background, Amir?
-3. Audio → What are the children doing, Sophie?
+2. Audio → What is in the background?
+3. Audio → What are the children doing?
 - Tipp der App: Hör zu. Sprich dann langsam nach.
 - Link: [../?via=tutor#bild-nachsprechen](../?via=tutor#bild-nachsprechen)
 

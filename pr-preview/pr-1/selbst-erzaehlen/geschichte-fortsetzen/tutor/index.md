@@ -191,7 +191,7 @@ Am Nachmittag sagt Mr Hill: „Tonight write about your day.“ Auf der nächste
 - Sätze:
 1. Audio → What happens after the climax?
 2. Audio → Can you write a different ending?
-3. Audio → Does the story go on, Peter?
+3. Audio → Does the story go on?
 - Tipp der App: Hör zu. Sprich dann langsam nach.
 - Link: [../?via=tutor#fortsetzen-nachsprechen](../?via=tutor#fortsetzen-nachsprechen)
 
