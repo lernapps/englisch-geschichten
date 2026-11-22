@@ -115,7 +115,7 @@ Dazu die Reimverse von `gedichte-reime` (Reim geht vor dem Klang des letzten Wor
 
 ### Fehllaut-Schnitt (`valley_cut` in `regen_audio.py`)
 
-`regen_audio.py` erkennt einen Fehllaut nach dem letzten Wort (Senke bis 15 % der Spitze, danach ein kurzer, leiser Ausschlag) und schneidet ihn ab (Rand 40 ms, höchstens 100 ms, Regel: `orchestrierung/audio/README-schnitt.md` in `lernapps/start`, Branch `claude/exciting-shannon-vi3k3t`); `--no-dip-cut` schaltet ihn aus, `DRY=1` zeigt die Schnitte (die Zieldateien werden dabei trotzdem neu geschrieben: danach `git checkout -- src/audio`). Alle 66 Hörsätze sind mit dieser Regel neu erzeugt. Geschnitten wurden 10 Dateien (Satz, entfernte ms); die Ersteller:in hört sie gezielt, besonders die mit zweisilbigem Ende (Risiko, dass eine Silbe angeschnitten wird):
+`regen_audio.py` erkennt einen Fehllaut nach dem letzten Wort (Senke bis 15 % der Spitze, danach ein kurzer, leiser Ausschlag) und schneidet ihn ab (Rand 40 ms, höchstens 100 ms, Regel: `orchestrierung/audio/README-schnitt.md` in `lernapps/start`, Branch `claude/exciting-shannon-vi3k3t`); `--no-dip-cut` schaltet ihn aus, `DRY=1` zeigt die Schnitte, ohne etwas in `src/audio/` zu schreiben (die Dateien gehen in ein temporäres Verzeichnis). Alle 66 Hörsätze sind mit dieser Regel neu erzeugt. Geschnitten wurden 10 Dateien (Satz, entfernte ms); die Ersteller:in hört sie gezielt, besonders die mit zweisilbigem Ende (Risiko, dass eine Silbe angeschnitten wird):
 - „What a lovely surprise!“ (85 ms, zweisilbig)
 - „I like to see the flowers after the showers.“ (85 ms, zweisilbig, **Reimvers**: ein abgeschnittener Reim ist ein Fehler)
 - „There are two cows in the background.“ (25 ms, zweisilbig)
