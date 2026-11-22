@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Was passiert in der Geschichte?
-summary: Mr Hill hängt in der Geschichtenecke einen Geschichtenberg und eine story map auf. Du lernst, einer Geschichte zu entnehmen, wer, wo, wann und was, sie kurz zusammenzufassen und nachzuerzählen.
-pages: [figuren-ort-handlung]
+summary: Mr Hill hängt in der Geschichtenecke einen Geschichtenberg und eine story map auf. Du lernst, einer Geschichte zu entnehmen, wer, wo, wann und was, sie kurz zusammenzufassen und in eigenen Worten nachzuerzählen.
+pages: [das-brauchst-du, figuren-ort-handlung, zusammenfassung, nacherzaehlen]

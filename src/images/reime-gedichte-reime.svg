@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 322" role="img">
+  <title>Vier Wortpaare mit der Angabe, ob sie sich reimen</title>
+  <rect width="480" height="322" fill="#f4efe2"/>
+  <text x="240" y="32" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#222">Reime richten sich nach dem Klang</text>
+  <rect x="10" y="52" width="460" height="56" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="26" y="87" font-family="sans-serif" font-size="20" fill="#222" xml:space="preserve"><tspan font-weight="normal">p</tspan><tspan font-weight="bold">en</tspan><tspan font-weight="normal"> – </tspan><tspan font-weight="normal">t</tspan><tspan font-weight="bold">en</tspan></text>
+  <text x="210" y="76" text-anchor="start" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222">reimt sich</text>
+  <text x="210" y="98" text-anchor="start" font-family="sans-serif" font-size="16" font-weight="normal" fill="#444">gleiche Endung</text>
+  <rect x="10" y="118" width="460" height="56" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="26" y="153" font-family="sans-serif" font-size="20" fill="#222" xml:space="preserve"><tspan font-weight="normal">h</tspan><tspan font-weight="bold">and</tspan><tspan font-weight="normal"> – </tspan><tspan font-weight="normal">s</tspan><tspan font-weight="bold">and</tspan></text>
+  <text x="210" y="142" text-anchor="start" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222">reimt sich</text>
+  <text x="210" y="164" text-anchor="start" font-family="sans-serif" font-size="16" font-weight="normal" fill="#444">gleiche Endung</text>
+  <rect x="10" y="184" width="460" height="56" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="26" y="219" font-family="sans-serif" font-size="20" fill="#222" xml:space="preserve"><tspan font-weight="bold">one</tspan><tspan font-weight="normal"> – </tspan><tspan font-weight="bold">run</tspan></text>
+  <text x="210" y="208" text-anchor="start" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222">reimt sich</text>
+  <text x="210" y="230" text-anchor="start" font-family="sans-serif" font-size="16" font-weight="normal" fill="#444">andere Schreibung</text>
+  <rect x="10" y="250" width="460" height="56" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="26" y="285" font-family="sans-serif" font-size="20" fill="#222" xml:space="preserve"><tspan font-weight="normal">m</tspan><tspan font-weight="bold">ove</tspan><tspan font-weight="normal"> – </tspan><tspan font-weight="normal">l</tspan><tspan font-weight="bold">ove</tspan></text>
+  <text x="210" y="274" text-anchor="start" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222">reimt sich nicht</text>
+  <text x="210" y="296" text-anchor="start" font-family="sans-serif" font-size="16" font-weight="normal" fill="#444">gleiche Schreibung</text>
+</svg>
