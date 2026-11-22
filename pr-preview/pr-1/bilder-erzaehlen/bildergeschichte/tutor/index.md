@@ -57,7 +57,7 @@ Am Mittwoch hängt Mr Hill vier Bilder zu einer Geschichte auf. Das erste Bild p
 
 Mr Hill zeigt diese Bilderfolge. Die Bilder haben keine Wörter, du erzählst sie selbst im [simple past](https://lernapps.net/apps/map/englisch/c/simple-past/), das du von Montag kennst.
 
-Bild: Vier Bilder. Bild 1 zeigt zwei Jungen, die im Garten vor einem Haus mit einem Ball spielen. Auf Bild 2 tritt der Junge mit der Brille den Ball fest in Richtung Haus. Auf Bild 3 steckt der Ball im zerbrochenen Fenster und die Jungen reißen die Hände hoch. Auf Bild 4 stehen die Jungen vor der Haustür bei einer Frau. Bildunterschrift: Die Bilderfolge vom Ball und vom Fenster. Die Jungen sind Peter (gelbe Jacke) und Amir (Brille), die Frau an der Tür ist Mrs Parker.
+Bild: Vier Bilder. Bild 1 zeigt zwei Jungen, die im Garten vor einem Haus mit einem Ball spielen. Auf Bild 2 tritt der Junge mit der Brille den Ball fest in Richtung Haus. Auf Bild 3 steckt der Ball im zerbrochenen Fenster und die Jungen reißen die Hände hoch. Auf Bild 4 stehen die Jungen vor der Haustür bei einer Frau mit rotem Dutt und türkiser Strickjacke. Bildunterschrift: Die Bilderfolge vom Ball und vom Fenster. Die Jungen sind Peter (gelbe Jacke) und Amir (Brille), die Frau an der Tür mit dem roten Dutt und der türkisen Strickjacke ist Mrs Parker.
 
 So erzählt Ellie die Geschichte: „First Peter and Amir played with a ball in the garden. Then Amir kicked the ball very hard. Suddenly the ball hit the window. After that the boys went to the door and Mrs Parker came out. Finally they said sorry.“
 
