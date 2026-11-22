@@ -239,15 +239,15 @@ page, which a link. -->
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
       Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Die übrigen Seiten dürfen folgen, sobald die Auflagen auf der Musterseite umgesetzt sind (erledigt, Commit e1119dc).
-- [ ] Kapitel was-passiert: Wiederholungsseite das-brauchst-du (simple-past) und die Seiten zusammenfassung und nacherzaehlen mit Szenen, Figuren, Audio und Rückblick am Kapitelende
-- [ ] Kapitel bilder-erzaehlen: Wiederholungsseite das-brauchst-du (there-is-are, present-progressive, praepositionen-ort) und die Seiten verbindungswoerter-erzaehlen, bild-beschreiben (Raster) und bildergeschichte (Bildfolge) mit Audio
-- [ ] Kapitel selbst-erzaehlen: die Seiten geschichte-erzaehlen, geschichte-fortsetzen und tagebucheintrag mit Berg-Planung, Audio und Rückblick
-- [ ] Kapitel spielen-und-reimen: die Seiten dialog-schreiben und gedichte-reime mit Audio (Reimzeilen vorher anhören) und Rückblick auf die ganze Woche
-- [ ] Audio: alle Hörsätze mit regen_audio.py erzeugen, Skript für Hörsätze und Lösung-im-Text über alle Seiten, Wortliste gegen den Grundwortschatz
+- [x] Kapitel was-passiert: Wiederholungsseite das-brauchst-du (simple-past) und die Seiten zusammenfassung und nacherzaehlen mit Szenen, Figuren, Audio und Rückblick am Kapitelende
+- [x] Kapitel bilder-erzaehlen: Wiederholungsseite das-brauchst-du (there-is-are, present-progressive, praepositionen-ort) und die Seiten verbindungswoerter-erzaehlen, bild-beschreiben (Raster) und bildergeschichte (Bildfolge) mit Audio
+- [x] Kapitel selbst-erzaehlen: die Seiten geschichte-erzaehlen, geschichte-fortsetzen und tagebucheintrag mit Berg-Planung, Audio und Rückblick
+- [x] Kapitel spielen-und-reimen: die Seiten dialog-schreiben und gedichte-reime mit Audio (Reimzeilen vorher anhören) und Rückblick auf die ganze Woche
+- [x] Audio: alle Hörsätze mit regen_audio.py erzeugen, Skript für Hörsätze und Lösung-im-Text über alle Seiten, Wortliste gegen den Grundwortschatz
 <!-- tasks: pages (5 added): the other pages or screens, after the pattern -->
-- [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Update the content guide so that it describes the app as built (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
 - [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
