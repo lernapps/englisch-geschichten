@@ -1,9 +1,12 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Anders erzählen
 summary: Ein Jahr später, wieder Geschichtenwoche. Mr Hill hängt eine Brille an das Feld who und eine Farbe an das Feld where. Du liest eine Szene aus Sophies Sicht und erzählst sie aus der Sicht einer anderen Figur neu.
-pages: [perspektive-wechseln]
+pages: [perspektive-wechseln, setting-atmosphaere]
 selfAssessment:
   pages:
     - exercises:
         - /anders-erzaehlen/perspektive-wechseln/#sicht-warum
         - /anders-erzaehlen/perspektive-wechseln/#sicht-ellie
+    - exercises:
+        - /anders-erzaehlen/setting-atmosphaere/#ort-wo
+        - /anders-erzaehlen/setting-atmosphaere/#stimmung-sommer
