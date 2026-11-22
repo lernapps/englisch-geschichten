@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
-title: "Wegweiser: first, then, suddenly, after that, finally"
-description: "Mr Hill hängt fünf Wegweiser an den Geschichtenberg. Du lernst, mit ihnen Sätze in einer Erzählung zu ordnen."
+title: "Wegweiser: first, then, after that, suddenly, finally"
+description: "Mr Hill bringt fünf Wegweiser für den Geschichtenberg mit. Du lernst, mit ihnen Sätze in einer Erzählung zu ordnen."
 competencies: [verbindungswoerter-erzaehlen]
-scope: Die Seite führt die fünf Wegweiser first, then, suddenly, after that und finally ein. Sie stehen am Satzanfang und zeigen, wo am Geschichtenberg die Geschichte gerade ist. First gehört zum beginning, then zum build-up, suddenly kurz vor den climax, after that nach den climax und finally zum ending. Then und after that sind in der Mitte fast gleich. Erzählt wird im simple past. Nicht hier, weil es spätere Seiten sind. Ein Bild beschreiben, eine Bildergeschichte schreiben und eine ganze Geschichte planen. Die Zeitformen selbst.
+scope: Die Seite führt die fünf Wegweiser first, then, after that, suddenly und finally ein. Sie stehen am Satzanfang und zeigen, wo am Geschichtenberg die Geschichte gerade ist. First gehört zum beginning, then und after that gehören zum build-up und dürfen sich vertreten, suddenly leitet den climax ein, wenn etwas Unerwartetes passiert, und finally gehört zum ending. Erzählt wird im simple past. Nicht hier, weil sie auf späteren Seiten und in späteren Kapiteln stehen, nämlich ein Bild beschreiben, eine Bildergeschichte schreiben, eine ganze Geschichte planen und die Zeitformen selbst.
 blocks:
   - type: section
     id: einstieg
@@ -15,20 +15,20 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Es ist Dienstag in der Geschichtenwoche. Mr Hill hat fünf Schilder mitgebracht, die **Wegweiser**. Sie zeigen, in welcher Reihenfolge etwas passiert. Peter hat zwei Sätze mit Wegweisern aufgeschrieben, aber nicht in der richtigen Reihenfolge: „Then we went home.“ und „First we played football.“"
+        text: "Es ist Dienstag in der Geschichtenwoche. Mr Hill hat fünf Schilder mitgebracht, die **Wegweiser**. Sie zeigen, in welcher Reihenfolge etwas passiert. Er liest den Anfang einer Geschichte vor, aber das erste Wort fehlt: „… Peter opened the box.“"
       - type: single-choice
         id: verbindung-start
-        text: Welcher Satz steht am Anfang der Geschichte?
+        text: Welches Wort gehört an den Anfang der Geschichte?
         options:
-          - text: First we played football
+          - text: First
             correct: true
-            info: First zeigt den Anfang der Geschichte.
-          - text: Then we went home
+            info: First zeigt, dass die Geschichte hier anfängt.
+          - text: Finally
             correct: false
-            info: Then kommt erst nach einem ersten Ereignis.
-          - text: Das lässt sich nicht sagen
+            info: Finally gehört ans Ende der Geschichte.
+          - text: Suddenly
             correct: false
-            info: Doch, die Wegweiser zeigen die Reihenfolge.
+            info: Suddenly zeigt etwas Unerwartetes, nicht den Anfang.
         explanation: Ein Wegweiser am Satzanfang zeigt, wo die Geschichte gerade ist.
         links:
           - title: Lernlandkarte Englisch · Verbindungswörter beim Erzählen
@@ -40,10 +40,10 @@ blocks:
     title: Welcher Wegweiser steht wo am Berg?
     blocks:
       - type: text
-        text: "Sophie und Ellie erzählen von einem Wintertag. Lies mit: „First Sophie and Ellie built a snowman in the garden. Then they put a hat on it. Suddenly a dog ran into the snowman. After that the girls laughed. Finally they built a new snowman.“"
+        text: "Mr Hill liest eine Geschichte vor. Lies mit: „First Peter and Amir painted a paper boat. Then they carried it to the park. After that they watched it on the water. Suddenly a big dog came to the boat. Finally Peter took the boat home.“"
       - type: figure
         image: images/geschichtenberg-verbindungswoerter.svg
-        alt: "Ein Berg mit vier Fähnchen: 1 beginning, 2 build-up, 3 climax am Gipfel, 4 ending. Dazu stehen fünf Schilder auf dem Berg. First am Fuß ganz links, then weiter oben links, suddenly kurz vor dem Gipfel, after that auf der rechten Seite und finally ganz rechts unten."
+        alt: "Ein Berg mit vier Fähnchen: 1 beginning, 2 build-up, 3 climax am Gipfel, 4 ending. Dazu stehen fünf Schilder auf dem Berg. First am Fuß ganz links, then und after that nebeneinander in der Mitte des Berges, suddenly kurz vor dem Gipfel und finally ganz rechts unten."
         caption: "Der Geschichtenberg mit fünf Wegweisern. Sie stehen in der Reihenfolge der Geschichte."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -52,7 +52,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Ein Wegweiser steht am Satzanfang und zeigt, wo du am Berg bist.** First gehört zum beginning, then zum build-up und kann öfter vorkommen. Suddenly steht kurz vor dem climax, wenn etwas Unerwartetes passiert. After that steht nach dem climax. Finally gehört zum ending. Then und after that sind fast gleich, beide passen in die Mitte. Nicht jeder Satz braucht einen Wegweiser, wechsle ab. Erzählt wird im simple past.
+              **Ein Wegweiser steht am Satzanfang und zeigt, wo du am Berg bist.** First gehört zum beginning. Then und after that gehören zum build-up, sie bedeuten fast dasselbe und dürfen öfter vorkommen. Suddenly leitet den climax ein, wenn etwas Unerwartetes passiert. Finally gehört zum ending. Nicht jeder Satz braucht einen Wegweiser, wechsle ab. Erzählt wird im simple past.
   - type: section
     id: uebung
     title: Ordne die Sätze mit den Wegweisern
@@ -66,12 +66,10 @@ blocks:
           - left: then
             right: Hier baut sich etwas auf
           - left: suddenly
-            right: Hier passiert kurz vor dem Gipfel etwas Unerwartetes
-          - left: after that
-            right: Hier geht es nach dem Gipfel weiter
+            right: Hier passiert etwas Unerwartetes
           - left: finally
             right: Hier endet die Geschichte
-        explanation: Die Wegweiser folgen dem Weg über den Berg.
+        explanation: Die Wegweiser folgen dem Weg über den Berg. After that gehört zu then.
         links:
           - title: Lernlandkarte Englisch · Verbindungswörter beim Erzählen
             url: https://lernapps.net/apps/map/englisch/c/verbindungswoerter-erzaehlen/
@@ -84,8 +82,8 @@ blocks:
           - source: Zuerst packte Amir seine Tasche.
             target: "[First] Amir packed his bag."
             distractors: [[Then, Finally]]
-          - source: Plötzlich fiel die Tasche auf den Boden.
-            target: "[Suddenly] the bag fell on the floor."
+          - source: Plötzlich ließ Amir die Tasche fallen.
+            target: "[Suddenly] Amir dropped his bag."
             distractors: [[First, After that]]
           - source: Danach lachten beide.
             target: "[After that|Then] both laughed."
@@ -100,17 +98,17 @@ blocks:
         items:
           - First Ellie went to the library.
           - Then she looked for a book about horses.
+          - After that she opened the book at a table.
           - Suddenly all the lights went out.
-          - After that she sat on the floor and waited.
-          - Finally the lights came on again.
-        explanation: Die Wegweiser zeigen die Reihenfolge, suddenly steht vor dem climax.
+          - Finally the lights were on again.
+        explanation: Die Wegweiser zeigen die Reihenfolge, suddenly leitet den climax ein.
         links:
           - title: Lernlandkarte Englisch · Verbindungswörter beim Erzählen
             url: https://lernapps.net/apps/map/englisch/c/verbindungswoerter-erzaehlen/
       - type: language-task
         id: verbindung-schreiben
         languages: { source: de, target: en }
-        task: Schreibe jeden Satz im simple past mit dem Wegweiser vom Anfang des Cues.
+        task: Schreibe jeden Satz im simple past. Der Hinweis nennt den Wegweiser am Satzanfang. Then und after that darfst du tauschen.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Suddenly · Peter · drop · bag
@@ -119,7 +117,7 @@ blocks:
               - answer: Suddenly Peter drops his bag.
                 message: Erzählt wird im simple past, also dropped.
               - answer: Peter dropped his bag.
-                message: Der Cue verlangt den Wegweiser suddenly am Satzanfang.
+                message: Der Hinweis verlangt den Wegweiser suddenly am Satzanfang.
           - cue: Finally · Amir · find · phone
             target: Finally Amir found (his|the) phone.
             mistakes:
@@ -127,12 +125,16 @@ blocks:
                 message: Erzählt wird im simple past, also found.
               - answer: Finally Amir finded his phone.
                 message: Find ist unregelmäßig, die Form heißt found.
-          - cue: After that · the girls · walk · home
-            target: (After that|Then) the girls walked home.
+          - cue: Then · the girls · walk · home
+            target: (Then|After that) the girls walked home.
             mistakes:
-              - answer: (After that|Then) the girls walk home.
+              - answer: Then the girls walk home.
                 message: Erzählt wird im simple past, also walked.
-              - answer: (After that|Then) the girls walked to home.
+              - answer: After that the girls walk home.
+                message: Erzählt wird im simple past, also walked.
+              - answer: Then the girls walked to home.
+                message: Vor home steht kein to.
+              - answer: After that the girls walked to home.
                 message: Vor home steht kein to.
       - type: language-task
         id: verbindung-hoeren
@@ -167,18 +169,18 @@ blocks:
         points:
           - text: First steht am Anfang und finally am Schluss.
             source: /bilder-erzaehlen/verbindungswoerter/#neu
-          - text: Suddenly steht kurz vor dem Höhepunkt, nicht am Anfang.
+          - text: Suddenly steht dort, wo etwas Unerwartetes passiert, nicht am Anfang.
             source: /bilder-erzaehlen/verbindungswoerter/#neu
-          - text: Mindestens drei verschiedene Wegweiser, nicht jeder Satz mit demselben.
+          - text: Mindestens vier verschiedene Wegweiser, nicht jeder Satz mit demselben.
             kind: form
           - text: Alle Sätze stehen im simple past.
             kind: form
         solution: |
-          First Peter and Amir rode their bikes to the lake.
-          Then they sat under a big tree.
-          Suddenly it began to rain.
-          After that they ran home.
-          Finally they drank hot milk in the kitchen.
+          First Peter and Amir walked to the lake.
+          Then they played under a big tree.
+          Suddenly it started to rain.
+          After that they walked home.
+          Finally they had hot milk in the kitchen.
         hint: Die App bewertet nicht. Prüfe anhand der Punkte.
   - type: section
     id: weiter

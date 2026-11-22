@@ -2,7 +2,7 @@
 title: "Zusammenfassen: nur das Wichtigste"
 description: "Mr Hill gibt jedem Kind einen Zettel. Du lernst, das Wichtigste einer Geschichte in wenigen Sätzen zusammenzufassen."
 competencies: [zusammenfassung]
-scope: Die Seite zeigt, wie man das Wichtigste einer kurzen Geschichte in wenigen Sätzen zusammenfasst. In die Zusammenfassung kommen nur die Haupt-Ereignisse der vier Stationen des Geschichtenbergs. Einzelheiten, eine Meinung und Sätze, die man wörtlich übernimmt, bleiben draußen, und es fehlt keine Station. Die Sätze stehen im simple past, wie die Geschichte. Nicht hier, weil es spätere Seiten sind. Nacherzählen in eigenen Worten Station für Station, Verbindungswörter beim Erzählen und eigene Geschichten schreiben. Die Zusammenfassung von Sachtexten.
+scope: Die Seite zeigt, wie man das Wichtigste einer kurzen Geschichte in wenigen Sätzen zusammenfasst. In die Zusammenfassung kommen nur die Hauptereignisse des Geschichtenbergs, in drei Sätzen für Anfang, Problem und Ende (beginning und build-up können in einem Satz stehen). Einzelheiten, eine Meinung und Sätze, die man wörtlich übernimmt, bleiben draußen, und es fehlt kein Teil der Geschichte. Die Sätze stehen im simple past, wie die Geschichte. Nicht hier, weil es spätere Seiten und Kapitel sind, nämlich Nacherzählen in eigenen Worten Station für Station, Verbindungswörter beim Erzählen, eigene Geschichten schreiben und die Zusammenfassung von Sachtexten.
 blocks:
   - type: section
     id: einstieg
@@ -18,21 +18,21 @@ blocks:
         text: "Mr Hill gibt jedem Kind einen **Zettel**. Darauf steht: „Tell the story in three sentences.“ Ellie flüstert: „Nur drei Sätze?“ Mr Hill lächelt. In einer Geschichte steht viel, aber du schreibst nur das Wichtige auf. Zuerst liest Sophie eine kurze Geschichte."
       - type: multiple-choice
         id: zusammen-start
-        text: "Sophie liest: „On Sunday Ellie's grey cat Smoky climbed up the apple tree. It could not come down. Ellie stood on a chair and carried Smoky down. Then Mrs Parker made hot chocolate for everybody.“ Welche Sätze gehören in eine kurze Zusammenfassung? Wähle alle richtigen."
+        text: "Sophie liest: „On Monday it rained. Sophie left her umbrella at home. Amir gave her his big blue umbrella. They walked to school together. Then Mr Hill smiled at them.“ Welche Sätze gehören in eine kurze Zusammenfassung? Wähle alle richtigen."
         options:
-          - text: Smoky climbed up the apple tree
-            correct: true
-            info: Das ist ein wichtiges Ereignis am Anfang.
-          - text: Smoky could not come down
+          - text: Sophie left her umbrella at home
             correct: true
             info: Hier beginnt das Problem.
-          - text: Ellie carried Smoky down
+          - text: Amir gave her his umbrella
             correct: true
             info: So löst sich das Problem.
-          - text: Smoky is a grey cat
+          - text: They walked to school together
+            correct: true
+            info: So endet die Geschichte.
+          - text: The umbrella is big and blue
             correct: false
             info: Das ist eine Einzelheit, kein Ereignis.
-          - text: Mrs Parker made hot chocolate
+          - text: Mr Hill smiled at them
             correct: false
             info: Das ist eine Nebensache.
         explanation: Wichtig ist, was die Geschichte weiterbringt.
@@ -50,36 +50,37 @@ blocks:
           - [summary, Zusammenfassung]
           - [detail, Einzelheit]
           - [goldfish, Goldfisch]
-          - [carry, tragen]
+          - [bowl, Schale]
+          - [umbrella, Regenschirm]
   - type: section
     id: neu
     title: Nur das, was am Geschichtenberg hängt
     blocks:
       - type: text
-        text: "Mr Hill liest eine andere Geschichte vor: „In January it snowed. Sophie and Amir made a big snowman with a carrot nose in the school yard. Their hands were cold, but they laughed. Suddenly a brown dog ran into the snowman and it fell down. Sophie was sad, but Amir had an idea. They made a new snowman and gave it a red scarf.“"
+        text: "Mr Hill liest eine andere Geschichte vor: „On Tuesday Mr Hill brought a small plant in a green pot to school. The plant stood on a table, and the children gave it water every day. After a week the plant was brown. Ellie read about plants and put it near the window. Two weeks later the plant had a yellow flower.“"
       - type: figure
         image: images/geschichtenberg-zusammenfassung.svg
-        alt: "Ein Berg mit vier Fähnchen: 1 beginning, 2 build-up, 3 climax am Gipfel, 4 ending. Darunter stehen vier Stichwörter: make snowman, dog comes, snowman falls, make new one. Drei Kästchen mit gestrichelten Rändern und kleinen Pfeilen nach unten fallen vom Berg: cold hands, red scarf, carrot nose."
-        caption: "Der Geschichtenberg zur Geschichte vom Schneemann. An den Fähnchen hängen die Haupt-Ereignisse. Die Kästchen mit gestrichelten Rändern sind Nebensachen: Sie fallen herunter."
+        alt: "Ein Berg mit vier Fähnchen: 1 beginning, 2 build-up, 3 climax am Gipfel, 4 ending. Darunter stehen vier Stichwörter: bring plant, plant turns brown, move to window, get a flower. Drei Kästchen mit gestrichelten Rändern und kleinen Pfeilen nach unten fallen vom Berg: green pot, small table, on Tuesday."
+        caption: "Der Geschichtenberg zur Geschichte von der Pflanze. An den Fähnchen hängen die Hauptereignisse. Die Kästchen mit gestrichelten Rändern sind Nebensachen: Sie fallen herunter."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Eine **Zusammenfassung** (englisch: summary) ist der Geschichtenberg in Sätzen. Du nimmst nur die Haupt-Ereignisse der vier Stationen. Alles andere fällt vom Berg: Einzelheiten wie Farben oder kalte Hände, deine Meinung und Sätze, die du Wort für Wort aus der Geschichte nimmst."
+        text: "Eine **Zusammenfassung** (englisch: summary) ist der Geschichtenberg in Sätzen. Du nimmst nur die Hauptereignisse der Stationen. Alles andere fällt vom Berg: Einzelheiten wie Farben oder Orte, deine Meinung und Sätze, die du Wort für Wort aus der Geschichte nimmst."
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **Eine Zusammenfassung ist kurz und hat nur die Haupt-Ereignisse.** Du schreibst sie in eigenen Worten im simple past, wie die Geschichte. Es fehlt keine Station, es steht keine Meinung darin (nicht „It was great.“) und nicht nur der Anfang. Drei bis vier Sätze reichen.
+              **Eine Zusammenfassung ist kurz und hat nur die Hauptereignisse.** Du schreibst sie in eigenen Worten im simple past, wie die Geschichte. Die Stichwörter am Berg stehen im simple present, die Sätze der Zusammenfassung im simple past. Es fehlt kein Teil der Geschichte, es steht keine Meinung darin (nicht „It was great.“), und es steht nicht nur der Anfang da. Drei Sätze reichen: Anfang, Problem und Ende. Beginning und build-up können zusammen in einem Satz stehen.
   - type: section
     id: uebung
     title: Finde und schreibe das Wichtigste
     blocks:
       - type: single-choice
         id: zusammen-beste
-        text: "Peter erzählt: „One morning Peter's goldfish Goldie was not in her bowl. Peter looked under the table and behind the sofa. Then he went to the kitchen. Mrs Parker was there. She had cleaned the bowl, and Goldie was in a blue cup by the window. Peter put Goldie back in the clean bowl.“ Welche Zusammenfassung ist die beste?"
+        text: "Peter liest: „One morning Peter's goldfish Goldie was not in her bowl. Peter looked under the table and behind the sofa. Then he went to the kitchen. Mrs Parker was there. Goldie was in a blue cup by the window. Peter put Goldie back in the clean bowl.“ Welche Zusammenfassung ist die beste?"
         options:
-          - text: "Peter's goldfish was not in her bowl. Peter looked under the table and behind the sofa, then he went to the kitchen, where Mrs Parker had a blue cup by the window, and he put Goldie back."
+          - text: "Peter's goldfish was not in her bowl. Peter looked under the table and behind the sofa. Then he went to the kitchen. Goldie was in a blue cup by the window. Peter put her back"
             correct: false
             info: Zu lang, hier stehen viele Einzelheiten.
           - text: "Peter's goldfish was in a cup. It is a funny story and I like Peter."
@@ -88,10 +89,10 @@ blocks:
           - text: "Peter's goldfish was not in her bowl. Peter looked under the table and behind the sofa."
             correct: false
             info: Das ist nur der Anfang, das Ende fehlt.
-          - text: "Goldie was not in her bowl. Peter found her in a cup. He put her back in the clean bowl."
+          - text: "Goldie was not in her bowl. She was in a cup in the kitchen. Peter put her back in the clean bowl"
             correct: true
-            info: Alle Stationen, kurz und ohne Meinung.
-        explanation: Kurz und mit allen Stationen.
+            info: Alles Wichtige, kurz und ohne Meinung.
+        explanation: Kurz und mit allem Wichtigen.
         links:
           - title: Lernlandkarte Englisch · Zusammenfassen
             url: https://lernapps.net/apps/map/englisch/c/zusammenfassung/
@@ -99,7 +100,7 @@ blocks:
         id: zusammen-zuordnen
         text: "Ordne die Sätze aus der Geschichte vom Goldfisch zu."
         pairs:
-          - left: Peter found Goldie in a cup.
+          - left: Goldie was in a cup.
             right: Ereignis, kommt hinein
           - left: The cup was blue.
             right: Einzelheit, bleibt draußen
@@ -111,39 +112,39 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/zusammenfassung/
       - type: ordering
         id: zusammen-ordnen
-        text: "Das ist die Zusammenfassung der Geschichte von Smoky. Ordne die drei Sätze in der Reihenfolge der Geschichte."
+        text: "Das ist die Zusammenfassung einer anderen Geschichte. Ordne die drei Sätze in der Reihenfolge der Geschichte."
         items:
-          - Ellie's cat climbed up a tree.
-          - It could not get down.
-          - Ellie got it down.
-        explanation: Erst die Katze, dann das Problem, dann die Lösung.
+          - Peter lost his shoe at school.
+          - He looked for it everywhere.
+          - A girl found it in the garden.
+        explanation: Erst das Problem, dann die Suche, dann die Lösung.
         links:
           - title: Lernlandkarte Englisch · Zusammenfassen
             url: https://lernapps.net/apps/map/englisch/c/zusammenfassung/
       - type: language-task
         id: zusammen-kuerzen
         languages: { source: de, target: en }
-        task: "Lies: „On Thursday afternoon, in the cold park, Amir lost his new blue football. After an hour a man with a small dog found it behind a big tree.“ Schreibe die zwei Haupt-Ereignisse als kurze Sätze."
+        task: "Lies: „On Thursday afternoon, in the cold park, Amir lost his new blue football. After an hour a man with a small dog found it behind a big tree.“ Schreibe die zwei Hauptereignisse als kurze Sätze."
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Amir · lose · football
-            target: Amir lost (his |the |a |his new |the new |a new )football( in the park|).
+            target: Amir lost (his |the |his new |the new |his blue |the blue |his new blue |the new blue )(football|ball)( in the park| in the cold park|).
             mistakes:
               - answer: Amir lose his football.
                 message: Das Ereignis ist vorbei, das Verb steht im simple past.
               - answer: Amir losed his football.
                 message: Lose ist unregelmäßig, die Form heißt lost.
               - answer: Amir lost football.
-                message: Vor football fehlt his, the oder a.
+                message: Vor football fehlt his oder the.
           - cue: man · find · football · tree
-            target: (A|The) man found (the |his |a )(football|ball)( behind a tree| behind the tree|).
+            target: A man found (the |Amir's )(blue |new |)(football|ball)( behind a tree| behind the tree| behind a big tree|).
             mistakes:
               - answer: A man find the football.
                 message: Das Ereignis ist vorbei, das Verb steht im simple past.
               - answer: A man finded the football.
                 message: Find ist unregelmäßig, die Form heißt found.
               - answer: A man found football.
-                message: Vor football fehlt the oder a.
+                message: Vor football fehlt the oder Amir's.
       - type: language-task
         id: zusammen-hoeren
         languages: { source: de, target: en }
@@ -173,22 +174,22 @@ blocks:
         hint: Hör zu. Sprich dann langsam nach.
       - type: open-task
         id: zusammen-schreiben
-        task: "Denke an eine Geschichte, die du kennst, zum Beispiel ein Märchen, einen Film oder ein Buch. Fasse sie auf Englisch in drei Sätzen zusammen."
+        task: "Denke an einen Film oder ein Buch, das du gut kennst. Fasse es auf Englisch in drei Sätzen zusammen: Anfang, Problem und Ende."
         points:
-          - text: Es sind drei Sätze mit den Haupt-Ereignissen von Anfang, Problem und Ende.
+          - text: Es sind drei Sätze mit den Hauptereignissen von Anfang, Problem und Ende.
             source: /was-passiert/zusammenfassung/#neu
           - text: Es gibt keine Einzelheiten und keine Meinung.
             source: /was-passiert/zusammenfassung/#neu
           - text: Die Sätze stehen im simple past und sind in eigenen Worten geschrieben.
             kind: form
         solution: |
-          A boy lost his kite in the park.
-          A girl found it in a tree.
-          They flew the kite together.
+          A girl lost her book on the bus.
+          The driver found it after school.
+          She got it back the next day.
         hint: Die App bewertet nicht. Prüfe anhand der Punkte.
   - type: section
     id: weiter
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mr Hill sammelt die Zettel ein und liest ein paar vor. Die Kinder merken, dass drei Sätze reichen. Danach setzt sich Amir zu Ellie und Sophie. Auf der nächsten Seite erzählst du eine Geschichte in eigenen Worten nach, Station für Station."
+        text: "Mr Hill sammelt die Zettel ein und liest ein paar vor. Die Kinder merken, dass drei Sätze reichen. Auf der nächsten Seite erzählst du eine Geschichte in eigenen Worten nach, Station für Station."

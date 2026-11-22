@@ -10,23 +10,23 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-bild-beschreiben.svg
-        alt: "In der Geschichtenecke hängen neben dem Geschichtenberg ein Bild mit einem Haus, einem Baum und der Sonne. Vor der Wand stehen Sophie, Peter, Ellie und Amir, rechts steht Mr Hill. Sophie fragt in einer Sprechblase: „Where do I start?“"
+        alt: "In der Geschichtenecke hängt neben dem Geschichtenberg ein Bild mit einem Haus, einem Baum und der Sonne. Vor der Wand stehen Sophie, Peter, Ellie und Amir, rechts steht Mr Hill. Sophie fragt in einer Sprechblase: „Where do I start?“"
         caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Neben dem Geschichtenberg hängt das Bild der Klasse."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Es ist Mittwoch in der Geschichtenwoche. Seit heute früh hängt in der Geschichtenecke ein Bild der Klasse. Mr Hill sagt: „Describe the picture.“ Das ist nicht leicht, denn es gibt viel zu sehen. Mr Hill fragt zuerst: „Where is the bag?“"
+        text: "Es ist Mittwoch in der Geschichtenwoche. Seit heute früh hängt in der Geschichtenecke ein Bild der Klasse. Mr Hill sagt: „Describe the picture.“ Das ist nicht leicht, denn es gibt viel zu sehen. Mr Hill fragt zuerst nach dem Bild an der Wand: „Where is the tree?“"
       - type: single-choice
         id: bild-start
-        text: Welche Antwort sagt, wo die Tasche ist?
+        text: Welche Antwort sagt, wo der Baum auf dem Bild an der Wand ist?
         options:
-          - text: The bag is under the chair
+          - text: The tree is next to the house
             correct: true
-            info: Under sagt, wo etwas ist.
-          - text: The bag is falling
+            info: Next to sagt, wo etwas ist.
+          - text: The tree is falling
             correct: false
             info: Das sagt, was gerade passiert, nicht wo.
-          - text: There are two bags
+          - text: There are two trees
             correct: false
             info: Das sagt, wie viele es gibt, nicht wo.
         explanation: Auf where antwortest du mit einem Ort.
@@ -45,6 +45,7 @@ blocks:
           - [background, Hintergrund]
           - [sandcastle, Sandburg]
           - [kite, Drachen]
+          - [umbrella, Sonnenschirm]
   - type: section
     id: neu
     title: Das Raster zeigt jeden Platz
@@ -64,7 +65,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Sage zuerst, wo etwas ist, und dann, was da ist oder was passiert.** Die Reihen haben in: in the foreground, in the middle, in the background. Die Spalten haben on: on the left, on the right. Die Mitte des Bildes heißt in the middle of the picture. Was da ist, sagst du mit there is oder there are. Was gerade passiert, sagst du mit is oder are und dem Verb mit -ing. At steht bei Orten wie at school. Du beschreibst im present, nicht im simple past.
+              **Sage zuerst, wo etwas ist, und dann, was da ist oder was passiert.** Bei den Reihen steht in (in the foreground, in the middle, in the background). Bei den Spalten steht on, wenn es links oder rechts ist (on the left, on the right), die Mitte heißt in the middle. Das Feld ganz in der Mitte heißt in the middle of the picture. Was da ist, sagst du mit there is oder there are. Was gerade passiert, sagst du mit is oder are und dem Verb mit -ing. At steht bei Orten wie at school. Du beschreibst im present, nicht im simple past.
   - type: section
     id: uebung
     title: Lies das Raster und beschreibe das Strandbild
@@ -75,15 +76,13 @@ blocks:
         material:
           - type: figure
             image: images/bild-strand-raster.svg
-            alt: "Ein Strand mit einem Raster aus drei Reihen und drei Spalten. Zu sehen sind die Sonne, ein Segelboot, ein schlafender Mann unter einem Schirm, ein Junge mit einem Drachen, ein Mädchen mit einem Eis und zwei Kinder mit einer Sandburg."
+            alt: "Ein Strand mit einem Raster aus drei Reihen und drei Spalten. Zu sehen sind die Sonne, ein Segelboot, ein schlafender Mann unter einem Sonnenschirm, ein Junge mit einem Drachen, ein Mädchen mit einem Eis und zwei Kinder mit einer Sandburg."
             caption: Das Strandbild mit Raster.
             source: eigene Zeichnung
             licence: CC-BY-4.0
         pairs:
           - left: the sun
             right: in the background on the left
-          - left: the boat
-            right: in the background on the right
           - left: the umbrella
             right: in the middle on the left
           - left: the kite
@@ -102,29 +101,27 @@ blocks:
         material:
           - type: figure
             image: images/bild-strand-raster.svg
-            alt: "Ein Strand mit einem Raster aus drei Reihen und drei Spalten. Zu sehen sind die Sonne, ein Segelboot, ein schlafender Mann unter einem Schirm, ein Junge mit einem Drachen, ein Mädchen mit einem Eis und zwei Kinder mit einer Sandburg."
+            alt: "Ein Strand mit einem Raster aus drei Reihen und drei Spalten. Zu sehen sind die Sonne, ein Segelboot, ein schlafender Mann unter einem Sonnenschirm, ein Junge mit einem Drachen, ein Mädchen mit einem Eis und zwei Kinder mit einer Sandburg."
             caption: Das Strandbild mit Raster.
             source: eigene Zeichnung
             licence: CC-BY-4.0
         items:
           - source: Im Hintergrund rechts ist ein Boot.
             target: "[In] the background [on] the right [there is|there's] a boat."
-          - source: Links schläft ein Mann unter einem Schirm.
-            target: "[On] the left a man is sleeping [under] an umbrella."
-          - source: Am Strand spielen zwei Kinder.
-            target: Two children are playing [at] the beach.
+          - source: Der Mann schläft unter einem Sonnenschirm.
+            target: A man is [sleeping] [under] an umbrella.
           - source: Im Vordergrund sind zwei Kinder.
             target: In the foreground [there are] two children.
         hint: In steht bei der Reihe, on bei der Spalte.
       - type: language-task
         id: bild-schreiben
         languages: { source: de, target: en }
-        task: Schreibe einen Satz zum Strandbild. Der Cue sagt, was du brauchst.
+        task: Schreibe einen Satz zum Strandbild. Der Hinweis sagt, was du brauchst.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         material:
           - type: figure
             image: images/bild-strand-raster.svg
-            alt: "Ein Strand mit einem Raster aus drei Reihen und drei Spalten. Zu sehen sind die Sonne, ein Segelboot, ein schlafender Mann unter einem Schirm, ein Junge mit einem Drachen, ein Mädchen mit einem Eis und zwei Kinder mit einer Sandburg."
+            alt: "Ein Strand mit einem Raster aus drei Reihen und drei Spalten. Zu sehen sind die Sonne, ein Segelboot, ein schlafender Mann unter einem Sonnenschirm, ein Junge mit einem Drachen, ein Mädchen mit einem Eis und zwei Kinder mit einer Sandburg."
             caption: Das Strandbild mit Raster.
             source: eigene Zeichnung
             licence: CC-BY-4.0
@@ -141,7 +138,7 @@ blocks:
               - answer: In the foreground two children are building sandcastle.
                 message: Vor sandcastle fehlt a.
           - cue: on the right · girl · eat · ice cream
-            target: (In the middle on the right|On the right|In the middle on the right side) a girl is eating (an ice cream|ice cream).
+            target: In the middle on the right a girl is eating (an ice cream|ice cream).
             mistakes:
               - answer: In the middle on the right a girl eating an ice cream.
                 message: Bei is oder are plus -ing fehlt is.
@@ -150,13 +147,13 @@ blocks:
               - answer: In the middle on the right a girl are eating an ice cream.
                 message: Bei einem Mädchen steht is, nicht are.
           - cue: background · left · there is · sun
-            target: In the background on the left there is (the|a) sun.
+            target: In the background on the left (there is|there's) a (big |bright |yellow |)sun.
             mistakes:
               - answer: In the background on the left is the sun.
                 message: Dazu gehört there is, there fehlt.
-              - answer: In the background on the left there are the sun.
+              - answer: In the background on the left there are a sun.
                 message: Bei einer Sonne steht there is, nicht there are.
-              - answer: On the background on the left there is the sun.
+              - answer: On the background on the left there is a sun.
                 message: Vor background steht in, nicht on.
       - type: language-task
         id: bild-hoeren
@@ -180,8 +177,8 @@ blocks:
         items:
           - audio: what-can-you-see-in-the-foreground.mp3
             text: What can you see in the foreground?
-          - audio: who-is-on-the-left-amir.mp3
-            text: Who is on the left, Amir?
+          - audio: what-is-in-the-background-amir.mp3
+            text: What is in the background, Amir?
           - audio: what-are-the-children-doing-sophie.mp3
             text: What are the children doing, Sophie?
         hint: Hör zu. Sprich dann langsam nach.

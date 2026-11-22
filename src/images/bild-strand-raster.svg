@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 450" role="img">
   <title>Ein Strand mit einem 3 mal 3 Raster. Die Spalten heißen on the left, in the middle und on the right, die Reihen background, in the middle und foreground.</title>
-  <rect width="640" height="420" fill="#f4efe2"/>
+  <rect width="690" height="450" fill="#f4efe2"/>
+  <g transform="translate(45,36)">
   <rect x="125" y="40" width="510" height="360" fill="#efdba8"/>
   <rect x="125" y="40" width="510" height="52" fill="#d6e9f2"/>
   <rect x="125" y="92" width="510" height="68" fill="#8fc3de"/>
@@ -27,10 +28,15 @@
   <line x1="635" y1="40" x2="635" y2="400" stroke="#333" stroke-width="2" stroke-dasharray="7 5" opacity="0.75"/>
   <line x1="125" y1="400" x2="635" y2="400" stroke="#333" stroke-width="2" stroke-dasharray="7 5" opacity="0.75"/>
   <rect x="125" y="40" width="510" height="360" fill="none" stroke="#333" stroke-width="3"/>
-  <text x="210.0" y="30" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222">on the left</text>
-  <text x="380.0" y="30" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222">in the middle</text>
-  <text x="550.0" y="30" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222">on the right</text>
-  <text x="117" y="106.0" text-anchor="end" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222">background</text>
-  <text x="117" y="226.0" text-anchor="end" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222">in the middle</text>
-  <text x="117" y="346.0" text-anchor="end" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222">foreground</text>
+  </g>
+  <text x="255" y="32" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">on the</text>
+  <text x="255" y="60" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">left</text>
+  <text x="425" y="32" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">in the</text>
+  <text x="425" y="60" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">middle</text>
+  <text x="595" y="32" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">on the</text>
+  <text x="595" y="60" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">right</text>
+  <text x="162" y="145" text-anchor="end" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">background</text>
+  <text x="162" y="242" text-anchor="end" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">in the</text>
+  <text x="162" y="270" text-anchor="end" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">middle</text>
+  <text x="162" y="385" text-anchor="end" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">foreground</text>
 </svg>

@@ -2,7 +2,7 @@
 title: Eine Geschichte fortsetzen oder anders enden lassen
 description: "Amir fragt: And then? Du lernst, an eine Geschichte einen zweiten Gipfel anzubauen oder ihr ein anderes Ende zu geben."
 competencies: [geschichte-fortsetzen]
-scope: Die Seite zeigt zwei Wege, eine Geschichte weiterzuführen. Der erste ist ein zweiter Gipfel, also ein neues Problem nach dem Ende. Der zweite ist ein anderes Ende, bei dem nur der letzte Satz neu geschrieben wird. Figuren, Ort und Zeitform (simple past) bleiben gleich. Das Wort suddenly zeigt oft den neuen Gipfel. Nicht hier, weil es eigene Seiten sind. Eine ganze Geschichte planen und schreiben, ein Tagebuch und ein Dialog. Die Zeitformen selbst gehören nicht hierher.
+scope: Die Seite zeigt zwei Wege, eine Geschichte weiterzuführen. Der erste ist ein zweiter Gipfel (second peak), also ein neues Problem nach der Lösung. Der zweite ist ein anderes Ende, bei dem nur der letzte Satz neu geschrieben wird. Figuren, Ort und Zeitform (simple past) bleiben gleich. Das Wort suddenly zeigt oft den neuen Gipfel. Nicht hier, weil es eigene Seiten sind. Eine ganze Geschichte planen und schreiben, ein Tagebuch und ein Dialog. Die Zeitformen selbst gehören nicht hierher.
 blocks:
   - type: section
     id: einstieg
@@ -15,18 +15,18 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Peter liest den Anfang einer Geschichte vor: „Amir and his sister played football in the garden. The ball flew over the wall.“ Dann hört er auf. Amir fragt: „And then?“ Die Geschichte soll weitergehen."
+        text: "Sophie liest ihre Geschichte vom Drachen vor: „On a sunny Saturday Ellie and her grandpa were on the hill. They flew a kite. Suddenly the kite flew away. Finally a boy found it.“ Dann hört sie auf. Amir fragt: „And then?“ Die Geschichte soll weitergehen."
       - type: single-choice
         id: fortsetzen-start
-        text: Welcher Satz setzt Peters Geschichte fort?
+        text: Welcher Satz setzt Sophies Geschichte fort?
         options:
-          - text: Amir climbed over the wall and got the ball
+          - text: The boy gave the kite back to Ellie
             correct: true
-            info: Gleiche Figur, gleicher Ort, simple past. Das passt.
-          - text: Amir climbs over the wall and gets the ball
+            info: Gleiche Figuren, gleicher Ort, simple past. Das passt.
+          - text: The boy gives the kite back to Ellie
             correct: false
             info: Das steht im simple present, die Geschichte im simple past.
-          - text: Ellie and her mum go shopping in town
+          - text: Peter and Amir played football at school
             correct: false
             info: Neue Figuren und ein neuer Ort. Das ist eine andere Geschichte.
         explanation: Eine Fortsetzung bleibt bei den Figuren, beim Ort und im simple past.
@@ -34,7 +34,7 @@ blocks:
           - title: Lernlandkarte Englisch · Eine Geschichte fortsetzen
             url: https://lernapps.net/apps/map/englisch/c/geschichte-fortsetzen/
       - type: text
-        text: "**Das kannst du danach:** Du baust an eine Geschichte einen zweiten Gipfel an. Oder du schreibst ein anderes Ende dafür."
+        text: "**Das kannst du danach:** Du hängst an eine Geschichte einen zweiten Gipfel an. Oder du schreibst ein anderes Ende dafür."
       - type: text
         text: Dieses Wort ist neu auf dem Klassenzimmer-Poster.
       - type: table
@@ -47,7 +47,7 @@ blocks:
     title: Zweiter Gipfel oder anderes Ende
     blocks:
       - type: text
-        text: "Sophie liest ihre Geschichte vor: „On a cold Saturday Ellie and Peter made a snowman in the garden. Suddenly a big dog ran into it. The snowman fell down. Ellie and Peter made a new one.“ Mr Hill zeigt zwei Wege. Beim **zweiten Gipfel** kommt nach dem Ende ein neues Problem. Beim **anderen Ende** schreibst du nur den letzten Satz neu."
+        text: "Sophie hat noch eine zweite Geschichte. Sie liest vor: „On a cold Saturday Ellie and her brother Peter made a snowman in the garden. Suddenly a big dog ran into it. The snowman fell down. Ellie and Peter made a new one.“ Mr Hill zeigt zwei Wege. Beim **zweiten Gipfel** (second peak) kommt nach der Lösung ein neues Problem. Beim **anderen Ende** schreibst du nur den letzten Satz neu."
       - type: figure
         image: images/geschichtenberg-geschichte-fortsetzen.svg
         alt: "Ein Berg mit zwei Gipfeln und vier Fähnchen von links nach rechts: 1 beginning, 2 climax auf dem ersten Gipfel, 3 second peak auf dem höheren zweiten Gipfel und 4 ending. In der Mulde zwischen den Gipfeln hängt das Schild suddenly."
@@ -58,46 +58,46 @@ blocks:
         text: |
           Sophies zweiter Gipfel: „The next day the sun came out. Suddenly the new snowman began to melt.“
 
-          Sophies anderes Ende: „Ellie and Peter laughed. Then they played with the dog in the snow.“
+          Sophies anderes Ende: „Ellie and Peter laughed and played with the dog in the snow.“
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **Eine Fortsetzung bleibt bei den Figuren und beim Ort und steht im simple past.** Nur das Problem ist neu. Das Wort suddenly (plötzlich) zeigt oft, dass ein neuer Gipfel beginnt. Ein anderes Ende ersetzt nur den letzten Satz.
+              **Eine Fortsetzung bleibt bei den Figuren und beim Ort und steht im simple past.** Nur das Problem ist neu. Das Wort suddenly (plötzlich) leitet oft ein neues Problem ein. Ein anderes Ende ersetzt nur den letzten Satz.
   - type: section
     id: uebung
     title: Setze die Geschichte fort
     blocks:
       - type: text
-        text: "Ellie und Peter haben diese Geschichte geschrieben: „On a hot Sunday Ellie and her brother Peter walked along the beach. They found an old bottle with a letter inside. Suddenly a big wave came and took the bottle. Ellie jumped into the water and got it back. But the letter was empty.“"
+        text: "Amir hat diese Geschichte geschrieben: „On a cold Sunday Ellie and her brother Peter walked along the river. They found an old bottle with a letter inside. Suddenly the bottle fell into the river. Ellie took a long stick and pulled it out. But the letter was empty.“"
       - type: single-choice
         id: fortsetzen-weg
-        text: Ellie will nach dem leeren Brief ein neues Problem erzählen. Was baut sie an?
+        text: Amir will nach dem leeren Brief ein neues Problem erzählen. Was baut er an?
         options:
           - text: einen zweiten Gipfel
             correct: true
-            info: Ein neues Problem nach dem Ende ist ein zweiter Gipfel.
+            info: Ein neues Problem nach der Lösung ist ein zweiter Gipfel.
           - text: ein anderes Ende
             correct: false
             info: Beim anderen Ende ersetzt du nur den letzten Satz, es kommt kein neues Problem.
           - text: einen neuen Anfang
             correct: false
             info: Der Anfang bleibt, wie er ist.
-        explanation: Ein zweiter Gipfel ist ein neues Problem nach dem Ende.
+        explanation: Ein zweiter Gipfel ist ein neues Problem nach der Lösung.
         links:
           - title: Lernlandkarte Englisch · Eine Geschichte fortsetzen
             url: https://lernapps.net/apps/map/englisch/c/geschichte-fortsetzen/
       - type: multiple-choice
         id: fortsetzen-treue
-        text: Peter schreibt die Fortsetzung. Was soll zuerst gleich bleiben? Wähle alle richtigen.
+        text: Amir schreibt die Fortsetzung. Was bleibt gleich? Wähle alle richtigen.
         options:
           - text: die Figuren
             correct: true
             info: Ellie und Peter bleiben dabei, sonst ist es eine andere Geschichte.
           - text: der Ort
             correct: true
-            info: Die Geschichte geht zuerst am selben Ort weiter.
+            info: Die Geschichte geht am selben Ort weiter.
           - text: die Zeitform
             correct: true
             info: Auch die Fortsetzung steht im simple past.
@@ -111,29 +111,31 @@ blocks:
       - type: language-task
         id: fortsetzen-schreiben
         languages: { source: de, target: en }
-        task: "Peter schreibt den zweiten Gipfel. Schreibe die drei Sätze im simple past."
+        task: "Amir schreibt den zweiten Gipfel. Schreibe die drei Sätze im simple past."
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - cue: "next day · Ellie and Peter · go back · to the beach"
-            target: "(The next day |Next day |)Ellie and Peter went back to the beach."
+          - cue: "next day · Ellie and Peter · go back · to the river"
+            target: (The next day Ellie and Peter went back to the river.|Next day Ellie and Peter went back to the river.|Ellie and Peter went back to the river.)
             mistakes:
-              - answer: Ellie and Peter go back to the beach.
+              - answer: Ellie and Peter go back to the river.
                 message: Die Fortsetzung steht im simple past, also went.
-              - answer: Ellie and Peter goed back to the beach.
+              - answer: Ellie and Peter goed back to the river.
                 message: Go ist unregelmäßig, die Form heißt went.
-              - answer: Ellie and Peter went back to beach.
-                message: Vor beach fehlt the.
+              - answer: Ellie and Peter went back to river.
+                message: Vor river fehlt the.
           - cue: "they · find · another bottle"
-            target: (They found another bottle.|They found a second bottle.|They found a new bottle.)
+            target: They found (another|a second|a new) bottle.
             mistakes:
               - answer: They find another bottle.
                 message: Die Fortsetzung steht im simple past, also found.
               - answer: They finded another bottle.
                 message: Find ist unregelmäßig, die Form heißt found.
+              - answer: They found a other bottle.
+                message: Es heißt another, ein Wort.
               - answer: They found other bottle.
                 message: Es heißt another bottle, ein Wort.
           - cue: "there · be · a map inside"
-            target: (There was a map inside.|There was a map in it.|There was a small map inside.)
+            target: There was a (small |)map (inside|in it|in the bottle|inside the bottle).
             mistakes:
               - answer: There is a map inside.
                 message: Die Fortsetzung steht im simple past, also was.
@@ -144,23 +146,23 @@ blocks:
       - type: language-task
         id: fortsetzen-suddenly
         languages: { source: de, target: en }
-        task: "Beginne mit dem Wegweiser suddenly und bilde zwei Sätze im simple past."
+        task: "Beginne jeden Satz mit suddenly und bilde zwei Sätze im simple past."
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: "suddenly · a boy · shout"
-            target: Suddenly a boy shouted.
+            target: Suddenly a boy shouted( loudly|).
             mistakes:
               - answer: Suddenly a boy shouts.
                 message: Die Geschichte steht im simple past, also shouted.
               - answer: Suddenly boy shouted.
                 message: Vor boy fehlt a.
           - cue: "suddenly · it · start · to rain"
-            target: Suddenly it started to rain.
+            target: Suddenly it started (to rain|raining).
             mistakes:
               - answer: Suddenly it starts to rain.
                 message: Die Geschichte steht im simple past, also started.
               - answer: Suddenly it start to rain.
-                message: Auch im simple past braucht das Verb die Endung -ed.
+                message: Im simple past braucht start die Endung -ed.
       - type: language-task
         id: fortsetzen-hoeren
         languages: { source: de, target: en }
@@ -185,12 +187,12 @@ blocks:
             text: What happens after the climax?
           - audio: can-you-write-a-different-ending.mp3
             text: Can you write a different ending?
-          - audio: does-the-story-go-on-tomorrow.mp3
-            text: Does the story go on tomorrow?
+          - audio: does-the-story-go-on-peter.mp3
+            text: Does the story go on, Peter?
         hint: Hör zu. Sprich dann langsam nach.
       - type: open-task
         id: fortsetzen-schreiben-offen
-        task: "Lies die Geschichte: „On a rainy Wednesday Amir and Peter played a board game in Amir's living room. Peter was winning. Suddenly all the lights went out. Amir laughed and said, ‚Now nobody wins!‘“ Schreibe in drei bis vier Sätzen einen zweiten Gipfel. Oder schreibe ein anderes Ende für den letzten Satz."
+        task: "Lies die Geschichte: „On a snowy Wednesday Peter and Amir made a paper plane in Amir's kitchen. They opened the window and threw it out. The plane flew over the garden and landed in a tree.“ Schreibe in drei bis vier Sätzen einen zweiten Gipfel. Oder schreibe nur ein anderes Ende für den letzten Satz."
         points:
           - text: Die Fortsetzung beginnt dort, wo die Geschichte aufhört.
             source: /selbst-erzaehlen/geschichte-fortsetzen/#neu
@@ -198,10 +200,12 @@ blocks:
             source: /selbst-erzaehlen/geschichte-fortsetzen/#neu
           - text: Es gibt ein neues Problem oder ein anderes Ende.
             source: /selbst-erzaehlen/geschichte-fortsetzen/#neu
-          - text: Die Fortsetzung hat drei bis vier Sätze.
+          - text: Der zweite Gipfel hat drei bis vier Sätze, das andere Ende einen Satz.
             kind: form
         solution: |
-          Peter found his phone and put on the light. Then they looked for the game cards, but the cards were not on the table. Suddenly Amir laughed. His cat sat on the cards! They played again by the light of the phone.
+          Zweiter Gipfel: Peter ran into the garden. He looked up, but the plane was too high. Suddenly the wind moved the branch. The plane fell down and Amir caught it.
+
+          Anderes Ende: The plane flew over the garden and landed in a soft pile of snow.
         hint: Die App bewertet nicht. Prüfe anhand der Punkte.
   - type: section
     id: weiter

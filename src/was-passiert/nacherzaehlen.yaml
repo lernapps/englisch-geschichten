@@ -18,15 +18,15 @@ blocks:
         text: "Mr Hill hat Amir eine kurze Geschichte gegeben. Amir erzählt sie jetzt Ellie **nach**, und Sophie hört zu. Er liest nicht vor und schreibt nichts ab. Er erzählt, was passiert ist, in eigenen Worten."
       - type: single-choice
         id: nacherzaehlen-start
-        text: "Amir hat gelesen: „A fox found a red glove on the path. He took it home. A girl came and took it back.“ Welche Nacherzählung ist richtig?"
+        text: "Amir hat gelesen: „A fox found a red glove in the park. He took it home. A girl came and took it back.“ Welche Nacherzählung ist richtig?"
         options:
-          - text: A fox found a red glove on the path. He took it home. A girl came and took it back
+          - text: A fox found a red glove in the park. He took it home. A girl came and took it back
             correct: false
             info: Das ist abgeschrieben, nicht in eigenen Worten.
-          - text: A fox saw a glove and took it. Later a girl got it back
+          - text: A fox took a red glove. Later a girl got it back
             correct: true
             info: In eigenen Worten und im simple past.
-          - text: A fox finds a glove and takes it. Later a girl gets it back
+          - text: A fox takes a red glove. Later a girl gets it back
             correct: false
             info: Das ist simple present, nicht simple past.
         explanation: Die Zeit ist die der Geschichte, die Worte sind deine.
@@ -50,7 +50,7 @@ blocks:
     title: Den Berg Schritt für Schritt abgehen
     blocks:
       - type: text
-        text: "Jetzt liest Amir eine andere Geschichte: „Last Sunday Ellie's rabbit Coco ran out of the garden door. Ellie and Peter ran after her down the road. Coco hid under a green car. Peter sat on the ground and called her softly. Coco came out and Peter carried her home.“"
+        text: "Jetzt liest Amir eine andere Geschichte: „Last Sunday Ellie's rabbit Coco ran out of the garden. Ellie and Peter ran after her down the road. Coco hid under a green car. Peter sat down and called her quietly. Coco came out and Peter carried her home.“"
       - type: figure
         image: images/geschichtenberg-nacherzaehlen.svg
         alt: "Ein Berg mit vier Fähnchen: 1 beginning, 2 build-up, 3 climax am Gipfel, 4 ending. Darunter stehen vier Stichwörter: Coco runs out, run after her, hides under car, carries her home."
@@ -61,7 +61,7 @@ blocks:
         text: |
           Amir erzählt zu jedem Fähnchen einen Satz in eigenen Worten:
 
-          - **Beginning:** Coco, Ellie's rabbit, ran away from the garden.
+          - **Beginning:** Coco, Ellie's rabbit, ran out of the garden.
           - **Build-up:** Ellie and Peter ran after her.
           - **Climax:** Coco hid under a car.
           - **Ending:** Peter got her and took her home.
@@ -70,7 +70,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Nacherzählen heißt: Station für Station, im simple past, in eigenen Worten.** Du gehst den Berg von beginning bis ending ab und lässt keine Station aus. Du schreibst nicht jedes Wort der Geschichte ab, aber die Zeit bleibt die der Geschichte.
+              **Nacherzählen heißt: Station für Station, im simple past, in eigenen Worten.** Du gehst den Berg von beginning bis ending ab und lässt keine Station aus. Du schreibst nicht jedes Wort der Geschichte ab, aber die Zeit bleibt die der Geschichte. Die Stichwörter am Berg und die Map stehen im simple present, deine Nacherzählung im simple past.
   - type: section
     id: uebung
     title: Erzähle Station für Station nach
@@ -82,14 +82,14 @@ blocks:
           - Sophie and Mrs Parker went to the market.
           - Sophie saw a little black kitten.
           - The kitten followed them to the bus.
-          - Mrs Parker said yes and they took it home.
+          - Mrs Parker said yes to the kitten and they took it home.
         explanation: "Markt, Kätzchen sehen, Kätzchen folgt, nach Hause nehmen."
         links:
           - title: Lernlandkarte Englisch · Nacherzählen
             url: https://lernapps.net/apps/map/englisch/c/nacherzaehlen/
       - type: single-choice
         id: nacherzaehlen-fehler
-        text: "Peter erzählt die Geschichte vom Markt nach: „Sophie and Mrs Parker go to the market. Sophie sees a little black kitten. It runs after them to the bus. Mrs Parker says yes and they take it home.“ Was ist falsch?"
+        text: "Peter erzählt die Geschichte vom Markt nach: „Sophie and Mrs Parker are at the market. A tiny black kitten walks behind them to the bus. Mrs Parker agrees and they take the kitten home.“ Was ist falsch?"
         options:
           - text: Peter erzählt im simple present
             correct: true
@@ -106,7 +106,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/nacherzaehlen/
       - type: single-choice
         id: nacherzaehlen-station
-        text: "Ellie erzählt dieselbe Geschichte nach: „Sophie and Mrs Parker went to the market. Sophie saw a kitten. Mrs Parker said yes and they took it home.“ Was fehlt?"
+        text: "Ellie erzählt dieselbe Geschichte nach: „Sophie and Mrs Parker went to the market. Sophie saw a kitten. Mrs Parker said yes to the kitten and they took it home.“ Was fehlt?"
         options:
           - text: Die Station climax fehlt
             correct: true
@@ -128,7 +128,7 @@ blocks:
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Amir · take · bus · library
-            target: Amir took the bus to the library.
+            target: Amir took (the|a) bus to the library( on Wednesday|).
             mistakes:
               - answer: Amir take the bus to the library.
                 message: Simple past, die Form heißt took.
@@ -142,12 +142,12 @@ blocks:
               - answer: Amir putted his bag on the seat.
                 message: Put ist unregelmäßig, die Form bleibt put.
           - cue: bag · stay · seat
-            target: The bag stayed on the seat.
+            target: (The|His|Amir's) bag stayed on the seat.
             mistakes:
               - answer: The bag stay on the seat.
                 message: Simple past, hänge -ed an.
           - cue: driver · bring · bag · school
-            target: The driver brought (the|his|Amir's) bag to (the school|school).
+            target: The driver brought (the|Amir's) bag (back |)to (the |)school( in the evening|).
             mistakes:
               - answer: The driver bringed the bag to the school.
                 message: Bring ist unregelmäßig, die Form heißt brought.
@@ -180,7 +180,7 @@ blocks:
         hint: Hör zu. Sprich dann langsam nach.
       - type: open-task
         id: nacherzaehlen-schreiben
-        task: "Denke an eine Geschichte, die du kennst, zum Beispiel ein Märchen, einen Film oder ein Buch. Erzähle sie auf Englisch in vier Sätzen nach, einen Satz für jede Station."
+        task: "Erzähle eine Geschichte nach, die dir jemand erzählt hat oder die du gelesen hast. Schreibe auf Englisch vier Sätze, einen für jede Station."
         points:
           - text: Es sind vier Sätze, einer für jede Station von beginning bis ending.
             source: /was-passiert/nacherzaehlen/#neu
@@ -199,6 +199,6 @@ blocks:
     title: Rückblick und Ausblick
     blocks:
       - type: text
-        text: "**Rückblick auf Montag:** Am Anfang waren der Berg und die story map in der Geschichtenecke leer. Jetzt füllen sie sich. Die Map sagt, wer, wo, wann und was passiert. Am Berg hängen die Haupt-Ereignisse, so fasst du zusammen. Und Station für Station erzählst du eine Geschichte in eigenen Worten nach, im simple past."
+        text: "**Rückblick auf Montag:** An der Wand der Geschichtenecke hängen Berg und story map noch leer, aber du kannst sie jetzt füllen. Die Map sagt, wer, wo, wann und was passiert. Am Berg hängen die Hauptereignisse, so fasst du zusammen. Und Station für Station erzählst du eine Geschichte in eigenen Worten nach, im simple past."
       - type: text
-        text: "Am **Dienstag** hängt Mr Hill neue Bilder an die Wand. Du lernst, Bilder zu beschreiben und mit Bildern zu erzählen."
+        text: "Am **Dienstag** hängt Mr Hill fünf Wegweiser an den Berg und neue Bilder an die Wand. Zuerst wiederholst du kurz, was du zum Beschreiben von Bildern brauchst. Dann lernst du die Wegweiser kennen und erzählst mit Bildern."

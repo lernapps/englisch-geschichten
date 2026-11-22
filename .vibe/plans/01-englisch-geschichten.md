@@ -4,11 +4,11 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 1
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 6 }
+failedChecks: { checks-pass: 7 }
 ---
 
 # Plan: englisch-geschichten, first version
@@ -68,6 +68,9 @@ Kinder der Stufe 5-6 lesen kurze Geschichten, füllen die story map (who, where,
   - Sprachprüfung, Funde: Figuren als „Personen“ (jetzt Personen oder Tiere), „Inside“ mehrdeutig, Ort und Dinge der Übungsgeschichte unklar, „story mountain“ fehlte, Zielantworten zu eng, falscher Intonationshinweis, Kasus („einen Film“), „erzählt wird“, Wörter stick und suddenly (nach Prüfung gegen die Wortliste A1/A2: bekannt, nicht in die Tabelle).
   - Prüfung der Orchestrator-Session, Funde: Notes, Inhaltsführer (Platzhalter, Wortliste), `when` nicht geübt, Zuordnung wiederholte den Text, Textmenge, Wörtertabelle zu lang, Schreibaufgabe prüft nur die Zeitform, Ordnungsaufgabe ohne Erklärung der Stationen, zwei Kisten, längste Option richtig, Musterlösung wie Beispielgeschichte, Fähnchenzahlen zu klein. Alle behoben (eigene Aufgabe zu `when`, Einzelauswahl zu climax/ending, Tabelle auf sechs Wörter, Schriftgröße 16).
   - Skripte: `.agents/skills/app-content/scripts/pruefen.py` (Hörsätze gegen den Text derselben Seite, Wörter gegen die Liste), `woerter-erklaert.json`.
+- Gesamtcheck der fertigen App (Sub-Agent als Kind Klasse 5, 360 und 1280 px, alle 13 Seiten in der Reihenfolge) und Sprachprüfung Englisch/Deutsch (zwei Sub-Agenten, je Kapitel 1-2 und 3-4):
+  - Funde (Auswahl) und Behebung: Mrs Parker, Alter, Herkunft und Schule nur auf der Startseite, jetzt auf der ersten Lernseite (`das-brauchst-du`) eingeführt; „Station“ und „Klassenzimmer-Poster“ erklärt, „Cue“ → „Hinweis“, „Baustein“ weg; Schneemann-Geschichte stand auf drei Seiten, „Suddenly all the lights went out“ auf zwei, Katze auf vier: je nur noch eine Seite; „Sophie · her dog Amir“ (Hund hieß wie der Mitschüler) → Bella; Sophies zwei Donnerstagsgeschichten hängen jetzt zusammen (Drachen-Geschichte, Fortsetzung auf der nächsten Seite); neue Kindernamen (Lena, Bo, Kim, Joe, Mia, Tara, Ben, Nora, Dennis, Lara, Zara, Sam) durch die bekannten Figuren ersetzt; Wegweiser-Regel widerspruchsfrei (then und after that in der Mitte, suddenly leitet den climax ein, überall gleiche Reihenfolge); „drei Sätze“ und „vier Stationen“ geklärt, „Hauptereignisse“; falsche Zielantworten (eats the cake all, his/a), zu enge Zielgruppen (a bus, Amir's bag, on the beach, my mother …) und falsche Meldungen („Vor cake fehlt a“) korrigiert; unregelmäßige Formen der App auf der Wiederholungsseite; Skript-Szene (Garten, Fuchs, Regieanweisung) und Reimkarte, Rasterbilder bei 360 px lesbar; Reim-Aussagen geprüft, ein Vers ohne Reim ersetzt; Hörsätze mit einsilbigem Ende ersetzt (zweisilbig).
+  - Nicht behoben: Brillen und Zöpfe der Bildfolgen sind bei 360 px klein; Berg-Fähnchen auf den Wandbildern sind nur nummeriert; generische Vorlagenmeldung „Deine Fassung kann trotzdem richtig sein“, Hinweise zu Groß-/Kleinschreibung bei `punctuation: ok`, `ordering` ohne Hinweis auf die falsche Stelle, `mistakes` im Modus `choice` unsichtbar, KI-Tutor-Leiste oben; kein Hörtest der MP3 (die Reimverse hört die Ersteller:in).
 - Wörter: Grundwortschatz A1/A2 (https://lernapps.net/apps/map/englisch/grundwortschatz/); Ausnahmen stehen auf der Seite erklärt und im Inhaltsführer.
 
 ## Explore
@@ -249,7 +252,7 @@ page, which a link. -->
 - [x] Run `npx --no -- lernapps check` until it passes.
 - [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
-- [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
+- [x] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
 
 ## Commit

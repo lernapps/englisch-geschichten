@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Es ist Donnerstag in der Geschichtenwoche. Heute schreibt jedes Kind eine eigene Geschichte. Mr Hill sagt: „First the plan, then the story.“ Sophie nimmt ein Blatt mit einem leeren Geschichtenberg. Für die erste Station hat sie einen Zettel mit Stichwörtern: „Amir · on a farm · a hot Sunday“."
+        text: "Es ist Donnerstag in der Geschichtenwoche. Heute schreibt jedes Kind eine eigene Geschichte. Mr Hill sagt: „First the plan, then the story.“ Sophie nimmt ein Blatt mit einem leeren Geschichtenberg. Sie hat einen Zettel mit Stichwörtern: „Amir · on a farm · a hot Sunday“. Sie überlegt, wohin er gehört."
       - type: single-choice
         id: schreiben-start
         text: An welches Fähnchen hängt Sophie den Zettel?
@@ -72,7 +72,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Erst planen, dann schreiben.** Beginning sagt, wer, wo und wann. Build-up sagt, was passiert, bis es spannend wird. Climax ist der spannendste Moment, ending sagt, wie es ausgeht. Aus jeder Planzeile wird mindestens ein Satz im simple past. Das Wort suddenly (plötzlich) passt zum climax, das Wort finally (zum Schluss) zum ending.
+              **Erst planen, dann schreiben.** Der Anfang (beginning) sagt, wer, wo und wann. Der Aufbau (build-up) sagt, was passiert, bis es spannend wird. Der climax ist der spannendste Moment, das ending sagt, wie es ausgeht. Aus jeder Planzeile wird mindestens ein Satz im simple past. Das Wort suddenly (plötzlich) leitet oft den climax ein, wenn etwas Unerwartetes passiert. Das Wort finally (schließlich) passt zum ending.
   - type: section
     id: uebung
     title: Plane Station für Station und schreibe die Sätze
@@ -81,13 +81,13 @@ blocks:
         id: schreiben-stationen
         text: "Sophie liest die Stichwörter einer Geschichte vom Markt. Zu welcher Station gehören sie?"
         pairs:
-          - left: Nora, the market, a sunny Friday
+          - left: Ellie, the market, a sunny Friday
             right: beginning
-          - left: Nora hears a funny noise
+          - left: Ellie hears a funny noise
             right: build-up
-          - left: a cat jumps out of a big box
+          - left: a dog jumps out of a big box
             right: climax
-          - left: Nora takes the cat home
+          - left: Ellie takes the dog home
             right: ending
         explanation: "Am Anfang stehen who, where und when. Der climax ist der spannendste Moment."
         links:
@@ -95,11 +95,11 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/geschichte-erzaehlen/
       - type: single-choice
         id: schreiben-plan
-        text: Dennis hat diesen Plan gemacht. Was stimmt nicht?
+        text: Peter hat diesen Plan gemacht. Was stimmt nicht?
         material:
           - type: text
             text: |
-              - **1 beginning:** Dennis, the park, a cold Monday
+              - **1 beginning:** Peter, the park, a cold Monday
               - **2 build-up:** he plays football
               - **3 climax:** he goes home
               - **4 ending:** he eats dinner
@@ -143,15 +143,17 @@ blocks:
         task: "Sophie schreibt zu jeder Station einen Satz. Schreibe die vier Sätze im simple past."
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - cue: "beginning: Sophie · her dog Amir · walk · in the forest"
-            target: (Sophie and her dog Amir walked in the forest.|Sophie and her dog Amir walked through the forest.|Sophie walked in the forest with her dog Amir.|Sophie walked with her dog Amir in the forest.)
+          - cue: "beginning: one sunny morning · Sophie · her dog Bella · walk · in the forest"
+            target: (One sunny morning Sophie and her dog Bella walked in the forest.|One sunny morning Sophie and her dog Bella walked through the forest.|One sunny morning Sophie walked her dog Bella in the forest.|One sunny morning Sophie walked her dog Bella through the forest.|One sunny morning Sophie walked in the forest with her dog Bella.|Sophie and her dog Bella walked in the forest one sunny morning.)
             mistakes:
-              - answer: Sophie and her dog Amir walk in the forest.
+              - answer: One sunny morning Sophie and her dog Bella walk in the forest.
                 message: Die Geschichte steht im simple past, also walked.
-              - answer: Sophie and her dog Amir walked in forest.
+              - answer: One sunny morning Sophie and her dog Bella walked in forest.
                 message: Vor forest fehlt the.
+              - answer: Sophie and her dog Bella walked in the forest.
+                message: Der Anfang nennt auch, wann es war. Nimm one sunny morning dazu.
           - cue: "build-up: they · hear · a noise"
-            target: (They heard a noise.|They heard a strange noise.|They heard a noise in the forest.)
+            target: They heard a (strange |loud |funny |big |)noise( in the forest|).
             mistakes:
               - answer: They hear a noise.
                 message: Die Geschichte steht im simple past.
@@ -159,19 +161,19 @@ blocks:
                 message: Hear ist unregelmäßig, die Form heißt heard.
               - answer: They heard noise.
                 message: Vor noise fehlt a.
-          - cue: "climax: suddenly · Amir · run away"
-            target: Suddenly Amir ran away.
+          - cue: "climax: suddenly · Bella · run away"
+            target: Suddenly Bella ran away.
             mistakes:
-              - answer: Suddenly Amir runs away.
+              - answer: Suddenly Bella runs away.
                 message: Die Geschichte steht im simple past.
-              - answer: Suddenly Amir runned away.
+              - answer: Suddenly Bella runned away.
                 message: Run ist unregelmäßig, die Form heißt ran.
-          - cue: "ending: finally · Sophie · find · Amir · under a tree"
-            target: (Finally Sophie found Amir under a tree.|Finally Sophie found Amir under the tree.)
+          - cue: "ending: finally · Sophie · find · Bella · under a tree"
+            target: Finally Sophie found Bella under (a|the) tree.
             mistakes:
-              - answer: Finally Sophie finds Amir under a tree.
+              - answer: Finally Sophie finds Bella under a tree.
                 message: Die Geschichte steht im simple past.
-              - answer: Finally Sophie finded Amir under a tree.
+              - answer: Finally Sophie finded Bella under a tree.
                 message: Find ist unregelmäßig, die Form heißt found.
       - type: language-task
         id: schreiben-hoeren
@@ -179,8 +181,8 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: the-little-boat-sailed-across-the-water.mp3
-            target: The little boat sailed across the water.
+          - audio: the-little-boat-moved-across-the-water.mp3
+            target: The little boat moved across the water.
           - audio: suddenly-something-moved-in-the-kitchen.mp3
             target: Suddenly something moved in the kitchen.
           - audio: in-the-end-everybody-went-home-happy.mp3
@@ -213,16 +215,16 @@ blocks:
           - text: Die Geschichte hat vier bis sechs Sätze im simple past.
             kind: form
         solution: |
-          1 beginning: Zara, her brother Sam, by the river, a warm Sunday
+          1 beginning: Amir, his friend Peter, by the river, a warm Sunday
           2 build-up: see a boat
           3 climax: the boat moves
-          4 ending: Sam stops it
+          4 ending: Peter stops it
 
-          On a warm Sunday Zara and her brother Sam sat by the river. They saw a small boat. Suddenly the boat started to move. Sam jumped up and ran after it. Finally he stopped the boat and they went home.
+          On a warm Sunday Amir and his friend Peter sat by the river. They saw a small boat. Suddenly the boat started to move. Peter jumped up and ran after it. Finally he stopped the boat and they went home.
         hint: Die App bewertet nicht. Prüfe anhand der Punkte.
   - type: section
     id: weiter
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mr Hill liest Sophies Geschichte vor. Amir fragt: „And then?“ Auf der nächsten Seite lernst du, eine Geschichte fortzusetzen oder anders enden zu lassen."
+        text: "Sophie liest ihre Geschichte vor. Amir fragt: „And then?“ Auf der nächsten Seite lernst du, eine Geschichte fortzusetzen oder anders enden zu lassen."

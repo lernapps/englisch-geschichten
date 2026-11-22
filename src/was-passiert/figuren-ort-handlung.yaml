@@ -52,7 +52,7 @@ blocks:
     title: Die story map und der Geschichtenberg
     blocks:
       - type: text
-        text: "Mr Hill liest eine Geschichte vor. Lies sie auch: „On Saturday morning Peter and his dog Max went to the park. Peter had a red hat. Suddenly the wind took the hat and it fell into the pond. A girl with a long stick helped Peter. She got the hat out of the pond and Peter said thank you.“"
+        text: "Mr Hill liest eine Geschichte vor. Lies sie auch: „On Saturday morning Peter and his dog Max went to the park. Peter had a red hat. Suddenly the wind took the hat and it fell into the pond. A girl in a red coat helped Peter. She got the hat out of the pond and Peter said thank you.“"
       - type: figure
         image: images/geschichtenmap-figuren-ort-handlung.svg
         alt: "Eine Tafel mit vier Feldern. Who: Peter, his dog Max, a girl. Where: in the park. When: Saturday morning. What: the wind takes Peter's hat."
@@ -72,13 +72,13 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Die Map sagt, wer, wo, wann und was. Der Berg sagt, in welcher Reihenfolge.** Climax ist der spannendste Moment. In die Map schreibst du kurze Einträge im simple present, zum Beispiel „The wind takes Peter's hat.“ Das gilt auch, wenn die Geschichte in der Vergangenheit erzählt wird. Bei he, she und it hat das Verb ein -s.
+              **Die Map sagt, wer, wo, wann und was. Der Berg sagt, in welcher Reihenfolge.** Jedes Fähnchen am Berg ist eine **Station**: beginning ist der Anfang, build-up der Aufbau, climax der spannendste Moment und ending das Ende. In die Map schreibst du kurze Einträge im simple present, zum Beispiel „The wind takes Peter's hat.“ Das gilt auch, wenn die Geschichte in der Vergangenheit erzählt wird. Bei he, she und it hat das Verb ein -s.
   - type: section
     id: uebung
     title: Fülle die story map und hänge die Ereignisse an den Berg
     blocks:
       - type: text
-        text: "Jetzt liest du eine neue Geschichte: „On Friday afternoon Ellie and Amir cleaned the old shed behind the school. In a corner Ellie found a small key. ‚What does it open?‘ asked Amir. They tried the key in an old cupboard, but it did not open. Then Ellie saw a little blue box on a shelf. The key opened the box! Inside the box they found old photos of the school.“"
+        text: "Jetzt liest du eine neue Geschichte: „On Friday afternoon Ellie and Amir cleaned the old shed behind the school. Behind a chair Ellie found a small key. ‚What does it open?‘ asked Amir. They tried the key in an old desk, but it did not open. Then Ellie saw a little blue box on a shelf. The key opened the box! Inside the box they found old photos of the school.“"
       - type: multiple-choice
         id: figuren-who
         text: Welche Einträge gehören zu who? Wähle alle richtigen.
@@ -152,16 +152,16 @@ blocks:
         id: figuren-ende
         text: Die Fotos hängen am Fähnchen ending, nicht am Gipfel. Warum?
         options:
-          - text: Am Gipfel ist es spannend, am Ende nicht mehr
+          - text: Am Gipfel passiert das Spannendste, danach löst sich alles und die Geschichte endet
             correct: true
-            info: Dort entscheidet sich etwas.
-          - text: Der Gipfel ist das letzte Ereignis
+            info: Der Gipfel (climax) ist der spannendste Moment, das Ende kommt danach.
+          - text: Der Gipfel ist das letzte Ereignis der Geschichte
             correct: false
-            info: Nach dem Gipfel kommt noch das Ende.
-          - text: Das Ende ist am wichtigsten
+            info: Nach dem Gipfel kommt noch das Ende (ending).
+          - text: Das Ende ist am wichtigsten, darum hängt es am höchsten
             correct: false
-            info: Am höchsten hängt der climax.
-        explanation: Der climax ist der spannendste Moment.
+            info: Am höchsten hängt der climax, der spannendste Moment.
+        explanation: Der climax ist der spannendste Moment, danach folgt das Ende.
         links:
           - title: Lernlandkarte Englisch · Figuren, Ort und Handlung
             url: https://lernapps.net/apps/map/englisch/c/figuren-ort-handlung/
@@ -172,23 +172,19 @@ blocks:
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Peter · make · cake
-            target: (Peter makes a cake.|Peter makes a big cake.|Peter makes the cake.|Peter makes a cake in the kitchen.|Peter makes a big cake in the kitchen.)
+            target: (Peter makes a cake.|Peter makes a big cake.|Peter makes the cake.|Peter makes cake.|Peter makes a cake in the kitchen.|Peter makes a big cake in the kitchen.)
             mistakes:
               - answer: Peter make a cake.
                 message: Bei he, she und it braucht das Verb -s.
               - answer: Peter made a cake.
                 message: Die Map nutzt das simple present.
-              - answer: Peter makes cake.
-                message: Vor cake fehlt a.
           - cue: Peter · eat · cake
-            target: (Peter eats the cake.|Peter eats a cake.|Peter eats the big cake.|Peter eats it.|Peter eats the cake all.)
+            target: (Peter eats the cake.|Peter eats a cake.|Peter eats the big cake.|Peter eats cake.|Peter eats it.|Peter eats it all.|Peter eats all the cake.)
             mistakes:
               - answer: Peter eat the cake.
                 message: Bei he, she und it braucht das Verb -s.
               - answer: Peter ate the cake.
                 message: Die Map nutzt das simple present.
-              - answer: Peter eats cake.
-                message: Vor cake fehlt the.
       - type: language-task
         id: figuren-hoeren
         languages: { source: de, target: en }

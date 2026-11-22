@@ -26,7 +26,7 @@ blocks:
           - text: Sophie asked where her bag was
             correct: false
             info: Das erzählt nur. Beim Spielen fehlt, was Sophie sagt.
-          - text: "„Where is my bag?“ asked Sophie"
+          - text: "‘Where is my bag?’ asked Sophie"
             correct: false
             info: Das ist eine Zeile aus einer Geschichte, nicht aus einem Skript.
         explanation: Im Skript steht vor dem Doppelpunkt, wer spricht.
@@ -41,10 +41,11 @@ blocks:
         caption: Klassenzimmer-Poster · Neue Wörter
         header: [Wort, Bedeutung]
         rows:
-          - [script, Text zum Spielen mit Sprechern]
+          - [script, "Text für ein Spiel mit allen Zeilen der Figuren"]
           - [scene, "Szene, ein kurzes Stück zum Spielen"]
           - [line, "Zeile, hier der Satz einer Figur"]
           - [stage direction, "Regieanweisung, sie sagt, was eine Figur tut"]
+          - [fox, Fuchs]
   - type: section
     id: neu
     title: So sieht ein Skript aus
@@ -53,8 +54,8 @@ blocks:
         text: "Mr Hill zeigt eine Station des Geschichtenbergs, den climax: Ellie sieht im Garten einen Fuchs. Daraus wird diese Szene. Sie hat Figuren, einen Ort und eine Handlung, genau wie die story map."
       - type: figure
         image: images/skript-dialog-schreiben.svg
-        alt: "Links ein Blatt mit der Überschrift script und fünf Zeilen: vier Sprecherzeilen mit Name und Doppelpunkt und eine Zeile in Klammern. Unten steht in Rot das Feld what. Rechts eine kleine Bühne mit Vorhängen, einem Baum, Ellie und Peter. Oben ein grünes Feld where, unten ein blaues Feld who."
-        caption: "Das Skript für die Szene und die Bühne dazu. Das blaue Feld sagt, wer spielt (who), das grüne, wo es spielt (where), das rote, was passiert (what)."
+        alt: "Oben ein Blatt mit der Überschrift script und fünf Zeilen: vier Sprecherzeilen mit Name und Doppelpunkt und eine Zeile in Klammern. Darunter steht in Rot das Feld what. Unten eine kleine Bühne mit Vorhängen, einem Baum, Ellie, Peter und einem Fuchs. Auf der Bühne ein grünes Feld where und ein blaues Feld who."
+        caption: "Das Skript für die Szene und darunter die Bühne. Das blaue Feld sagt, wer spielt (who), das grüne, wo es spielt (where), das rote, was passiert (what)."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: note
@@ -66,14 +67,14 @@ blocks:
 
               - Vor dem Doppelpunkt steht, wer spricht.
               - Danach steht nur, was die Figur sagt: ein kurzer Satz, ohne Anführungszeichen und ohne Erzähltext wie „she said“.
-              - Was eine Figur tut, steht in Klammern in einer eigenen Zeile. Das ist die Regieanweisung, zum Beispiel (Ellie opens the gate.)
+              - Was eine Figur tut, steht in Klammern in einer eigenen Zeile. Das ist die Regieanweisung, zum Beispiel (Peter looks at the tree.) Regieanweisungen stehen im simple present.
   - type: section
     id: uebung
     title: Sprecher finden, Zeilen ordnen, Skript schreiben
     blocks:
       - type: matching
         id: dialog-sprecher
-        text: "In der Bibliothek ist Peter laut. Mr Hill bittet ihn, leise zu sein. Ellie zeigt Peter ein Bilderbuch. Wer sagt welche Zeile?"
+        text: "In der Bibliothek ist Peter laut. Mr Hill bittet ihn, leise zu sein. Ellie zeigt Peter ein Bilderbuch, und Peter staunt über einen lustigen Hund auf einem Bild. Wer sagt welche Zeile?"
         pairs:
           - left: "Look, here is a picture book."
             right: Ellie
@@ -81,7 +82,7 @@ blocks:
             right: Mr Hill
           - left: "Wow! What a funny dog!"
             right: Peter
-        explanation: Wer etwas zeigt, wer bittet und wer staunt, erkennst du an dem, was die Figur sagt.
+        explanation: Wer zeigt, wer bittet und wer staunt, steht in der Aufgabe.
         links:
           - title: Lernlandkarte Englisch · Dialog schreiben
             url: https://lernapps.net/apps/map/englisch/c/dialog-schreiben/
@@ -93,30 +94,30 @@ blocks:
           - "Sophie: Good morning, Mrs Parker."
           - "Mrs Parker: Would you like some toast?"
           - "Sophie: Yes, please."
-        explanation: "Erst kommt Sophie herein, dann grüßt sie, dann folgen Frage und Antwort."
+        explanation: "Sophie kommt herein, grüßt, dann folgen Frage und Antwort."
         links:
           - title: Lernlandkarte Englisch · Dialog schreiben
             url: https://lernapps.net/apps/map/englisch/c/dialog-schreiben/
       - type: multiple-choice
         id: dialog-fehler
-        text: "Mr Hill sammelt Zeilen für die Szene „At the market“. Welche Zeilen sind falsch aufgeschrieben? Wähle alle."
+        text: "Mr Hill sammelt Zeilen für die Szene „At the market“. Welche Zeilen sind falsch aufgeschrieben? Wähle alle. Satzzeichen am Ende zählen hier nicht."
         options:
-          - text: "Ellie: I want some apples"
+          - text: "Ellie: Two apples, please"
             correct: false
             info: Das ist richtig. Sprecher, Doppelpunkt, kurzer Satz.
-          - text: Can I help you
+          - text: Can I help you?
             correct: true
             info: Der Sprecher fehlt. Man weiß nicht, wer das sagt.
           - text: "Amir: Here you are, he said"
             correct: true
             info: Das he said ist Erzähltext. Er gehört nicht in die Zeile.
-          - text: "„Two apples, please,“ said Ellie"
+          - text: "‘Two apples, please,’ said Ellie"
             correct: true
-            info: Das ist ein Satz aus einer Geschichte. Im Skript steht erst der Sprecher.
-          - text: "Amir: They are one pound"
+            info: Das ist Erzähltext. Im Skript steht erst der Sprecher.
+          - text: "Amir: They are one pound each"
             correct: false
             info: Das ist richtig. Der Sprecher steht vor dem Doppelpunkt.
-        explanation: "Eine richtige Zeile hat vorne den Sprecher mit Doppelpunkt und danach nur den Satz."
+        explanation: "Vorne steht der Sprecher mit Doppelpunkt, dann nur der Satz."
         links:
           - title: Lernlandkarte Englisch · Dialog schreiben
             url: https://lernapps.net/apps/map/englisch/c/dialog-schreiben/
@@ -124,16 +125,16 @@ blocks:
         id: dialog-luecken
         languages: { source: de, target: en }
         mode: gap
-        task: "Ergänze in jeder Zeile die fehlenden Wörter. Der Cue sagt, was gemeint ist."
+        task: "Ergänze in jeder Zeile die fehlenden Wörter. Der Hinweis sagt, was gemeint ist."
         form: { case: hint, punctuation: ok }
         items:
           - cue: Ellie asks Amir for a pencil.
-            target: "[Ellie]: Can I have your [pencil|pen], Amir?"
+            target: "Ellie: Can I [have] your [pencil], Amir?"
           - cue: Mrs Parker says that dinner is ready.
-            target: "[Mrs Parker]: Dinner is [ready]."
+            target: "Mrs Parker: Dinner is [ready]."
           - cue: Peter wants to play football.
-            target: "[Peter]: Can we [play] football?"
-        hint: "Vor dem Doppelpunkt steht der Name der Figur, die spricht."
+            target: "Peter: Can we [play] football?"
+        hint: "Setze die Wörter aus dem Hinweis ein."
       - type: language-task
         id: dialog-skript
         languages: { source: de, target: en }
@@ -141,7 +142,7 @@ blocks:
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: Amir asks where the ball is.
-            target: "Amir: Where is the ball?"
+            target: "Amir: (Where is|Where's) the ball?"
             mistakes:
               - answer: "Where is the ball?"
                 message: Vor dem Doppelpunkt fehlt der Sprecher.
@@ -152,7 +153,7 @@ blocks:
               - answer: "Amir: Where is ball?"
                 message: Vor ball fehlt the.
           - cue: Peter says he is hungry.
-            target: "Peter: (I am|I'm) hungry."
+            target: "Peter: (I am|I'm) (very |)hungry."
             mistakes:
               - answer: "I am hungry."
                 message: Vor dem Doppelpunkt fehlt der Sprecher.
@@ -189,8 +190,8 @@ blocks:
         id: dialog-nachsprechen
         language: en
         items:
-          - audio: wait-for-me-i-am-coming.mp3
-            text: Wait for me, I am coming.
+          - audio: wait-for-me-sophie.mp3
+            text: Wait for me, Sophie!
           - audio: what-a-lovely-surprise.mp3
             text: What a lovely surprise!
           - audio: do-you-like-my-new-jacket.mp3
@@ -214,7 +215,7 @@ blocks:
           Sophie: Where is the bus?
           Amir: It is late again.
           (Amir looks at his watch.)
-          Sophie: Oh no! We have a test today.
+          Sophie: Oh no! We are late for school.
           Amir: Look! Here it comes!
         hint: Die App bewertet nicht. Prüfe anhand der Punkte.
   - type: section

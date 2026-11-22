@@ -49,15 +49,15 @@ blocks:
     title: Reimwörter finden und Verse sprechen
     blocks:
       - type: text
-        text: "Reimwörter findest du so: Nimm die Endung eines Wortes und setze andere Anfänge davor. Aus der Endung von pen werden ten und hen. Meistens reimen sich Wörter mit gleicher Endung."
+        text: "Reimwörter findest du so: Nimm die Endung eines Wortes und setze andere Anfänge davor. Die Endung von pen ist -en. Setzt du t davor, wird daraus ten, mit h wird es hen. Meistens reimen sich Wörter mit gleicher Endung."
       - type: figure
         image: images/reime-gedichte-reime.svg
         alt: "Vier Karten mit je einem Wortpaar. Pen und ten sowie hand und sand haben die gleiche Endung und reimen sich. One und run reimen sich trotz anderer Schreibung. Move und love haben die gleiche Schreibung und reimen sich nicht."
-        caption: "Vier Wortpaare vom Klassenzimmer-Poster. Bei den ersten beiden ist die Endung fett gedruckt."
+        caption: "Vier Wortpaare vom Klassenzimmer-Poster. Fett steht der Teil, den du vergleichst: die Endung, bei one und run das ganze Wort."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Verse sprichst du laut. Hör zuerst zu und sprich dann ganze Verse nach, nicht einzelne Wörter. Klatsche dabei den **Rhythmus**: bei jeder betonten Silbe einmal. Klingen zwei Zeilen gleich lang, passt der Rhythmus. Das hörst du selbst, die App prüft es nicht."
+        text: "Verse sprichst du laut. Hör zuerst zu und sprich dann ganze Verse nach, nicht einzelne Wörter. Klatsche dabei den **Rhythmus**: bei jeder betonten Silbe einmal. Haben zwei Zeilen gleich viele betonte Silben, passt der Rhythmus. Das hörst du selbst, die App prüft es nicht."
       - type: note
         title: Merke
         blocks:
@@ -86,17 +86,17 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/gedichte-reime/
       - type: single-choice
         id: reime-zeile
-        text: "Lies den Vers: „I see a bird up in the tree, and it is singing just for ...“ Welches Wort passt am Ende?"
+        text: "Lies den Vers: „I see a bird up in the tree, and it is singing just for ...“ Welches Wort reimt sich auf tree und passt ans Ende?"
         options:
           - text: me
             correct: true
             info: Tree und me klingen am Ende gleich.
           - text: you
             correct: false
-            info: Der Sinn passt, aber you klingt am Ende anders als tree.
+            info: Der Sinn passt, aber you reimt sich nicht auf tree.
           - text: all
             correct: false
-            info: Der Sinn passt, aber all klingt am Ende anders als tree.
+            info: Der Sinn passt, aber all reimt sich nicht auf tree.
         explanation: Ein Reimwort passt zum Sinn und klingt am Ende wie das Wort der ersten Zeile.
         links:
           - title: Lernlandkarte Englisch · Gedichte und Reime
@@ -121,13 +121,13 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/gedichte-reime/
       - type: ordering
         id: reime-verse
-        text: Ordne die vier Zeilen zu einem Gedicht. Zwei Zeilen reimen sich jeweils.
+        text: "Ordne die vier Zeilen zu einem Gedicht. Zwei Paare reimen sich: wall und small, flew und too."
         items:
           - "Two little birds sat on the school wall,"
           - "one was big and one was small."
           - "The big one sang, the small one flew,"
           - "and then the big one followed too."
-        explanation: Die Vögel sitzen zuerst auf der Mauer. Dann singt und fliegt einer, der andere folgt.
+        explanation: Die Vögel sitzen zuerst auf der Mauer, einer groß, einer klein. Dann singt der große, der kleine fliegt weg und der große folgt.
         links:
           - title: Lernlandkarte Englisch · Gedichte und Reime
             url: https://lernapps.net/apps/map/englisch/c/gedichte-reime/
@@ -135,20 +135,20 @@ blocks:
         id: reime-luecke
         languages: { source: de, target: en }
         mode: gap
-        task: "Ergänze das Reimwort am Ende. Es reimt sich auf das Wort im Cue."
+        task: "Ergänze das Reimwort am Ende. Es reimt sich auf das Wort im Hinweis."
         form: { case: hint, punctuation: ok }
         items:
           - cue: Rhymes with book.
             target: "I read my book and take a [look]."
           - cue: Rhymes with down.
-            target: "The rain comes down and falls on the [town]."
+            target: "The rain falls down on the [town]."
           - cue: Rhymes with snowing.
             target: "It is cold and snowing, where are we [going]?"
-        hint: Setze andere Anfangsbuchstaben vor die Endung des Wortes im Cue.
+        hint: Setze andere Anfangsbuchstaben vor die Endung des Wortes im Hinweis. Auch mehrere Buchstaben können sich ändern.
       - type: language-task
         id: reime-hoeren
         languages: { source: de, target: en }
-        task: Hör zu und schreibe den ganzen Vers.
+        task: Hör zu und schreibe den ganzen Vers. Achte auf die Reimwörter, in jedem Vers reimen sich zwei Wörter.
         form: { case: hint, punctuation: ok }
         items:
           - audio: i-like-to-see-the-flowers-after-the-showers.mp3
@@ -167,8 +167,8 @@ blocks:
         items:
           - audio: let-us-sing-together-in-the-lovely-weather.mp3
             text: Let us sing together in the lovely weather.
-          - audio: open-the-window-it-is-a-sunny-morning.mp3
-            text: Open the window, it is a sunny morning.
+          - audio: the-monkey-is-funny-and-it-likes-honey.mp3
+            text: The monkey is funny and it likes honey.
           - audio: the-rain-is-falling-and-the-birds-are-calling.mp3
             text: "The rain is falling, and the birds are calling."
         hint: Hör zu. Sprich dann den ganzen Vers langsam nach und klatsche den Rhythmus.
@@ -197,7 +197,7 @@ blocks:
           **Das Kapitel:** Du schreibst einen Dialog in Skriptform, mit Sprecher, Doppelpunkt und kurzen Sätzen. Du findest Reimwörter und sprichst Verse. Reime richten sich nach dem Klang, die Schreibung hilft oft.
       - type: text
         text: |
-          **Die Woche:** Am Ende zeigt Mr Hill noch einmal den ganzen Geschichtenberg.
+          **Die Woche im Rückblick:**
 
           - Montag: Du liest und füllst die story map.
           - Dienstag und Mittwoch: Du erzählst Bilder.

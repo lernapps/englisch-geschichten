@@ -2,27 +2,30 @@
 title: Das brauchst du hier
 description: "Geschichten stehen meist im simple past. Hier wiederholst du kurz, wie das geht."
 recap: [englisch/simple-past]
-scope: Die Seite wiederholt das simple past mit regelmäßigen Verben (-ed) und einigen häufigen unregelmäßigen Verben (was, went, had, found, saw, took). Sie sagt, dass Geschichten meist im simple past stehen. Nicht hier, weil es andere Seiten sind. Die Regeln der Zeitformen im Einzelnen, die story map, der Geschichtenberg, Zusammenfassen und Nacherzählen.
+scope: Die Seite stellt die Figuren und die Geschichtenwoche kurz vor und wiederholt das simple past mit regelmäßigen Verben (-ed) und häufigen unregelmäßigen Verben (was, went, had, found, saw, took, ran, made, fell, lost, sat, drank, began, flew, hid, left, heard, brought, put, read). Sie sagt, dass Geschichten meist im simple past stehen. Nicht hier, weil es andere Seiten sind. Die Regeln der Zeitformen im Einzelnen, die story map, der Geschichtenberg, Zusammenfassen und Nacherzählen.
 blocks:
   - type: text
-    text: "Heute ist Montag der Geschichtenwoche. Mr Hill sagt: Geschichten stehen meist im **simple past**. Kannst du das schon? Es geht um den Baustein **Simple past: regelmäßige Verben**. *Ich kann im simple past mit regelmäßigen Verben (-ed) von abgeschlossenen Ereignissen erzählen.*"
+    text: "Heute ist Montag der Geschichtenwoche in der Millbrook School. **Sophie** (11) kommt aus Deutschland und wohnt bei den Parkers. **Ellie** (11) und **Peter** (9) sind Geschwister, **Mrs Parker** ist ihre Mutter und Sophies Gastmutter. **Amir** (11) ist ein Freund. **Mr Hill** ist der Englischlehrer. Mr Hill sagt: Geschichten stehen meist im **simple past**. Auf dem **Klassenzimmer-Poster** sammelt er die neuen Wörter und Formen."
   - type: text
-    text: "Regelmäßige Verben bekommen im simple past die Endung **-ed**, zum Beispiel walk, walked. Endet das Verb auf **e**, kommt nur **d** dazu, zum Beispiel like, liked. Einige häufige Verben sind unregelmäßig. Sie haben eine eigene Form, die du auswendig lernst."
+    text: "Kannst du das schon? *Ich kann im simple past mit regelmäßigen Verben (-ed) von abgeschlossenen Ereignissen erzählen.* Das heißt: Du erzählst von Dingen, die schon vorbei sind. Regelmäßige Verben bekommen die Endung **-ed**, zum Beispiel walk, walked. Endet das Verb auf **e**, kommt nur **d** dazu, zum Beispiel like, liked. Endet es auf Konsonant plus **y**, wird daraus **-ied**, zum Beispiel try, tried. Viele häufige Verben sind unregelmäßig. Ihre Form lernst du auswendig."
   - type: table
     caption: Klassenzimmer-Poster · Wiederholung
-    header: [Grundform, simple past]
+    header: [Grundform → simple past, Grundform → simple past]
     rows:
-      - [walk, walked]
-      - [help, helped]
-      - [like, liked]
-      - [be, was / were]
-      - [go, went]
-      - [have, had]
-      - [find, found]
-      - [see, saw]
-      - [take, took]
+      - [walk → walked, help → helped]
+      - [like → liked, try → tried]
+      - [be → was / were, go → went]
+      - [have → had, find → found]
+      - [see → saw, take → took]
+      - [run → ran, make → made]
+      - [fall → fell, lose → lost]
+      - [sit → sat, drink → drank]
+      - [begin → began, fly → flew]
+      - [hide → hid, leave → left]
+      - [hear → heard, bring → brought]
+      - [put → put, read → read]
   - type: text
-    text: "Du brauchst das simple past, weil die Ereignisse einer Geschichte schon vorbei sind. Darum erzählst du sie nach und fasst sie zusammen mit Verben im simple past. Nur die Einträge der story map stehen im simple present, das lernst du auf der nächsten Seite."
+    text: "Du brauchst das simple past, weil die Ereignisse einer Geschichte schon vorbei sind. Darum erzählst du sie nach und fasst sie zusammen mit Verben im simple past. Nur die Einträge der story map stehen im simple present. Was eine story map ist, lernst du auf der nächsten Seite."
   - type: note
     title: Nicht sicher?
     blocks:
