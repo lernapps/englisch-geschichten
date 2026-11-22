@@ -133,7 +133,7 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Slice 1 (Musterseite des Lesestücks, ich selbst): Kapitel anders-erzaehlen (chapter.yaml, app.yaml) und Seite perspektive-wechseln: Lesestück von Sophie in Ich-Form, Randglossar, drei Aufgabenstufen, Schreibauftrag aus Ellies Sicht, Map-Figur mit Brille, Szene, Hörsätze; Lerner-Check mit Sub-Agent
+- [x] Slice 1 (Musterseite des Lesestücks, ich selbst): Kapitel anders-erzaehlen (chapter.yaml, app.yaml) und Seite perspektive-wechseln: Lesestück von Sophie in Ich-Form, Randglossar, drei Aufgabenstufen, Schreibauftrag aus Ellies Sicht, Map-Figur mit Brille, Szene, Hörsätze; Lerner-Check mit Sub-Agent
 - [ ] Slice 2 (ich selbst, nach der Musterseite): Seite setting-atmosphaere: Lesestück Weg durch den Park im November, Randglossar, drei Aufgabenstufen, Schreibauftrag mit anderer Stimmung, Map-Figur mit Farbe, Szene, Hörsätze
 - [ ] Hörlisten und Prüfungen: Audio mit regen_audio.py (neue Fassung mit Schnitt), Hörliste im Inhaltsführer, pruefen.py über alle Seiten, Gesamtcheck der Seiten des Kapitels und Sprachprüfung durch Sub-Agenten
 <!-- tasks: slices (3 added): one per competency, as written in Plan -->

@@ -2,7 +2,7 @@
 title: "Wessen Sicht? Dieselbe Szene, eine andere Brille"
 description: "Ein Jahr später: Mr Hill hängt eine Brille an das Feld who. Du liest eine Szene aus Sophies Sicht und erzählst sie aus der Sicht von Ellie neu."
 competencies: [perspektive-wechseln]
-scope: Die Seite zeigt, dass jede Geschichte aus der Sicht einer Figur erzählt wird. Die Brille am Feld who der story map sagt, wessen Sicht gemeint ist. Wer in der Ich-Form erzählt, weiß nur, was er sieht, denkt und fühlt, und er kann sich über die anderen irren. Beim Wechsel der Sicht ändern sich Pronomen, Wissen und Gefühl, das Geschehen und die Zeitform (simple past) bleiben. Das Lesestück ist ein eigener Text. Offene Aufgaben haben Punkte und eine Musterlösung, die App bewertet den Text nicht. Nicht hier, weil sie auf einer anderen Seite stehen, nämlich Ort, Zeit und Stimmung. Nicht hier ist die Analyse von Kurzgeschichten.
+scope: Die Seite zeigt, dass jede Geschichte aus der Sicht einer Figur erzählt wird. Die Brille am Feld who der story map sagt, wessen Sicht gemeint ist. Wer in der Ich-Form erzählt, weiß nur, was sie oder er selbst sieht, denkt und fühlt, und kann sich über die anderen irren. Beim Wechsel der Sicht ändern sich Pronomen, Wissen und Gefühl, das Geschehen und die Zeitform (simple past) bleiben. Das Lesestück ist ein eigener Text. Offene Aufgaben haben Punkte und eine Musterlösung, die App bewertet den Text nicht. Ort, Zeit und Stimmung stehen auf der nächsten Seite. Die Analyse von Kurzgeschichten gehört nicht hierher.
 blocks:
   - type: section
     id: einstieg
@@ -10,26 +10,26 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-perspektive-wechseln.svg
-        alt: "In der Geschichtenecke hängen der Geschichtenberg und die story map. Auf dem Feld who ist eine Brille gezeichnet, das Feld where hat eine graue Fläche. Mr Hill steht rechts. Davor stehen Sophie, Peter, Ellie und Amir. Eine Sprechblase fragt: „Whose view is it?“"
-        caption: "Ein Jahr später, im Januar. Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der story map hat das Feld who jetzt eine Brille, das Feld where eine graue Fläche."
+        alt: "In der Geschichtenecke hängen der Geschichtenberg und die story map. Auf dem Feld who ist eine Brille gezeichnet, das Feld where hat eine graue Fläche. Rechts steht Mr Hill, links neben ihm stehen Sophie, Peter, Ellie und Amir. Eine Sprechblase fragt: „Whose view is it?“"
+        caption: "Ein Jahr später, im Januar. Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (mit Brille) und Mr Hill (graue Haare). Das Brillenzeichen am Feld who gehört zur story map, nicht zu Amir."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Wieder Januar, wieder Geschichtenwoche. Sophie ist 13 und in der achten Klasse. Mr Hill hat an der story map zwei Dinge geändert: eine **Brille** am Feld **who** und eine **Farbe** am Feld **where**. Heute geht es um die Brille. Sie fragt: Wessen Sicht erzählt die Geschichte?"
+        text: "Wieder Januar, wieder Geschichtenwoche. Sophie ist 13 und in der achten Klasse. Mr Hill hat an der story map zwei Dinge geändert: ein **Brillenzeichen** am Feld **who** und eine **Farbe** am Feld **where**. Heute geht es um die Brille. Sie fragt: Wessen Sicht erzählt die Geschichte?"
       - type: single-choice
         id: sicht-start
         text: "Eine Geschichte beginnt mit „I woke up and looked out of the window.“ Wer erzählt?"
         options:
           - text: Eine Figur der Geschichte
             correct: true
-            info: Das ist die Ich-Form.
-          - text: Ein Erzähler, der alles weiß
+            info: Bei „I“ spricht eine Figur über sich selbst. Das nennt man die Ich-Form.
+          - text: Jemand, der nicht in der Geschichte vorkommt
             correct: false
-            info: Dann stünde he oder she.
-          - text: Der Autor oder die Autorin
+            info: Dann stünde he oder she statt „I“.
+          - text: Die Person, die das Buch geschrieben hat
             correct: false
-            info: „I“ ist die Figur im Text.
-        explanation: „I“ zeigt, dass eine Figur erzählt.
+            info: „I“ ist die Figur im Text, nicht die Autorin oder der Autor.
+        explanation: „I“ zeigt, dass eine Figur der Geschichte erzählt.
         links:
           - title: Lernlandkarte Englisch · Perspektivwechsel
             url: https://lernapps.net/apps/map/englisch/c/perspektive-wechseln/
@@ -40,30 +40,45 @@ blocks:
     title: Lies „The Late Bus“
     blocks:
       - type: text
-        text: "Sophie hat die Szene aufgeschrieben. Die Zeilen sind nummeriert."
+        text: "Sophie hat die Szene aufgeschrieben. Jede Zeile hat eine Nummer, damit du sie später nennen kannst. Das nennt man **belegen**: Du zeigst mit der Zeilennummer, wo etwas steht."
       - type: quote
         text: |
           **1** On Wednesday morning I woke up late.
-          **2** My phone said 8:10, and school starts at 8:45.
+
+          **2** My phone said 8:10, and school started at 8:45.
+
           **3** I jumped out of bed and ran downstairs.
+
           **4** Mrs Parker was already in the car with Peter.
+
           **5** “Hurry up, Sophie!” she called.
+
           **6** Ellie was standing at the gate, but she did not look at me.
+
           **7** I thought she was angry with me.
         origin: { author: eigener Text für diese App, work: The Late Bus, year: 2026 }
         source: eigener Text
         licence: CC-BY-4.0
       - type: definition
         term: gate
-        explanation: das Tor an der Einfahrt oder am Garten
+        explanation: das Tor am Garten
+      - type: definition
+        term: hurry up
+        explanation: beeil dich
       - type: quote
         text: |
-          **8** The bus was late too, so we waited at the stop.
+          **8** The bus was late too, so Ellie and I waited at the stop.
+
           **9** Nobody said anything.
+
           **10** My stomach felt tight.
-          **11** Yesterday I had laughed at Ellie’s new haircut, and I was sure she remembered it.
+
+          **11** Yesterday I laughed at Ellie’s new haircut, and I thought she remembered it.
+
           **12** At last the bus came.
+
           **13** Ellie sat down next to Amir, not next to me.
+
           **14** I looked out of the window and felt terrible.
         origin: { author: eigener Text für diese App, work: The Late Bus, year: 2026 }
         source: eigener Text
@@ -72,49 +87,65 @@ blocks:
         term: stomach
         explanation: der Bauch, der Magen
       - type: definition
+        term: tight
+        explanation: eng, zusammengezogen
+      - type: definition
         term: haircut
         explanation: die Frisur, der Haarschnitt
+      - type: definition
+        term: terrible
+        explanation: schrecklich
+      - type: definition
+        term: at last
+        explanation: endlich
       - type: single-choice
         id: sicht-warum
-        text: "Warum glaubt Sophie, dass Ellie böse auf sie ist?"
+        text: "Woran erkennt Sophie, dass Ellie vielleicht böse auf sie ist?"
         options:
-          - text: Ellie schaut sie nicht an und sitzt im Bus woanders
+          - text: Ellie schaut sie nicht an
             correct: true
-            info: Das sieht Sophie (Zeilen 6 und 13).
-          - text: Ellie hat es ihr am Morgen gesagt
+            info: Das sieht Sophie in Zeile 6. Daraus schließt sie etwas.
+          - text: Ellie sagt es ihr am Morgen
             correct: false
-            info: Sophie vermutet es nur.
-          - text: Mrs Parker hat es ihr erzählt
+            info: Ellie sagt nichts, Sophie vermutet es nur.
+          - text: Mrs Parker erzählt es ihr
             correct: false
             info: Mrs Parker ruft nur „Hurry up“.
-        explanation: Sophie vermutet es nur.
+        explanation: Sophie schließt aus dem, was sie sieht.
         links:
           - title: Lernlandkarte Englisch · Perspektivwechsel
             url: https://lernapps.net/apps/map/englisch/c/perspektive-wechseln/
       - type: quote
         text: |
           **15** At school Mr Hill was waiting at the door.
-          **16** “Good morning, Sophie,” he said. “Ellie told me about your bag.”
+
+          **16** “Good morning, Sophie,” he said. “Where is your bag?”
+
           **17** My bag? I looked down.
-          **18** It was not there. I had left it at home!
+
+          **18** It was not there. I forgot it at home!
+
           **19** Then Ellie smiled and held up my bag.
-          **20** “I took it from your room,” she said. “I was not angry. I was just worried that you would miss the bus!”
+
+          **20** “It was on the stairs,” she said. “I wanted to give it to you, but I thought you were angry with me!”
         origin: { author: eigener Text für diese App, work: The Late Bus, year: 2026 }
         source: eigener Text
         licence: CC-BY-4.0
       - type: definition
-        term: worried
-        explanation: besorgt, in Sorge
+        term: stairs
+        explanation: die Treppe
   - type: section
     id: neu
     title: Was die Brille sieht und was nicht
     blocks:
       - type: text
-        text: "Sophie erzählt in der **Ich-Form**. Wer „I“ sagt, weiß nur, was er selbst sieht, denkt und fühlt, und kann sich irren: In Zeile 7 denkt Sophie, Ellie sei böse. Die Brille am Feld who zeigt, wessen Sicht gemeint ist."
+        text: "Sophie erzählt in der **Ich-Form**. Wer „I“ sagt, weiß nur, was sie oder er selbst sieht, denkt und fühlt, und kann sich über die anderen irren. Die Brille am Feld who zeigt, wessen Sicht gemeint ist."
+      - type: text
+        text: "So sieht die Brille an der Geschichte vom roten Hut aus Kapitel 1 aus. Diesmal erzählt das Mädchen."
       - type: figure
         image: images/geschichtenmap-perspektive-wechseln.svg
-        alt: "Eine story map mit vier Feldern. Who: Peter, Max, a girl und eine Brille mit dem Text „Sicht von: a girl“. Where: in the park auf grauer Fläche mit dem Text „wie in Kapitel 1“. When: Saturday morning. What: the girl sees the hat fly into the pond."
-        caption: "Die Geschichte vom roten Hut aus Kapitel 1, diesmal mit Brille: Wir erzählen sie aus der Sicht des Mädchens. Die Ereignisse bleiben dieselben."
+        alt: "Eine story map mit vier Feldern. Who: Peter, Max, a girl, dazu eine Brille und der Text „view: a girl“. Where: in the park. When: Saturday morning. What: the girl sees the hat fly into the pond."
+        caption: "Die Geschichte vom roten Hut aus Kapitel 1 mit Brille: Das Mädchen mit dem Stock erzählt. Die Ereignisse bleiben dieselben."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: note
@@ -134,12 +165,12 @@ blocks:
         text: "Welches Gefühl passt zu welcher Zeile? Ordne zu."
         pairs:
           - left: "Zeile 10: My stomach felt tight."
-            right: Sophie ist angespannt
+            right: Sophie ist nervös
           - left: "Zeile 14: I looked out of the window and felt terrible."
-            right: Sophie ist traurig
+            right: Sophie fühlt sich schlecht
           - left: "Zeile 19: Ellie smiled."
             right: Ellie ist freundlich
-        explanation: Jede Zeile zeigt ein Gefühl.
+        explanation: Die Wörter „tight“, „terrible“ und „smiled“ zeigen das Gefühl.
         links:
           - title: Lernlandkarte Englisch · Perspektivwechsel
             url: https://lernapps.net/apps/map/englisch/c/perspektive-wechseln/
@@ -154,27 +185,27 @@ blocks:
             info: Eine Vermutung.
           - text: Zeile 11
             correct: true
-            info: Auch eine Annahme.
+            info: Auch eine Vermutung.
           - text: Zeile 9
             correct: false
-            info: Das hört man, keine Vermutung.
+            info: Das merkt Sophie selbst.
           - text: Zeile 12
             correct: false
             info: Ein Ereignis.
-        explanation: „thought“ und „sure“ zeigen eine Annahme.
+        explanation: Das Wort „thought“ zeigt eine Vermutung.
         links:
           - title: Lernlandkarte Englisch · Perspektivwechsel
             url: https://lernapps.net/apps/map/englisch/c/perspektive-wechseln/
       - type: single-choice
         id: sicht-wissen
-        text: "Welche Zeile zeigt, dass Sophie etwas Wichtiges nicht weiß?"
+        text: "Welche Zeile zeigt, dass Sophie erst jetzt merkt, dass etwas fehlt?"
         options:
-          - text: Zeile 17
+          - text: Zeile 18
             correct: true
-            info: Sophie weiß nicht, wo ihre Tasche ist.
+            info: Hier merkt Sophie, dass die Tasche fehlt.
           - text: Zeile 3
             correct: false
-            info: Das weiß Sophie.
+            info: Hier läuft Sophie nur nach unten.
           - text: Zeile 15
             correct: false
             info: Ein Ereignis.
@@ -184,20 +215,23 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/perspektive-wechseln/
       - type: text
         text: "**Stufe 3: Meinung**"
-      - type: single-choice
+      - type: multiple-choice
         id: sicht-meinung
-        text: "Was ändert sich, wenn Ellie die Szene erzählt? Welche Antwort findest du am besten?"
+        text: "Du findest die Szene aus Sophies Sicht spannender als aus Ellies Sicht. Welche Begründungen passen dazu? Wähle alle."
         options:
-          - text: Wir erfahren früh, dass Ellie sich Sorgen macht
+          - text: Wir wissen nicht, warum Ellie schweigt
             correct: true
-            info: Wir verstehen Ellie, die Überraschung fehlt.
-          - text: Die Geschichte bleibt genau gleich spannend
+            info: Aus Sophies Sicht bleibt das ein Rätsel.
+          - text: Wir rätseln mit Sophie
+            correct: true
+            info: Wer wenig weiß, fragt sich mit.
+          - text: Die Pronomen sind anders
             correct: false
-            info: Die Spannung ändert sich.
-          - text: Es ändert sich nichts, nur die Pronomen
+            info: Das ist kein Grund für Spannung.
+          - text: Ellie kommt gar nicht vor
             correct: false
-            info: Auch Wissen und Gefühl ändern sich.
-        explanation: Mit der Brille ändert sich, was wir wissen.
+            info: Ellie kommt in Sophies Geschichte vor.
+        explanation: Mit der Sicht ändert sich, was wir wissen und fühlen.
         links:
           - title: Lernlandkarte Englisch · Perspektivwechsel
             url: https://lernapps.net/apps/map/englisch/c/perspektive-wechseln/
@@ -209,22 +243,22 @@ blocks:
         task: "Jetzt erzählt Ellie in der Ich-Form im simple past. Schreibe je einen Satz nach dem Hinweis."
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - cue: "I · wait · at the gate · be worried"
-            target: (I waited at the gate and I was worried.|I waited at the gate. I was worried.|I was waiting at the gate and I was worried.)
+          - cue: "I · wait · at the gate · hold · Sophie's bag"
+            target: (I waited at the gate and held Sophie's bag.|I waited at the gate and I held Sophie's bag.|I waited at the gate with Sophie's bag.|I was waiting at the gate with Sophie's bag.|I held Sophie's bag and waited at the gate.)
             mistakes:
-              - answer: I wait at the gate and I am worried.
-                message: Simple past, also waited und was.
-              - answer: Ellie waited at the gate and she was worried.
+              - answer: I wait at the gate and hold Sophie's bag.
+                message: Simple past, also waited und held.
+              - answer: Ellie waited at the gate and held Sophie's bag.
                 message: Ellie erzählt selbst, also „I“.
-              - answer: I waited at the gate and she was worried.
-                message: Ellie erzählt von sich, also „I was worried“.
-          - cue: "I · hold up · Sophie's bag · smile"
-            target: (I held up Sophie's bag and I smiled.|I held up Sophie's bag and smiled.|I smiled and held up Sophie's bag.)
-            mistakes:
-              - answer: I hold up Sophie's bag and smile.
-                message: Simple past, also held und smiled.
-              - answer: I helded up Sophie's bag and I smiled.
+              - answer: I waited at the gate and holded Sophie's bag.
                 message: Hold ist unregelmäßig, die Form heißt held.
+          - cue: "I · think · Sophie · be angry"
+            target: (I thought Sophie was angry.|I thought Sophie was angry with me.|I thought that Sophie was angry.|I thought that Sophie was angry with me.|I thought she was angry.|I thought she was angry with me.)
+            mistakes:
+              - answer: I think Sophie is angry.
+                message: Simple past, also thought und was.
+              - answer: I thinked Sophie was angry.
+                message: Think ist unregelmäßig, die Form heißt thought.
       - type: language-task
         id: sicht-hoeren
         languages: { source: de, target: en }
@@ -247,25 +281,25 @@ blocks:
         items:
           - audio: who-is-telling-the-story.mp3
             text: Who is telling the story?
-          - audio: what-does-she-know-about-ellie.mp3
-            text: What does she know about Ellie?
-          - audio: now-i-tell-it-from-the-other-side.mp3
-            text: Now I tell it from the other side.
+          - audio: what-does-sophie-know-about-ellie.mp3
+            text: What does Sophie know about Ellie?
+          - audio: now-let-me-tell-it-from-ellies-side.mp3
+            text: Now let me tell it from Ellie’s side.
         hint: Hör dir den Satz zuerst an. Sprich ihn dann langsam nach.
       - type: open-task
         id: sicht-schreiben
-        task: "Erzähle die Szene an der Bushaltestelle (Zeilen 8 bis 14) aus Ellies Sicht neu. Schreibe vier bis fünf Sätze in der Ich-Form im simple past."
+        task: "Erzähle die Szene bis zum Bus (Zeilen 1 bis 14) aus Ellies Sicht neu. Schreibe vier bis fünf Sätze in der Ich-Form im simple past. Ellie hat Sophies Tasche (Zeile 19) und denkt, Sophie sei böse (Zeile 20). Für Sophie darfst du „Sophie“ oder „she“ schreiben."
         points:
-          - text: Ellie erzählt in der Ich-Form, es steht „I“ und nicht „Ellie“ oder „she“ für Ellie.
+          - text: Ellie erzählt in der Ich-Form, für Ellie steht „I“.
             source: /anders-erzaehlen/perspektive-wechseln/#neu
-          - text: Ellie weiß, dass sie Sophies Tasche hat, und sie macht sich Sorgen. Das steht im Text.
-            source: /anders-erzaehlen/perspektive-wechseln/#neu
+          - text: Ellie weiß, dass sie Sophies Tasche hat, und sie denkt, Sophie sei böse.
+            source: /anders-erzaehlen/perspektive-wechseln/#lesen
           - text: Die Ereignisse bleiben gleich, der Bus kommt zu spät und Ellie setzt sich neben Amir.
             kind: form
           - text: Die Zeitform ist das simple past.
             kind: form
         solution: |
-          The bus was late, so we waited at the stop. I looked at Sophie. She was very quiet and her face was sad. I wanted to tell her about the bag, but I was too nervous. At last the bus came, and I sat down next to Amir.
+          I stood at the gate with Sophie’s bag. Sophie ran past me and she did not smile. I thought she was angry with me, so I said nothing. At the bus stop we waited and nobody spoke. At last the bus came, and I sat down next to Amir.
         hint: Die App bewertet deinen Text nicht. Prüfe ihn selbst anhand der Punkte.
   - type: section
     id: weiter
