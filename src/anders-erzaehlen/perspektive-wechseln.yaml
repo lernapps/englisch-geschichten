@@ -15,7 +15,9 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Wieder Januar, wieder Geschichtenwoche. Sophie ist 13 und in der achten Klasse. Mr Hill hat an der story map zwei Dinge geändert: ein **Brillenzeichen** am Feld **who** und eine **Farbe** am Feld **where**. Heute geht es um die Brille. Sie fragt: Wessen Sicht erzählt die Geschichte?"
+        text: "Wieder Januar, wieder Geschichtenwoche. Sophie ist jetzt 12. Mr Hill hat an der story map zwei Dinge geändert: ein **Brillenzeichen** am Feld **who** und eine **Stimmungsfläche** im Feld **where**. Heute geht es um die Brille. Sie fragt: Wessen Sicht erzählt die Geschichte?"
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst, wessen Sicht eine Geschichte hat, und erzählst dieselbe Szene aus der Sicht einer anderen Figur neu."
       - type: single-choice
         id: sicht-start
         text: "Eine Geschichte beginnt mit „I woke up and looked out of the window.“ Wer erzählt?"
@@ -33,8 +35,6 @@ blocks:
         links:
           - title: Lernlandkarte Englisch · Perspektivwechsel
             url: https://lernapps.net/apps/map/englisch/c/perspektive-wechseln/
-      - type: text
-        text: "**Das kannst du danach:** Du erkennst, wessen Sicht eine Geschichte hat, und erzählst dieselbe Szene aus der Sicht einer anderen Figur neu."
   - type: section
     id: lesen
     title: Lies „The Late Bus“
@@ -51,7 +51,7 @@ blocks:
 
           **4** Mrs Parker was already in the car with Peter.
 
-          **5** “Hurry up, Sophie!” she called.
+          **5** “Take the bus, Sophie, you are late!” she called.
 
           **6** Ellie was standing at the gate, but she did not look at me.
 
@@ -62,9 +62,6 @@ blocks:
       - type: definition
         term: gate
         explanation: das Tor am Garten
-      - type: definition
-        term: hurry up
-        explanation: beeil dich
       - type: quote
         text: |
           **8** The bus was late too, so Ellie and I waited at the stop.
@@ -100,7 +97,7 @@ blocks:
         explanation: endlich
       - type: single-choice
         id: sicht-warum
-        text: "Woran erkennt Sophie, dass Ellie vielleicht böse auf sie ist?"
+        text: "In „The Late Bus“ steht Ellie am Tor. Woran erkennt Sophie, dass Ellie vielleicht böse auf sie ist?"
         options:
           - text: Ellie schaut sie nicht an
             correct: true
@@ -110,7 +107,7 @@ blocks:
             info: Ellie sagt nichts, Sophie vermutet es nur.
           - text: Mrs Parker erzählt es ihr
             correct: false
-            info: Mrs Parker ruft nur „Hurry up“.
+            info: Mrs Parker ruft nur, dass Sophie den Bus nehmen soll.
         explanation: Sophie schließt aus dem, was sie sieht.
         links:
           - title: Lernlandkarte Englisch · Perspektivwechsel
@@ -145,7 +142,7 @@ blocks:
       - type: figure
         image: images/geschichtenmap-perspektive-wechseln.svg
         alt: "Eine story map mit vier Feldern. Who: Peter, Max, a girl, dazu eine Brille und der Text „view: a girl“. Where: in the park. When: Saturday morning. What: the girl sees the hat fly into the pond."
-        caption: "Die Geschichte vom roten Hut aus Kapitel 1 mit Brille: Das Mädchen mit dem Stock erzählt. Die Ereignisse bleiben dieselben."
+        caption: "Die Geschichte vom roten Hut aus Kapitel 1 mit Brille: Das Mädchen im roten Mantel erzählt. Die Ereignisse bleiben dieselben."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: note
@@ -159,18 +156,18 @@ blocks:
     title: Verstehen, belegen, urteilen und neu erzählen
     blocks:
       - type: text
-        text: "**Stufe 1: Verstehen**"
+        text: "Die Aufgaben haben vier Stufen: erst verstehen, dann mit Zeilen belegen, dann urteilen, zuletzt neu erzählen.\n\n**Stufe 1: Verstehen**"
       - type: matching
         id: sicht-gefuehl
         text: "Welches Gefühl passt zu welcher Zeile? Ordne zu."
         pairs:
           - left: "Zeile 10: My stomach felt tight."
-            right: Sophie ist nervös
+            right: Sophie ist angespannt
           - left: "Zeile 14: I looked out of the window and felt terrible."
-            right: Sophie fühlt sich schlecht
+            right: Sophie ist traurig
           - left: "Zeile 19: Ellie smiled."
             right: Ellie ist freundlich
-        explanation: Die Wörter „tight“, „terrible“ und „smiled“ zeigen das Gefühl.
+        explanation: „Tight“ (eng) zeigt Anspannung, „terrible“ (schrecklich) zeigt Traurigkeit und „smiled“ zeigt Freundlichkeit.
         links:
           - title: Lernlandkarte Englisch · Perspektivwechsel
             url: https://lernapps.net/apps/map/englisch/c/perspektive-wechseln/
@@ -217,14 +214,14 @@ blocks:
         text: "**Stufe 3: Meinung**"
       - type: multiple-choice
         id: sicht-meinung
-        text: "Du findest die Szene aus Sophies Sicht spannender als aus Ellies Sicht. Welche Begründungen passen dazu? Wähle alle."
+        text: "Welche Gründe sprechen dafür, dass die Szene aus Sophies Sicht spannender ist als aus Ellies Sicht? Wähle alle."
         options:
           - text: Wir wissen nicht, warum Ellie schweigt
             correct: true
             info: Aus Sophies Sicht bleibt das ein Rätsel.
-          - text: Wir rätseln mit Sophie
+          - text: Wir erfahren erst spät, dass Ellie Sophies Tasche hat
             correct: true
-            info: Wer wenig weiß, fragt sich mit.
+            info: Sophie weiß es nicht, also wissen wir es auch nicht.
           - text: Die Pronomen sind anders
             correct: false
             info: Das ist kein Grund für Spannung.
@@ -240,11 +237,11 @@ blocks:
       - type: language-task
         id: sicht-ellie
         languages: { source: de, target: en }
-        task: "Jetzt erzählt Ellie in der Ich-Form im simple past. Schreibe je einen Satz nach dem Hinweis."
+        task: "Jetzt erzählt Ellie aus „The Late Bus“ selbst, in der Ich-Form im simple past. Ellie hat Sophies Tasche und denkt, Sophie sei böse. Schreibe je einen Satz nach dem Hinweis."
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: "I · wait · at the gate · hold · Sophie's bag"
-            target: (I waited at the gate and held Sophie's bag.|I waited at the gate and I held Sophie's bag.|I waited at the gate with Sophie's bag.|I was waiting at the gate with Sophie's bag.|I held Sophie's bag and waited at the gate.)
+            target: (I waited at the gate and held Sophie's bag.|I waited at the gate and I held Sophie's bag.|I waited at the gate with Sophie's bag.|I was waiting at the gate with Sophie's bag.|I was waiting at the gate and had Sophie's bag.|I held Sophie's bag and waited at the gate.)
             mistakes:
               - answer: I wait at the gate and hold Sophie's bag.
                 message: Simple past, also waited und held.
@@ -257,6 +254,8 @@ blocks:
             mistakes:
               - answer: I think Sophie is angry.
                 message: Simple past, also thought und was.
+              - answer: I thought Sophie is angry.
+                message: Nach thought steht die Vergangenheit, also was.
               - answer: I thinked Sophie was angry.
                 message: Think ist unregelmäßig, die Form heißt thought.
       - type: language-task
@@ -288,7 +287,7 @@ blocks:
         hint: Hör dir den Satz zuerst an. Sprich ihn dann langsam nach.
       - type: open-task
         id: sicht-schreiben
-        task: "Erzähle die Szene bis zum Bus (Zeilen 1 bis 14) aus Ellies Sicht neu. Schreibe vier bis fünf Sätze in der Ich-Form im simple past. Ellie hat Sophies Tasche (Zeile 19) und denkt, Sophie sei böse (Zeile 20). Für Sophie darfst du „Sophie“ oder „she“ schreiben."
+        task: "Erzähle die Szene bis zum Bus (Zeilen 1 bis 14) aus Ellies Sicht neu. Schreibe vier bis fünf Sätze in der Ich-Form im simple past. Ellie hat Sophies Tasche und denkt, Sophie sei böse. Für Sophie darfst du „Sophie“ oder „she“ schreiben."
         points:
           - text: Ellie erzählt in der Ich-Form, für Ellie steht „I“.
             source: /anders-erzaehlen/perspektive-wechseln/#neu
@@ -299,11 +298,11 @@ blocks:
           - text: Die Zeitform ist das simple past.
             kind: form
         solution: |
-          I stood at the gate with Sophie’s bag. Sophie ran past me and she did not smile. I thought she was angry with me, so I said nothing. At the bus stop we waited and nobody spoke. At last the bus came, and I sat down next to Amir.
+          I stood at the gate with Sophie’s bag. Sophie did not look at me and she did not smile. I thought she was angry with me, so I said nothing. At the bus stop we waited and nobody spoke. At last the bus came, and I sat down next to Amir.
         hint: Die App bewertet deinen Text nicht. Prüfe ihn selbst anhand der Punkte.
   - type: section
     id: weiter
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am Donnerstag erklärt Mr Hill die Farbe am Feld where. Auf der nächsten Seite liest du, wie Ellie abends durch den Park geht, und lernst, wie Wörter eine Stimmung machen."
+        text: "Am Donnerstag erklärt Mr Hill die Stimmungsfläche im Feld where. Auf der nächsten Seite liest du, wie Ellie am späten Nachmittag durch den Park geht, und lernst, wie Wörter eine Stimmung machen."

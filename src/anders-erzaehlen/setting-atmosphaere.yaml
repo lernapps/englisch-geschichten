@@ -1,21 +1,21 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
-title: "Wo, wann und wie fühlt es sich an? Die Farbe am Feld where"
-description: "Mr Hill erklärt die Farbe am Feld where. Du liest, wie Ellie abends durch den Park geht, und lernst, wie Ort, Zeit und Wörter eine Stimmung machen."
+title: "Wo und wann spielt es, und wie fühlt es sich an?"
+description: "Mr Hill erklärt die Stimmungsfläche im Feld where. Du liest, wie Ellie am späten Nachmittag durch den Park geht, und lernst, wie Ort, Zeit und Wörter eine Stimmung erzeugen."
 competencies: [setting-atmosphaere]
-scope: Die Seite zeigt, dass eine Geschichte einen Ort (where) und eine Zeit (when) hat und dass die Wörter dazu eine Stimmung (mood) erzeugen. Die Farbe am Feld where der story map sagt, wie sich der Ort anfühlt. Die Stimmung entsteht durch Wörter für Wetter, Licht und Geräusche. Man zeigt sie mit solchen Wörtern, statt sie nur zu behaupten. Das Lesestück ist ein eigener Text im simple past. Offene Aufgaben haben Punkte und eine Musterlösung, die App bewertet den Text nicht. Die Sicht einer Figur steht auf der vorigen Seite. Die Analyse von Kurzgeschichten gehört nicht hierher.
+scope: Die Seite zeigt, dass eine Geschichte einen Ort (where) und eine Zeit (when) hat und dass die Wörter dazu eine Stimmung (mood) erzeugen. Die Stimmungsfläche im Feld where der story map sagt, wie sich der Ort anfühlt. Die Stimmung entsteht durch Wörter für Wetter, Licht und Geräusche. Man zeigt sie mit solchen Wörtern, statt sie nur zu behaupten. Das Lesestück ist ein eigener Text im simple past. Offene Aufgaben haben Punkte und eine Musterlösung, die App bewertet den Text nicht. Die Sicht einer Figur steht auf der vorigen Seite. Die Analyse von Kurzgeschichten gehört nicht hierher.
 blocks:
   - type: section
     id: einstieg
-    title: Eine Farbe an der story map
+    title: Eine Stimmungsfläche an der story map
     blocks:
       - type: figure
         image: images/szene-setting-atmosphaere.svg
         alt: "In der Geschichtenecke hängen der Geschichtenberg und die story map. Das Feld where hat eine graue Fläche, auf dem Feld who ist eine Brille gezeichnet. Rechts steht Mr Hill, links neben ihm stehen Sophie, Peter, Ellie und Amir. Eine Sprechblase fragt: „How does it feel?“"
-        caption: "Donnerstag in der Geschichtenwoche. Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (mit Brille) und Mr Hill (graue Haare). Die graue Fläche am Feld where ist die Stimmungsfarbe."
+        caption: "Donnerstag in der Geschichtenwoche. Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (mit Brille) und Mr Hill (graue Haare). Die graue Fläche im Feld where ist die Stimmungsfläche. Das Brillenzeichen am Feld who gehört zur story map, nicht zu Amir."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Donnerstag. Mr Hill zeigt auf die graue Fläche am Feld **where**. Sie sagt, wie sich der Ort anfühlt: die **Stimmung** (englisch: mood). Das Feld **when** sagt dazu, wann die Geschichte spielt."
+        text: "Donnerstag. Gestern hat die Brille gefragt, wessen Sicht eine Geschichte hat. Heute zeigt Mr Hill auf die graue Fläche im Feld **where**. Sie sagt, wie sich der Ort anfühlt: die **Stimmung** (englisch: mood)."
       - type: single-choice
         id: ort-start
         text: "Welche zwei Felder der story map sagen, wo und wann eine Geschichte spielt?"
@@ -34,18 +34,18 @@ blocks:
           - title: Lernlandkarte Englisch · Setting und Atmosphäre
             url: https://lernapps.net/apps/map/englisch/c/setting-atmosphaere/
       - type: text
-        text: "**Das kannst du danach:** Du sagst, wo und wann eine Geschichte spielt, und findest die Wörter, die eine Stimmung machen. Du schreibst eine Szene mit anderer Stimmung neu."
+        text: "**Das kannst du danach:** Du sagst, wo und wann eine Geschichte spielt, und findest die Wörter, die eine Stimmung erzeugen. Du schreibst eine Szene mit anderer Stimmung neu."
   - type: section
     id: lesen
     title: Lies „The Park in November“
     blocks:
       - type: quote
         text: |
-          **1** It was a Thursday in November, and the afternoon was already turning dark.
+          **1** It was a Tuesday in November, and the afternoon was already turning dark.
 
           **2** Ellie walked home through Millbrook Park.
 
-          **3** The sky was grey and heavy, and a cold wind moved the bare trees.
+          **3** The sky was grey and heavy, and a cold wind blew through the bare trees.
 
           **4** There was nobody on the path.
 
@@ -63,17 +63,23 @@ blocks:
       - type: definition
         term: path
         explanation: der Weg
+      - type: definition
+        term: heavy
+        explanation: schwer
+      - type: definition
+        term: bark
+        explanation: bellen
       - type: quote
         text: |
           **8** The street lamps came on, one by one, and their yellow light was weak.
 
-          **9** Long shadows lay across the grass.
+          **9** Long shadows fell across the grass.
 
           **10** Behind her a branch cracked.
 
           **11** Ellie stopped and listened, but she heard only the wind.
 
-          **12** “Don’t be silly,” she whispered to herself.
+          **12** ‘Don’t be silly,’ she whispered to herself.
 
           **13** Her heart beat faster anyway.
 
@@ -88,6 +94,15 @@ blocks:
         term: branch
         explanation: der Ast
       - type: definition
+        term: cracked
+        explanation: knackte, brach
+      - type: definition
+        term: silly
+        explanation: albern
+      - type: definition
+        term: weak
+        explanation: schwach
+      - type: definition
         term: whisper
         explanation: flüstern
       - type: single-choice
@@ -99,7 +114,7 @@ blocks:
             info: Ihr Herz schlägt schneller.
           - text: fröhlich
             correct: false
-            info: Sie lächelt erst am Ende.
+            info: Sie flüstert sich Mut zu und geht schneller.
           - text: müde
             correct: false
             info: Sie geht schneller.
@@ -109,13 +124,13 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/setting-atmosphaere/
       - type: quote
         text: |
-          **15** The wind was still cold, but the way felt shorter now.
+          **15** The wind was still cold, but the way home felt shorter now.
 
-          **16** She smelled smoke from a chimney and heard a television somewhere.
+          **16** She smelled smoke from a chimney and heard a TV somewhere.
 
-          **17** When she opened the gate, the kitchen window was bright and warm.
+          **17** When she opened the garden gate, the kitchen window was bright and warm.
 
-          **18** Mrs Parker was cooking, and the whole house smelled of soup.
+          **18** Her mum was cooking, and the whole house smelled of soup.
 
           **19** Ellie took a deep breath.
 
@@ -126,16 +141,25 @@ blocks:
       - type: definition
         term: chimney
         explanation: der Schornstein
+      - type: definition
+        term: smoke
+        explanation: der Rauch
+      - type: definition
+        term: whole
+        explanation: ganz
+      - type: definition
+        term: deep breath
+        explanation: tief Luft holen
   - type: section
     id: neu
     title: Wie Wörter eine Stimmung machen
     blocks:
       - type: text
-        text: "Eine Stimmung entsteht durch **Wörter für Wetter, Licht und Geräusche**. Man schreibt nicht nur „It was scary.“, man zeigt es. Die Farbe am Feld where hält die Stimmung fest. Hier eine andere Szene."
+        text: "Eine Stimmung entsteht durch **Wörter für Wetter, Licht und Geräusche**. Man schreibt nicht nur „It was scary.“, sondern zeigt es. Die Stimmungsfläche im Feld where hält die Stimmung fest. Hier siehst du eine andere Szene."
       - type: figure
         image: images/geschichtenmap-setting-atmosphaere.svg
-        alt: "Eine story map mit vier Feldern. Who: Amir, Peter. Where: the beach auf gelber Fläche mit dem Wort „froh“. When: Sunday noon. What: they build a sandcastle."
-        caption: "Eine Szene am Strand. Die gelbe Fläche am Feld where heißt: froh. Wörter wie „sunny“ und „laughed“ machen diese Stimmung."
+        alt: "Eine story map mit vier Feldern. Who: Amir, Peter, dazu eine Brille und der Text „view: Amir“. Where: the beach auf gelber Fläche mit dem Wort „froh“. When: Sunday noon. What: they build a sandcastle."
+        caption: "Eine Szene am Strand, erzählt aus Amirs Sicht (view: Amir). Die gelbe Fläche im Feld where heißt: froh. Wörter wie „sunny“ und „laughed“ machen diese Stimmung."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: note
@@ -143,7 +167,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Ort und Zeit nennen, Stimmung zeigen.** Wetter, Licht und Geräusche machen die Stimmung. Die Wörter müssen zur Stimmung passen.
+              **Ort und Zeit nennen, Stimmung zeigen.** Wetter, Licht und Geräusche machen die Stimmung. Die Wörter müssen zur Stimmung passen. Die Stimmung kann sich in einer Geschichte ändern: im Park ist sie unheimlich, am Haus warm.
   - type: section
     id: uebung
     title: Verstehen, belegen, urteilen und neu schreiben
@@ -152,7 +176,7 @@ blocks:
         text: "**Stufe 1: Verstehen**"
       - type: single-choice
         id: ort-wo
-        text: "Wo und wann spielt die Geschichte? Wähle die beste Angabe."
+        text: "In „The Park in November“ geht Ellie nach Hause. Wo und wann beginnt die Geschichte? Wähle die beste Angabe."
         options:
           - text: im Park, an einem Novembernachmittag
             correct: true
@@ -160,9 +184,9 @@ blocks:
           - text: im Park, an einem Sommermorgen
             correct: false
             info: Es ist kalt und wird dunkel.
-          - text: vor Ellies Haus, am Abend
+          - text: in der Schule, am Morgen
             correct: false
-            info: Das Haus kommt erst am Ende vor.
+            info: Ellie ist auf dem Heimweg, und es wird dunkel.
         explanation: Ort und Zeit stehen am Anfang.
         links:
           - title: Lernlandkarte Englisch · Setting und Atmosphäre
@@ -173,7 +197,7 @@ blocks:
         id: stimmung-woerter
         text: "Welche Art von Wörtern steckt in welcher Zeile? Ordne zu."
         pairs:
-          - left: "Zeile 3: grey and heavy, cold wind"
+          - left: "Zeile 3: heavy sky, cold wind"
             right: Wetter
           - left: "Zeile 6: a dog barked once, then quiet"
             right: Geräusche
@@ -199,7 +223,7 @@ blocks:
           - text: Zeile 2
             correct: false
             info: Das nennt nur den Ort.
-        explanation: Unheimlich machen Stille, Dunkelheit und Geräusche.
+        explanation: Unheimlich machen Leere, Dunkelheit und Geräusche.
         links:
           - title: Lernlandkarte Englisch · Setting und Atmosphäre
             url: https://lernapps.net/apps/map/englisch/c/setting-atmosphaere/
@@ -207,18 +231,18 @@ blocks:
         text: "**Stufe 3: Meinung**"
       - type: multiple-choice
         id: stimmung-meinung
-        text: "Am Ende wird die Stimmung warm. Welche Wörter machen das für dich am besten? Wähle alle, die du überzeugend findest."
+        text: "Am Ende wird die Stimmung warm. Welche Wörter machen das Ende warm? Wähle alle richtigen."
         options:
           - text: bright and warm
             correct: true
-            info: Licht und Wärme sind das Gegenteil von Dunkelheit.
+            info: Licht ist das Gegenteil von Dunkelheit, Wärme das Gegenteil von Kälte.
           - text: smelled of soup
             correct: true
             info: Ein Geruch macht es gemütlich.
           - text: she heard only the wind
             correct: false
             info: Das gehört noch zum unruhigen Teil.
-        explanation: Warme Wörter ersetzen die kalten.
+        explanation: Warme Wörter wirken wie das Gegenteil der kalten.
         links:
           - title: Lernlandkarte Englisch · Setting und Atmosphäre
             url: https://lernapps.net/apps/map/englisch/c/setting-atmosphaere/
@@ -227,23 +251,27 @@ blocks:
       - type: language-task
         id: stimmung-sommer
         languages: { source: de, target: en }
-        task: "Dieselbe Szene an einem Sommermorgen. Schreibe je einen Satz im simple past nach dem Hinweis."
+        task: "Ellie geht im Sommer durch den Park, und die Szene ist froh statt unheimlich. Schreibe je einen Satz im simple past nach dem Hinweis."
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - cue: "the sky · be · blue · the sun · be · warm"
-            target: (The sky was blue and the sun was warm.|The sky was blue and the sun was hot.)
+            target: The sky was blue and the sun was warm.
             mistakes:
               - answer: The sky is blue and the sun is warm.
                 message: Die Szene steht im simple past, also was.
               - answer: The sky was grey and the sun was warm.
-                message: Grey passt zu einer trüben Stimmung, hier ist es froh.
+                message: Grey passt zu einer trüben Stimmung, hier soll es froh sein.
           - cue: "the birds · sing · in the trees"
-            target: (The birds sang in the trees.|The birds were singing in the trees.)
+            target: The birds sang in the trees.
             mistakes:
               - answer: The birds sing in the trees.
                 message: Die Szene steht im simple past, also sang.
               - answer: The birds singed in the trees.
                 message: Sing ist unregelmäßig, die Form heißt sang.
+              - answer: The birds sung in the trees.
+                message: Sung gibt es nur mit have. Im simple past heißt es sang.
+              - answer: The sky was blue and the sun was shining.
+                message: Der Hinweis nennt warm, nicht shining.
       - type: language-task
         id: stimmung-hoeren
         languages: { source: de, target: en }
@@ -268,8 +296,8 @@ blocks:
             text: Is it a happy or a sad scene?
           - audio: what-is-the-mood-of-this-scene.mp3
             text: What is the mood of this scene?
-          - audio: which-words-make-the-mood.mp3
-            text: Which words make the mood?
+          - audio: which-words-create-the-mood.mp3
+            text: Which words create the mood?
         hint: Hör dir den Satz zuerst an. Sprich ihn dann langsam nach.
       - type: open-task
         id: stimmung-schreiben
@@ -281,14 +309,16 @@ blocks:
             source: /anders-erzaehlen/setting-atmosphaere/#neu
           - text: Die Wörter passen zur frohen Stimmung, es steht nichts Düsteres darin.
             kind: form
+          - text: Der Text hat vier bis fünf Sätze.
+            kind: form
           - text: Die Zeitform ist das simple past.
             kind: form
         solution: |
-          It was a Saturday morning in July. Ellie walked through Millbrook Park. The sky was blue and the sun was warm on her face. Birds sang in the trees, and children laughed near the pond. Ellie smiled and walked slowly.
+          It was a Saturday morning in July. Ellie walked through Millbrook Park. The sky was blue and the sun was warm on her face. Birds sang in the trees, and children laughed near the lake. Ellie smiled and walked slowly.
         hint: Die App bewertet deinen Text nicht. Prüfe ihn selbst anhand der Punkte.
   - type: section
     id: weiter
     title: Rückblick auf die Geschichtenwoche
     blocks:
       - type: text
-        text: "Damit endet Mr Hills zweite Geschichtenwoche. Mit der Brille fragst du, wessen Sicht eine Geschichte hat. Mit der Farbe fragst du, wie sich ihr Ort anfühlt. Die story map und der Geschichtenberg helfen dir bei jeder Geschichte, die du liest oder schreibst."
+        text: "Du kennst jetzt zwei neue Fragen an eine Geschichte. Mit der Brille fragst du, wessen Sicht sie hat. Mit der Stimmungsfläche fragst du, wie sich ihr Ort anfühlt. Die story map hilft dir bei jeder Geschichte, die du liest oder schreibst."

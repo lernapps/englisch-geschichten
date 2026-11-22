@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Anders erzählen
-summary: Ein Jahr später, wieder Geschichtenwoche. Mr Hill hängt eine Brille an das Feld who und eine Farbe an das Feld where. Du liest eine Szene aus Sophies Sicht und erzählst sie aus der Sicht einer anderen Figur neu.
+summary: Ein Jahr später, wieder Geschichtenwoche. Mr Hill hängt eine Brille an das Feld who und eine Stimmungsfläche in das Feld where. Du liest eine Szene aus Sophies Sicht und erzählst sie aus der Sicht einer anderen Figur neu.
 pages: [perspektive-wechseln, setting-atmosphaere]
 selfAssessment:
   pages:
