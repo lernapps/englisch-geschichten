@@ -174,7 +174,7 @@ Die Geschichtenwoche ist geschafft.
 
 ### Aufgabe reime-hoeren
 
-- Aufgabe: Hör zu und schreibe den ganzen Vers. Achte auf die Reimwörter, in jedem Vers reimen sich zwei Wörter.
+- Aufgabe: Hör zu und schreibe den ganzen Vers. Achte auf die Reimwörter, in jedem Vers reimen sich mindestens zwei Wörter.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):

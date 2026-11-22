@@ -115,10 +115,10 @@ Am Freitag spielen die Gruppen ihre Szenen vor der Klasse. Danach schließt Mr H
 
 ### Aufgabe dialog-sprecher
 
-- Aufgabe: In der Bibliothek ist Peter laut. Mr Hill bittet ihn, leise zu sein. Ellie zeigt Peter ein Bilderbuch, und Peter staunt über einen lustigen Hund auf einem Bild. Wer sagt welche Zeile?
+- Aufgabe: In der Bibliothek sprechen Mr Hill, Ellie und Peter. Wer sagt welche Zeile? Achte darauf, wen die Zeile anspricht.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Look, here is a picture book. – Ellie; Shh! Please be quiet, Peter. – Mr Hill; Wow! What a funny dog! – Peter
-- Erklärung: Wer zeigt, wer bittet und wer staunt, steht in der Aufgabe.
+- Lösung: Peter, look at this picture. It is funny! – Ellie; Class, please open your books. – Mr Hill; Wow, what a funny dog! Can I see it, Ellie? – Peter
+- Erklärung: Die Anrede zeigt, wer spricht.
 - Link: [../?via=tutor#dialog-sprecher](../?via=tutor#dialog-sprecher)
 
 ### Aufgabe dialog-ordnen
@@ -145,14 +145,14 @@ Am Freitag spielen die Gruppen ihre Szenen vor der Klasse. Danach schließt Mr H
 
 ### Aufgabe dialog-luecken
 
-- Aufgabe: Ergänze in jeder Zeile die fehlenden Wörter. Der Hinweis sagt, was gemeint ist.
+- Aufgabe: Lies den deutschen Satz und ergänze in der Zeile die fehlenden Wörter.
 - Antwortformat: die Lücken auf Englisch füllen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Ellie asks Amir for a pencil. → Ellie: Can I have your pencil, Amir?
-2. Mrs Parker says that dinner is ready. → Mrs Parker: Dinner is ready.
-3. Peter wants to play football. → Peter: Can we play football?
-- Tipp der App: Setze die Wörter aus dem Hinweis ein.
+1. Ellie bittet Amir um seinen Bleistift. → Ellie: Can I have your pencil, Amir? (auch richtig: have | use; pencil)
+2. Mrs Parker sagt, dass das Abendessen fertig ist. → Mrs Parker: Dinner is ready.
+3. Peter fragt, ob alle zusammen Fußball spielen. → Peter: Can we play football?
+- Tipp der App: Denke an Wörter, die zur Szene passen.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#dialog-luecken](../?via=tutor#dialog-luecken)
 

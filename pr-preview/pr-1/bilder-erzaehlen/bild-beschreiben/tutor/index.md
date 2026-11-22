@@ -61,7 +61,7 @@ Klassenzimmer-Poster · Neue Wörter:
 - background | Hintergrund
 - sandcastle | Sandburg
 - kite | Drachen
-- umbrella | Sonnenschirm
+- umbrella | Schirm (Sonnenschirm oder Regenschirm)
 
 ### Das Raster zeigt jeden Platz
 
@@ -100,10 +100,10 @@ Danach hängt Mr Hill vier Bilder nebeneinander auf. Sie erzählen zusammen eine
 - Aufgabe: Welche Antwort sagt, wo der Baum auf dem Bild an der Wand ist?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ The tree is next to the house – Next to sagt, wo etwas ist.
-  - ✗ The tree is falling – Das sagt, was gerade passiert, nicht wo.
+  - ✓ The tree is next to it – Next to sagt, wo etwas ist.
+  - ✗ The tree is falling down – Das sagt, was gerade passiert, nicht wo.
   - ✗ There are two trees – Das sagt, wie viele es gibt, nicht wo.
-- Lösung: The tree is next to the house
+- Lösung: The tree is next to it
 - Erklärung: Auf where antwortest du mit einem Ort.
 - Link: [../?via=tutor#bild-start](../?via=tutor#bild-start)
 
@@ -139,7 +139,7 @@ Danach hängt Mr Hill vier Bilder nebeneinander auf. Sie erzählen zusammen eine
      - In the foreground two children are build a sandcastle.: Nach are steht das Verb mit -ing, also building.
      - On the foreground two children are building a sandcastle.: Vor foreground steht in, nicht on.
      - In the foreground two children are building sandcastle.: Vor sandcastle fehlt a.
-2. on the right · girl · eat · ice cream → In the middle on the right a girl is eating an ice cream. (auch richtig: In the middle on the right a girl is eating ice cream.)
+2. on the right · girl · eat · ice cream → In the middle on the right a girl is eating an ice cream. (auch richtig: In the middle on the right a girl is eating ice cream.; On the right a girl is eating an ice cream.; On the right a girl is eating ice cream.)
      - In the middle on the right a girl eating an ice cream.: Bei is oder are plus -ing fehlt is.
      - In the middle on the right a girl is eat an ice cream.: Nach is steht das Verb mit -ing, also eating.
      - In the middle on the right a girl are eating an ice cream.: Bei einem Mädchen steht is, nicht are.

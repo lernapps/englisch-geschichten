@@ -71,7 +71,7 @@ Sophies Eintrag:
 
 Thursday, 22 January
 
-In the morning Ellie, Peter and I walked to school. At lunch Amir and I sat in the library. In the afternoon I read my story to the class. Everybody listened and I was very proud. In the evening I talked to Mrs Parker about my day.
+In the morning Ellie, Peter and I walked to school. At lunch Amir and I sat in the library. In the afternoon I read my story to Amir. He listened and I was very proud. In the evening I talked to Mrs Parker about my day.
 
 Good night,
 
@@ -178,7 +178,7 @@ Das war dein Donnerstag in der Geschichtenwoche. Du hast eine Geschichte geplant
 - Einträge (Vorgabe → Lösung):
 1. Audio → After lunch we visited my grandma.
 2. Audio → It was a very busy day today.
-3. Audio → In the evening I felt tired and happy.
+3. Audio → We watched a film after dinner.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#tagebuch-hoeren](../?via=tutor#tagebuch-hoeren)

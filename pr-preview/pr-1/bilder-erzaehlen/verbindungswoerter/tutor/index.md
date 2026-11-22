@@ -99,10 +99,10 @@ Am Mittwoch hängt Mr Hill ein neues Bild in die Geschichtenecke. Auf der nächs
 
 ### Aufgabe verbindung-berg
 
-- Aufgabe: Ordne jedem Wegweiser seinen Platz am Geschichtenberg zu.
+- Aufgabe: Zu welcher Station am Geschichtenberg gehört jeder Satz?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: first – Hier fängt die Geschichte an; then – Hier baut sich etwas auf; suddenly – Hier passiert etwas Unerwartetes; finally – Hier endet die Geschichte
-- Erklärung: Die Wegweiser folgen dem Weg über den Berg. After that gehört zu then.
+- Lösung: First we got on the bus. – beginning; Then the bus stopped at a red light. – build-up; Suddenly a dog ran onto the road. – climax; Finally we got to school. – ending
+- Erklärung: Der Wegweiser zeigt die Station am Berg.
 - Link: [../?via=tutor#verbindung-berg](../?via=tutor#verbindung-berg)
 
 ### Aufgabe verbindung-waehlen

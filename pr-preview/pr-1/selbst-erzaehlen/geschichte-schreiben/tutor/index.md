@@ -98,7 +98,7 @@ Die Stichwörter sind kurz. Daraus schreibt Sophie je Station einen Satz im simp
 
 ### Wie es weitergeht
 
-Sophie liest ihre Geschichte vor. Amir fragt: „And then?“ Auf der nächsten Seite lernst du, eine Geschichte fortzusetzen oder anders enden zu lassen.
+Sophie liest Amir ihre Geschichte vor. Amir fragt: „And then?“ Auf der nächsten Seite lernst du, eine Geschichte fortzusetzen oder anders enden zu lassen.
 
 ### Aufgabe schreiben-start
 
@@ -152,10 +152,10 @@ Sophie liest ihre Geschichte vor. Amir fragt: „And then?“ Auf der nächsten 
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. beginning: one sunny morning · Sophie · her dog Bella · walk · in the forest → One sunny morning Sophie and her dog Bella walked in the forest. (auch richtig: One sunny morning Sophie and her dog Bella walked through the forest.; One sunny morning Sophie walked her dog Bella in the forest.; One sunny morning Sophie walked her dog Bella through the forest.; One sunny morning Sophie walked in the forest with her dog Bella.; Sophie and her dog Bella walked in the forest one sunny morning.)
-     - One sunny morning Sophie and her dog Bella walk in the forest.: Die Geschichte steht im simple past, also walked.
-     - One sunny morning Sophie and her dog Bella walked in forest.: Vor forest fehlt the.
-     - Sophie and her dog Bella walked in the forest.: Der Anfang nennt auch, wann es war. Nimm one sunny morning dazu.
+1. beginning: one sunny morning · Ellie · her dog Bella · walk · in the forest → One sunny morning Ellie and her dog Bella walked in the forest. (auch richtig: One sunny morning Ellie and her dog Bella walked through the forest.; One sunny morning Ellie walked her dog Bella in the forest.; One sunny morning Ellie walked her dog Bella through the forest.; One sunny morning Ellie walked in the forest with her dog Bella.; Ellie and her dog Bella walked in the forest one sunny morning.)
+     - One sunny morning Ellie and her dog Bella walk in the forest.: Die Geschichte steht im simple past, also walked.
+     - One sunny morning Ellie and her dog Bella walked in forest.: Vor forest fehlt the.
+     - Ellie and her dog Bella walked in the forest.: Der Anfang nennt auch, wann es war. Nimm one sunny morning dazu.
 2. build-up: they · hear · a noise → They heard a strange noise in the forest. (auch richtig: They heard a strange noise.; They heard a loud noise in the forest.; They heard a loud noise.; They heard a funny noise in the forest.; They heard a funny noise.; They heard a big noise in the forest.; They heard a big noise.; They heard a noise in the forest.; They heard a noise.)
      - They hear a noise.: Die Geschichte steht im simple past.
      - They heared a noise.: Hear ist unregelmäßig, die Form heißt heard.
@@ -163,9 +163,9 @@ Sophie liest ihre Geschichte vor. Amir fragt: „And then?“ Auf der nächsten 
 3. climax: suddenly · Bella · run away → Suddenly Bella ran away.
      - Suddenly Bella runs away.: Die Geschichte steht im simple past.
      - Suddenly Bella runned away.: Run ist unregelmäßig, die Form heißt ran.
-4. ending: finally · Sophie · find · Bella · under a tree → Finally Sophie found Bella under a tree. (auch richtig: Finally Sophie found Bella under the tree.)
-     - Finally Sophie finds Bella under a tree.: Die Geschichte steht im simple past.
-     - Finally Sophie finded Bella under a tree.: Find ist unregelmäßig, die Form heißt found.
+4. ending: finally · Ellie · find · Bella · under a tree → Finally Ellie found Bella under a tree. (auch richtig: Finally Ellie found Bella under the tree.)
+     - Finally Ellie finds Bella under a tree.: Die Geschichte steht im simple past.
+     - Finally Ellie finded Bella under a tree.: Find ist unregelmäßig, die Form heißt found.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#schreiben-saetze](../?via=tutor#schreiben-saetze)
 

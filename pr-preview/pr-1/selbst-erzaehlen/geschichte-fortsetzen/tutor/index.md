@@ -47,7 +47,7 @@ Amir fragt: And then? Du lernst, an eine Geschichte einen zweiten Gipfel anzubau
 
 Bild: In der Geschichtenecke hängen an der Wand zwei Tafeln. Links ein Berg mit vier nummerierten Fähnchen, rechts vier leere Felder mit den Wörtern who, where, when und what. Amir fragt in einer Sprechblase: „And then?“ Vor der Wand stehen Sophie, Peter, Ellie und Amir. Rechts steht Mr Hill. Bildunterschrift: Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der Wand hängen der Geschichtenberg und die story map.
 
-Sophie liest ihre Geschichte vom Drachen vor: „On a sunny Saturday Ellie and her grandpa were on the hill. They flew a kite. Suddenly the kite flew away. Finally a boy found it.“ Dann hört sie auf. Amir fragt: „And then?“ Die Geschichte soll weitergehen.
+Sophie liest Amir ihre Geschichte vom Drachen vor: „On a sunny Saturday Ellie and her grandpa were on the hill. They flew a kite. Suddenly the kite flew away. Finally a boy found it.“ Dann hört sie auf. Amir fragt: „And then?“ Die Geschichte soll weitergehen.
 
 - Aufgabe `fortsetzen-start` (unten)
 
@@ -61,7 +61,7 @@ Klassenzimmer-Poster · Neue Wörter:
 
 ### Zweiter Gipfel oder anderes Ende
 
-Sophie hat noch eine zweite Geschichte. Sie liest vor: „On a cold Saturday Ellie and her brother Peter made a snowman in the garden. Suddenly a big dog ran into it. The snowman fell down. Ellie and Peter made a new one.“ Mr Hill zeigt zwei Wege. Beim **zweiten Gipfel** (second peak) kommt nach der Lösung ein neues Problem. Beim **anderen Ende** schreibst du nur den letzten Satz neu.
+Sophie hat noch eine zweite Geschichte. Sie liest Amir vor: „On a cold Saturday Ellie and her brother Peter made a snowman in the garden. Suddenly a big dog ran into it. The snowman fell down. Ellie and Peter made a new one.“ Mr Hill zeigt zwei Wege. Beim **zweiten Gipfel** (second peak) kommt nach der Lösung ein neues Problem. Beim **anderen Ende** schreibst du nur den letzten Satz neu.
 
 Bild: Ein Berg mit zwei Gipfeln und vier Fähnchen von links nach rechts: 1 beginning, 2 climax auf dem ersten Gipfel, 3 second peak auf dem höheren zweiten Gipfel und 4 ending. In der Mulde zwischen den Gipfeln hängt das Schild suddenly. Bildunterschrift: Der Geschichtenberg mit zweitem Gipfel. Das Schild suddenly zeigt, dass ein neues Problem beginnt.
 

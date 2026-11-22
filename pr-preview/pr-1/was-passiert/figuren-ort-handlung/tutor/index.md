@@ -169,10 +169,10 @@ Danach gibt Mr Hill jedem Kind einen Zettel. Darauf steht: „Tell the story in 
 - Aufgabe: Die Fotos hängen am Fähnchen ending, nicht am Gipfel. Warum?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Am Gipfel passiert das Spannendste, danach löst sich alles und die Geschichte endet – Der Gipfel (climax) ist der spannendste Moment, das Ende kommt danach.
-  - ✗ Der Gipfel ist das letzte Ereignis der Geschichte – Nach dem Gipfel kommt noch das Ende (ending).
-  - ✗ Das Ende ist am wichtigsten, darum hängt es am höchsten – Am höchsten hängt der climax, der spannendste Moment.
-- Lösung: Am Gipfel passiert das Spannendste, danach löst sich alles und die Geschichte endet
+  - ✓ Am Gipfel ist es am spannendsten, danach endet die Geschichte – Der Gipfel (climax) ist der spannendste Moment, das Ende kommt danach.
+  - ✗ Der Gipfel ist immer das letzte Ereignis der Geschichte – Nach dem Gipfel kommt noch das Ende (ending).
+  - ✗ Das Ende ist am wichtigsten und hängt darum am höchsten – Am höchsten hängt der climax, der spannendste Moment.
+- Lösung: Am Gipfel ist es am spannendsten, danach endet die Geschichte
 - Erklärung: Der climax ist der spannendste Moment, danach folgt das Ende.
 - Link: [../?via=tutor#figuren-ende](../?via=tutor#figuren-ende)
 
