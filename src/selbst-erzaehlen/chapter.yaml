@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Selbst erzählen
+summary: Am Donnerstag der Geschichtenwoche schreiben die Kinder selbst. Du planst eine Geschichte am Geschichtenberg und schreibst sie auf, setzt sie fort oder gibst ihr ein anderes Ende und schreibst einen Tagebucheintrag.
+pages: [geschichte-schreiben, geschichte-fortsetzen, tagebucheintrag]
