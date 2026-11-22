@@ -27,15 +27,24 @@ correction. The process is in AGENTS.md; this plan holds the method.
 
 ## Goal
 
-<!-- 1–2 sentences: what learners can do after this increment. -->
+Jugendliche der Stufe 7-8 erzählen eine Geschichte aus der Sicht einer anderen Figur neu und beschreiben, wie Ort, Zeit und Sprache eine Stimmung erzeugen. Der Berg und die story map aus Kapitel 1 bis 4 bleiben das Werkzeug: das Feld who bekommt eine Brille (wessen Sicht?), das Feld where eine Farbe für die Stimmung.
 
 ## Key decisions
 
-<!-- One line each: decision and reason. Your own choice without the creator: mark "(guess)". -->
+- Neues Kapitel 5 `anders-erzaehlen` („Anders erzählen“, Stufe 7-8) in derselben App, zwei Seiten: `perspektive-wechseln`, `setting-atmosphaere` (Karte: beide Band 7-8, Schritt 1; `requires` figuren-ort-handlung und nacherzaehlen stehen im Kapitel 1, keine Wiederholungsseite nötig).
+- Lesestücke tragen die Seiten (Konventionen 8): je Seite ein eigenes Lesestück von etwa 150 bis 300 Wörtern in Abschnitten, mit Randglossar (`definition`-Blöcke), dann Aufgaben in drei Stufen (Verstehen, Belegen mit Zeile, Meinung), zuletzt ein Schreib- oder Sprechauftrag. Das Lesestück zählt nicht zu den 350 Wörtern Erklärtext; höchstens etwa 25 Items je Seite.
+- Alle Texte eigen, keine fremden Sätze, keine Quellen nötig außer der Karte (kein VOA, Wikinews, Gutenberg usw.). Figuren: Sophie, Ellie, Peter, Amir, Mr Hill, Mrs Parker; Sophie ist 13 bis 14 (ein Jahr später, Klasse 8), die Texte sind Chats, Tagebuch und Geschichtenauszüge, ein Bild nur wo es etwas zeigt.
+- Ort und Zeit: wieder die Geschichtenecke der Millbrook School, ein Jahr später: Mr Hills „Geschichtenwoche“ im Januar mit dem Berg und der story map, die jetzt eine Brille (who) und eine Farbe (where) bekommt. Kein neuer Ort, keine neue Figur. (guess)
+- Der Begriff „Perspektive“ heißt für die Kinder „Sicht“ (Brille); Stimmung = mood, Atmosphäre nur als Fachwort mit Erklärung. (guess)
 
 ## Notes
 
-<!-- New competencies by chapter (ids of the strand), didactic approach, scope, sources and licences, open questions. -->
+- Kapitel 5 „Anders erzählen“ (Stufe 7-8), Strang `texte`:
+  - `perspektive-wechseln` (Seitendatei `anders-erzaehlen/perspektive-wechseln`): „Ich kann eine Geschichte aus der Sicht einer anderen Figur neu erzählen.“ (`requires` figuren-ort-handlung, nacherzaehlen; Band 7-8, Schritt 1)
+  - `setting-atmosphaere` (`anders-erzaehlen/setting-atmosphaere`): „Ich kann beschreiben, wo und wann eine Geschichte spielt und wie die Sprache eine Stimmung erzeugt.“ (`requires` figuren-ort-handlung; Band 7-8, Schritt 1)
+- Didaktik: Lesen → Verstehen → Belegen → Meinung → Schreiben. perspektive-wechseln: Lesestück erzählt eine Szene aus Sophies Sicht (Ich-Form, simple past); die Kinder finden heraus, was Sophie weiß, fühlt und nicht weiß (Brille am Feld who), belegen mit Zeilennummern, und schreiben dieselbe Szene kurz aus Ellies Sicht neu (Pronomen, Wissen, Gefühl wechseln, Ereignisse bleiben). Fehlerbilder: nur die Pronomen tauschen (Gefühl und Wissen bleiben von Sophie), Wissen der anderen Figur verwenden, das Geschehen verändern, Zeitform wechseln. setting-atmosphaere: Lesestück beschreibt einen Weg durch den Park an einem Novemberabend; die Kinder sammeln Ort-/Zeitangaben (where/when), sortieren Stimmungswörter (Farbe am Feld where), belegen mit Zeilen und schreiben die Szene mit anderer Stimmung neu. Fehlerbilder: nur Ort nennen ohne Zeit, Stimmung behaupten statt zeigen („It was scary“), Wortwahl und Stimmung widersprechen sich.
+- Umfang: drin: zwei Seiten (Kapitel 5), je Lesestück, Randglossar, drei Aufgabenstufen, Schreib- oder Sprechauftrag, Diktat/Nachsprechen mit `bf_emma`; Berg- und Map-Figur um Brille und Farbe erweitert; Selbsteinschätzung für Kapitel 5. Draußen: Kurzgeschichten- und Gedichtanalyse (#483), Berichte (#486), Stufe 9-10.
+- Quellen: alle Texte eigen (CC BY 4.0); keine fremden Sätze; keine Fakten aus fremden Quellen nötig. Nicht benutzt: VOA, Wikinews, African Storybook, Simple English Wikipedia (kein Bedarf), Gutenberg (ausgeschlossen).
 
 ## Explore
 
@@ -46,24 +55,25 @@ correction. The process is in AGENTS.md; this plan holds the method.
 
 ### Tasks
 
-- [ ] Read the README of the archetype's template (its path is in skill `lernapps-app`): what the app can do now.
+- [x] Read the README of the archetype's template (its path is in skill `lernapps-app`): what the app can do now.
       Tell the creator what is new, if it matters for this increment.
-- [ ] Load the content guide `.agents/skills/app-content/SKILL.md` and read the earlier plans in `.vibe/plans/`: what
+- [x] Load the content guide `.agents/skills/app-content/SKILL.md` and read the earlier plans in `.vibe/plans/`: what
       the app teaches, how its content is made, what is open.
-- [ ] Interview, one topic per question, the creator's words under "Answers": which competencies, chapters or rounds,
+- [x] Interview, one topic per question, the creator's words under "Answers": which competencies, chapters or rounds,
       for which school years; hurdles and examples; the amount; any change of look and feel or of terms. No answer:
       ask once more, then write your assumption with "(guess)".
-- [ ] Load skill `lernapps-content-research`. Research what the content guide does not cover. Write under "Notes":
+- [x] Load skill `lernapps-content-research`. Research what the content guide does not cover. Write under "Notes":
       the new competencies by chapter with their ids, the sources you opened.
-- [ ] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
-- [ ] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
+- [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
+- [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
 - [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
 
 ### Answers
 
-<!-- The creator's answers, in their words, one bullet each. -->
+- Auftrag der Orchestrator-Session (in der Rolle der Ersteller:in): „Baue Kapitel 5 ‚Anders erzählen‘ (Stufe 7-8) als Inkrement in dasselbe Repository; hier tragen Lesestücke (Geschichtenauszüge, Tagebucheinträge, Erzähler-Perspektiven) die Seiten. … Alle Geschichten eigen (keine fremden Sätze); Gutenberg bleibt vorerst außen vor.“ Issue #479, Kapitel 5: „Ich kann eine Geschichte aus der Sicht einer anderen Figur erzählen und beschreiben, wie Ort und Sprache eine Stimmung erzeugen. … das Feld who bekommt eine Brille (wessen Sicht?), das Feld where eine Farbe für die Stimmung. Die Kinder erzählen denselben Berg aus einer anderen Sicht und sammeln Wörter, die Stimmung machen.“
+- Konventionen Abschnitt 8: Lesestück 150 bis 300 Wörter, Randglossar, drei Aufgabenstufen, Schreib- oder Sprechauftrag, höchstens ein Lesestück je Seite, höchstens etwa 25 Items, Hörlisten nur mit gehörten Sätzen.
 
 ## Plan
 
