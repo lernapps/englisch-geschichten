@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -67,8 +67,9 @@ Jugendliche der Stufe 7-8 erzählen eine Geschichte aus der Sicht einer anderen 
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Ja, passt (zwei Seiten, je ein eigenes Lesestück, Geschichtenecke ein Jahr später, „Sicht“ für die Kinder). Weiter zu Plan und Inhaltsmethode. Push des Inkrement-Branchs und zweiter Vorschau-PR nur nach Erlaubnis der Ersteller:in; bis dahin lokal.
 
 ### Answers
 
@@ -84,13 +85,13 @@ Jugendliche der Stufe 7-8 erzählen eine Geschichte aus der Sicht einer anderen 
 
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
-- [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
+- [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
+- [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
@@ -99,6 +100,13 @@ Jugendliche der Stufe 7-8 erzählen eine Geschichte aus der Sicht einer anderen 
 
 <!-- One line each: the guide's patterns, figures and components used, and where; anything new, what it does and
 cannot. Something new goes into the guide in the slice that adds it. -->
+- **Neu: Seite mit Lesestück (Konventionen 8).** Gleiche Abschnitts-IDs wie in Kapitel 1 bis 4, aber `einstieg` (Szene, Vorwissen-Frage, „Das kannst du danach“), `lesen` (Lesestück in Abschnitten als `text`-Blöcke, Randglossar als `definition`-Blöcke direkt neben dem Abschnitt, ein Bild nur wo es etwas zeigt), `neu` (Erklärung mit der erweiterten Map-Figur, Merke), `uebung` (drei Stufen mit Überschriften „Verstehen“, „Belegen“, „Meinung“: die Zeilen des Lesestücks sind nummeriert, Belegaufgaben fragen nach Zeilennummern), `anwenden` (Schreibauftrag `open-task` mit `points` und Musterlösung, `speaking-task` mit drei Sätzen), `weiter`. Das Lesestück hat 150 bis 300 Wörter, höchstens ein Lesestück je Seite; höchstens etwa 25 Items. Es zählt nicht zu den 350 Wörtern Erklärtext (`lernapps check` entscheidet; zählt es mit, kommt es in `quote`/`material` oder wird gekürzt).
+- **Kapitel 5 `anders-erzaehlen`:** `src/anders-erzaehlen/chapter.yaml` (Titel „Anders erzählen“, `pages: [perspektive-wechseln, setting-atmosphaere]`, `selfAssessment`), `src/app.yaml` bekommt das Kapitel am Ende von `chapters`, die Karten-Ids stehen in `competencies:`; kein Recap (die `requires` stehen auf den Seiten 1 und 3 von Kapitel 1). Die Geschichte der Seiten: Geschichtenwoche im Januar ein Jahr später (Klasse 8), Mittwoch und Donnerstag; Sophie 13 bis 14.
+- **Seite `perspektive-wechseln` (Slice 1):** Lesestück „The Late Bus“ (Sophie erzählt in der Ich-Form im simple past, etwa 220 Wörter, 6 bis 8 Zeilen je Abschnitt nummeriert, 2 Abschnitte, Randglossar zu 4 bis 6 Wörtern); Vorwissen-Frage: „Wer erzählt?“ (aus Kapitel 1: who). Aufgaben: Verstehen (`single-choice` Wer erzählt, was weiß die Erzählerin nicht, `matching` Gefühl ↔ Satz), Belegen (`multiple-choice` Zeilennummern, die zeigen, was Sophie denkt; `ordering`), Meinung (`single-choice` mit `info`: welche Sicht gibt mehr Spannung; keine falsche Antwort, jede Option hat eine Begründung), Schreiben (`language-task` write mit Hinweis: zwei Sätze aus Ellies Sicht, Pronomen und Gefühl; Diktat; `speaking-task`); offene Aufgabe: dieselbe Szene aus Ellies oder Amirs Sicht in 4 bis 5 Sätzen, mit `points` und Musterlösung. Typische Fehler: nur die Pronomen tauschen, Wissen der anderen Figur benutzen, Geschehen verändern, Zeitform wechseln.
+- **Seite `setting-atmosphaere` (Slice 2):** Lesestück „The Park in November“ (Ellie geht allein heim; etwa 200 Wörter, Wetter, Licht, Geräusche; Randglossar zu 4 bis 6 Wörtern). Aufgaben: Verstehen (`single-choice` wo und wann spielt es; `multiple-choice` welche Angaben gehören zu where/when), Belegen (`matching` Stimmungswörter ↔ Zeilen, `ordering` Wörter nach Stärke des Gefühls ist ausgeschlossen: kein Raten ohne Karte), Meinung (`single-choice` mit `info`: welches Wort macht die Stimmung am stärksten), Schreiben (`language-task` gap/write: Stimmung ändern, Wortwahl tauschen, Diktat, `speaking-task`), offene Aufgabe: dieselbe Szene an einem Sommermorgen in 4 bis 5 Sätzen (Wörter für die andere Stimmung). Typische Fehler: Stimmung behaupten statt zeigen („It was scary“), Wortwahl widerspricht der Stimmung, nur Ort ohne Zeit.
+- **Figuren:** Map-Figur `geschichtenmap-<seite>.svg` mit Erweiterung: Feld who bekommt eine Brille (kleines Brillen-Symbol und der Satz „wessen Sicht?“ nur als Beschriftung im Bild: „who · Sicht von: Sophie“), Feld where eine Farbe für die Stimmung (grau-blau = bedrückt, gelb = froh; die Farbe steht als Fläche im Feld und als Wort daneben, die vier Map-Farben who blau, where grün, when orange, what rot bleiben der Rand der Felder); Szenen `szene-<seite>.svg` aus den Figuren (Sophie 13 bis 14 etwas größer gezeichnet, gleiche Merkmale), Berge als Zeilen am Lesestück nur wo sie etwas zeigen. Skizze: `.vibe/sketches/map-sicht-farbe.svg`.
+- **Muster:** `single-choice` mit `info` je Option, `multiple-choice`, `matching`, `ordering`, `language-task` write/gap, Diktat, `speaking-task`, `open-task` mit `points` und Musterlösung; Belegaufgaben fragen nach Zeilennummern; je Seite eine andere Mischung (`explainer-page-variety` zählt kapitelübergreifend). Hörsätze: ganze natürliche Sätze, keine Namen für den Klang, einsilbig endende Sätze in die Hörliste, Lesestück nur in kurzen Abschnitten (höchstens 3 Sätze, wenn überhaupt); nichts Ungehörtes als „geprüft“.
+- **Prüfungen:** `pruefen.py` (Hörsätze, Wörter, jetzt auch die Wörter der Lesestücke: außerhalb A1/A2 stehen im Randglossar), `lernapps check`, Lerner-Check der Musterseite (Kind Klasse 7), Gesamtcheck und Sprachprüfung durch Sub-Agenten, Regeln aus Abschnitt 7.
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
@@ -124,7 +132,10 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] Slice 1 (Musterseite des Lesestücks, ich selbst): Kapitel anders-erzaehlen (chapter.yaml, app.yaml) und Seite perspektive-wechseln: Lesestück von Sophie in Ich-Form, Randglossar, drei Aufgabenstufen, Schreibauftrag aus Ellies Sicht, Map-Figur mit Brille, Szene, Hörsätze; Lerner-Check mit Sub-Agent
+- [ ] Slice 2 (ich selbst, nach der Musterseite): Seite setting-atmosphaere: Lesestück Weg durch den Park im November, Randglossar, drei Aufgabenstufen, Schreibauftrag mit anderer Stimmung, Map-Figur mit Farbe, Szene, Hörsätze
+- [ ] Hörlisten und Prüfungen: Audio mit regen_audio.py (neue Fassung mit Schnitt), Hörliste im Inhaltsführer, pruefen.py über alle Seiten, Gesamtcheck der Seiten des Kapitels und Sprachprüfung durch Sub-Agenten
+<!-- tasks: slices (3 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
