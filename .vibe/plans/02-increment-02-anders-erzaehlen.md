@@ -27,14 +27,14 @@ correction. The process is in AGENTS.md; this plan holds the method.
 
 ## Goal
 
-Jugendliche der Stufe 7-8 erzählen eine Geschichte aus der Sicht einer anderen Figur neu und beschreiben, wie Ort, Zeit und Sprache eine Stimmung erzeugen. Der Berg und die story map aus Kapitel 1 bis 4 bleiben das Werkzeug: das Feld who bekommt eine Brille (wessen Sicht?), das Feld where eine Farbe für die Stimmung.
+Jugendliche der Stufe 7-8 erzählen eine Geschichte aus der Sicht einer anderen Figur neu und beschreiben, wie Ort, Zeit und Sprache eine Stimmung erzeugen. Der Berg und die story map aus Kapitel 1 bis 4 bleiben das Werkzeug: das Feld who bekommt eine Brille (wessen Sicht?), das Feld where eine Stimmungsfläche.
 
 ## Key decisions
 
 - Neues Kapitel 5 `anders-erzaehlen` („Anders erzählen“, Stufe 7-8) in derselben App, zwei Seiten: `perspektive-wechseln`, `setting-atmosphaere` (Karte: beide Band 7-8, Schritt 1; `requires` figuren-ort-handlung und nacherzaehlen stehen im Kapitel 1, keine Wiederholungsseite nötig).
 - Lesestücke tragen die Seiten (Konventionen 8): je Seite ein eigenes Lesestück von etwa 150 bis 300 Wörtern in Abschnitten, mit Randglossar (`definition`-Blöcke), dann Aufgaben in drei Stufen (Verstehen, Belegen mit Zeile, Meinung), zuletzt ein Schreib- oder Sprechauftrag. Das Lesestück zählt nicht zu den 350 Wörtern Erklärtext; höchstens etwa 25 Items je Seite.
-- Alle Texte eigen, keine fremden Sätze, keine Quellen nötig außer der Karte (kein VOA, Wikinews, Gutenberg usw.). Figuren: Sophie, Ellie, Peter, Amir, Mr Hill, Mrs Parker; Sophie ist 13 bis 14 (ein Jahr später, Klasse 8), die Texte sind Chats, Tagebuch und Geschichtenauszüge, ein Bild nur wo es etwas zeigt.
-- Ort und Zeit: wieder die Geschichtenecke der Millbrook School, ein Jahr später: Mr Hills „Geschichtenwoche“ im Januar mit dem Berg und der story map, die jetzt eine Brille (who) und eine Farbe (where) bekommt. Kein neuer Ort, keine neue Figur. (guess)
+- Alle Texte eigen, keine fremden Sätze, keine Quellen nötig außer der Karte (kein VOA, Wikinews, Gutenberg usw.). Figuren: Sophie, Ellie, Peter, Amir, Mr Hill, Mrs Parker; Sophie ist 12 (ein Jahr später, Klasse 7; im Code von 13 auf 12 geändert, weil Kapitel 1 sie mit 11 einführt), die Texte sind Chats, Tagebuch und Geschichtenauszüge, ein Bild nur wo es etwas zeigt.
+- Ort und Zeit: wieder die Geschichtenecke der Millbrook School, ein Jahr später: Mr Hills „Geschichtenwoche“ im Januar mit dem Berg und der story map, die jetzt eine Brille (who) und eine Stimmungsfläche (where) bekommt. Kein neuer Ort, keine neue Figur. (guess)
 - Der Begriff „Perspektive“ heißt für die Kinder „Sicht“ (Brille); Stimmung = mood, Atmosphäre nur als Fachwort mit Erklärung. (guess)
 
 ## Notes
@@ -42,7 +42,7 @@ Jugendliche der Stufe 7-8 erzählen eine Geschichte aus der Sicht einer anderen 
 - Kapitel 5 „Anders erzählen“ (Stufe 7-8), Strang `texte`:
   - `perspektive-wechseln` (Seitendatei `anders-erzaehlen/perspektive-wechseln`): „Ich kann eine Geschichte aus der Sicht einer anderen Figur neu erzählen.“ (`requires` figuren-ort-handlung, nacherzaehlen; Band 7-8, Schritt 1)
   - `setting-atmosphaere` (`anders-erzaehlen/setting-atmosphaere`): „Ich kann beschreiben, wo und wann eine Geschichte spielt und wie die Sprache eine Stimmung erzeugt.“ (`requires` figuren-ort-handlung; Band 7-8, Schritt 1)
-- Didaktik: Lesen → Verstehen → Belegen → Meinung → Schreiben. perspektive-wechseln: Lesestück erzählt eine Szene aus Sophies Sicht (Ich-Form, simple past); die Kinder finden heraus, was Sophie weiß, fühlt und nicht weiß (Brille am Feld who), belegen mit Zeilennummern, und schreiben dieselbe Szene kurz aus Ellies Sicht neu (Pronomen, Wissen, Gefühl wechseln, Ereignisse bleiben). Fehlerbilder: nur die Pronomen tauschen (Gefühl und Wissen bleiben von Sophie), Wissen der anderen Figur verwenden, das Geschehen verändern, Zeitform wechseln. setting-atmosphaere: Lesestück beschreibt einen Weg durch den Park an einem Novemberabend; die Kinder sammeln Ort-/Zeitangaben (where/when), sortieren Stimmungswörter (Farbe am Feld where), belegen mit Zeilen und schreiben die Szene mit anderer Stimmung neu. Fehlerbilder: nur Ort nennen ohne Zeit, Stimmung behaupten statt zeigen („It was scary“), Wortwahl und Stimmung widersprechen sich.
+- Didaktik: Lesen → Verstehen → Belegen → Meinung → Schreiben. perspektive-wechseln: Lesestück erzählt eine Szene aus Sophies Sicht (Ich-Form, simple past); die Kinder finden heraus, was Sophie weiß, fühlt und nicht weiß (Brille am Feld who), belegen mit Zeilennummern, und schreiben dieselbe Szene kurz aus Ellies Sicht neu (Pronomen, Wissen, Gefühl wechseln, Ereignisse bleiben). Fehlerbilder: nur die Pronomen tauschen (Gefühl und Wissen bleiben von Sophie), Wissen der anderen Figur verwenden, das Geschehen verändern, Zeitform wechseln. setting-atmosphaere: Lesestück beschreibt einen Weg durch den Park an einem Novemberabend; die Kinder sammeln Ort-/Zeitangaben (where/when), sortieren Stimmungswörter (Stimmungsfläche im Feld where), belegen mit Zeilen und schreiben die Szene mit anderer Stimmung neu. Fehlerbilder: nur Ort nennen ohne Zeit, Stimmung behaupten statt zeigen („It was scary“), Wortwahl und Stimmung widersprechen sich.
 - Umfang: drin: zwei Seiten (Kapitel 5), je Lesestück, Randglossar, drei Aufgabenstufen, Schreib- oder Sprechauftrag, Diktat/Nachsprechen mit `bf_emma`; Berg- und Map-Figur um Brille und Farbe erweitert; Selbsteinschätzung für Kapitel 5. Draußen: Kurzgeschichten- und Gedichtanalyse (#483), Berichte (#486), Stufe 9-10.
 - Quellen: alle Texte eigen (CC BY 4.0); keine fremden Sätze; keine Fakten aus fremden Quellen nötig. Nicht benutzt: VOA, Wikinews, African Storybook, Simple English Wikipedia (kein Bedarf), Gutenberg (ausgeschlossen).
 
@@ -73,7 +73,7 @@ Jugendliche der Stufe 7-8 erzählen eine Geschichte aus der Sicht einer anderen 
 
 ### Answers
 
-- Auftrag der Orchestrator-Session (in der Rolle der Ersteller:in): „Baue Kapitel 5 ‚Anders erzählen‘ (Stufe 7-8) als Inkrement in dasselbe Repository; hier tragen Lesestücke (Geschichtenauszüge, Tagebucheinträge, Erzähler-Perspektiven) die Seiten. … Alle Geschichten eigen (keine fremden Sätze); Gutenberg bleibt vorerst außen vor.“ Issue #479, Kapitel 5: „Ich kann eine Geschichte aus der Sicht einer anderen Figur erzählen und beschreiben, wie Ort und Sprache eine Stimmung erzeugen. … das Feld who bekommt eine Brille (wessen Sicht?), das Feld where eine Farbe für die Stimmung. Die Kinder erzählen denselben Berg aus einer anderen Sicht und sammeln Wörter, die Stimmung machen.“
+- Auftrag der Orchestrator-Session (in der Rolle der Ersteller:in): „Baue Kapitel 5 ‚Anders erzählen‘ (Stufe 7-8) als Inkrement in dasselbe Repository; hier tragen Lesestücke (Geschichtenauszüge, Tagebucheinträge, Erzähler-Perspektiven) die Seiten. … Alle Geschichten eigen (keine fremden Sätze); Gutenberg bleibt vorerst außen vor.“ Issue #479, Kapitel 5: „Ich kann eine Geschichte aus der Sicht einer anderen Figur erzählen und beschreiben, wie Ort und Sprache eine Stimmung erzeugen. … das Feld who bekommt eine Brille (wessen Sicht?), das Feld where eine Stimmungsfläche. Die Kinder erzählen denselben Berg aus einer anderen Sicht und sammeln Wörter, die Stimmung machen.“
 - Konventionen Abschnitt 8: Lesestück 150 bis 300 Wörter, Randglossar, drei Aufgabenstufen, Schreib- oder Sprechauftrag, höchstens ein Lesestück je Seite, höchstens etwa 25 Items, Hörlisten nur mit gehörten Sätzen.
 
 ## Plan
@@ -156,7 +156,7 @@ page, which a link. -->
 
 - [x] If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
       as it says. Commit.
-- [ ] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
+- [x] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
       says.
 - [ ] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
       and wait for the yes.
@@ -180,10 +180,20 @@ page, which a link. -->
 
 <!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
 
+Commit erreicht. Bestanden: Recherche, Plan und Inhaltsmethode, Musterseite (je mit Antwort der Ersteller:in über den Orchestrator). Push und Vorschau-PR sind freigegeben und erfolgt; „Veröffentlichen“ steht aus.
+
 ### Creator turns after the plan
 
 <!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
 
+Drei Rückmeldungen der Ersteller:in über den Orchestrator nach der Bestätigung: (1) Musterseite gilt als Muster; (2) neuer Vokabelblock statt Wörtertabellen und Randglossar; (3) Freigabe zum Push mit der Vorschau-PR.
+
 ### Where I had to guess
 
 <!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+
+- Lesestück-Text-Last: Das Werkzeug zählt Lesestück und Randglossar zu den 350 Wörtern (`explainer-text-load`), Konventionen 8 nimmt das Lesestück aus. Gewählt: Hinweis stehen lassen, für die Vorlage gemeldet.
+- Alter und Zählung: Plan sagte Sophie 13 bis 14, Kapitel 1 sagt 11. Gewählt: 12, keine „zweite Woche“ gezählt.
+- „Farbe“ am Feld where kollidiert mit den Feldfarben aus Kapitel 1. Gewählt: „Stimmungsfläche“.
+- `lernapps update` meldete „unchanged“, obwohl ein neueres Release mit dem Vokabelblock existierte; erst `@lernapps/tooling@latest update` brachte es. Der Explainer-Skill beschreibt den Block noch nicht; Aufbau aus Vorlagenquelle und Beispiel gelesen.
+- Plan-Aufgabe „Push und Vorschau-PR“ vor dem grünen Check abgehakt; Checks nachgesehen.
