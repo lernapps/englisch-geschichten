@@ -153,8 +153,8 @@ blocks:
         items:
           - audio: ellie-wrote-only-the-big-events.mp3
             target: Ellie wrote only the big events.
-          - audio: sophie-left-out-the-colours.mp3
-            target: Sophie left out the colours.
+          - audio: sophie-left-out-the-small-things.mp3
+            target: Sophie left out the small things.
           - audio: peter-did-not-know-the-end-of-the-story.mp3
             target: Peter did not know the end of the story.
   - type: section
@@ -169,8 +169,8 @@ blocks:
             text: Who helped in the story?
           - audio: what-was-the-problem.mp3
             text: What was the problem?
-          - audio: how-did-the-story-finish.mp3
-            text: How did the story finish?
+          - audio: how-did-the-story-end.mp3
+            text: How did the story end?
         hint: Hör zu. Sprich dann langsam nach.
       - type: open-task
         id: zusammen-schreiben

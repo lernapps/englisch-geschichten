@@ -144,8 +144,8 @@ blocks:
         items:
           - audio: first-amir-opened-the-window.mp3
             target: First Amir opened the window.
-          - audio: suddenly-the-bus-stopped-near-sophie.mp3
-            target: Suddenly the bus stopped near Sophie.
+          - audio: suddenly-the-bus-stopped.mp3
+            target: Suddenly the bus stopped.
           - audio: finally-the-children-ate-their-dinner.mp3
             target: Finally the children ate their dinner.
   - type: section
@@ -156,12 +156,12 @@ blocks:
         id: verbindung-nachsprechen
         language: en
         items:
-          - audio: what-happens-first-peter.mp3
-            text: What happens first, Peter?
-          - audio: what-happens-after-that-amir.mp3
-            text: What happens after that, Amir?
-          - audio: then-what-happens-ellie.mp3
-            text: Then what happens, Ellie?
+          - audio: what-happens-first.mp3
+            text: What happens first?
+          - audio: what-happens-after-that.mp3
+            text: What happens after that?
+          - audio: then-what-happens.mp3
+            text: Then what happens?
         hint: Hör zu. Sprich dann langsam nach.
       - type: open-task
         id: verbindung-schreiben-frei

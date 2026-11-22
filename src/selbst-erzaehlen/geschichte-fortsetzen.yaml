@@ -187,8 +187,8 @@ blocks:
             text: What happens after the climax?
           - audio: can-you-write-a-different-ending.mp3
             text: Can you write a different ending?
-          - audio: does-the-story-go-on-peter.mp3
-            text: Does the story go on, Peter?
+          - audio: does-the-story-go-on.mp3
+            text: Does the story go on?
         hint: Hör zu. Sprich dann langsam nach.
       - type: open-task
         id: fortsetzen-schreiben-offen

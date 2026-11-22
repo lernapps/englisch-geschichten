@@ -190,8 +190,8 @@ blocks:
         id: dialog-nachsprechen
         language: en
         items:
-          - audio: wait-for-me-sophie.mp3
-            text: Wait for me, Sophie!
+          - audio: wait-for-me-i-am-coming.mp3
+            text: Wait for me, I am coming.
           - audio: what-a-lovely-surprise.mp3
             text: What a lovely surprise!
           - audio: do-you-like-my-new-jacket.mp3

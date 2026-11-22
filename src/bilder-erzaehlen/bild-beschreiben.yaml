@@ -177,10 +177,10 @@ blocks:
         items:
           - audio: what-can-you-see-in-the-foreground.mp3
             text: What can you see in the foreground?
-          - audio: what-is-in-the-background-amir.mp3
-            text: What is in the background, Amir?
-          - audio: what-are-the-children-doing-sophie.mp3
-            text: What are the children doing, Sophie?
+          - audio: what-is-in-the-background.mp3
+            text: What is in the background?
+          - audio: what-are-the-children-doing.mp3
+            text: What are the children doing?
         hint: Hör zu. Sprich dann langsam nach.
       - type: open-task
         id: bild-schreiben-frei

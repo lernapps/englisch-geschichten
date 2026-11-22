@@ -196,8 +196,8 @@ blocks:
             text: How was your day today?
           - audio: what-did-you-do-in-the-morning.mp3
             text: What did you do in the morning?
-          - audio: who-did-you-meet-amir.mp3
-            text: Who did you meet, Amir?
+          - audio: who-did-you-meet-today.mp3
+            text: Who did you meet today?
         hint: Hör zu. Sprich dann langsam nach.
       - type: open-task
         id: tagebuch-schreiben

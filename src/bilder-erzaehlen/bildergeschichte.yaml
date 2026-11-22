@@ -169,12 +169,12 @@ blocks:
         id: folge-nachsprechen
         language: en
         items:
-          - audio: how-did-the-story-begin-sophie.mp3
-            text: How did the story begin, Sophie?
-          - audio: what-happened-next-amir.mp3
-            text: What happened next, Amir?
-          - audio: how-did-the-story-end-ellie.mp3
-            text: How did the story end, Ellie?
+          - audio: what-is-in-the-first-picture.mp3
+            text: What is in the first picture?
+          - audio: what-happens-in-the-next-picture.mp3
+            text: What happens in the next picture?
+          - audio: what-is-in-the-last-picture.mp3
+            text: What is in the last picture?
         hint: Hör zu. Sprich dann langsam nach.
       - type: open-task
         id: folge-schreiben-frei

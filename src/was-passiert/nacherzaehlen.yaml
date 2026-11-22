@@ -159,8 +159,8 @@ blocks:
         items:
           - audio: ellie-told-the-story-to-peter.mp3
             target: Ellie told the story to Peter.
-          - audio: sophie-did-not-forget-the-ending.mp3
-            target: Sophie did not forget the ending.
+          - audio: sophie-did-not-forget-the-end.mp3
+            target: Sophie did not forget the end.
           - audio: mr-hill-smiled-at-the-children.mp3
             target: Mr Hill smiled at the children.
   - type: section
@@ -171,8 +171,8 @@ blocks:
         id: nacherzaehlen-nachsprechen
         language: en
         items:
-          - audio: what-happened-then-amir.mp3
-            text: What happened then, Amir?
+          - audio: what-happened-then.mp3
+            text: What happened then?
           - audio: can-you-tell-the-story-again.mp3
             text: Can you tell the story again?
           - audio: how-did-the-story-begin.mp3

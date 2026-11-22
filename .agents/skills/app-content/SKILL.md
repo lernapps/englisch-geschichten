@@ -97,13 +97,29 @@ Karte `https://lernapps.net/apps/map/englisch.json` und die Baustein-Seiten `htt
 
 Die Lieder des Bausteins `gedichte-reime` („Reime, Lieder und kurze Gedichte“) sind nicht gebaut: die Seite übt Reime und Verse (kein Lied, kein Gedicht aus fremder Quelle); Lieder wären ein Wunsch für ein Inkrement.
 
+## Hörliste (Sätze, die die Ersteller:in gezielt abhört)
+
+Hörsätze bleiben natürlich: kein Name und kein Wort wird nur wegen des Klangs angehängt. `regen_audio.py` schneidet das Ausklingen ab; Sätze, die auf ein einsilbiges Wort enden, können trotzdem einen Fehllaut haben und stehen hier zum gezielten Abhören:
+- „The story happens in a small town.“
+- „What happens at the end?“
+- „Sophie left out the small things.“
+- „How did the story end?“
+- „Sophie did not forget the end.“
+- „What happened then?“
+- „Suddenly the bus stopped.“
+- „What happens first?“
+- „What happens after that?“
+- „Does the story go on?“
+
+Dazu die Reimverse von `gedichte-reime` (Reim geht vor dem Klang des letzten Wortes): „I like to see the flowers after the showers.“, „Read a little letter and you will feel better.“, „My brother and my mother help each other.“, „Let us sing together in the lovely weather.“, „The monkey is funny and it likes honey.“, „The rain is falling, and the birds are calling.“ Alle 66 Sätze: `.agents/skills/app-content/scripts/audio-texte.json`.
+
 ## Adding a chapter or round
 
 1. Baustein auf der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen.
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, Competency-Id setzen.
 3. Zeichnungen: Berg- und Map-Figur um das Neue erweitern (Kapitel 5: das Feld who bekommt eine Brille, das Feld where eine Farbe für die Stimmung); Szene mit den kopierten Figuren.
 4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 ihrer Übungen in `selfAssessment` des Kapitels aufnehmen (Skill `lernapps-explainer-self-assessment`).
-5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, je Seite 3 Diktat- und 3 Nachsprechsätze), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
+5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz, je Seite 3 Diktat- und 3 Nachsprechsätze), erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen; einsilbig endende Sätze in die Hörliste eintragen.
 6. Wörter gegen den Grundwortschatz prüfen; Hörsätze gegen den Text derselben Seite prüfen; `npx --no -- lernapps check`; committen.
 
 ## Rules learned from mistakes
@@ -113,7 +129,7 @@ Aus den Vorgängern (#470 bis #481) übernommen:
 - Eine Tabelle, die eine Übung beantwortet, steht nicht direkt über ihr; Poster, Merke, Einstieg und Bild nennen andere Beispielsätze und Wörter als die Übungen darunter.
 - Englische Aufgaben enthalten kein deutsches Wort; der Cue ist englisch, der deutsche Hinweis steht in `source` oder in der Aufgabe.
 - Mit `(a|b)` gleichwertige richtige Antworten zulassen; Auswahlaufgaben zur Großschreibung zeigen alle Optionen gleich geschrieben.
-- Audio: das Ausklingen der Stimme am Satzende abschneiden (`regen_audio.py`), Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
+- Audio: das Ausklingen der Stimme am Satzende abschneiden (`regen_audio.py`), keine Namen nur für den Klang anhängen.
 - Diktat und Nachsprechen bringen neue Sätze: kein Hörsatz steht wörtlich oder fast wörtlich (nur Name oder Farbe getauscht) im Einstieg, Poster, Merke, Bildtext oder in einer Auswahl-, Ordnungs-, Schreib- oder Übersetzungsübung derselben Seite (ein Skript prüft alle Seiten).
 - Bilder: Beschriftungen innerhalb des `viewBox`; Bildunterschrift nennt, wer wer ist; das `alt` verrät nie die Lösung.
 - Als Auswahl nur echte Lernerfehler, keine Unwörter; jeder Distraktor und jedes typische Fehlerbild eine eigene Meldung; ein Einstiegs-`single-choice` hat mindestens drei Optionen.
@@ -136,5 +152,5 @@ Aus der Musterseite (Lerner-Check, Sprachprüfung, Prüfung der Orchestrator-Ses
 - Offene Aufgaben haben eine Musterlösung in der Form der Aufgabe (vier Zeilen who/where/when/what) mit anderen Figuren als die Beispielgeschichte der Seite.
 - Ein Intonationshinweis nur, wenn er stimmt (Fragen mit who, where, what fallen am Ende); im Zweifel streichen.
 - Poster, Tafel und Bilder an der Wand heißen in Text und Bildunterschrift gleich (Geschichtenberg, story map, Klassenzimmer-Poster für die Wörter).
-- Ein Hörsatz endet auf ein zweisilbiges Wort, am besten auf einen zweisilbigen Namen (Sophie, Peter, Amir, Ellie); Sätze, die auf ein kurzes einsilbiges Wort enden, bekommen beim Erzeugen einen Fehllaut am Ende. Bei Reimen zweisilbige Reimwörter am Versende wählen.
+- Hörsätze bleiben natürlich: kein Name und kein Wort wird nur wegen des Klangs angehängt (Anrede bleibt, wo der Satz sie braucht); `regen_audio.py` schneidet das Ausklingen ab, Sätze mit einsilbigem Ende stehen in der Hörliste unten zum gezielten Abhören. Reime und Verse bleiben unverändert.
 - „Ding“ steht nur für Gegenstände; Menschen und Tiere sind keine Dinge.
