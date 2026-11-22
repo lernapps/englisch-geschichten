@@ -267,9 +267,9 @@ page, which a link. -->
 
 - [x] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
       decisions" why the app has none. Commit.
-- [ ] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
+- [x] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.
-- [ ] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
+- [x] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
 - [ ] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
       whether it may go online. Stop and wait for the yes.
 - [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
@@ -296,12 +296,17 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Commit (bis zum Vorschau-Pull-Request); bestätigt in Explore (Recherche), Plan (Plan und Inhaltsmethode) und Code (Musterseite) von der Orchestrator-Session (in der Rolle der Ersteller:in). Nicht veröffentlicht: der Vorschau-Pull-Request #1 bleibt offen, `lernapps check` grün, die Prüfungen „app“ und „preview“ grün.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Menschliche Nachrichten nach der Planbestätigung: 0 (die einzige menschliche Nachricht der Session erlaubte vor dem Plan die npx-Befehle). Die Orchestrator-Session (in der Rolle der Ersteller:in) antwortete nach der Planbestätigung dreimal: Auflagen an der Musterseite (when üben, Textmenge, Tabelle, Inhaltsführer, Notes), Freigabe der Musterseite mit der Bitte um ganze Sätze im `scope`, Regel „Hörsatz endet zweisilbig“ und „Ding nur für Gegenstände“.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+- Hurdles und „Finding the app“ standen nicht im Auftrag: von mir angenommen („Englisch Geschichten schreiben und nacherzählen, Klasse 5 und 6“).
+- `verbindungswoerter-erzaehlen` steht als erste Seite von Kapitel 2 (nicht in Kapitel 1), weil `bildergeschichte` sie braucht.
+- Wörter wie stick, suddenly, forest, noise gelten laut Wortliste (Skript) als A1/A2 und stehen nicht in den Tabellen; build-up, climax, pond, character, shed, shelf, script, scene, rhyme, verse, rhythm, fox, bowl, umbrella, kite, melt, diary, foreground, background, sandcastle sind auf den Seiten erklärt.
+- Haustiernamen der Übungsgeschichten (Max, Goldie, Coco, Bella) und Verwandte (grandpa, mum, dad) sind Nebenfiguren ohne Rückfrage; Kindernamen außerhalb der sechs Figuren gibt es nicht.
+- Die Seiten wurden von vier Sub-Agenten je Kapitel nach dem Muster der Musterseite gebaut, danach durch Gesamtcheck und zwei Sprachprüfungen und vier Korrektur-Agenten überarbeitet; die MP3 wurden nicht angehört.
+- Die Pages-Einstellung (Branch gh-pages) konnte ich nicht lesen (die API ist für diese Session gesperrt); `gh-pages` und die Vorschau-Adresse bestehen.
