@@ -279,8 +279,8 @@ blocks:
         id: sicht-nachsprechen
         language: en
         items:
-          - audio: who-is-telling-the-story.mp3
-            text: Who is telling the story?
+          - audio: whose-view-do-we-see.mp3
+            text: Whose view do we see?
           - audio: what-does-sophie-know-about-ellie.mp3
             text: What does Sophie know about Ellie?
           - audio: now-let-me-tell-it-from-ellies-side.mp3

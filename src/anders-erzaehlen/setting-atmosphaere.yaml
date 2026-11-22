@@ -264,8 +264,8 @@ blocks:
         id: stimmung-nachsprechen
         language: en
         items:
-          - audio: where-does-the-story-take-place.mp3
-            text: Where does the story take place?
+          - audio: is-it-a-happy-or-a-sad-scene.mp3
+            text: Is it a happy or a sad scene?
           - audio: what-is-the-mood-of-this-scene.mp3
             text: What is the mood of this scene?
           - audio: which-words-make-the-mood.mp3
