@@ -37,11 +37,12 @@ blocks:
         text: "**Das kannst du danach:** Du schreibst einen Tagebucheintrag mit Anrede und Datum. Du erzählst, was an deinem Tag passiert ist, und sagst, wie du dich gefühlt hast."
       - type: text
         text: Dieses Wort ist neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [diary, Tagebuch]
+        languages: { source: de, target: en }
+        entries:
+          - target: diary
+            source: Tagebuch
   - type: section
     id: neu
     title: So schreibt Sophie ihren Eintrag

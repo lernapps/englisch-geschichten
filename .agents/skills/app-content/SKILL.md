@@ -158,7 +158,7 @@ Aus den Vorgängern (#470 bis #481) übernommen:
 - Als Auswahl nur echte Lernerfehler, keine Unwörter; jeder Distraktor und jedes typische Fehlerbild eine eigene Meldung; ein Einstiegs-`single-choice` hat mindestens drei Optionen.
 - Die Rückmeldung einer Einzelauswahl hängt „: “ an den Optionstext: Optionstexte enden ohne Punkt.
 - Eine Auswahl-Übung (`mode: choice`) braucht einen deutschen Satz (`source`) als Start.
-- Höchstens eine kurze Wörtertabelle je Seite; Seiten mit mehr als etwa 25 Items oder 10 Übungen kürzen.
+- Höchstens ein kurzer Vokabelblock je Seite (ohne das Randglossar eines Lesestücks); Seiten mit mehr als etwa 25 Items oder 10 Übungen kürzen.
 - Wörter, die eine Übung braucht, aber nur im Fließtext erklärt sind, stehen zusätzlich in der Tabelle.
 - Die `competencies:` jeder Seite sind Karten-Ids (nicht Seitentitel); Wiederholungsseiten haben keine.
 - Bekannte Eigenheiten der Vorlage: `ordering` zeigt Auswahlfelder statt Karten, `accepted` einer Sprach-Aufgabe wirkt nicht, im Modus `choice` zeigt die App `mistakes` nicht, `punctuation: hint` meldet bei richtiger Antwort „Achte auf die Satzzeichen“ (darum `punctuation: ok`).
@@ -185,3 +185,5 @@ Aus Kapitel 5 (Lerner-Check und Sprachprüfung):
 - Der Text direkt über einer Frage verrät ihre Antwort nicht (auch nicht in einer Einleitung der Seite); Rückmeldung zu einer falschen Option verrät das Ende des Lesestücks nicht.
 - Eine Meinungsfrage mit festen richtig/falsch-Antworten ist keine Meinungsfrage: sie fragt nach Gründen oder Belegen („Welche Gründe sprechen dafür …“).
 - Sachliche Angaben (Alter, Wochentag, Tageszeit, Zählung der Wochen) stimmen mit früheren Kapiteln und mit dem Text überein; im Zweifel nichts zählen.
+
+Vokabelblock (App-Templates 0.14, Auftrag der Ersteller:in): Wörter und ihre Bedeutung stehen im Block `type: vocabulary` (`caption`, `languages: { source: de, target: en }`, `entries` mit `target`, `source`, optional `example`, `note`), nicht mehr in einer `table` oder in `definition`-Blöcken. Umgestellt: alle Tabellen „Klassenzimmer-Poster · Neue Wörter“ (neun Seiten) und das Randglossar der Lesestücke in Kapitel 5 (je Abschnitt ein Block „Wörter zu den Zeilen 1 bis 7“ usw.). Die Tabellen „Wiederholung“ in `was-passiert/das-brauchst-du` (Verbformen) und `bilder-erzaehlen/das-brauchst-du` (Themen und Beispielsätze) sind keine Vokabeln und bleiben `table`. Neue Wörter immer im Vokabelblock.

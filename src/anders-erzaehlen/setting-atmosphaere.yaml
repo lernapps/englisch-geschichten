@@ -57,18 +57,18 @@ blocks:
         origin: { author: eigener Text für diese App, work: The Park in November, year: 2026 }
         source: eigener Text
         licence: CC-BY-4.0
-      - type: definition
-        term: bare
-        explanation: kahl, ohne Blätter
-      - type: definition
-        term: path
-        explanation: der Weg
-      - type: definition
-        term: heavy
-        explanation: schwer
-      - type: definition
-        term: bark
-        explanation: bellen
+      - type: vocabulary
+        caption: Wörter zu den Zeilen 1 bis 7
+        languages: { source: de, target: en }
+        entries:
+          - target: bare
+            source: "kahl, ohne Blätter"
+          - target: path
+            source: der Weg
+          - target: heavy
+            source: schwer
+          - target: bark
+            source: bellen
       - type: quote
         text: |
           **8** The street lamps came on, one by one, and their yellow light was weak.
@@ -87,24 +87,22 @@ blocks:
         origin: { author: eigener Text für diese App, work: The Park in November, year: 2026 }
         source: eigener Text
         licence: CC-BY-4.0
-      - type: definition
-        term: shadow
-        explanation: der Schatten
-      - type: definition
-        term: branch
-        explanation: der Ast
-      - type: definition
-        term: cracked
-        explanation: knackte, brach
-      - type: definition
-        term: silly
-        explanation: albern
-      - type: definition
-        term: weak
-        explanation: schwach
-      - type: definition
-        term: whisper
-        explanation: flüstern
+      - type: vocabulary
+        caption: Wörter zu den Zeilen 8 bis 14
+        languages: { source: de, target: en }
+        entries:
+          - target: shadow
+            source: der Schatten
+          - target: branch
+            source: der Ast
+          - target: cracked
+            source: "knackte, brach"
+          - target: silly
+            source: albern
+          - target: weak
+            source: schwach
+          - target: whisper
+            source: flüstern
       - type: single-choice
         id: ort-gefuehl
         text: "Wie fühlt sich Ellie im Park?"
@@ -138,18 +136,18 @@ blocks:
         origin: { author: eigener Text für diese App, work: The Park in November, year: 2026 }
         source: eigener Text
         licence: CC-BY-4.0
-      - type: definition
-        term: chimney
-        explanation: der Schornstein
-      - type: definition
-        term: smoke
-        explanation: der Rauch
-      - type: definition
-        term: whole
-        explanation: ganz
-      - type: definition
-        term: deep breath
-        explanation: tief Luft holen
+      - type: vocabulary
+        caption: Wörter zu den Zeilen 15 bis 20
+        languages: { source: de, target: en }
+        entries:
+          - target: chimney
+            source: der Schornstein
+          - target: smoke
+            source: der Rauch
+          - target: whole
+            source: ganz
+          - target: deep breath
+            source: tief Luft holen
   - type: section
     id: neu
     title: Wie Wörter eine Stimmung machen

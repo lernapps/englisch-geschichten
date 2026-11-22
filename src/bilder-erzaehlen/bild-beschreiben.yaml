@@ -37,15 +37,20 @@ blocks:
         text: "**Das kannst du danach:** Du sagst, wo in einem Bild etwas ist, und beschreibst, was da ist und was gerade passiert."
       - type: text
         text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [foreground, Vordergrund]
-          - [background, Hintergrund]
-          - [sandcastle, Sandburg]
-          - [kite, Drachen]
-          - [umbrella, "Schirm (Sonnenschirm oder Regenschirm)"]
+        languages: { source: de, target: en }
+        entries:
+          - target: foreground
+            source: Vordergrund
+          - target: background
+            source: Hintergrund
+          - target: sandcastle
+            source: Sandburg
+          - target: kite
+            source: Drachen
+          - target: umbrella
+            source: Schirm (Sonnenschirm oder Regenschirm)
   - type: section
     id: neu
     title: Das Raster zeigt jeden Platz

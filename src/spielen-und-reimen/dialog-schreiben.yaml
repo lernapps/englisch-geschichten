@@ -37,15 +37,20 @@ blocks:
         text: "**Das kannst du danach:** Du schreibst einen kurzen Dialog in Skriptform: erst der Name, dann ein Doppelpunkt, dann ein kurzer Satz. Du sagst, wer spielt, wo die Szene ist und was passiert."
       - type: text
         text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [script, "Text für ein Spiel mit allen Zeilen der Figuren"]
-          - [scene, "Szene, ein kurzes Stück zum Spielen"]
-          - [line, "Zeile, hier der Satz einer Figur"]
-          - [stage direction, "Regieanweisung, sie sagt, was eine Figur tut"]
-          - [fox, Fuchs]
+        languages: { source: de, target: en }
+        entries:
+          - target: script
+            source: Text für ein Spiel mit allen Zeilen der Figuren
+          - target: scene
+            source: "Szene, ein kurzes Stück zum Spielen"
+          - target: line
+            source: "Zeile, hier der Satz einer Figur"
+          - target: stage direction
+            source: "Regieanweisung, sie sagt, was eine Figur tut"
+          - target: fox
+            source: Fuchs
   - type: section
     id: neu
     title: So sieht ein Skript aus

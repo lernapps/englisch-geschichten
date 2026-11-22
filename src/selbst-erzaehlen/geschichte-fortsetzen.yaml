@@ -37,11 +37,12 @@ blocks:
         text: "**Das kannst du danach:** Du hängst an eine Geschichte einen zweiten Gipfel an. Oder du schreibst ein anderes Ende dafür."
       - type: text
         text: Dieses Wort ist neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [melt, schmelzen]
+        languages: { source: de, target: en }
+        entries:
+          - target: melt
+            source: schmelzen
   - type: section
     id: neu
     title: Zweiter Gipfel oder anderes Ende

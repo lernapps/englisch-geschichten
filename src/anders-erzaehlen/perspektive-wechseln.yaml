@@ -59,9 +59,12 @@ blocks:
         origin: { author: eigener Text für diese App, work: The Late Bus, year: 2026 }
         source: eigener Text
         licence: CC-BY-4.0
-      - type: definition
-        term: gate
-        explanation: das Tor am Garten
+      - type: vocabulary
+        caption: Wörter zu den Zeilen 1 bis 7
+        languages: { source: de, target: en }
+        entries:
+          - target: gate
+            source: das Tor am Garten
       - type: quote
         text: |
           **8** The bus was late too, so Ellie and I waited at the stop.
@@ -80,21 +83,20 @@ blocks:
         origin: { author: eigener Text für diese App, work: The Late Bus, year: 2026 }
         source: eigener Text
         licence: CC-BY-4.0
-      - type: definition
-        term: stomach
-        explanation: der Bauch, der Magen
-      - type: definition
-        term: tight
-        explanation: eng, zusammengezogen
-      - type: definition
-        term: haircut
-        explanation: die Frisur, der Haarschnitt
-      - type: definition
-        term: terrible
-        explanation: schrecklich
-      - type: definition
-        term: at last
-        explanation: endlich
+      - type: vocabulary
+        caption: Wörter zu den Zeilen 8 bis 14
+        languages: { source: de, target: en }
+        entries:
+          - target: stomach
+            source: "der Bauch, der Magen"
+          - target: tight
+            source: "eng, zusammengezogen"
+          - target: haircut
+            source: "die Frisur, der Haarschnitt"
+          - target: terrible
+            source: schrecklich
+          - target: at last
+            source: endlich
       - type: single-choice
         id: sicht-warum
         text: "In „The Late Bus“ steht Ellie am Tor. Woran erkennt Sophie, dass Ellie vielleicht böse auf sie ist?"
@@ -128,9 +130,12 @@ blocks:
         origin: { author: eigener Text für diese App, work: The Late Bus, year: 2026 }
         source: eigener Text
         licence: CC-BY-4.0
-      - type: definition
-        term: stairs
-        explanation: die Treppe
+      - type: vocabulary
+        caption: Wörter zu den Zeilen 15 bis 20
+        languages: { source: de, target: en }
+        entries:
+          - target: stairs
+            source: die Treppe
   - type: section
     id: neu
     title: Was die Brille sieht und was nicht

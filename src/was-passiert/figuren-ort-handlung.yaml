@@ -37,16 +37,22 @@ blocks:
         text: "**Das kannst du danach:** Du findest in einer Geschichte heraus, wer vorkommt, wo und wann sie spielt und was passiert. Du schreibst es in die story map und hängst die Ereignisse an den Berg."
       - type: text
         text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [character, Figur]
-          - [build-up, Aufbau]
-          - [climax, Höhepunkt]
-          - [pond, Teich]
-          - [shed, Schuppen]
-          - [shelf, Regal]
+        languages: { source: de, target: en }
+        entries:
+          - target: character
+            source: Figur
+          - target: build-up
+            source: Aufbau
+          - target: climax
+            source: Höhepunkt
+          - target: pond
+            source: Teich
+          - target: shed
+            source: Schuppen
+          - target: shelf
+            source: Regal
   - type: section
     id: neu
     title: Die story map und der Geschichtenberg

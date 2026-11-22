@@ -37,13 +37,16 @@ blocks:
         text: "**Das kannst du danach:** Du findest Reimwörter, sprichst kurze Verse laut nach und schreibst selbst einen Zweizeiler."
       - type: text
         text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [rhyme, Reim]
-          - [verse, "Vers, hier eine Zeile eines Gedichts"]
-          - [rhythm, Rhythmus]
+        languages: { source: de, target: en }
+        entries:
+          - target: rhyme
+            source: Reim
+          - target: verse
+            source: "Vers, hier eine Zeile eines Gedichts"
+          - target: rhythm
+            source: Rhythmus
   - type: section
     id: neu
     title: Reimwörter finden und Verse sprechen

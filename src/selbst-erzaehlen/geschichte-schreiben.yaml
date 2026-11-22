@@ -40,11 +40,12 @@ blocks:
         text: "**Das kannst du danach:** Du planst eine kurze Geschichte am Geschichtenberg. Dann schreibst du sie mit Anfang, Mitte und Ende im simple past auf."
       - type: text
         text: Dieses Wort ist neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [kite, Drachen]
+        languages: { source: de, target: en }
+        entries:
+          - target: kite
+            source: Drachen
   - type: section
     id: neu
     title: Der Geschichtenberg als Plan

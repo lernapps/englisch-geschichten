@@ -43,15 +43,20 @@ blocks:
         text: "**Das kannst du danach:** Du findest in einer Geschichte das Wichtigste und schreibst es in wenigen Sätzen auf. Du lässt Einzelheiten und deine Meinung weg."
       - type: text
         text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [summary, Zusammenfassung]
-          - [detail, Einzelheit]
-          - [goldfish, Goldfisch]
-          - [bowl, Schale]
-          - [umbrella, Regenschirm]
+        languages: { source: de, target: en }
+        entries:
+          - target: summary
+            source: Zusammenfassung
+          - target: detail
+            source: Einzelheit
+          - target: goldfish
+            source: Goldfisch
+          - target: bowl
+            source: Schale
+          - target: umbrella
+            source: Regenschirm
   - type: section
     id: neu
     title: Nur das, was am Geschichtenberg hängt

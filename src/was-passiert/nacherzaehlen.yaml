@@ -37,14 +37,18 @@ blocks:
         text: "**Das kannst du danach:** Du erzählst eine Geschichte am Geschichtenberg Station für Station nach, im simple past und in eigenen Worten."
       - type: text
         text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [retell, nacherzählen]
-          - [glove, Handschuh]
-          - [fox, Fuchs]
-          - [kitten, Kätzchen]
+        languages: { source: de, target: en }
+        entries:
+          - target: retell
+            source: nacherzählen
+          - target: glove
+            source: Handschuh
+          - target: fox
+            source: Fuchs
+          - target: kitten
+            source: Kätzchen
   - type: section
     id: neu
     title: Den Berg Schritt für Schritt abgehen
