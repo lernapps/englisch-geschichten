@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-bild-beschreiben.svg
         alt: "In der Geschichtenecke hängt neben dem Geschichtenberg ein Bild mit einem Haus, einem Baum und der Sonne. Vor der Wand stehen Sophie, Peter, Ellie und Amir, rechts steht Mr Hill. Sophie fragt in einer Sprechblase: „Where do I start?“"
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Neben dem Geschichtenberg hängt das Bild der Klasse."
+        caption: "Neben dem Geschichtenberg hängt das Bild der Klasse."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Es ist Mittwoch in der Geschichtenwoche. Seit heute früh hängt in der Geschichtenecke ein Bild der Klasse. Mr Hill sagt: „Describe the picture.“ Das ist nicht leicht, denn es gibt viel zu sehen. Mr Hill fragt zuerst nach dem Bild an der Wand: „Where is the tree?“"
+        text: "In der Geschichtenecke hängt ein Bild der Klasse. Mr Hill sagt: „Describe the picture.“ Das ist nicht leicht, denn es gibt viel zu sehen. Mr Hill fragt zuerst nach dem Bild an der Wand: „Where is the tree?“"
       - type: single-choice
         id: bild-start
         text: Welche Antwort sagt, wo der Baum auf dem Bild an der Wand ist?

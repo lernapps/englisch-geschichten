@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Bilder erzählen
-summary: Am Dienstag und Mittwoch erzählen die Kinder mit Bildern. Du ordnest Sätze mit Wegweisern am Geschichtenberg, beschreibst ein Bild mit seinen Plätzen und schreibst zu vier Bildern eine Geschichte.
+summary: Du erzählst mit Bildern. Du ordnest Sätze mit Wegweisern am Geschichtenberg, beschreibst ein Bild mit seinen Plätzen und schreibst zu vier Bildern eine Geschichte.
 pages: [das-brauchst-du, verbindungswoerter, bild-beschreiben, bildergeschichte]
 selfAssessment:
   pages:

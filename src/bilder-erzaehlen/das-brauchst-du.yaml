@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Das brauchst du für Bilder und Bildfolgen
-description: "Am Dienstag und Mittwoch erzählen die Kinder mit Schildern und Bildern. Wiederhole, was du dafür brauchst: there is und there are, das present progressive und Präpositionen des Ortes."
+description: "Wiederhole, was du für Schilder und Bilder brauchst: there is und there are, das present progressive und Präpositionen des Ortes."
 recap: [englisch/there-is-are, englisch/present-progressive, englisch/praepositionen-ort]
 scope: Die Seite wiederholt drei Bausteine, die das Kapitel braucht, ohne Übung. There is und there are sagen, was es an einem Ort gibt. Das present progressive (am, is oder are plus Verb mit -ing) sagt, was gerade passiert. Präpositionen des Ortes sagen, wo etwas ist. Nicht hier, weil sie auf späteren Seiten stehen, nämlich die Wegweiser beim Erzählen, das Beschreiben eines Bildes und die Bildergeschichte im simple past.
 blocks:

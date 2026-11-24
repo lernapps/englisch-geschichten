@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-nacherzaehlen.svg
         alt: "In der Geschichtenecke hängen an der Wand ein Berg mit vier Fähnchen und eine Tafel mit vier leeren Feldern. Amir sagt in einer Sprechblase: „Listen, Ellie!“ Ellie und Sophie stehen neben ihm, Mr Hill steht rechts."
-        caption: "Von links: Amir (Brille), Ellie (roter Pferdeschwanz), Sophie (Zöpfe) und Mr Hill (graue Haare). An der Wand hängen der Geschichtenberg und die story map."
+        caption: "An der Wand hängen der Geschichtenberg und die story map."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -203,6 +203,6 @@ blocks:
     title: Rückblick und Ausblick
     blocks:
       - type: text
-        text: "**Rückblick auf Montag:** An der Wand der Geschichtenecke hängen Berg und story map noch leer, aber du kannst sie jetzt füllen. Die Map sagt, wer, wo, wann und was passiert. Am Berg hängen die Hauptereignisse, so fasst du zusammen. Und Station für Station erzählst du eine Geschichte in eigenen Worten nach, im simple past."
+        text: "**Rückblick:** Berg und story map kannst du jetzt füllen. Die Map sagt, wer, wo, wann und was passiert. Am Berg hängen die Hauptereignisse, so fasst du zusammen. Und Station für Station erzählst du eine Geschichte in eigenen Worten nach, im simple past."
       - type: text
-        text: "Am **Dienstag** hängt Mr Hill fünf Wegweiser an den Berg und neue Bilder an die Wand. Zuerst wiederholst du kurz, was du zum Beschreiben von Bildern brauchst. Dann lernst du die Wegweiser kennen und erzählst mit Bildern."
+        text: "Als Nächstes kommen fünf Wegweiser am Berg und neue Bilder an der Wand. Zuerst wiederholst du kurz, was du zum Beschreiben von Bildern brauchst. Dann lernst du die Wegweiser kennen und erzählst mit Bildern."

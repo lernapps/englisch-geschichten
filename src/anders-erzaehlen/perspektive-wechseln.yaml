@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Wessen Sicht? Dieselbe Szene, eine andere Brille"
-description: "Ein Jahr später: Mr Hill hängt eine Brille an das Feld who. Du liest eine Szene aus Sophies Sicht und erzählst sie aus der Sicht von Ellie neu."
+description: "Die Brille am Feld who der story map fragt: Wessen Sicht? Du liest eine Szene aus Sophies Sicht und erzählst sie aus Ellies Sicht neu."
 competencies: [perspektive-wechseln]
 scope: Die Seite zeigt, dass jede Geschichte aus der Sicht einer Figur erzählt wird. Die Brille am Feld who der story map sagt, wessen Sicht gemeint ist. Wer in der Ich-Form erzählt, weiß nur, was sie oder er selbst sieht, denkt und fühlt, und kann sich über die anderen irren. Beim Wechsel der Sicht ändern sich Pronomen, Wissen und Gefühl, das Geschehen und die Zeitform (simple past) bleiben. Das Lesestück ist ein eigener Text. Offene Aufgaben haben Punkte und eine Musterlösung, die App bewertet den Text nicht. Ort, Zeit und Stimmung stehen auf der nächsten Seite. Die Analyse von Kurzgeschichten gehört nicht hierher.
 blocks:
@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-perspektive-wechseln.svg
         alt: "In der Geschichtenecke hängen der Geschichtenberg und die story map. Auf dem Feld who ist eine Brille gezeichnet, das Feld where hat eine graue Fläche. Rechts steht Mr Hill, links neben ihm stehen Sophie, Peter, Ellie und Amir. Eine Sprechblase fragt: „Whose view is it?“"
-        caption: "Ein Jahr später, im Januar. Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (mit Brille) und Mr Hill (graue Haare). Das Brillenzeichen am Feld who gehört zur story map, nicht zu Amir."
+        caption: "Das Brillenzeichen am Feld who gehört zur story map, nicht zu Amir."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Wieder Januar, wieder Geschichtenwoche. Sophie ist jetzt 12. Mr Hill hat an der story map zwei Dinge geändert: ein **Brillenzeichen** am Feld **who** und eine **Stimmungsfläche** im Feld **where**. Heute geht es um die Brille. Sie fragt: Wessen Sicht erzählt die Geschichte?"
+        text: "Die story map hat zwei neue Zeichen: ein **Brillenzeichen** am Feld **who** und eine **Stimmungsfläche** im Feld **where**. Hier geht es um die Brille. Sie fragt: Wessen Sicht erzählt die Geschichte?"
       - type: text
         text: "**Das kannst du danach:** Du erkennst, wessen Sicht eine Geschichte hat, und erzählst dieselbe Szene aus der Sicht einer anderen Figur neu."
       - type: single-choice
@@ -310,4 +310,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am Donnerstag erklärt Mr Hill die Stimmungsfläche im Feld where. Auf der nächsten Seite liest du, wie Ellie am späten Nachmittag durch den Park geht, und lernst, wie Wörter eine Stimmung machen."
+        text: "Auf der nächsten Seite erklärt die Stimmungsfläche im Feld where, wie sich ein Ort anfühlt. Du liest, wie Ellie am späten Nachmittag durch den Park geht, und lernst, wie Wörter eine Stimmung machen."

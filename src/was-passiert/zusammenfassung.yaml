@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-zusammenfassung.svg
         alt: "Im Klassenzimmer sitzen Sophie, Peter, Ellie und Amir. Jedes Kind hat einen Zettel vor sich. Mr Hill steht rechts und sagt in einer Sprechblase: „Tell the story in three sentences.“"
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Jedes Kind hat den Zettel von Mr Hill."
+        caption: "Jedes Kind hat den Zettel von Mr Hill."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

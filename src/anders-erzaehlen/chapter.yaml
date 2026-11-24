@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Anders erzählen
-summary: Ein Jahr später, wieder Geschichtenwoche. Mr Hill hängt eine Brille an das Feld who und eine Stimmungsfläche in das Feld where. Du liest eine Szene aus Sophies Sicht und erzählst sie aus der Sicht einer anderen Figur neu.
+summary: Die story map bekommt eine Brille am Feld who und eine Stimmungsfläche im Feld where. Du liest eine Szene aus Sophies Sicht, erzählst sie aus der Sicht einer anderen Figur neu und lernst, wie Wörter eine Stimmung erzeugen.
 pages: [perspektive-wechseln, setting-atmosphaere]
 selfAssessment:
   pages:

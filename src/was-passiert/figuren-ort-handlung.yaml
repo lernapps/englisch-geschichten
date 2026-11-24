@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-figuren-ort-handlung.svg
         alt: "In der Geschichtenecke des Klassenzimmers hängen an der Wand zwei Tafeln. Links ein Berg mit vier kleinen Fähnchen, rechts vier leere Felder mit den Wörtern who, where, when und what. Sophie fragt in einer Sprechblase: „A mountain?“ Vor der Wand stehen Sophie, Peter, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der Wand hängen links der Geschichtenberg mit vier Fähnchen und rechts die story map mit vier noch leeren Feldern."
+        caption: "An der Wand hängen links der Geschichtenberg mit vier Fähnchen und rechts die story map mit vier noch leeren Feldern."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Es ist Montag in der **Geschichtenwoche**. Mr Hill hat in der Geschichtenecke zwei Bilder aufgehängt: einen **Geschichtenberg** (englisch: story mountain) und eine **story map** mit vier Feldern. Sophie fragt: „A mountain?“ Mr Hill nickt. Zuerst lesen die Kinder eine ganz kurze Geschichte."
+        text: "Mr Hill hat in der Geschichtenecke zwei Bilder aufgehängt: einen **Geschichtenberg** (englisch: story mountain) und eine **story map** mit vier Feldern. Sophie fragt: „A mountain?“ Mr Hill nickt. Zuerst lesen die Kinder eine ganz kurze Geschichte."
       - type: single-choice
         id: figuren-start
         text: "Sophie und Amir lesen: „Sophie and Amir sat in the library. It rained. Sophie found an old map.“ Wer kommt in dieser kleinen Geschichte vor?"

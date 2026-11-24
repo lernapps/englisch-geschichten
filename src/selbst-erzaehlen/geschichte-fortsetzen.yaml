@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-geschichte-fortsetzen.svg
         alt: "In der Geschichtenecke hängen an der Wand zwei Tafeln. Links ein Berg mit vier nummerierten Fähnchen, rechts vier leere Felder mit den Wörtern who, where, when und what. Amir fragt in einer Sprechblase: „And then?“ Vor der Wand stehen Sophie, Peter, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der Wand hängen der Geschichtenberg und die story map."
+        caption: "An der Wand hängen der Geschichtenberg und die story map."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

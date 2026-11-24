@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-verbindungswoerter.svg
         alt: "In der Geschichtenecke hängen an der Wand der Geschichtenberg und die story map. Darunter liegen in einer Reihe fünf Schilder mit den Wörtern after that, first, finally, then und suddenly. Davor stehen Sophie, Peter, Ellie und Amir, rechts steht Mr Hill. Sophie sagt in einer Sprechblase: „Five signs!“"
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). Unter dem Geschichtenberg und der story map liegen die fünf Wegweiser."
+        caption: "Unter dem Geschichtenberg und der story map liegen die fünf Wegweiser."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Es ist Dienstag in der Geschichtenwoche. Mr Hill hat fünf Schilder mitgebracht, die **Wegweiser**. Sie zeigen, in welcher Reihenfolge etwas passiert. Er liest den Anfang einer Geschichte vor, aber das erste Wort fehlt: „… Peter opened the box.“"
+        text: "Mr Hill hat fünf Schilder mitgebracht, die **Wegweiser**. Sie zeigen, in welcher Reihenfolge etwas passiert. Er liest den Anfang einer Geschichte vor, aber das erste Wort fehlt: „… Peter opened the box.“"
       - type: single-choice
         id: verbindung-start
         text: Welches Wort gehört an den Anfang der Geschichte?
@@ -187,4 +187,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am Mittwoch hängt Mr Hill ein neues Bild in die Geschichtenecke. Auf der nächsten Seite lernst du, ein Bild zu beschreiben und zu sagen, wo etwas ist."
+        text: "Auf der nächsten Seite lernst du, ein Bild zu beschreiben und zu sagen, wo etwas ist."
