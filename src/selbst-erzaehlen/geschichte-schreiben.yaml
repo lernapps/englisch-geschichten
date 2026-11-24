@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-geschichte-schreiben.svg
         alt: "In der Geschichtenecke hängen an der Wand zwei Tafeln. Links ein Berg mit vier nummerierten Fähnchen, rechts vier leere Felder mit den Wörtern who, where, when und what. Sophie fragt in einer Sprechblase: „Plan first?“ Vor der Wand stehen Sophie, Peter, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der Wand hängen links der Geschichtenberg und rechts die story map."
+        caption: "An der Wand hängen links der Geschichtenberg und rechts die story map."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Es ist Donnerstag in der Geschichtenwoche. Heute schreibt jedes Kind eine eigene Geschichte. Mr Hill sagt: „First the plan, then the story.“ Sophie nimmt ein Blatt mit einem leeren Geschichtenberg. Sie hat einen Zettel mit Stichwörtern: „Amir · on a farm · a hot Sunday“. Sie überlegt, wohin er gehört."
+        text: "Jedes Kind schreibt eine eigene Geschichte. Mr Hill sagt: „First the plan, then the story.“ Sophie nimmt ein Blatt mit einem leeren Geschichtenberg. Sie hat einen Zettel mit Stichwörtern: „Amir · on a farm · a hot Sunday“. Sie überlegt, wohin er gehört."
       - type: single-choice
         id: schreiben-start
         text: An welches Fähnchen hängt Sophie den Zettel?
@@ -40,11 +40,12 @@ blocks:
         text: "**Das kannst du danach:** Du planst eine kurze Geschichte am Geschichtenberg. Dann schreibst du sie mit Anfang, Mitte und Ende im simple past auf."
       - type: text
         text: Dieses Wort ist neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [kite, Drachen]
+        languages: { source: de, target: en }
+        entries:
+          - target: kite
+            source: Drachen
   - type: section
     id: neu
     title: Der Geschichtenberg als Plan

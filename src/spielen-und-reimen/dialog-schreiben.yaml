@@ -1,21 +1,21 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Eine Spielszene schreiben: Sprecher und Zeilen"
-description: "Am Freitag spielen die Kinder Szenen aus dem Geschichtenberg. Du lernst, einen kurzen Dialog in Skriptform zu schreiben."
+description: "Du lernst, aus einer Station des Geschichtenbergs einen kurzen Dialog in Skriptform zu schreiben."
 competencies: [dialog-schreiben]
 scope: "Die Seite zeigt, wie aus einer Station des Geschichtenbergs eine kurze Spielszene wird. Eine Szene braucht wie die story map Figuren (who), einen Ort (where) und eine Handlung (what). Gelernt wird die Skriptform: der Sprecher steht vor dem Doppelpunkt, danach folgt ein kurzer Satz, es gibt keinen Erzähltext und keine Anführungszeichen, eine Regieanweisung steht in Klammern. Nicht hier, weil es eine eigene Seite ist: Reime und Gedichte vortragen. Nicht hier: Theaterstücke untersuchen und längere Szenen. Die App bewertet den freien Dialog nicht."
 blocks:
   - type: section
     id: einstieg
-    title: Am Freitag spielen wir
+    title: Wir spielen eine Szene
     blocks:
       - type: figure
         image: images/szene-dialog-schreiben.svg
         alt: "In der Geschichtenecke hängen an der Wand links ein Berg mit vier Fähnchen und rechts eine Tafel mit den vier Feldern who, where, when und what. Mr Hill steht rechts und sagt in einer Sprechblase: „Today we act!“ Davor stehen Sophie, Peter, Ellie und Amir."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der Wand hängen der Geschichtenberg und die story map."
+        caption: "An der Wand hängen der Geschichtenberg und die story map."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Es ist Freitag in der Geschichtenwoche. Mr Hill sagt: „Today we act!“ Jede Gruppe macht aus einer Station des Geschichtenbergs eine kurze **Spielszene**. Dafür schreiben die Kinder einen **Dialog**: Figuren sprechen miteinander. Sophie hat für ihre Szene „The lost bag“ schon eine Zeile geschrieben."
+        text: "Mr Hill sagt: „Today we act!“ Jede Gruppe macht aus einer Station des Geschichtenbergs eine kurze **Spielszene**. Dafür schreiben die Kinder einen **Dialog**: Figuren sprechen miteinander. Sophie hat für ihre Szene „The lost bag“ schon eine Zeile geschrieben."
       - type: single-choice
         id: dialog-start
         text: Welche Zeile ist für ein Spiel gut aufgeschrieben? Man kann sie sofort sprechen.
@@ -37,15 +37,20 @@ blocks:
         text: "**Das kannst du danach:** Du schreibst einen kurzen Dialog in Skriptform: erst der Name, dann ein Doppelpunkt, dann ein kurzer Satz. Du sagst, wer spielt, wo die Szene ist und was passiert."
       - type: text
         text: Diese Wörter sind neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [script, "Text für ein Spiel mit allen Zeilen der Figuren"]
-          - [scene, "Szene, ein kurzes Stück zum Spielen"]
-          - [line, "Zeile, hier der Satz einer Figur"]
-          - [stage direction, "Regieanweisung, sie sagt, was eine Figur tut"]
-          - [fox, Fuchs]
+        languages: { source: de, target: en }
+        entries:
+          - target: script
+            source: Text für ein Spiel mit allen Zeilen der Figuren
+          - target: scene
+            source: "Szene, ein kurzes Stück zum Spielen"
+          - target: line
+            source: "Zeile, hier der Satz einer Figur"
+          - target: stage direction
+            source: "Regieanweisung, sie sagt, was eine Figur tut"
+          - target: fox
+            source: Fuchs
   - type: section
     id: neu
     title: So sieht ein Skript aus
@@ -223,4 +228,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am Freitag spielen die Gruppen ihre Szenen vor der Klasse. Danach schließt Mr Hill die Woche mit einem Reim ab. Auf der nächsten Seite sammelst du Reimwörter und sprichst Verse."
+        text: "Danach spielen die Gruppen ihre Szenen vor der Klasse. Auf der nächsten Seite sammelst du Reimwörter und sprichst Verse."

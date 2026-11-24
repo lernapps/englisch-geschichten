@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-tagebucheintrag.svg
         alt: "In der Geschichtenecke hängen an der Wand zwei Tafeln. Links ein Berg mit vier nummerierten Fähnchen, rechts vier leere Felder mit den Wörtern who, where, when und what. Sophie fragt in einer Sprechblase: „A diary?“ Vor der Wand stehen Sophie, Peter, Ellie und Amir. Rechts steht Mr Hill."
-        caption: "Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (Brille) und Mr Hill (graue Haare). An der Wand hängen der Geschichtenberg und die story map."
+        caption: "An der Wand hängen der Geschichtenberg und die story map."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -37,11 +37,12 @@ blocks:
         text: "**Das kannst du danach:** Du schreibst einen Tagebucheintrag mit Anrede und Datum. Du erzählst, was an deinem Tag passiert ist, und sagst, wie du dich gefühlt hast."
       - type: text
         text: Dieses Wort ist neu auf dem Klassenzimmer-Poster.
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [diary, Tagebuch]
+        languages: { source: de, target: en }
+        entries:
+          - target: diary
+            source: Tagebuch
   - type: section
     id: neu
     title: So schreibt Sophie ihren Eintrag
@@ -51,7 +52,7 @@ blocks:
       - type: figure
         image: images/geschichtenberg-tagebucheintrag.svg
         alt: "Ein kleiner Berg über einen Tag mit vier nummerierten Fähnchen: 1 morning, 2 lunch, 3 best moment am Gipfel und 4 evening. Darunter stehen vier Stichwörter, je eines zu jedem Fähnchen."
-        caption: "Sophies Berg über ihren Donnerstag. Der Gipfel ist der beste Moment des Tages."
+        caption: "Sophies Berg über ihren Tag. Der Gipfel ist der beste Moment des Tages."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -222,7 +223,7 @@ blocks:
         hint: Die App bewertet nicht. Prüfe anhand der Punkte.
   - type: section
     id: weiter
-    title: Rückblick und Freitag
+    title: Rückblick und Ausblick
     blocks:
       - type: text
-        text: "Das war dein Donnerstag in der Geschichtenwoche. Du hast eine Geschichte geplant und geschrieben, sie fortgesetzt oder anders enden lassen und einen Tagebucheintrag verfasst. Mr Hill sagt: „Tomorrow is Friday.“ Am Freitag spielen die Kinder eine Szene und sagen einen Reim auf."
+        text: "Du hast eine Geschichte geplant und geschrieben, sie fortgesetzt oder anders enden lassen und einen Tagebucheintrag verfasst. Auf der nächsten Seite spielst du eine Szene und sagst einen Reim auf."

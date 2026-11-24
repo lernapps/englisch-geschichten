@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Spielen und reimen
-summary: Am Freitag der Geschichtenwoche spielen die Kinder Szenen aus dem Geschichtenberg und Mr Hill schließt mit einem Reim ab. Du schreibst einen kurzen Dialog in Skriptform und sprichst Reime.
+summary: Du schreibst einen kurzen Dialog in Skriptform und sprichst Reime.
 pages: [dialog-schreiben, gedichte-reime]
 selfAssessment:
   pages:
