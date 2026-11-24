@@ -41,13 +41,13 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Wessen Sicht? Dieselbe Szene, eine andere Brille“
 
-Ein Jahr später: Mr Hill hängt eine Brille an das Feld who. Du liest eine Szene aus Sophies Sicht und erzählst sie aus der Sicht von Ellie neu.
+Die Brille am Feld who der story map fragt: Wessen Sicht? Du liest eine Szene aus Sophies Sicht und erzählst sie aus Ellies Sicht neu.
 
 ### Eine Brille an der story map
 
-Bild: In der Geschichtenecke hängen der Geschichtenberg und die story map. Auf dem Feld who ist eine Brille gezeichnet, das Feld where hat eine graue Fläche. Rechts steht Mr Hill, links neben ihm stehen Sophie, Peter, Ellie und Amir. Eine Sprechblase fragt: „Whose view is it?“. Bildunterschrift: Ein Jahr später, im Januar. Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (mit Brille) und Mr Hill (graue Haare). Das Brillenzeichen am Feld who gehört zur story map, nicht zu Amir.
+Bild: In der Geschichtenecke hängen der Geschichtenberg und die story map. Auf dem Feld who ist eine Brille gezeichnet, das Feld where hat eine graue Fläche. Rechts steht Mr Hill, links neben ihm stehen Sophie, Peter, Ellie und Amir. Eine Sprechblase fragt: „Whose view is it?“. Bildunterschrift: Das Brillenzeichen am Feld who gehört zur story map, nicht zu Amir.
 
-Wieder Januar, wieder Geschichtenwoche. Sophie ist jetzt 12. Mr Hill hat an der story map zwei Dinge geändert: ein **Brillenzeichen** am Feld **who** und eine **Stimmungsfläche** im Feld **where**. Heute geht es um die Brille. Sie fragt: Wessen Sicht erzählt die Geschichte?
+Die story map hat zwei neue Zeichen: ein **Brillenzeichen** am Feld **who** und eine **Stimmungsfläche** im Feld **where**. Hier geht es um die Brille. Sie fragt: Wessen Sicht erzählt die Geschichte?
 
 **Das kannst du danach:** Du erkennst, wessen Sicht eine Geschichte hat, und erzählst dieselbe Szene aus der Sicht einer anderen Figur neu.
 
@@ -162,7 +162,7 @@ Die Aufgaben haben vier Stufen: erst verstehen, dann mit Zeilen belegen, dann ur
 
 ### Wie es weitergeht
 
-Am Donnerstag erklärt Mr Hill die Stimmungsfläche im Feld where. Auf der nächsten Seite liest du, wie Ellie am späten Nachmittag durch den Park geht, und lernst, wie Wörter eine Stimmung machen.
+Auf der nächsten Seite erklärt die Stimmungsfläche im Feld where, wie sich ein Ort anfühlt. Du liest, wie Ellie am späten Nachmittag durch den Park geht, und lernst, wie Wörter eine Stimmung machen.
 
 ### Aufgabe sicht-start
 

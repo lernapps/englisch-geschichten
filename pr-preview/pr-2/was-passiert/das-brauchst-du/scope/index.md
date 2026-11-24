@@ -1,6 +1,6 @@
 # Das brauchst du hier
 
-Die Seite stellt die Figuren und die Geschichtenwoche kurz vor und wiederholt das simple past mit regelmäßigen Verben (-ed) und häufigen unregelmäßigen Verben (was, went, had, found, saw, took, ran, made, fell, lost, sat, drank, began, flew, hid, left, heard, brought, put, read). Sie sagt, dass Geschichten meist im simple past stehen. Nicht hier, weil es andere Seiten sind. Die Regeln der Zeitformen im Einzelnen, die story map, der Geschichtenberg, Zusammenfassen und Nacherzählen.
+Die Seite wiederholt das simple past mit regelmäßigen Verben (-ed) und häufigen unregelmäßigen Verben (was, went, had, found, saw, took, ran, made, fell, lost, sat, drank, began, flew, hid, left, heard, brought, put, read). Sie sagt, dass Geschichten meist im simple past stehen. Nicht hier, weil es andere Seiten sind. Die Regeln der Zeitformen im Einzelnen, die story map, der Geschichtenberg, Zusammenfassen und Nacherzählen.
 
 ## Gehört nicht dazu
 

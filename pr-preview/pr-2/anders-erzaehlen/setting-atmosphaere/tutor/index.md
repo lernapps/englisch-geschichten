@@ -45,9 +45,9 @@ Mr Hill erklärt die Stimmungsfläche im Feld where. Du liest, wie Ellie am spä
 
 ### Eine Stimmungsfläche an der story map
 
-Bild: In der Geschichtenecke hängen der Geschichtenberg und die story map. Das Feld where hat eine graue Fläche, auf dem Feld who ist eine Brille gezeichnet. Rechts steht Mr Hill, links neben ihm stehen Sophie, Peter, Ellie und Amir. Eine Sprechblase fragt: „How does it feel?“. Bildunterschrift: Donnerstag in der Geschichtenwoche. Von links: Sophie (Zöpfe), Peter (gelbe Jacke), Ellie (roter Pferdeschwanz), Amir (mit Brille) und Mr Hill (graue Haare). Die graue Fläche im Feld where ist die Stimmungsfläche. Das Brillenzeichen am Feld who gehört zur story map, nicht zu Amir.
+Bild: In der Geschichtenecke hängen der Geschichtenberg und die story map. Das Feld where hat eine graue Fläche, auf dem Feld who ist eine Brille gezeichnet. Rechts steht Mr Hill, links neben ihm stehen Sophie, Peter, Ellie und Amir. Eine Sprechblase fragt: „How does it feel?“. Bildunterschrift: Die graue Fläche im Feld where ist die Stimmungsfläche. Das Brillenzeichen am Feld who gehört zur story map, nicht zu Amir.
 
-Donnerstag. Gestern hat die Brille gefragt, wessen Sicht eine Geschichte hat. Heute zeigt Mr Hill auf die graue Fläche im Feld **where**. Sie sagt, wie sich der Ort anfühlt: die **Stimmung** (englisch: mood).
+Die Brille fragt, wessen Sicht eine Geschichte hat. Die graue Fläche im Feld **where** sagt, wie sich der Ort anfühlt: die **Stimmung** (englisch: mood).
 
 - Aufgabe `ort-start` (unten)
 
@@ -161,7 +161,7 @@ Bild: Eine story map mit vier Feldern. Who: Amir, Peter, dazu eine Brille und de
 
 - Aufgabe `stimmung-schreiben` (unten)
 
-### Rückblick auf die Geschichtenwoche
+### Rückblick auf das Kapitel
 
 Du kennst jetzt zwei neue Fragen an eine Geschichte. Mit der Brille fragst du, wessen Sicht sie hat. Mit der Stimmungsfläche fragst du, wie sich ihr Ort anfühlt. Die story map hilft dir bei jeder Geschichte, die du liest oder schreibst.
 
